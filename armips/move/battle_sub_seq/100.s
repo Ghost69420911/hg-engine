@@ -14,6 +14,7 @@ a001_100:
     printmessage 0x1B0, 0x9, 0x1, 0x2, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+	changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x4000000F
     endscript
 
 .close
