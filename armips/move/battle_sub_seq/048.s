@@ -14,6 +14,7 @@ a001_048:
     changevar VAR_OP_MUL, VAR_CALCULATION_WORK, 0x5
     checkonsameteam BATTLER_ATTACKER, BATTLER_OPPONENT, _0044
     changevar2 VAR_OP_ADD, VAR_MONEY, VAR_CALCULATION_WORK
+	changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x40000022
 _0044:
     printmessage 0x332, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
