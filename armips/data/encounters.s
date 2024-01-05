@@ -2203,45 +2203,45 @@ walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
 
 // morning encounter slots
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
+pokemon SPECIES_MIMEJR
+pokemon SPECIES_IGGLYBUFF
+pokemon SPECIES_CLEFFA
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_SMOOCHUM
+pokemon SPECIES_MAGBY
+pokemon SPECIES_ELEKID
+pokemon SPECIES_TYROGUE
+pokemon SPECIES_CHINGLING
+pokemon SPECIES_WYNAUT
 
 // day encounter slots
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
+pokemon SPECIES_MIMEJR
+pokemon SPECIES_IGGLYBUFF
+pokemon SPECIES_CLEFFA
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_SMOOCHUM
+pokemon SPECIES_MAGBY
+pokemon SPECIES_ELEKID
+pokemon SPECIES_TOGEPI
+pokemon SPECIES_BONSLY
+pokemon SPECIES_BUDEW
 
 // night encounter slots
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
+pokemon SPECIES_MIMEJR
+pokemon SPECIES_IGGLYBUFF
+pokemon SPECIES_CLEFFA
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_SMOOCHUM
+pokemon SPECIES_MAGBY
+pokemon SPECIES_ELEKID
+pokemon SPECIES_MUNCHLAX
+pokemon SPECIES_RIOLU
+pokemon SPECIES_PICHU
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -2252,9 +2252,9 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
+encounter SPECIES_MANTYKE, 15, 25
+encounter SPECIES_AZURILL, 10, 20
 encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
 encounter SPECIES_TENTACRUEL, 15, 25
 encounter SPECIES_TENTACRUEL, 29, 29
 
@@ -2263,25 +2263,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MANTYKE, 10, 10
+encounter SPECIES_AZURILL, 10, 10
 encounter SPECIES_MAGIKARP, 10, 10
 encounter SPECIES_KRABBY, 10, 10
 encounter SPECIES_KRABBY, 10, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_AZURILL, 20, 20
+encounter SPECIES_MANTYKE, 20, 20
 encounter SPECIES_CORSOLA, 20, 20
 encounter SPECIES_KRABBY, 20, 20
 
 // super rod encounters
 encounter SPECIES_KRABBY, 40, 40
 encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_MANTYKE, 40, 40
 encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_AZURILL, 40, 40
 
 // swarm grass
 pokemon SPECIES_RALTS
