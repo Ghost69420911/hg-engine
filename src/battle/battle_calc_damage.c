@@ -126,6 +126,7 @@ static const u16 MegaLauncherMovesTable[] = {
         MOVE_HEAL_PULSE,
         MOVE_ORIGIN_PULSE,
         MOVE_TERRAIN_PULSE,
+		MOVE_FLAME_BURST,
         MOVE_WATER_PULSE,
 };
 
