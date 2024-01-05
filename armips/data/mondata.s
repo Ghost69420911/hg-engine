@@ -2964,7 +2964,7 @@ mondata SPECIES_KABUTO, "Kabuto"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
-    abilities ABILITY_SWIFT_SWIM, ABILITY_BATTLE_ARMOR
+    abilities ABILITY_SAND_RUSH, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_KABUTO, "On rare occasions, some have been\nfound as fossils which they became\nwhile hiding on the ocean floor."
@@ -2985,7 +2985,7 @@ mondata SPECIES_KABUTOPS, "Kabutops"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
-    abilities ABILITY_SWIFT_SWIM, ABILITY_BATTLE_ARMOR
+    abilities ABILITY_SAND_RUSH, ABILITY_BATTLE_ARMOR
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_KABUTOPS, "In the water, it tucks in its limbs\nto become more compact, then it\nwiggles its shell to swim fast."
