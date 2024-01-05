@@ -45,7 +45,7 @@ mondata SPECIES_BULBASAUR, "Bulbasaur"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_OVERGROW, ABILITY_NONE
+    abilities ABILITY_OVERGROW, ABILITY_THICK_FAT
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_BULBASAUR, "The seed on its back is filled\nwith nutrients. The seed grows\nsteadily larger as its body grows."
@@ -66,7 +66,7 @@ mondata SPECIES_IVYSAUR, "Ivysaur"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_OVERGROW, ABILITY_NONE
+    abilities ABILITY_OVERGROW, ABILITY_THICK_FAT
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_IVYSAUR, "Exposure to sunlight adds to its\nstrength. Sunlight also makes the\nbud on its back grow larger."
@@ -87,7 +87,7 @@ mondata SPECIES_VENUSAUR, "Venusaur"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_OVERGROW, ABILITY_NONE
+    abilities ABILITY_OVERGROW, ABILITY_THICK_FAT
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_VENUSAUR, "By spreading the broad petals of\nits flower and catching the sun’s\nrays, it fills its body with power."
@@ -150,7 +150,7 @@ mondata SPECIES_CHARIZARD, "Charizard"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_BLAZE, ABILITY_NONE
+    abilities ABILITY_BLAZE, ABILITY_DROUGHT
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_CHARIZARD, "If CHARIZARD becomes furious,\nthe flame at the tip of its tail flares\nup in a light blue shade."
@@ -203,7 +203,7 @@ mondata SPECIES_WARTORTLE, "Wartortle"
 
 mondata SPECIES_BLASTOISE, "Blastoise"
     basestats 79, 83, 100, 78, 85, 105
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -213,7 +213,7 @@ mondata SPECIES_BLASTOISE, "Blastoise"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_TORRENT, ABILITY_NONE
+    abilities ABILITY_TORRENT, ABILITY_MEGA_LAUNCHER
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_BLASTOISE, "It deliberately makes itself heavy\nso it can withstand the recoil\nof the water jets it fires."
@@ -265,8 +265,8 @@ mondata SPECIES_METAPOD, "Metapod"
 
 
 mondata SPECIES_BUTTERFREE, "Butterfree"
-    basestats 60, 45, 50, 70, 90, 80
-    types TYPE_BUG, TYPE_FLYING
+    basestats 60, 45, 50, 95, 120, 90
+    types TYPE_BUG, TYPE_PSYCHIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 1
@@ -328,7 +328,7 @@ mondata SPECIES_KAKUNA, "Kakuna"
 
 
 mondata SPECIES_BEEDRILL, "Beedrill"
-    basestats 65, 90, 40, 75, 45, 80
+    basestats 65, 130, 40, 100, 45, 80
     types TYPE_BUG, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -433,7 +433,7 @@ mondata SPECIES_RATTATA, "Rattata"
 
 
 mondata SPECIES_RATICATE, "Raticate"
-    basestats 55, 81, 60, 97, 50, 70
+    basestats 75, 90, 80, 95, 50, 70
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 127
     baseexp 0 // defined in baseexp.s
@@ -455,7 +455,7 @@ mondata SPECIES_RATICATE, "Raticate"
 
 mondata SPECIES_SPEAROW, "Spearow"
     basestats 40, 60, 30, 70, 31, 31
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_DARK, TYPE_FLYING
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -475,8 +475,8 @@ mondata SPECIES_SPEAROW, "Spearow"
 
 
 mondata SPECIES_FEAROW, "Fearow"
-    basestats 65, 90, 65, 100, 61, 61
-    types TYPE_NORMAL, TYPE_FLYING
+    basestats 65, 90, 80, 100, 61, 64
+    types TYPE_DARK, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -517,8 +517,8 @@ mondata SPECIES_EKANS, "Ekans"
 
 
 mondata SPECIES_ARBOK, "Arbok"
-    basestats 60, 95, 69, 80, 65, 79
-    types TYPE_POISON, TYPE_POISON
+    basestats 80, 95, 70, 80, 77, 108
+    types TYPE_POISON, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -791,7 +791,7 @@ mondata SPECIES_CLEFABLE, "Clefable"
 
 mondata SPECIES_VULPIX, "Vulpix"
     basestats 38, 41, 40, 65, 50, 65
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_FAIRY
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -812,7 +812,7 @@ mondata SPECIES_VULPIX, "Vulpix"
 
 mondata SPECIES_NINETALES, "Ninetales"
     basestats 73, 76, 75, 100, 81, 100
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_FAIRY
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 1
@@ -853,7 +853,7 @@ mondata SPECIES_JIGGLYPUFF, "Jigglypuff"
 
 
 mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
-    basestats 140, 70, 45, 45, 85, 50
+    basestats 140, 70, 85, 35, 85, 90
     types TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 50
     baseexp 0 // defined in baseexp.s
@@ -959,7 +959,7 @@ mondata SPECIES_GLOOM, "Gloom"
 
 mondata SPECIES_VILEPLUME, "Vileplume"
     basestats 75, 80, 85, 50, 110, 90
-    types TYPE_GRASS, TYPE_POISON
+    types TYPE_GRASS, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -1000,8 +1000,8 @@ mondata SPECIES_PARAS, "Paras"
 
 
 mondata SPECIES_PARASECT, "Parasect"
-    basestats 60, 95, 80, 30, 60, 80
-    types TYPE_BUG, TYPE_GRASS
+    basestats 60, 115, 100, 30, 60, 100
+    types TYPE_BUG, TYPE_GHOST
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 1, 0, 0, 0
@@ -1084,7 +1084,7 @@ mondata SPECIES_DIGLETT, "Diglett"
 
 
 mondata SPECIES_DUGTRIO, "Dugtrio"
-    basestats 35, 100, 50, 120, 50, 70
+    basestats 50, 100, 90, 130, 50, 90
     types TYPE_GROUND, TYPE_GROUND
     catchrate 50
     baseexp 0 // defined in baseexp.s
@@ -1106,7 +1106,7 @@ mondata SPECIES_DUGTRIO, "Dugtrio"
 
 mondata SPECIES_MEOWTH, "Meowth"
     basestats 40, 45, 35, 90, 40, 40
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_STEEL
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -1126,8 +1126,8 @@ mondata SPECIES_MEOWTH, "Meowth"
 
 
 mondata SPECIES_PERSIAN, "Persian"
-    basestats 65, 70, 60, 115, 65, 65
-    types TYPE_NORMAL, TYPE_NORMAL
+    basestats 85, 130, 60, 115, 65, 75
+    types TYPE_NORMAL, TYPE_STEEL
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -1148,7 +1148,7 @@ mondata SPECIES_PERSIAN, "Persian"
 
 mondata SPECIES_PSYDUCK, "Psyduck"
     basestats 50, 52, 48, 55, 65, 50
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_PSYCHIC
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -1169,7 +1169,7 @@ mondata SPECIES_PSYDUCK, "Psyduck"
 
 mondata SPECIES_GOLDUCK, "Golduck"
     basestats 80, 82, 78, 85, 95, 80
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_PSYCHIC
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -1568,7 +1568,7 @@ mondata SPECIES_TENTACRUEL, "Tentacruel"
 
 mondata SPECIES_GEODUDE, "Geodude"
     basestats 40, 80, 100, 20, 30, 30
-    types TYPE_ROCK, TYPE_GROUND
+    types TYPE_ROCK, TYPE_NORMAL
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -1589,7 +1589,7 @@ mondata SPECIES_GEODUDE, "Geodude"
 
 mondata SPECIES_GRAVELER, "Graveler"
     basestats 55, 95, 115, 35, 45, 45
-    types TYPE_ROCK, TYPE_GROUND
+    types TYPE_ROCK, TYPE_NORMAL
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -1610,7 +1610,7 @@ mondata SPECIES_GRAVELER, "Graveler"
 
 mondata SPECIES_GOLEM, "Golem"
     basestats 80, 120, 130, 45, 55, 65
-    types TYPE_ROCK, TYPE_GROUND
+    types TYPE_ROCK, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 3, 0, 0, 0
@@ -1756,8 +1756,8 @@ mondata SPECIES_MAGNETON, "Magneton"
 
 
 mondata SPECIES_FARFETCHD, "Farfetch’d"
-    basestats 52, 90, 55, 60, 58, 62
-    types TYPE_NORMAL, TYPE_FLYING
+    basestats 72, 120, 55, 80, 108, 60
+    types TYPE_FIGHTING, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -1778,7 +1778,7 @@ mondata SPECIES_FARFETCHD, "Farfetch’d"
 
 mondata SPECIES_DODUO, "Doduo"
     basestats 35, 85, 45, 75, 35, 35
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_GROUND, TYPE_FLYING
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -1799,7 +1799,7 @@ mondata SPECIES_DODUO, "Doduo"
 
 mondata SPECIES_DODRIO, "Dodrio"
     basestats 60, 110, 70, 110, 60, 60
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_GROUND, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -1950,7 +1950,7 @@ mondata SPECIES_GASTLY, "Gastly"
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_LINKING_CORD, ITEM_LINKING_CORD
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -2030,7 +2030,7 @@ mondata SPECIES_ONIX, "Onix"
 
 mondata SPECIES_DROWZEE, "Drowzee"
     basestats 60, 48, 45, 42, 43, 90
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_DARK
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -2040,7 +2040,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
+    abilities ABILITY_BAD_DREAMS, ABILITY_FOREWARN
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DROWZEE, "If you think that you had a good dream\nbut you can’t remember it,\na DROWZEE has probably eaten it."
@@ -2051,7 +2051,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
 
 mondata SPECIES_HYPNO, "Hypno"
     basestats 85, 73, 70, 67, 73, 115
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_DARK
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -2061,7 +2061,7 @@ mondata SPECIES_HYPNO, "Hypno"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
+    abilities ABILITY_BAD_DREAMS, ABILITY_FOREWARN
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_HYPNO, "When it is very hungry, it puts\nhumans it meets to sleep,\nthen it feasts on their dreams."
@@ -2114,7 +2114,7 @@ mondata SPECIES_KINGLER, "Kingler"
 
 mondata SPECIES_VOLTORB, "Voltorb"
     basestats 40, 30, 50, 100, 55, 55
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_NORMAL
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -2135,7 +2135,7 @@ mondata SPECIES_VOLTORB, "Voltorb"
 
 mondata SPECIES_ELECTRODE, "Electrode"
     basestats 60, 50, 70, 150, 80, 80
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_NORMAL
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -2218,8 +2218,8 @@ mondata SPECIES_CUBONE, "Cubone"
 
 
 mondata SPECIES_MAROWAK, "Marowak"
-    basestats 60, 80, 110, 45, 50, 80
-    types TYPE_GROUND, TYPE_GROUND
+    basestats 80, 80, 110, 45, 50, 110
+    types TYPE_GROUND, TYPE_GHOST
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -2429,7 +2429,7 @@ mondata SPECIES_TANGELA, "Tangela"
 
 mondata SPECIES_KANGASKHAN, "Kangaskhan"
     basestats 105, 95, 80, 90, 40, 80
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_GROUND
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -2471,7 +2471,7 @@ mondata SPECIES_HORSEA, "Horsea"
 
 mondata SPECIES_SEADRA, "Seadra"
     basestats 55, 65, 95, 85, 95, 45
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_DRAGON
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 1, 0
@@ -2492,7 +2492,7 @@ mondata SPECIES_SEADRA, "Seadra"
 
 mondata SPECIES_GOLDEEN, "Goldeen"
     basestats 45, 67, 60, 63, 35, 50
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_NORMAL
     catchrate 225
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -2513,7 +2513,7 @@ mondata SPECIES_GOLDEEN, "Goldeen"
 
 mondata SPECIES_SEAKING, "Seaking"
     basestats 80, 92, 65, 68, 65, 80
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_NORMAL
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -2601,7 +2601,7 @@ mondata SPECIES_SCYTHER, "Scyther"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_METAL_COAT, ITEM_BLACK_AUGURITE
     genderratio 127
     eggcycles 25
     basefriendship 50
@@ -2639,11 +2639,11 @@ mondata SPECIES_JYNX, "Jynx"
 
 mondata SPECIES_ELECTABUZZ, "Electabuzz"
     basestats 65, 83, 57, 105, 95, 85
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
-    items ITEM_ELECTIRIZER, ITEM_NONE
+    items ITEM_ELECTIRIZER, ITEM_CHERI_BERRY
     genderratio 63
     eggcycles 25
     basefriendship 50
@@ -2660,11 +2660,11 @@ mondata SPECIES_ELECTABUZZ, "Electabuzz"
 
 mondata SPECIES_MAGMAR, "Magmar"
     basestats 65, 95, 57, 93, 100, 85
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_RAWST_BERRY, ITEM_MAGMARIZER
+    items ITEM_MAGMARIZER, ITEM_RAWST_BERRY
     genderratio 63
     eggcycles 25
     basefriendship 50
@@ -2765,7 +2765,7 @@ mondata SPECIES_GYARADOS, "Gyarados"
 
 mondata SPECIES_LAPRAS, "Lapras"
     basestats 130, 85, 80, 60, 85, 95
-    types TYPE_WATER, TYPE_ICE
+    types TYPE_DRAGON, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -2785,7 +2785,7 @@ mondata SPECIES_LAPRAS, "Lapras"
 
 
 mondata SPECIES_DITTO, "Ditto"
-    basestats 48, 48, 48, 48, 48, 48
+    basestats 50, 50, 50, 50, 50, 50
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 35
     baseexp 0 // defined in baseexp.s
@@ -2895,7 +2895,7 @@ mondata SPECIES_PORYGON, "Porygon"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_UP_GRADE, ITEM_DUBIOUS_DISC
     genderratio 255
     eggcycles 20
     basefriendship 50
@@ -2954,7 +2954,7 @@ mondata SPECIES_OMASTAR, "Omastar"
 
 mondata SPECIES_KABUTO, "Kabuto"
     basestats 30, 80, 90, 55, 55, 45
-    types TYPE_ROCK, TYPE_WATER
+    types TYPE_ROCK, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
@@ -2975,7 +2975,7 @@ mondata SPECIES_KABUTO, "Kabuto"
 
 mondata SPECIES_KABUTOPS, "Kabutops"
     basestats 60, 115, 105, 80, 65, 70
-    types TYPE_ROCK, TYPE_WATER
+    types TYPE_ROCK, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -3048,7 +3048,7 @@ mondata SPECIES_ARTICUNO, "Articuno"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_SNOW_WARNING
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_ARTICUNO, "The magnificent, seemingly translucent\nwings of this legendary bird Pokémon\nare said to be made of ice."
@@ -3069,7 +3069,7 @@ mondata SPECIES_ZAPDOS, "Zapdos"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_DRIZZLE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_ZAPDOS, "This legendary bird Pokémon\ncauses savage thunderstorms by\nflapping its glittering wings."
@@ -3090,7 +3090,7 @@ mondata SPECIES_MOLTRES, "Moltres"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_DROUGHT
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_MOLTRES, "This legendary Pokémon scatters\nembers with every flap of its wings.\nIt is a thrilling sight to behold."
@@ -3111,7 +3111,7 @@ mondata SPECIES_DRATINI, "Dratini"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
-    abilities ABILITY_SHED_SKIN, ABILITY_NONE
+    abilities ABILITY_SHED_SKIN, ABILITY_MULTISCALE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_DRATINI, "It is born large to start with.\nIt repeatedly sheds its skin as it\nsteadily grows longer."
@@ -3132,7 +3132,7 @@ mondata SPECIES_DRAGONAIR, "Dragonair"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
-    abilities ABILITY_SHED_SKIN, ABILITY_NONE
+    abilities ABILITY_SHED_SKIN, ABILITY_MULTISCALE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_DRAGONAIR, "They say that if it emits an aura\nfrom its whole body, the weather\nwill begin to change instantly."
@@ -3153,7 +3153,7 @@ mondata SPECIES_DRAGONITE, "Dragonite"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON
-    abilities ABILITY_INNER_FOCUS, ABILITY_NONE
+    abilities ABILITY_INNER_FOCUS, ABILITY_MULTISCALE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_DRAGONITE, "It is said that this Pokémon constantly\nflies over the immense seas\nand rescues drowning people."
@@ -3164,7 +3164,7 @@ mondata SPECIES_DRAGONITE, "Dragonite"
 
 mondata SPECIES_MEWTWO, "Mewtwo"
     basestats 106, 110, 90, 130, 154, 90
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_NORMAL
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -3174,7 +3174,7 @@ mondata SPECIES_MEWTWO, "Mewtwo"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_BERSERK
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_MEWTWO, "Because its battle abilities were\nraised to the ultimate level,\nit thinks only of defeating its foes."
@@ -3185,7 +3185,7 @@ mondata SPECIES_MEWTWO, "Mewtwo"
 
 mondata SPECIES_MEW, "Mew"
     basestats 100, 100, 100, 100, 100, 100
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -3195,7 +3195,7 @@ mondata SPECIES_MEW, "Mew"
     basefriendship 100
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_SYNCHRONIZE, ABILITY_NONE
+    abilities ABILITY_SYNCHRONIZE, ABILITY_PROTEAN
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_MEW, "Apparently, it appears only to\nthose people who are pure of heart\nand have a strong desire to see it."
@@ -3248,7 +3248,7 @@ mondata SPECIES_BAYLEEF, "Bayleef"
 
 mondata SPECIES_MEGANIUM, "Meganium"
     basestats 80, 82, 100, 80, 83, 100
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 2
@@ -3311,7 +3311,7 @@ mondata SPECIES_QUILAVA, "Quilava"
 
 mondata SPECIES_TYPHLOSION, "Typhlosion"
     basestats 78, 84, 78, 100, 109, 85
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_GROUND
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -3374,7 +3374,7 @@ mondata SPECIES_CROCONAW, "Croconaw"
 
 mondata SPECIES_FERALIGATR, "Feraligatr"
     basestats 85, 105, 100, 78, 79, 83
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 1, 0, 0, 0
@@ -3415,7 +3415,7 @@ mondata SPECIES_SENTRET, "Sentret"
 
 
 mondata SPECIES_FURRET, "Furret"
-    basestats 85, 76, 64, 90, 45, 55
+    basestats 85, 76, 64, 105, 45, 70
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -3437,7 +3437,7 @@ mondata SPECIES_FURRET, "Furret"
 
 mondata SPECIES_HOOTHOOT, "Hoothoot"
     basestats 60, 30, 30, 50, 36, 56
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_GHOST, TYPE_FLYING
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -3457,8 +3457,8 @@ mondata SPECIES_HOOTHOOT, "Hoothoot"
 
 
 mondata SPECIES_NOCTOWL, "Noctowl"
-    basestats 100, 50, 50, 70, 86, 96
-    types TYPE_NORMAL, TYPE_FLYING
+    basestats 100, 50, 90, 90, 86, 96
+    types TYPE_GHOST, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -3499,8 +3499,8 @@ mondata SPECIES_LEDYBA, "Ledyba"
 
 
 mondata SPECIES_LEDIAN, "Ledian"
-    basestats 55, 35, 50, 85, 55, 110
-    types TYPE_BUG, TYPE_FLYING
+    basestats 55, 95, 50, 95, 55, 110
+    types TYPE_BUG, TYPE_FIGHTING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -3521,7 +3521,7 @@ mondata SPECIES_LEDIAN, "Ledian"
 
 mondata SPECIES_SPINARAK, "Spinarak"
     basestats 40, 60, 40, 30, 40, 40
-    types TYPE_BUG, TYPE_POISON
+    types TYPE_BUG, TYPE_DARK
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -3541,8 +3541,8 @@ mondata SPECIES_SPINARAK, "Spinarak"
 
 
 mondata SPECIES_ARIADOS, "Ariados"
-    basestats 70, 90, 70, 40, 60, 70
-    types TYPE_BUG, TYPE_POISON
+    basestats 70, 130, 70, 70, 60, 70
+    types TYPE_BUG, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -3836,7 +3836,7 @@ mondata SPECIES_AMPHAROS, "Ampharos"
 
 mondata SPECIES_BELLOSSOM, "Bellossom"
     basestats 75, 80, 95, 50, 90, 100
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -3846,7 +3846,7 @@ mondata SPECIES_BELLOSSOM, "Bellossom"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
+    abilities ABILITY_CHLOROPHYLL, ABILITY_TRIAGE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_BELLOSSOM, "BELLOSSOM gather at times and seem\nto dance. They say that the dance\nis a ritual to summon the sun."
@@ -3877,7 +3877,7 @@ mondata SPECIES_MARILL, "Marill"
 
 
 mondata SPECIES_AZUMARILL, "Azumarill"
-    basestats 100, 50, 80, 50, 60, 80
+    basestats 100, 50, 80, 50, 80, 80
     types TYPE_WATER, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -3898,7 +3898,7 @@ mondata SPECIES_AZUMARILL, "Azumarill"
 
 
 mondata SPECIES_SUDOWOODO, "Sudowoodo"
-    basestats 70, 100, 115, 30, 30, 65
+    basestats 70, 100, 115, 30, 30, 95
     types TYPE_ROCK, TYPE_ROCK
     catchrate 65
     baseexp 0 // defined in baseexp.s
@@ -4029,7 +4029,7 @@ mondata SPECIES_SUNKERN, "Sunkern"
     catchrate 235
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_COBA_BERRY
+    items ITEM_SUN_STONE, ITEM_COBA_BERRY
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -4045,8 +4045,8 @@ mondata SPECIES_SUNKERN, "Sunkern"
 
 
 mondata SPECIES_SUNFLORA, "Sunflora"
-    basestats 75, 75, 55, 30, 105, 85
-    types TYPE_GRASS, TYPE_GRASS
+    basestats 105, 105, 55, 30, 105, 85
+    types TYPE_GRASS, TYPE_FIRE
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -4108,7 +4108,7 @@ mondata SPECIES_WOOPER, "Wooper"
 
 
 mondata SPECIES_QUAGSIRE, "Quagsire"
-    basestats 95, 85, 85, 35, 65, 65
+    basestats 115, 85, 85, 35, 65, 65
     types TYPE_WATER, TYPE_GROUND
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -4214,7 +4214,7 @@ mondata SPECIES_SLOWKING, "Slowking"
 
 mondata SPECIES_MISDREAVUS, "Misdreavus"
     basestats 60, 60, 60, 85, 85, 85
-    types TYPE_GHOST, TYPE_GHOST
+    types TYPE_GHOST, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -4255,7 +4255,7 @@ mondata SPECIES_UNOWN, "Unown"
 
 
 mondata SPECIES_WOBBUFFET, "Wobbuffet"
-    basestats 190, 33, 58, 33, 33, 58
+    basestats 190, 33, 68, 33, 33, 68
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -4339,8 +4339,8 @@ mondata SPECIES_FORRETRESS, "Forretress"
 
 
 mondata SPECIES_DUNSPARCE, "Dunsparce"
-    basestats 100, 70, 70, 45, 65, 65
-    types TYPE_NORMAL, TYPE_NORMAL
+    basestats 120, 90, 100, 45, 65, 95
+    types TYPE_NORMAL, TYPE_DRAGON
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -4612,7 +4612,7 @@ mondata SPECIES_SLUGMA, "Slugma"
 
 
 mondata SPECIES_MAGCARGO, "Magcargo"
-    basestats 60, 50, 120, 30, 90, 80
+    basestats 60, 50, 140, 30, 90, 130
     types TYPE_FIRE, TYPE_ROCK
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -4623,7 +4623,7 @@ mondata SPECIES_MAGCARGO, "Magcargo"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
+    abilities ABILITY_HARVEST, ABILITY_FLAME_BODY
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_MAGCARGO, "The shell on its back is just skin\nthat has cooled and hardened. It\nbreaks easily with a slight touch."
@@ -4675,7 +4675,7 @@ mondata SPECIES_PILOSWINE, "Piloswine"
 
 
 mondata SPECIES_CORSOLA, "Corsola"
-    basestats 65, 55, 95, 35, 65, 95
+    basestats 65, 55, 125, 85, 65, 125
     types TYPE_WATER, TYPE_ROCK
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -4749,7 +4749,7 @@ mondata SPECIES_DELIBIRD, "Delibird"
     basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_HUSTLE
+    abilities ABILITY_SNOW_WARNING, ABILITY_HUSTLE
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_DELIBIRD, "It carries food all day long.\nThere are tales about lost people\nwho were saved by its stored food."
@@ -4907,11 +4907,11 @@ mondata SPECIES_DONPHAN, "Donphan"
 
 mondata SPECIES_PORYGON2, "Porygon2"
     basestats 85, 80, 90, 60, 105, 95
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_ELECTRIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_UP_GRADE, ITEM_NONE
+    items ITEM_DUBIOUS_DISC, ITEM_NONE
     genderratio 255
     eggcycles 20
     basefriendship 50
@@ -5127,7 +5127,7 @@ mondata SPECIES_RAIKOU, "Raikou"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_VOLT_ABSORB
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_RAIKOU, "The rain clouds it carries let it\nfire thunderbolts at will. They say\nthat it descended with lightning."
@@ -5148,7 +5148,7 @@ mondata SPECIES_ENTEI, "Entei"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_FLASH_FIRE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_ENTEI, "Volcanoes erupt when it barks.\nUnable to contain its sheer power,\nit races headlong around the land."
@@ -5169,7 +5169,7 @@ mondata SPECIES_SUICUNE, "Suicune"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_WATER_ABSORB
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_SUICUNE, "Said to be the embodiment of\nnorth winds, it can instantly\npurify filthy, murky water."
@@ -5243,17 +5243,17 @@ mondata SPECIES_TYRANITAR, "Tyranitar"
 
 mondata SPECIES_LUGIA, "Lugia"
     basestats 106, 90, 130, 110, 90, 154
-    types TYPE_PSYCHIC, TYPE_FLYING
+    types TYPE_PSYCHIC, TYPE_WATER
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_STARF_BERRY, ITEM_NONE
     genderratio 255
     eggcycles 120
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_GALE_WINGS
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_LUGIA, "It is said that it quietly spends its\ntime deep at the bottom of the sea\nbecause its powers are too strong."
@@ -5274,7 +5274,7 @@ mondata SPECIES_HO_OH, "Ho-oh"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_REGENERATOR
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_HO_OH, "Legends claim this Pokémon flies the\nworld’s skies continuously on its\nmagnificent, seven-colored wings."
@@ -5285,7 +5285,7 @@ mondata SPECIES_HO_OH, "Ho-oh"
 
 mondata SPECIES_CELEBI, "Celebi"
     basestats 100, 100, 100, 100, 100, 100
-    types TYPE_PSYCHIC, TYPE_GRASS
+    types TYPE_FAIRY, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -5295,7 +5295,7 @@ mondata SPECIES_CELEBI, "Celebi"
     basefriendship 100
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_NATURAL_CURE, ABILITY_NONE
+    abilities ABILITY_NATURAL_CURE, ABILITY_MULTISCALE
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_CELEBI, "This Pokémon wanders across time.\nGrass and trees flourish in the\nforests in which it has appeared."
@@ -5348,7 +5348,7 @@ mondata SPECIES_GROVYLE, "Grovyle"
 
 mondata SPECIES_SCEPTILE, "Sceptile"
     basestats 70, 85, 65, 120, 105, 85
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
@@ -5515,7 +5515,7 @@ mondata SPECIES_POOCHYENA, "Poochyena"
 
 
 mondata SPECIES_MIGHTYENA, "Mightyena"
-    basestats 70, 90, 70, 70, 60, 60
+    basestats 70, 100, 70, 70, 100, 60
     types TYPE_DARK, TYPE_DARK
     catchrate 127
     baseexp 0 // defined in baseexp.s
@@ -5620,8 +5620,8 @@ mondata SPECIES_SILCOON, "Silcoon"
 
 
 mondata SPECIES_BEAUTIFLY, "Beautifly"
-    basestats 60, 70, 50, 65, 100, 50
-    types TYPE_BUG, TYPE_FLYING
+    basestats 80, 70, 50, 85, 120, 50
+    types TYPE_BUG, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -5662,7 +5662,7 @@ mondata SPECIES_CASCOON, "Cascoon"
 
 
 mondata SPECIES_DUSTOX, "Dustox"
-    basestats 60, 50, 70, 65, 50, 90
+    basestats 80, 50, 70, 80, 50, 120
     types TYPE_BUG, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5830,7 +5830,7 @@ mondata SPECIES_TAILLOW, "Taillow"
 
 
 mondata SPECIES_SWELLOW, "Swellow"
-    basestats 60, 85, 60, 125, 75, 50
+    basestats 60, 95, 60, 125, 95, 60
     types TYPE_NORMAL, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5872,7 +5872,7 @@ mondata SPECIES_WINGULL, "Wingull"
 
 
 mondata SPECIES_PELIPPER, "Pelipper"
-    basestats 60, 50, 100, 65, 95, 70
+    basestats 70, 50, 110, 65, 95, 80
     types TYPE_WATER, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5977,8 +5977,8 @@ mondata SPECIES_SURSKIT, "Surskit"
 
 
 mondata SPECIES_MASQUERAIN, "Masquerain"
-    basestats 70, 60, 62, 80, 100, 82
-    types TYPE_BUG, TYPE_FLYING
+    basestats 70, 60, 82, 90, 110, 82
+    types TYPE_BUG, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 1
@@ -6272,7 +6272,7 @@ mondata SPECIES_HARIYAMA, "Hariyama"
 
 mondata SPECIES_AZURILL, "Azurill"
     basestats 50, 20, 40, 20, 20, 40
-    types TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    types TYPE_WATER, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 150
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -6334,7 +6334,7 @@ mondata SPECIES_SKITTY, "Skitty"
 
 
 mondata SPECIES_DELCATTY, "Delcatty"
-    basestats 70, 65, 65, 90, 55, 55
+    basestats 70, 105, 65, 110, 105, 55
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -6355,7 +6355,7 @@ mondata SPECIES_DELCATTY, "Delcatty"
 
 
 mondata SPECIES_SABLEYE, "Sableye"
-    basestats 50, 75, 75, 50, 65, 65
+    basestats 100, 75, 75, 50, 75, 75
     types TYPE_DARK, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -6376,7 +6376,7 @@ mondata SPECIES_SABLEYE, "Sableye"
 
 
 mondata SPECIES_MAWILE, "Mawile"
-    basestats 50, 85, 85, 50, 55, 55
+    basestats 80, 85, 85, 50, 85, 85
     types TYPE_STEEL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -6481,7 +6481,7 @@ mondata SPECIES_MEDITITE, "Meditite"
 
 
 mondata SPECIES_MEDICHAM, "Medicham"
-    basestats 60, 60, 75, 80, 60, 75
+    basestats 60, 90, 75, 80, 90, 75
     types TYPE_FIGHTING, TYPE_PSYCHIC
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -6544,8 +6544,8 @@ mondata SPECIES_MANECTRIC, "Manectric"
 
 
 mondata SPECIES_PLUSLE, "Plusle"
-    basestats 60, 50, 40, 95, 85, 75
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    basestats 60, 50, 40, 125, 95, 75
+    types TYPE_ELECTRIC, TYPE_NORMAL
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -6565,8 +6565,8 @@ mondata SPECIES_PLUSLE, "Plusle"
 
 
 mondata SPECIES_MINUN, "Minun"
-    basestats 60, 40, 50, 95, 75, 85
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    basestats 60, 40, 50, 125, 85, 85
+    types TYPE_ELECTRIC, TYPE_NORMAL
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -6586,8 +6586,8 @@ mondata SPECIES_MINUN, "Minun"
 
 
 mondata SPECIES_VOLBEAT, "Volbeat"
-    basestats 65, 73, 75, 85, 47, 85
-    types TYPE_BUG, TYPE_BUG
+    basestats 105, 103, 75, 85, 47, 85
+    types TYPE_BUG, TYPE_ELECTRIC
     catchrate 150
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -6607,8 +6607,8 @@ mondata SPECIES_VOLBEAT, "Volbeat"
 
 
 mondata SPECIES_ILLUMISE, "Illumise"
-    basestats 65, 47, 75, 85, 73, 85
-    types TYPE_BUG, TYPE_BUG
+    basestats 105, 47, 75, 85, 103, 85
+    types TYPE_BUG, TYPE_FAIRY
     catchrate 150
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -6902,7 +6902,7 @@ mondata SPECIES_SPINDA, "Spinda"
 
 mondata SPECIES_TRAPINCH, "Trapinch"
     basestats 45, 100, 45, 10, 45, 45
-    types TYPE_GROUND, TYPE_GROUND
+    types TYPE_GROUND, TYPE_BUG
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -6923,7 +6923,7 @@ mondata SPECIES_TRAPINCH, "Trapinch"
 
 mondata SPECIES_VIBRAVA, "Vibrava"
     basestats 50, 70, 50, 70, 50, 50
-    types TYPE_GROUND, TYPE_DRAGON
+    types TYPE_BUG, TYPE_DRAGON
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 1, 0, 0
@@ -6944,7 +6944,7 @@ mondata SPECIES_VIBRAVA, "Vibrava"
 
 mondata SPECIES_FLYGON, "Flygon"
     basestats 80, 100, 80, 100, 80, 80
-    types TYPE_GROUND, TYPE_DRAGON
+    types TYPE_BUG, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 2, 0, 0
@@ -7007,7 +7007,7 @@ mondata SPECIES_CACTURNE, "Cacturne"
 
 mondata SPECIES_SWABLU, "Swablu"
     basestats 45, 40, 60, 50, 40, 75
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FAIRY, TYPE_FLYING
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -7028,7 +7028,7 @@ mondata SPECIES_SWABLU, "Swablu"
 
 mondata SPECIES_ALTARIA, "Altaria"
     basestats 75, 70, 90, 80, 70, 105
-    types TYPE_DRAGON, TYPE_FLYING
+    types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -7049,7 +7049,7 @@ mondata SPECIES_ALTARIA, "Altaria"
 
 mondata SPECIES_ZANGOOSE, "Zangoose"
     basestats 73, 115, 60, 90, 60, 60
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -7070,7 +7070,7 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
 
 mondata SPECIES_SEVIPER, "Seviper"
     basestats 73, 100, 60, 65, 100, 60
-    types TYPE_POISON, TYPE_POISON
+    types TYPE_POISON, TYPE_DARK
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 0
@@ -7364,7 +7364,7 @@ mondata SPECIES_FEEBAS, "Feebas"
 
 mondata SPECIES_MILOTIC, "Milotic"
     basestats 95, 60, 79, 81, 100, 125
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -7531,8 +7531,8 @@ mondata SPECIES_TROPIUS, "Tropius"
 
 
 mondata SPECIES_CHIMECHO, "Chimecho"
-    basestats 75, 50, 80, 65, 95, 90
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    basestats 75, 50, 100, 65, 95, 110
+    types TYPE_PSYCHIC, TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 1
@@ -7721,7 +7721,7 @@ mondata SPECIES_CLAMPERL, "Clamperl"
 
 mondata SPECIES_HUNTAIL, "Huntail"
     basestats 55, 104, 105, 52, 94, 75
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_DARK
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 1, 0, 0, 0
@@ -7742,7 +7742,7 @@ mondata SPECIES_HUNTAIL, "Huntail"
 
 mondata SPECIES_GOREBYSS, "Gorebyss"
     basestats 55, 84, 105, 52, 114, 75
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -7784,7 +7784,7 @@ mondata SPECIES_RELICANTH, "Relicanth"
 
 mondata SPECIES_LUVDISC, "Luvdisc"
     basestats 43, 30, 55, 97, 40, 65
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 225
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -8099,7 +8099,7 @@ mondata SPECIES_RAYQUAZA, "Rayquaza"
 
 mondata SPECIES_JIRACHI, "Jirachi"
     basestats 100, 100, 100, 100, 100, 100
-    types TYPE_STEEL, TYPE_PSYCHIC
+    types TYPE_STEEL, TYPE_FAIRY
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -8372,7 +8372,7 @@ mondata SPECIES_STARAVIA, "Staravia"
 
 mondata SPECIES_STARAPTOR, "Staraptor"
     basestats 85, 120, 70, 100, 50, 60
-    types TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FIGHTING, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -8413,7 +8413,7 @@ mondata SPECIES_BIDOOF, "Bidoof"
 
 
 mondata SPECIES_BIBAREL, "Bibarel"
-    basestats 79, 85, 60, 71, 55, 60
+    basestats 109, 85, 60, 71, 55, 100
     types TYPE_NORMAL, TYPE_WATER
     catchrate 127
     baseexp 0 // defined in baseexp.s
@@ -8455,7 +8455,7 @@ mondata SPECIES_KRICKETOT, "Kricketot"
 
 
 mondata SPECIES_KRICKETUNE, "Kricketune"
-    basestats 77, 85, 51, 65, 55, 51
+    basestats 77, 85, 54, 95, 85, 54
     types TYPE_BUG, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -8519,7 +8519,7 @@ mondata SPECIES_LUXIO, "Luxio"
 
 mondata SPECIES_LUXRAY, "Luxray"
     basestats 80, 120, 79, 70, 95, 79
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -8582,7 +8582,7 @@ mondata SPECIES_ROSERADE, "Roserade"
 
 mondata SPECIES_CRANIDOS, "Cranidos"
     basestats 67, 125, 40, 58, 30, 30
-    types TYPE_ROCK, TYPE_ROCK
+    types TYPE_ROCK, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -8603,7 +8603,7 @@ mondata SPECIES_CRANIDOS, "Cranidos"
 
 mondata SPECIES_RAMPARDOS, "Rampardos"
     basestats 97, 165, 60, 58, 65, 50
-    types TYPE_ROCK, TYPE_ROCK
+    types TYPE_ROCK, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -8686,7 +8686,7 @@ mondata SPECIES_BURMY, "Burmy"
 
 
 mondata SPECIES_WORMADAM, "Wormadam"
-    basestats 60, 59, 85, 36, 79, 105
+    basestats 80, 59, 125, 36, 79, 105
     types TYPE_BUG, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -8707,7 +8707,7 @@ mondata SPECIES_WORMADAM, "Wormadam"
 
 
 mondata SPECIES_MOTHIM, "Mothim"
-    basestats 70, 94, 50, 66, 94, 50
+    basestats 90, 94, 70, 66, 94, 70
     types TYPE_BUG, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -8749,7 +8749,7 @@ mondata SPECIES_COMBEE, "Combee"
 
 
 mondata SPECIES_VESPIQUEN, "Vespiquen"
-    basestats 70, 80, 102, 40, 80, 102
+    basestats 96, 80, 102, 40, 80, 102
     types TYPE_BUG, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -8770,8 +8770,8 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
 
 
 mondata SPECIES_PACHIRISU, "Pachirisu"
-    basestats 60, 45, 70, 95, 45, 90
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    basestats 60, 55, 70, 115, 75, 90
+    types TYPE_ELECTRIC, TYPE_NORMAL
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -8918,7 +8918,7 @@ mondata SPECIES_GASTRODON, "Gastrodon"
 
 mondata SPECIES_AMBIPOM, "Ambipom"
     basestats 75, 100, 66, 115, 60, 66
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -9023,7 +9023,7 @@ mondata SPECIES_LOPUNNY, "Lopunny"
 
 mondata SPECIES_MISMAGIUS, "Mismagius"
     basestats 60, 60, 60, 105, 105, 105
-    types TYPE_GHOST, TYPE_GHOST
+    types TYPE_GHOST, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 1
@@ -9107,7 +9107,7 @@ mondata SPECIES_PURUGLY, "Purugly"
 
 mondata SPECIES_CHINGLING, "Chingling"
     basestats 45, 30, 50, 45, 65, 50
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_STEEL
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -9274,7 +9274,7 @@ mondata SPECIES_HAPPINY, "Happiny"
 
 
 mondata SPECIES_CHATOT, "Chatot"
-    basestats 76, 65, 45, 91, 92, 42
+    basestats 76, 65, 45, 101, 112, 42
     types TYPE_NORMAL, TYPE_FLYING
     catchrate 30
     baseexp 0 // defined in baseexp.s
@@ -9569,7 +9569,7 @@ mondata SPECIES_TOXICROAK, "Toxicroak"
 
 mondata SPECIES_CARNIVINE, "Carnivine"
     basestats 74, 100, 72, 46, 90, 72
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_STEEL
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -9590,7 +9590,7 @@ mondata SPECIES_CARNIVINE, "Carnivine"
 
 mondata SPECIES_FINNEON, "Finneon"
     basestats 49, 49, 56, 66, 49, 61
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
@@ -9611,7 +9611,7 @@ mondata SPECIES_FINNEON, "Finneon"
 
 mondata SPECIES_LUMINEON, "Lumineon"
     basestats 69, 69, 76, 91, 69, 86
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -9705,7 +9705,7 @@ mondata SPECIES_WEAVILE, "Weavile"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_TOUGH_CLAWS
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_WEAVILE, "It lives in snowy regions. It carves\npatterns in trees with its claws as\na signal to others."
@@ -9762,7 +9762,7 @@ mondata SPECIES_RHYPERIOR, "Rhyperior"
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_PROTECTOR, ITEM_NONE
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -9779,7 +9779,7 @@ mondata SPECIES_RHYPERIOR, "Rhyperior"
 
 mondata SPECIES_TANGROWTH, "Tangrowth"
     basestats 100, 100, 125, 50, 110, 50
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_DARK
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
@@ -9800,7 +9800,7 @@ mondata SPECIES_TANGROWTH, "Tangrowth"
 
 mondata SPECIES_ELECTIVIRE, "Electivire"
     basestats 75, 123, 67, 95, 95, 85
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_FIGHTING
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
@@ -9810,7 +9810,7 @@ mondata SPECIES_ELECTIVIRE, "Electivire"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_MOTOR_DRIVE, ABILITY_NONE
+    abilities ABILITY_MOTOR_DRIVE, ABILITY_IRON_FIST
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_ELECTIVIRE, "As its electric charge amplifies,\nblue sparks begin to crackle between\nits horns."
@@ -9821,7 +9821,7 @@ mondata SPECIES_ELECTIVIRE, "Electivire"
 
 mondata SPECIES_MAGMORTAR, "Magmortar"
     basestats 75, 95, 67, 83, 125, 95
-    types TYPE_FIRE, TYPE_FIRE
+    types TYPE_FIRE, TYPE_DARK
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -9831,7 +9831,7 @@ mondata SPECIES_MAGMORTAR, "Magmortar"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_FLAME_BODY, ABILITY_NONE
+    abilities ABILITY_FLAME_BODY, ABILITY_MEGA_LAUNCHER
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_MAGMORTAR, "It blasts fireballs of over\n3,600 degrees Fahrenheit out of its\narms. Its breath also sears and sizzles."
@@ -9863,7 +9863,7 @@ mondata SPECIES_TOGEKISS, "Togekiss"
 
 mondata SPECIES_YANMEGA, "Yanmega"
     basestats 86, 76, 86, 95, 116, 56
-    types TYPE_BUG, TYPE_FLYING
+    types TYPE_BUG, TYPE_DRAGON
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -9968,7 +9968,7 @@ mondata SPECIES_MAMOSWINE, "Mamoswine"
 
 mondata SPECIES_PORYGON_Z, "Porygon-Z"
     basestats 85, 80, 70, 90, 135, 75
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_GHOST, TYPE_ELECTRIC
     catchrate 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -10041,7 +10041,7 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_SHEER_FORCE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_DUSKNOIR, "This feared Pokémon is said to travel to\nworlds unknown. Some even believe that\nit takes lost spirits along with it."
@@ -10062,7 +10062,7 @@ mondata SPECIES_FROSLASS, "Froslass"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
+    abilities ABILITY_SNOW_CLOAK, ABILITY_TECHNICIAN
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_FROSLASS, "Legends in snowy regions say that\na woman who was lost on an icy\nmountain was reborn as FROSLASS."
@@ -10083,7 +10083,7 @@ mondata SPECIES_ROTOM, "Rotom"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_PRANKSTER
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ROTOM, "Research continues on this Pokémon,\nwhich could be the power source of a\nunique motor."
@@ -10094,7 +10094,7 @@ mondata SPECIES_ROTOM, "Rotom"
 
 mondata SPECIES_UXIE, "Uxie"
     basestats 75, 75, 130, 95, 75, 130
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 1
@@ -10104,7 +10104,7 @@ mondata SPECIES_UXIE, "Uxie"
     basefriendship 140
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_ANTICIPATION
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_UXIE, "According to some sources, this Pokémon\nprovided people with the intelligence\nnecessary to solve various problems."
@@ -10115,7 +10115,7 @@ mondata SPECIES_UXIE, "Uxie"
 
 mondata SPECIES_MESPRIT, "Mesprit"
     basestats 80, 105, 105, 80, 105, 105
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 1
@@ -10125,7 +10125,7 @@ mondata SPECIES_MESPRIT, "Mesprit"
     basefriendship 140
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_SYNCHRONIZE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_MESPRIT, "This Pokémon is said to have endowed\nthe human heart with emotions, such as\nsorrow and joy."
@@ -10136,7 +10136,7 @@ mondata SPECIES_MESPRIT, "Mesprit"
 
 mondata SPECIES_AZELF, "Azelf"
     basestats 75, 125, 70, 115, 125, 70
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 1, 0
@@ -10146,7 +10146,7 @@ mondata SPECIES_AZELF, "Azelf"
     basefriendship 140
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_AZELF, "This Pokémon is said to have endowed\nhumans with the determination needed\nto face any of life’s difficulties."
@@ -10251,7 +10251,7 @@ mondata SPECIES_GIRATINA, "Giratina"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_PRESSURE, ABILITY_CONTRARY
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_GIRATINA, "This Pokémon is said to live in a world on\nthe reverse side of ours, where common\nknowledge is distorted and strange."
@@ -10262,7 +10262,7 @@ mondata SPECIES_GIRATINA, "Giratina"
 
 mondata SPECIES_CRESSELIA, "Cresselia"
     basestats 120, 70, 110, 85, 75, 120
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -10272,7 +10272,7 @@ mondata SPECIES_CRESSELIA, "Cresselia"
     basefriendship 100
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_MAGIC_GUARD
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_CRESSELIA, "Those who sleep holding CRESSELIA’s\nfeather are assured of joyful dreams. It\nis said to represent the crescent moon."
@@ -10304,7 +10304,7 @@ mondata SPECIES_PHIONE, "Phione"
 
 mondata SPECIES_MANAPHY, "Manaphy"
     basestats 100, 100, 100, 100, 100, 100
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_FAIRY
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
@@ -10335,7 +10335,7 @@ mondata SPECIES_DARKRAI, "Darkrai"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_BAD_DREAMS, ABILITY_NONE
+    abilities ABILITY_BAD_DREAMS, ABILITY_LEVITATE
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_DARKRAI, "It chases people and Pokémon from its\nterritory by causing them to experience\ndeep, nightmarish slumbers."
@@ -10492,7 +10492,7 @@ mondata SPECIES_DEOXYS_SPEED, "-----"
 
 
 mondata SPECIES_WORMADAM_SANDY, "-----"
-    basestats 60, 79, 105, 36, 59, 85
+    basestats 80, 79, 125, 36, 59, 105
     types TYPE_BUG, TYPE_GROUND
     catchrate 45
     baseexp 159
@@ -10513,7 +10513,7 @@ mondata SPECIES_WORMADAM_SANDY, "-----"
 
 
 mondata SPECIES_WORMADAM_TRASHY, "-----"
-    basestats 60, 69, 95, 36, 69, 95
+    basestats 80, 69, 95, 36, 109, 95
     types TYPE_BUG, TYPE_STEEL
     catchrate 45
     baseexp 159
@@ -10587,7 +10587,7 @@ mondata SPECIES_ROTOM_HEAT, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_CONTRARY
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ROTOM_HEAT, "-----"
@@ -10608,7 +10608,7 @@ mondata SPECIES_ROTOM_WASH, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_STORM_DRAIN
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ROTOM_WASH, "-----"
@@ -10629,7 +10629,7 @@ mondata SPECIES_ROTOM_FROST, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_REFRIGERATE
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ROTOM_FROST, "-----"
@@ -10650,7 +10650,7 @@ mondata SPECIES_ROTOM_FAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_SPEED_BOOST
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ROTOM_FAN, "-----"
@@ -10671,7 +10671,7 @@ mondata SPECIES_ROTOM_MOW, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NONE
+    abilities ABILITY_LEVITATE, ABILITY_IRON_BARBS
     runchance 0
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ROTOM_MOW, "-----"
@@ -22510,7 +22510,7 @@ mondata SPECIES_MEGA_CHARIZARD_X, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
     runchance 0
     colorflip 0, 0
 
@@ -22526,13 +22526,13 @@ mondata SPECIES_MEGA_CHARIZARD_Y, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_DROUGHT, ABILITY_NONE
+    abilities ABILITY_SOLAR_POWER, ABILITY_NONE
     runchance 0
     colorflip 0, 0
 
 mondata SPECIES_MEGA_BLASTOISE, "-----"
     basestats 79, 103, 120, 78, 135, 115
-    types TYPE_WATER, TYPE_WATER
+    types TYPE_WATER, TYPE_STEEL
     catchrate 45
     baseexp 210
     evyields 0, 0, 0, 0, 0, 3
@@ -22628,7 +22628,7 @@ mondata SPECIES_MEGA_GENGAR, "-----"
 
 mondata SPECIES_MEGA_KANGASKHAN, "-----"
     basestats 105, 125, 100, 100, 60, 100
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_GROUND
     catchrate 45
     baseexp 175
     evyields 2, 0, 0, 0, 0, 0
@@ -22702,13 +22702,13 @@ mondata SPECIES_MEGA_MEWTWO_X, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_STEADFAST, ABILITY_NONE
+    abilities ABILITY_SHEER_FORCE, ABILITY_STEADFAST
     runchance 0
     colorflip 0, 0
 
 mondata SPECIES_MEGA_MEWTWO_Y, "-----"
     basestats 106, 150, 70, 140, 194, 120
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    types TYPE_PSYCHIC, TYPE_DARK
     catchrate 3
     baseexp 220
     evyields 0, 0, 0, 0, 3, 0
@@ -22718,7 +22718,7 @@ mondata SPECIES_MEGA_MEWTWO_Y, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_INSOMNIA, ABILITY_NONE
+    abilities ABILITY_RATTLED, ABILITY_INSOMNIA
     runchance 0
     colorflip 0, 0
 
@@ -24150,7 +24150,7 @@ mondata SPECIES_PIKACHU_WORLD_CAP, "-----"
 
 
 mondata SPECIES_CASTFORM_SUNNY, "-----"
-    basestats 70, 70, 70, 70, 70, 70
+    basestats 100, 100, 100, 100, 100, 100
     types TYPE_FIRE, TYPE_FIRE
     catchrate 45
     baseexp 147
@@ -24167,7 +24167,7 @@ mondata SPECIES_CASTFORM_SUNNY, "-----"
 
 
 mondata SPECIES_CASTFORM_RAINY, "-----"
-    basestats 70, 70, 70, 70, 70, 70
+    basestats 100, 100, 100, 100, 100, 100
     types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 147
@@ -24184,7 +24184,7 @@ mondata SPECIES_CASTFORM_RAINY, "-----"
 
 
 mondata SPECIES_CASTFORM_SNOWY, "-----"
-    basestats 70, 70, 70, 70, 70, 70
+    basestats 100, 100, 100, 100, 100, 100
     types TYPE_ICE, TYPE_ICE
     catchrate 45
     baseexp 147
@@ -24202,7 +24202,7 @@ mondata SPECIES_CASTFORM_SNOWY, "-----"
 
 mondata SPECIES_CHERRIM_SUNSHINE, "-----"
     basestats 70, 90, 70, 85, 87, 117
-    types TYPE_GRASS, TYPE_GRASS
+    types TYPE_GRASS, TYPE_FIRE
     catchrate 75
     baseexp 158
     evyields 0, 0, 0, 0, 2, 0
