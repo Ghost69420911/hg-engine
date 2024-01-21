@@ -1002,7 +1002,7 @@ movedata MOVE_BUBBLE_BEAM, "BubbleBeam"
 movedata MOVE_AURORA_BEAM, "Aurora Beam"
     battleeffect 68
     pss SPLIT_SPECIAL
-    basepower 50
+    basepower 70
     type TYPE_ICE
     accuracy 100
     pp 20
@@ -4075,7 +4075,7 @@ movedata MOVE_STOCKPILE, "Stockpile"
     battleeffect 160
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_POISON
     accuracy 0
     pp 20
     effectchance 0
@@ -4091,7 +4091,7 @@ movedata MOVE_SPIT_UP, "Spit Up"
     battleeffect 161
     pss SPLIT_SPECIAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_POISON
     accuracy 100
     pp 10
     effectchance 0
@@ -4107,7 +4107,7 @@ movedata MOVE_SWALLOW, "Swallow"
     battleeffect 162
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_POISON
     accuracy 0
     pp 10
     effectchance 0
@@ -4730,7 +4730,7 @@ movedata MOVE_TAIL_GLOW, "Tail Glow"
 movedata MOVE_LUSTER_PURGE, "Luster Purge"
     battleeffect 72
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 95
     type TYPE_PSYCHIC
     accuracy 100
     pp 5
@@ -4746,7 +4746,7 @@ movedata MOVE_LUSTER_PURGE, "Luster Purge"
 movedata MOVE_MIST_BALL, "Mist Ball"
     battleeffect 71
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 95
     type TYPE_PSYCHIC
     accuracy 100
     pp 5
@@ -5801,7 +5801,7 @@ movedata MOVE_HEALING_WISH, "Healing Wish"
 
 movedata MOVE_BRINE, "Brine"
     battleeffect 221
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_WATER
     accuracy 100
@@ -5897,7 +5897,7 @@ movedata MOVE_ACUPRESSURE, "Acupressure"
 
 movedata MOVE_METAL_BURST, "Metal Burst"
     battleeffect 227
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 1
     type TYPE_STEEL
     accuracy 100
@@ -7064,13 +7064,13 @@ movedata MOVE_CROSS_POISON, "Cross Poison"
     movedescription MOVE_CROSS_POISON, "A slashing attack\nthat may also leave\nthe target poisoned.\nIt has a high\ncritical-hit ratio."
 
 movedata MOVE_GUNK_SHOT, "Gunk Shot"
-    battleeffect 2
+    battleeffect 182
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_POISON
-    accuracy 80
+    accuracy 100
     pp 5
-    effectchance 30
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -7097,7 +7097,7 @@ movedata MOVE_IRON_HEAD, "Iron Head"
 
 movedata MOVE_MAGNET_BOMB, "Magnet Bomb"
     battleeffect 17
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 80
     type TYPE_STEEL
     accuracy 0
@@ -8200,7 +8200,7 @@ movedata MOVE_SHIFT_GEAR, "Shift Gear"
     movedescription MOVE_SHIFT_GEAR, "Rotating its gears,\nthe user raises its\nAttack and sharply\nraises its Speed."
 
 movedata MOVE_CIRCLE_THROW, "Circle Throw"
-    battleeffect 0
+    battleeffect 28
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_FIGHTING
@@ -8456,7 +8456,7 @@ movedata MOVE_FROST_BREATH, "Frost Breath"
     movedescription MOVE_FROST_BREATH, "The user blows\ncold air at the foe.\nIt always results in\na critical hit."
 
 movedata MOVE_DRAGON_TAIL, "Dragon Tail"
-    battleeffect 0
+    battleeffect 28
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_DRAGON
@@ -9317,7 +9317,7 @@ movedata MOVE_FLOWER_SHIELD, "Flower Shield"
     terminatedata
 
 movedata MOVE_GRASSY_TERRAIN, "Grassy Terrain"
-    battleeffect 0
+    battleeffect 294
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -9327,12 +9327,12 @@ movedata MOVE_GRASSY_TERRAIN, "Grassy Terrain"
     target MOVE_TARGET_ACTIVE_FIELD
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    appeal 0x05
+    contesttype CONTEST_BEAUTY
     terminatedata
 
 movedata MOVE_MISTY_TERRAIN, "Misty Terrain"
-    battleeffect 0
+    battleeffect 294
     pss SPLIT_STATUS
     basepower 0
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
@@ -9342,8 +9342,8 @@ movedata MOVE_MISTY_TERRAIN, "Misty Terrain"
     target MOVE_TARGET_ACTIVE_FIELD
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    appeal 0x05
+    contesttype CONTEST_BEAUTY
     terminatedata
 
 movedata MOVE_ELECTRIFY, "Electrify"
@@ -9676,8 +9676,8 @@ movedata MOVE_HAPPY_HOUR, "Happy Hour"
     contesttype CONTEST_COOL
     terminatedata
 
-movedata MOVE_ELECTRIC_TERRAIN, "Electric Terrain"
-    battleeffect 0
+movedata MOVE_ELECTRIC_TERRAIN, "ElectricTerrain"
+    battleeffect 294
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ELECTRIC
@@ -9687,8 +9687,8 @@ movedata MOVE_ELECTRIC_TERRAIN, "Electric Terrain"
     target MOVE_TARGET_ACTIVE_FIELD
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    appeal 0x05
+    contesttype CONTEST_SMART // Prior to Pokémon Omega Ruby and Alpha Sapphire, it was known as the Smart condition.
     terminatedata
 
 movedata MOVE_DAZZLING_GLEAM, "Dazzling Gleam"
@@ -9782,7 +9782,7 @@ movedata MOVE_HOLD_BACK, "Hold Back"
     terminatedata
 
 movedata MOVE_INFESTATION, "Infestation"
-    battleeffect 0
+    battleeffect 42
     pss SPLIT_SPECIAL
     basepower 20
     type TYPE_BUG
@@ -10787,7 +10787,7 @@ movedata MOVE_ANCHOR_SHOT, "Anchor Shot"
     terminatedata
 
 movedata MOVE_PSYCHIC_TERRAIN, "Psychic Terrain"
-    battleeffect 0
+    battleeffect 294
     pss SPLIT_STATUS
     basepower 0
     type TYPE_PSYCHIC
@@ -12302,10 +12302,10 @@ movedata MOVE_DRUM_BEATING, "Drum Beating"
     terminatedata
 
 movedata MOVE_SNAP_TRAP, "Snap Trap"
-    battleeffect 0
+    battleeffect 42
     pss SPLIT_PHYSICAL
     basepower 35
-    type TYPE_GRASS
+    type TYPE_STEEL
     accuracy 100
     pp 15
     effectchance 100
@@ -12632,7 +12632,7 @@ movedata MOVE_METEOR_BEAM, "Meteor Beam"
     terminatedata
 
 movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
-    battleeffect 0
+    battleeffect 2
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_POISON
@@ -13007,7 +13007,7 @@ movedata MOVE_ASTRAL_BARRAGE, "Astral Barrage"
     terminatedata
 
 movedata MOVE_EERIE_SPELL, "Eerie Spell"
-    battleeffect 0
+    battleeffect 100
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC
