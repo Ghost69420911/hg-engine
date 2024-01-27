@@ -26943,7 +26943,7 @@ trainerdata 705, "Karen"
     endparty
 
 trainerdata 706, "Proton" //PROTON2
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_EXECUTIVE_1
     nummons 4
     item ITEM_NONE

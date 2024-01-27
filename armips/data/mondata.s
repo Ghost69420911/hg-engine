@@ -19249,7 +19249,7 @@ mondata SPECIES_SIRFETCHD, "Sirfetch’d"
 
 
 mondata SPECIES_MR_RIME, "Mr. Rime"
-    basestats 80, 85, 75, 70, 110, 100
+    basestats 100, 45, 75, 100, 110, 110
     types TYPE_ICE, TYPE_PSYCHIC
     catchrate 45
     baseexp 0 // defined in baseexp.s

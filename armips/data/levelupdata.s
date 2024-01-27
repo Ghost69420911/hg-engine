@@ -4832,6 +4832,7 @@ levelup SPECIES_GIRAFARIG
     learnset MOVE_PSYBEAM, 19
     learnset MOVE_AGILITY, 23
     learnset MOVE_DOUBLE_HIT, 28
+	learnset MOVE_TWIN_BEAM, 30
     learnset MOVE_ZEN_HEADBUTT, 32
     learnset MOVE_CRUNCH, 37
     learnset MOVE_BATON_PASS, 41
