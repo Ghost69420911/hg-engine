@@ -354,7 +354,7 @@ mondata SPECIES_PIDGEY, "Pidgey"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_LUCKY_EGG, ITEM_LUCKY_EGG
     genderratio 127
     eggcycles 15
     basefriendship 70
@@ -375,7 +375,7 @@ mondata SPECIES_PIDGEOTTO, "Pidgeotto"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_LUCKY_EGG, ITEM_LUCKY_EGG
     genderratio 127
     eggcycles 15
     basefriendship 70
@@ -396,7 +396,7 @@ mondata SPECIES_PIDGEOT, "Pidgeot"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_LUCKY_EGG, ITEM_LUCKY_EGG
     genderratio 127
     eggcycles 15
     basefriendship 70
@@ -417,7 +417,7 @@ mondata SPECIES_RATTATA, "Rattata"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_CHILAN_BERRY
+    items ITEM_EXP_SHARE, ITEM_CHILAN_BERRY
     genderratio 127
     eggcycles 15
     basefriendship 70
@@ -3483,7 +3483,7 @@ mondata SPECIES_LEDYBA, "Ledyba"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_MASTER_BALL, ITEM_RARE_CANDY
     genderratio 127
     eggcycles 15
     basefriendship 70
@@ -4743,7 +4743,7 @@ mondata SPECIES_DELIBIRD, "Delibird"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_ICE_STONE, ITEM_ICE_STONE
     genderratio 127
     eggcycles 20
     basefriendship 50
