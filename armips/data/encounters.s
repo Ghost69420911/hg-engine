@@ -431,7 +431,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 3, 4, 3, 4, 3, 3, 5, 5, 5, 5, 5, 5
+walklevels 4, 5, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
@@ -639,7 +639,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
+walklevels 5, 6, 5, 6, 7, 7, 5, 5, 8, 7, 8, 7
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -743,7 +743,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
+walklevels 5, 6, 5, 6, 7, 7, 5, 5, 8, 7, 8, 7
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -847,7 +847,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 4
+walklevels 8, 6, 8, 6, 8, 8, 8, 8, 8, 6, 8, 6
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
@@ -951,7 +951,7 @@ rocksmashrate 20
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 20, 22, 20, 22, 18, 18, 24, 24, 20, 22, 20, 22
+walklevels 24, 26, 24, 26, 22, 22, 28, 28, 24, 26, 24, 26
 
 // morning encounter slots
 pokemon SPECIES_NATU
@@ -1055,7 +1055,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
 // morning encounter slots
 pokemon SPECIES_UNOWN
@@ -1159,7 +1159,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
 // morning encounter slots
 pokemon SPECIES_UNOWN
@@ -1263,7 +1263,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
 // morning encounter slots
 pokemon SPECIES_UNOWN
@@ -1367,7 +1367,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
 // morning encounter slots
 pokemon SPECIES_UNOWN
@@ -6247,7 +6247,7 @@ pokemon SPECIES_REMORAID
 .close
 
 
-encounterdata  60   // Ice Path 1F
+encounterdata  60   // Ice Path 1F // ENTRANCEEXIT
 
 walkrate 5
 surfrate 0
@@ -6259,42 +6259,42 @@ walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SWINUB
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 
 // day encounter slots
 pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_SMOOCHUM
 pokemon SPECIES_JYNX
 
 // night encounter slots
-pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
@@ -6351,7 +6351,7 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata  61   // Ice Path B1F
+encounterdata  61   // Ice Path B1F //ROCKROOM
 
 walkrate 5
 surfrate 0
@@ -6363,42 +6363,42 @@ walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SWINUB
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 
 // day encounter slots
 pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_SMOOCHUM
 pokemon SPECIES_JYNX
 
 // night encounter slots
-pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
@@ -6455,7 +6455,7 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata  62   // Ice Path B2F
+encounterdata  62   // Ice Path B2F // ICEPUZZLE
 
 walkrate 5
 surfrate 0
@@ -6467,42 +6467,42 @@ walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SWINUB
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 
 // day encounter slots
 pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
 pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_SMOOCHUM
 pokemon SPECIES_JYNX
 
 // night encounter slots
-pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_JYNX
@@ -6559,7 +6559,7 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata  63   // Ice Path B3F
+encounterdata  63   // Ice Path B3F // REGIONALFORMROOM
 
 walkrate 5
 surfrate 0
@@ -6570,46 +6570,46 @@ superrodrate 0
 walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
 
 // morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+monwithform SPECIES_SANDSHREW, 1
+monwithform SPECIES_MR_MIME, 1
+monwithform SPECIES_VULPIX, 1
+monwithform SPECIES_SANDSHREW, 1
+monwithform SPECIES_MR_MIME, 1
+monwithform SPECIES_VULPIX, 1
+monwithform SPECIES_NINETALES, 1
+monwithform SPECIES_SANDSLASH, 1
+pokemon SPECIES_SMOOCHUM
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
+pokemon SPECIES_MR_RIME
 pokemon SPECIES_JYNX
 
 // day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+monwithform SPECIES_SANDSHREW, 1
+monwithform SPECIES_MR_MIME, 1
+monwithform SPECIES_VULPIX, 1
+monwithform SPECIES_SANDSHREW, 1
+monwithform SPECIES_MR_MIME, 1
+monwithform SPECIES_VULPIX, 1
+monwithform SPECIES_NINETALES, 1
+monwithform SPECIES_SANDSLASH, 1
+pokemon SPECIES_SMOOCHUM
 pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+pokemon SPECIES_MR_RIME
 pokemon SPECIES_JYNX
 
 // night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
+monwithform SPECIES_SANDSHREW, 1
+monwithform SPECIES_MR_MIME, 1
+monwithform SPECIES_VULPIX, 1
+monwithform SPECIES_SANDSHREW, 1
+monwithform SPECIES_MR_MIME, 1
+monwithform SPECIES_VULPIX, 1
+monwithform SPECIES_NINETALES, 1
+monwithform SPECIES_SANDSLASH, 1
+pokemon SPECIES_CROBAT
 pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+pokemon SPECIES_MR_RIME
+pokemon SPECIES_CROBAT
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
