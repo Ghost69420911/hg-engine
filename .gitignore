@@ -83,3 +83,6 @@ sdat/*
 tools/swav2swar.exe
 
 *:Zone.Identifier
+*.sh
+*.cmd
+*.py
