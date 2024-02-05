@@ -3923,7 +3923,7 @@ trainerdata 111, "Mike"
         ivs 60
         abilityslot 0
         level 45
-        monwithform SPECIES_EXEGGCUTE, 1
+        monwithform SPECIES_EXEGGUTOR, 1
         ballseal 0
     endparty
 
