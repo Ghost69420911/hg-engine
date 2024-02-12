@@ -801,7 +801,7 @@ mondata SPECIES_VULPIX, "Vulpix"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    abilities ABILITY_DROUGHT, ABILITY_FLASH_FIRE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_VULPIX, "As it develops, its single white\ntail gains color and splits into six.\nIt is quite warm and cuddly."
@@ -811,7 +811,7 @@ mondata SPECIES_VULPIX, "Vulpix"
 
 
 mondata SPECIES_NINETALES, "Ninetales"
-    basestats 73, 76, 75, 100, 81, 100
+    basestats 73, 81, 75, 100, 81, 100
     types TYPE_FIRE, TYPE_FAIRY
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -822,7 +822,7 @@ mondata SPECIES_NINETALES, "Ninetales"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    abilities ABILITY_DROUGHT, ABILITY_FLASH_FIRE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_NINETALES, "Some legends claim that each of its\nnine tails has its own unique type\nof special mystical power."
@@ -879,7 +879,7 @@ mondata SPECIES_ZUBAT, "Zubat"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_HEART_SCALE, ITEM_HEART_SCALE
     genderratio 127
     eggcycles 15
     basefriendship 50
@@ -921,7 +921,7 @@ mondata SPECIES_ODDISH, "Oddish"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_ABSORB_BULB
+    items ITEM_ABSORB_BULB, ITEM_ABSORB_BULB
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -942,7 +942,7 @@ mondata SPECIES_GLOOM, "Gloom"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_NONE, ITEM_ABSORB_BULB
+    items ITEM_ABSORB_BULB, ITEM_ABSORB_BULB
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -1341,7 +1341,7 @@ mondata SPECIES_ABRA, "Abra"
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_TWISTED_SPOON
+    items ITEM_TWISTED_SPOON, ITEM_TWISTED_SPOON
     genderratio 63
     eggcycles 20
     basefriendship 50
@@ -1362,7 +1362,7 @@ mondata SPECIES_KADABRA, "Kadabra"
     catchrate 100
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_NONE, ITEM_TWISTED_SPOON
+    items ITEM_TWISTED_SPOON, ITEM_TWISTED_SPOON
     genderratio 63
     eggcycles 20
     basefriendship 50
@@ -1572,7 +1572,7 @@ mondata SPECIES_GEODUDE, "Geodude"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
-    items ITEM_NONE, ITEM_EVERSTONE
+    items ITEM_ROCKY_HELMET, ITEM_ROCKY_HELMET
     genderratio 127
     eggcycles 15
     basefriendship 70
@@ -2727,7 +2727,7 @@ mondata SPECIES_MAGIKARP, "Magikarp"
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_LINKING_CORD, ITEM_LINKING_CORD
     genderratio 127
     eggcycles 5
     basefriendship 50
@@ -4008,7 +4008,7 @@ mondata SPECIES_AIPOM, "Aipom"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_CUSTAP_BERRY, ITEM_CUSTAP_BERRY
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -4071,7 +4071,7 @@ mondata SPECIES_YANMA, "Yanma"
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_WIDE_LENS
+    items ITEM_WIDE_LENS, ITEM_WIDE_LENS
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -4239,7 +4239,7 @@ mondata SPECIES_UNOWN, "Unown"
     catchrate 225
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_AIR_BALLOON, ITEM_AIR_BALLOON
     genderratio 255
     eggcycles 40
     basefriendship 70
@@ -4260,7 +4260,7 @@ mondata SPECIES_WOBBUFFET, "Wobbuffet"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_EJECT_BUTTON, ITEM_EJECT_BUTTON
     genderratio 127
     eggcycles 20
     basefriendship 50
@@ -21686,7 +21686,7 @@ mondata SPECIES_FARIGIRAF, "Farigiraf"
 
 mondata SPECIES_DUDUNSPARCE, "Dudunspars"
     basestats 125, 100, 80, 55, 85, 75
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -23495,7 +23495,7 @@ mondata SPECIES_SANDSLASH_ALOLAN, "-----"
 
 mondata SPECIES_VULPIX_ALOLAN, "-----"
     basestats 38, 41, 40, 65, 50, 65
-    types TYPE_ICE, TYPE_FIRE
+    types TYPE_ICE, TYPE_FAIRY
     catchrate 190
     baseexp 60
     evyields 0, 0, 0, 1, 0, 0
@@ -23505,13 +23505,13 @@ mondata SPECIES_VULPIX_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    abilities ABILITY_SNOW_WARNING,  ABILITY_SNOW_CLOAK
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
 
 mondata SPECIES_NINETALES_ALOLAN, "-----"
-    basestats 73, 67, 75, 109, 81, 100
+    basestats 73, 81, 75, 109, 81, 100
     types TYPE_ICE, TYPE_FAIRY
     catchrate 75
     baseexp 177
@@ -23522,7 +23522,7 @@ mondata SPECIES_NINETALES_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    abilities ABILITY_SNOW_WARNING,  ABILITY_SNOW_CLOAK
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
 
@@ -27082,7 +27082,7 @@ mondata SPECIES_TATSUGIRI_STRETCHY, "-----"
 
 mondata SPECIES_DUDUNSPARCE_THREE_SEGMENT, "-----"
     basestats 125, 100, 80, 55, 85, 75
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
