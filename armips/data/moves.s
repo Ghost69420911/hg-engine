@@ -3467,7 +3467,7 @@ movedata MOVE_RETURN, "Return"
     battleeffect 121
     pss SPLIT_PHYSICAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 100
     pp 20
     effectchance 0
