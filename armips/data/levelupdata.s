@@ -21251,18 +21251,33 @@ levelup SPECIES_TATSUGIRI
 
 levelup SPECIES_ANNIHILAPE
     learnset MOVE_TACKLE, 1
+	learnset MOVE_RAGE_FIST, 2
+	learnset MOVE_SHADOW_PUNCH, 3
+	learnset MOVE_OUTRAGE, 4
+	learnset MOVE_THRASH, 5
     terminatelearnset
 
 levelup SPECIES_CLODSIRE
     learnset MOVE_TACKLE, 1
+	learnset MOVE_EARTHQUAKE, 2
+	learnset MOVE_TOXIC, 3
+	learnset MOVE_ACID_ARMOR, 4
+	learnset MOVE_TOXIC_SPIKES, 5
+	learnset MOVE_SLUDGE_WAVE, 6
+	learnset MOVE_EARTH_POWER, 8
     terminatelearnset
 
 levelup SPECIES_FARIGIRAF
     learnset MOVE_TACKLE, 1
+	learnset MOVE_PSYSHOCK, 2
+	learnset MOVE_PSYCHIC, 3
+	learnset MOVE_HYPER_VOICE, 4
     terminatelearnset
 
 levelup SPECIES_DUDUNSPARCE
     learnset MOVE_TACKLE, 1
+	learnset MOVE_HYPER_VOICE, 2
+	learnset MOVE_DRAGON_TAIL, 3
     terminatelearnset
 
 levelup SPECIES_KINGAMBIT
