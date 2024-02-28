@@ -127,6 +127,7 @@ static const u16 MegaLauncherMovesTable[] = {
         MOVE_ORIGIN_PULSE,
         MOVE_TERRAIN_PULSE,
 		MOVE_FLAME_BURST,
+		MOVE_LUSTER_PURGE,
         MOVE_WATER_PULSE,
 };
 
@@ -806,7 +807,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     damage = damage / equivalentDefense;
     damage /= 50;
 
-    // Handle Parental Bond
+  // Handle Parental Bond
     if (sp->battlemon[attacker].parental_bond_flag == 2) {
         damage /= 4;
     }
@@ -1101,7 +1102,7 @@ void CalcDamageOverall(void *bw, struct BattleStruct *sp)
  */
 int AdjustDamageForRoll(void *bw, struct BattleStruct *sp UNUSED, int damage)
 {
-#ifdef DEBUG_ADJUSTED_DAMAGE
+	#ifdef DEBUG_ADJUSTED_DAMAGE
     u8 buf[64];
     sprintf(buf, "Unrolled damage: %d -- ", damage);
     debugsyscall(buf);
