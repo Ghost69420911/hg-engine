@@ -4834,6 +4834,8 @@ levelup SPECIES_GIRAFARIG
     learnset MOVE_DOUBLE_HIT, 28
 	learnset MOVE_TWIN_BEAM, 30
     learnset MOVE_ZEN_HEADBUTT, 32
+	learnset MOVE_HYPER_VOICE, 34
+	learnset MOVE_PSYCHIC_FANGS, 36
     learnset MOVE_CRUNCH, 37
     learnset MOVE_BATON_PASS, 41
     learnset MOVE_NASTY_PLOT, 46
@@ -6057,6 +6059,7 @@ levelup SPECIES_SCEPTILE
     learnset MOVE_LEAF_STORM, 1
     learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_ABSORB, 1
+	learnset MOVE_DRACO_METEOR, 2
     learnset MOVE_ABSORB, 5
     learnset MOVE_MEGA_DRAIN, 8
     learnset MOVE_QUICK_ATTACK, 9
