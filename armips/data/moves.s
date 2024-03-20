@@ -3998,7 +3998,7 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
     type TYPE_FIGHTING
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -7914,10 +7914,10 @@ movedata MOVE_LOW_SWEEP, "Low Sweep"
 movedata MOVE_ACID_SPRAY, "Acid Spray"
     battleeffect 271
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 50
     type TYPE_POISON
     accuracy 100
-    pp 20
+    pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
