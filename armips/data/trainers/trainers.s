@@ -1421,11 +1421,11 @@ trainerdata 34, "Chuck"
         ivs 150
         abilityslot 0
         level 33
-        pokemon SPECIES_HITMONTOP
+        monwithform SPECIES_TAUROS, 3
         item ITEM_KINGS_ROCK
+        move MOVE_WATERFALL
+        move MOVE_AQUA_JET
         move MOVE_ROLLING_KICK
-        move MOVE_FAKE_OUT
-        move MOVE_PURSUIT
         move MOVE_ROCK_SLIDE
 		ability ABILITY_INTIMIDATE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
@@ -3004,7 +3004,7 @@ trainerdata 84, "Barry"
         abilityslot 32
         level 58
         pokemon SPECIES_SKUNTANK
-        move MOVE_SMELLING_SALT
+        move MOVE_SMELLING_SALTS
         move MOVE_FLAMETHROWER
         move MOVE_POISON_GAS
         move MOVE_SMOKESCREEN
@@ -5426,7 +5426,7 @@ trainerdata 158, "Kiyo"
         level 60
         pokemon SPECIES_HARIYAMA
 		item ITEM_LEFTOVERS
-        move MOVE_SMELLING_SALT
+        move MOVE_SMELLING_SALTS
         move MOVE_BELLY_DRUM
         move MOVE_FORCE_PALM
         move MOVE_HEAVY_SLAM
@@ -12349,28 +12349,28 @@ trainerdata 309, "Dwayne"
         // mon 0
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_POLIWRATH
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_PINSIR
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_VILEPLUME
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_SCYTHER
         ballseal 0
     endparty
@@ -12391,7 +12391,7 @@ trainerdata 310, "Harris"
         // mon 0
         ivs 0
         abilityslot 0
-        level 59
+        level 66
         pokemon SPECIES_LICKITUNG
         ballseal 0
     endparty
@@ -12412,14 +12412,14 @@ trainerdata 311, "Zeke"
         // mon 0
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_ARBOK
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_PERSIAN
         ballseal 0
     endparty
@@ -14298,7 +14298,7 @@ trainerdata 364, "Sam"
         // mon 0
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_PROBOPASS
         item ITEM_MAGNET
         ballseal 0
@@ -14306,7 +14306,7 @@ trainerdata 364, "Sam"
         // mon 1
         ivs 0
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_MAGNEZONE
         item ITEM_MAGNET
         ballseal 0
@@ -14328,21 +14328,21 @@ trainerdata 365, "Tyrone"
         // mon 0
         ivs 0
         abilityslot 32
-        level 56
+        level 63
         pokemon SPECIES_ELECTRIKE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 56
+        level 63
         pokemon SPECIES_SHELGON
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
-        level 56
+        level 63
         pokemon SPECIES_PHANPY
         ballseal 0
     endparty
@@ -16186,10 +16186,10 @@ trainerdata 418, "Bruno"
         level 53
         pokemon SPECIES_HITMONTOP
         item ITEM_FOCUS_SASH
-        move MOVE_COUNTER
-        move MOVE_QUICK_ATTACK
+        move MOVE_REVERSAL
+        move MOVE_FAKE_OUT
         move MOVE_STEALTH_ROCK
-        move MOVE_TRIPLE_KICK
+        move MOVE_TRIPLE_AXEL
 		ability ABILITY_TECHNICIAN
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
@@ -16202,9 +16202,9 @@ trainerdata 418, "Bruno"
         abilityslot 32
         level 53
         pokemon SPECIES_HITMONLEE
-        item ITEM_RAZOR_CLAW
-        move MOVE_SWAGGER
-        move MOVE_FOCUS_ENERGY
+        item ITEM_ASSAULT_VEST
+        move MOVE_KNOCK_OFF
+        move MOVE_TROP_KICK
         move MOVE_HIGH_JUMP_KICK
         move MOVE_BLAZE_KICK
 		ability ABILITY_RECKLESS
@@ -21305,14 +21305,14 @@ trainerdata 553, "Moe & Lulu"
         // mon 0
         ivs 0
         abilityslot 32
-        level 58
+        level 65
         pokemon SPECIES_LOTAD
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 58
+        level 65
         pokemon SPECIES_SEEDOT
         ballseal 0
     endparty
@@ -21333,7 +21333,7 @@ trainerdata 554, "Milton"
         // mon 0
         ivs 0
         abilityslot 0
-        level 59
+        level 66
         pokemon SPECIES_ARCANINE
         ballseal 0
     endparty
@@ -26790,7 +26790,7 @@ trainerdata 704, "Bruno"
         pokemon SPECIES_HITMONTOP
         item ITEM_NONE
         move MOVE_COUNTER
-        move MOVE_QUICK_ATTACK
+        move MOVE_TRIPLE_KICK
         move MOVE_CLOSE_COMBAT
         move MOVE_EARTHQUAKE
         ballseal 0
@@ -27381,7 +27381,7 @@ trainerdata 714, "Whitney"
         pokemon SPECIES_SMEARGLE
         item ITEM_FOCUS_SASH
         move MOVE_SPORE
-        move MOVE_NUZZLE
+        move MOVE_BATON_PASS
         move MOVE_TAUNT
         move MOVE_STEALTH_ROCK
 		ability ABILITY_MOODY
@@ -27563,7 +27563,7 @@ trainerdata 715, "Morty"
         abilityslot 0
         level 80
         pokemon SPECIES_BANETTE
-        item ITEM_BANNETITE
+        item ITEM_BANETTITE
         move MOVE_DESTINY_BOND
         move MOVE_ASTONISH
         move MOVE_SHADOW_CLAW
