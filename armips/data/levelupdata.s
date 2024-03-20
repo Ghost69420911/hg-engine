@@ -2464,6 +2464,7 @@ levelup SPECIES_HITMONLEE
     learnset MOVE_WIDE_GUARD, 30
     learnset MOVE_MIND_READER, 30
     learnset MOVE_BLAZE_KICK, 33
+	learnset MOVE_TROP_KICK, 35
     learnset MOVE_HIGH_JUMP_KICK, 37
     learnset MOVE_FORESIGHT, 37
     learnset MOVE_MEGA_KICK, 41
@@ -2803,7 +2804,8 @@ levelup SPECIES_SEAKING
 	learnset MOVE_EMBER, 6
     learnset MOVE_HORN_ATTACK, 11
     learnset MOVE_WATER_PULSE, 16
-	learnset MOVE_FLAME_CHARGE, 17
+	learnset MOVE_AQUA_JET, 17
+	learnset MOVE_FLAME_CHARGE, 18
     learnset MOVE_FLAIL, 22
     learnset MOVE_AQUA_RING, 23
 	learnset MOVE_FLAME_WHEEL, 23
@@ -4996,6 +4998,7 @@ levelup SPECIES_SNUBBULL
 
 
 levelup SPECIES_GRANBULL
+	learnset MOVE_JAW_LOCK, 0
     learnset MOVE_OUTRAGE, 1
     learnset MOVE_ICE_FANG, 1
     learnset MOVE_FIRE_FANG, 1
@@ -5010,6 +5013,7 @@ levelup SPECIES_GRANBULL
     learnset MOVE_ROAR, 27
     learnset MOVE_RAGE, 35
     learnset MOVE_PLAY_ROUGH, 43
+	learnset MOVE_PSYCHIC_FANGS, 47
     learnset MOVE_PAYBACK, 51
     learnset MOVE_CRUNCH, 59
     learnset MOVE_OUTRAGE, 67
@@ -10566,10 +10570,12 @@ levelup SPECIES_FINNEON
     learnset MOVE_WATER_GUN, 6
     learnset MOVE_ATTRACT, 10
     learnset MOVE_RAIN_DANCE, 13
+	learnset MOVE_FAIRY_WIND, 14
     learnset MOVE_GUST, 17
     learnset MOVE_WATER_PULSE, 22
     learnset MOVE_CAPTIVATE, 26
     learnset MOVE_SAFEGUARD, 29
+	learnset MOVE_DAZZLING_GLEAM, 30
     learnset MOVE_AQUA_RING, 33
     learnset MOVE_WHIRLPOOL, 38
     learnset MOVE_U_TURN, 42
@@ -10580,6 +10586,7 @@ levelup SPECIES_FINNEON
 
 
 levelup SPECIES_LUMINEON
+	learnset MOVE_TAIL_GLOW, 0
     learnset MOVE_SOAK, 1
     learnset MOVE_GUST, 1
     learnset MOVE_POUND, 1
@@ -10588,15 +10595,18 @@ levelup SPECIES_LUMINEON
     learnset MOVE_WATER_GUN, 6
     learnset MOVE_ATTRACT, 10
     learnset MOVE_RAIN_DANCE, 13
+	learnset MOVE_FAIRY_WIND, 14
     learnset MOVE_GUST, 17
     learnset MOVE_WATER_PULSE, 22
     learnset MOVE_CAPTIVATE, 26
     learnset MOVE_SAFEGUARD, 29
+	learnset MOVE_DAZZLING_GLEAM, 30
     learnset MOVE_AQUA_RING, 35
     learnset MOVE_WHIRLPOOL, 42
     learnset MOVE_U_TURN, 48
     learnset MOVE_BOUNCE, 53
     learnset MOVE_SILVER_WIND, 59
+	learnset MOVE_LIGHT_OF_RUIN, 60
     learnset MOVE_SOAK, 66
     terminatelearnset
 
@@ -20866,6 +20876,7 @@ levelup SPECIES_URSALUNA
     learnset MOVE_PLAY_NICE, 25
     learnset MOVE_SLASH, 29
     learnset MOVE_SCARY_FACE, 38
+	learnset MOVE_EARTHQUAKE, 40
     learnset MOVE_REST, 47
     learnset MOVE_SNORE, 49
     learnset MOVE_THRASH, 58
