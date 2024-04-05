@@ -7671,7 +7671,7 @@ trainerdata 232, "Vincent"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
     party 232
@@ -9021,7 +9021,7 @@ trainerdata 255, "Lt. Surge"
         move MOVE_THUNDERBOLT
         move MOVE_PSYCHIC
         move MOVE_SUBSTITUTE
-		ability ABILITY_ELECTRIC_SURGE
+		ability ABILITY_STATIC
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26546,7 +26546,7 @@ trainerdata 701, "Lance" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_SAKMENCE
+        pokemon SPECIES_SALAMENCE
         item ITEM_FOCUS_SASH
         move MOVE_ICY_WIND
         move MOVE_CONFUSE_RAY
@@ -26580,7 +26580,7 @@ trainerdata 701, "Lance" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_KOMMMO_O
+        pokemon SPECIES_KOMMO_O
         item ITEM_FOCUS_SASH
         move MOVE_ICY_WIND
         move MOVE_CONFUSE_RAY
@@ -27061,7 +27061,7 @@ trainerdata 705, "Karen" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_ZOROARK, 1
+        monwithform SPECIES_ZOROARK, 1
         item ITEM_FOCUS_SASH
         move MOVE_ICY_WIND
         move MOVE_CONFUSE_RAY
