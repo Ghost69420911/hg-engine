@@ -346,9 +346,9 @@ movedata MOVE_BIND, "Bind"
 movedata MOVE_SLAM, "Slam"
     battleeffect 0
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 100
     type TYPE_NORMAL
-    accuracy 75
+    accuracy 100
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -1048,7 +1048,7 @@ movedata MOVE_PECK, "Peck"
     movedescription MOVE_PECK, "The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n"
 
 movedata MOVE_DRILL_PECK, "Drill Peck"
-    battleeffect 0
+    battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_FLYING
@@ -2382,7 +2382,7 @@ movedata MOVE_FLASH, "Flash"
     type TYPE_ELECTRIC
     accuracy 100
     pp 20
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
@@ -8393,7 +8393,7 @@ movedata MOVE_GRASS_PLEDGE, "Grass Pledge"
 
 movedata MOVE_VOLT_SWITCH, "Volt Switch"
     battleeffect 228
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_ELECTRIC
     accuracy 100
