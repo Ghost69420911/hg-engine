@@ -370,6 +370,16 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     {
         accuracy = accuracy * 130 / 100;
     }
+	
+	    if (GetBattlerAbility(sp,attacker) == ABILITY_KEEN_EYE)
+    {
+        accuracy = accuracy * 130 / 100;
+    }
+	
+	    if (GetBattlerAbility(sp,attacker) == ABILITY_ILLUMINATE)
+    {
+        accuracy = accuracy * 130 / 100;
+    }
 
     //handle Wonder Skin
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WONDER_SKIN) == TRUE) && (sp->moveTbl[move_no].split == SPLIT_STATUS))
@@ -604,6 +614,26 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
             break;
         }
     }
+	
+    if ((ability1 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == ELECTRIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
+    {
+        speed1 *= 2;
+    }
+	
+	if ((ability1 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == PSYCHIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
+    {
+        speed1 *= 2;
+    }
+
+    if ((ability2 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == ELECTRIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
+    {
+        speed2 *= 2;
+    }
+	
+	if ((ability2 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == PSYCHIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
+    {
+        speed2 *= 2;
+    }
 
     if (hold_effect1 == HOLD_EFFECT_CHOICE_SPEED)
     {
@@ -628,7 +658,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     }
 
     if ((ability1 == ABILITY_SLOW_START)
-     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slowStartTurns) < 5))
+     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slowStartTurns) < 1))
     {
         speed1 /= 2;
     }
