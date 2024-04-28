@@ -29586,4 +29586,3 @@ trainerdata 737, "Silver" //rivaldouble totodile
         move MOVE_CONFUSE_RAY
         ballseal 0
     endparty
-
