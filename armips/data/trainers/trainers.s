@@ -7662,7 +7662,7 @@ trainerdata 231, "Edward"
         ballseal 0
     endparty
 
-trainerdata 232, "Vincent"
+trainerdata 232, "Vincent" //doublebro
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_GUITARIST
     nummons 4
@@ -8819,7 +8819,7 @@ trainerdata 254, "Misty"
         move MOVE_RAIN_DANCE
         move MOVE_MIRROR_COAT
         move MOVE_HYDRO_PUMP
-        move MOVE_ANCIENT_POWER
+        move MOVE_FLIP_TURN
 		ability ABILITY_REGENERATOR
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
@@ -9021,7 +9021,7 @@ trainerdata 255, "Lt. Surge"
         move MOVE_THUNDERBOLT
         move MOVE_PSYCHIC
         move MOVE_SUBSTITUTE
-		ability ABILITY_STATIC
+		ability ABILITY_SURGE_SURFER
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -9052,7 +9052,7 @@ trainerdata 256, "Erika"
         move MOVE_KNOCK_OFF
         move MOVE_LEECH_SEED
         move MOVE_LEAF_STORM
-		ability ABILITY_REGENERATOR
+		ability ABILITY_GRASSY_SURGE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -13759,16 +13759,16 @@ trainerdata 352, "Georgia"
         ballseal 0
     endparty
 
-trainerdata 353, "Grunt" //CERULEANGRUNT
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+trainerdata 353, "Grunt" //CERULEANGRUNT //doublebro
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_TEAM_ROCKET
-    nummons 1
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype DOUBLE_BATTLE
+    battletype SINGLE_BATTLE
     endentry
 
     party 353
@@ -14020,14 +14020,14 @@ trainerdata 357, "Clarke"
         // mon 0
         ivs 0
         abilityslot 32
-        level 43
+        level 63
         pokemon SPECIES_STEELIX
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 45
+        level 65
         monwithform SPECIES_DUGTRIO, 1
         ballseal 0
     endparty
@@ -14110,7 +14110,7 @@ trainerdata 360, "Arnie"
     endparty
 
 trainerdata 361, "Kevin" //nuggetboss
-    trainermontype TRAINER_DATA_TYPE_MOVES
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_ACE_TRAINER_M
     nummons 6
     item ITEM_FULL_RESTORE
@@ -14762,7 +14762,7 @@ trainerdata 376, "Mickey" //Mickey
     endparty
 
 trainerdata 377, "Parker"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_SWIMMER_M
     nummons 6	
     item ITEM_NONE
@@ -16001,7 +16001,7 @@ trainerdata 414, "Jose"
         ballseal 0
     endparty
 
-trainerdata 415, "Jared"
+trainerdata 415, "Jared" //doublebro
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
     nummons 6
@@ -25586,7 +25586,7 @@ trainerdata 680, "Kassandra"
     endparty
 
 trainerdata 681, "Arabella" //ACETRAINERS
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 6
     item ITEM_NONE
@@ -25672,7 +25672,7 @@ trainerdata 681, "Arabella" //ACETRAINERS
     endparty
 
 trainerdata 682, "Bonita" //ACETRAINERS
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
     nummons 6
     item ITEM_NONE
@@ -26027,7 +26027,7 @@ trainerdata 686, "Bryce"
     endparty
 
 trainerdata 687, "Shaun"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BOARDER
     nummons 2
     item ITEM_NONE
@@ -26450,8 +26450,8 @@ trainerdata 699, "Abner"
         ballseal 0
     endparty
 
-trainerdata 700, "Giovanni"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+trainerdata 700, "Giovanni" //DIZZY PUNCH, SUCKER PUNCH, SWAGGER PLAY
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_ROCKET_BOSS
     nummons 4
     item ITEM_FULL_RESTORE
@@ -26463,52 +26463,106 @@ trainerdata 700, "Giovanni"
     endentry
 
     party 700
-        // mon 0
-        ivs 100
+	    // mon 0
+        ivs 250
         abilityslot 0
-        level 42
+        level 56
         pokemon SPECIES_NIDOKING
-        item ITEM_NONE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_FURY_ATTACK
-        move MOVE_DOUBLE_KICK
-        move MOVE_SHADOW_CLAW
+        item ITEM_FOCUS_SASH
+        move MOVE_STEALTH_ROCK
+        move MOVE_EARTHQUAKE
+        move MOVE_DISABLE
+        move MOVE_FRUSTRATION
+		ability ABILITY_TOXIC_DEBRIS
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
         ballseal 0
 
         // mon 1
-        ivs 100
-        abilityslot 32
-        level 40
-        pokemon SPECIES_KANGASKHAN
-        item ITEM_NONE
-        move MOVE_DIZZY_PUNCH
-        move MOVE_SUCKER_PUNCH
-        move MOVE_LEER
-        move MOVE_OUTRAGE
-        ballseal 0
-
-        // mon 2
-        ivs 100
+        ivs 250
         abilityslot 0
-        level 43
-        pokemon SPECIES_HONCHKROW
-        item ITEM_NONE
-        move MOVE_DARK_PULSE
-        move MOVE_NASTY_PLOT
-        move MOVE_SWAGGER
-        move MOVE_SHADOW_BALL
-        ballseal 0
-
-        // mon 3
-        ivs 100
-        abilityslot 0
-        level 46
+        level 56
         pokemon SPECIES_NIDOQUEEN
-        item ITEM_NONE
+        item ITEM_ASSAULT_VEST
+        move MOVE_VENOSHOCK
         move MOVE_EARTH_POWER
-        move MOVE_SUPERPOWER
-        move MOVE_CRUNCH
-        move MOVE_ROAR
+        move MOVE_DRAIN_PUNCH
+        move MOVE_ICE_PUNCH
+		ability ABILITY_SHEER_FORCE
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+        // mon 2
+        ivs 250
+        abilityslot 0
+        level 56
+        pokemon SPECIES_HONCHKROW
+        item ITEM_RAZOR_CLAW
+        move MOVE_DRILL_PECK
+        move MOVE_NIGHT_SLASH
+        move MOVE_ROOST
+        move MOVE_THUNDER_WAVE
+		ability ABILITY_SUPER_LUCK
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 56
+        monwithform SPECIES_PERSIAN, 1
+        item ITEM_CHESTO_BERRY
+        move MOVE_FRUSTRATION
+        move MOVE_MAKE_IT_RAIN
+        move MOVE_AMNESIA
+        move MOVE_REST
+		ability ABILITY_FUR_COAT
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 57
+        pokemon SPECIES_KANGASKHAN
+        item ITEM_LIFE_ORB
+        move MOVE_FAKE_OUT
+        move MOVE_BULLDOZE
+        move MOVE_POWER_UP_PUNCH
+        move MOVE_DRAIN_PUNCH
+		ability ABILITY_SCRAPPY
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 59
+        pokemon SPECIES_MEWTWO
+        item ITEM_MEWTWONITE_X
+        move MOVE_TAUNT
+        move MOVE_DRAIN_PUNCH
+        move MOVE_EARTHQUAKE
+        move MOVE_PSYBLADE
+		ability ABILITY_BERSERK
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
         ballseal 0
     endparty
 
@@ -27684,7 +27738,7 @@ trainerdata 715, "Morty" //Rematch
         move MOVE_WILL_O_WISP
         move MOVE_NIGHT_SHADE
         move MOVE_TRICK_ROOM
-		ability ABILITY_FRISK
+		ability ABILITY_MUMMY
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
