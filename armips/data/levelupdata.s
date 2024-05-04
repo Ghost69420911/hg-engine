@@ -3057,20 +3057,23 @@ levelup SPECIES_TAUROS
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_TAIL_WHIP, 3
     learnset MOVE_RAGE, 5
+	learnset MOVE_DOUBLE_KICK, 10
     learnset MOVE_HORN_ATTACK, 14
-    learnset MOVE_ASSURANCE, 15
+    learnset MOVE_SWIFT, 15
     learnset MOVE_PURSUIT, 15
     learnset MOVE_WORK_UP, 16
     learnset MOVE_PAYBACK, 16
     learnset MOVE_SCARY_FACE, 18
+	learnset MOVE_WORK_UP, 20
+	learnset MOVE_BULLDOZE, 22
     learnset MOVE_REST, 30
     learnset MOVE_ZEN_HEADBUTT, 35
     learnset MOVE_TAKE_DOWN, 35
 	learnset MOVE_EXTREME_SPEED, 40
     learnset MOVE_SWAGGER, 46
-    learnset MOVE_THRASH, 52
     learnset MOVE_DOUBLE_EDGE, 58
-    learnset MOVE_GIGA_IMPACT, 65
+    learnset MOVE_CLOSE_COMBAT, 60
+	learnset MOVE_GIGA_IMPACT, 66
     terminatelearnset
 
 
@@ -26918,14 +26921,74 @@ levelup SPECIES_WOOPER_PALDEAN
 
 levelup SPECIES_TAUROS_COMBAT
     learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_TAIL_WHIP, 3
+    learnset MOVE_RAGE, 5
+	learnset MOVE_DOUBLE_KICK, 10
+    learnset MOVE_HORN_ATTACK, 14
+    learnset MOVE_ASSURANCE, 15
+    learnset MOVE_PURSUIT, 15
+    learnset MOVE_WORK_UP, 16
+    learnset MOVE_PAYBACK, 16
+    learnset MOVE_SCARY_FACE, 18
+	learnset MOVE_WORK_UP, 20
+	learnset MOVE_BULLDOZE, 22
+    learnset MOVE_REST, 30
+    learnset MOVE_ZEN_HEADBUTT, 35
+    learnset MOVE_TAKE_DOWN, 35
+	learnset MOVE_KNOCK_OFF, 40
+    learnset MOVE_SWAGGER, 46
+    learnset MOVE_THRASH, 58
+    learnset MOVE_CLOSE_COMBAT, 60
+	learnset MOVE_GIGA_IMPACT, 66
     terminatelearnset
 
 levelup SPECIES_TAUROS_BLAZE
     learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_TAIL_WHIP, 3
+    learnset MOVE_RAGE, 5
+	learnset MOVE_DOUBLE_KICK, 10
+    learnset MOVE_HORN_ATTACK, 14
+    learnset MOVE_FLAME_CHARGE, 15
+    learnset MOVE_PURSUIT, 15
+    learnset MOVE_WORK_UP, 16
+    learnset MOVE_PAYBACK, 16
+    learnset MOVE_SCARY_FACE, 18
+	learnset MOVE_WORK_UP, 20
+	learnset MOVE_BULLDOZE, 22
+    learnset MOVE_REST, 30
+    learnset MOVE_ZEN_HEADBUTT, 35
+    learnset MOVE_TAKE_DOWN, 35
+	learnset MOVE_BLAZE_KICK, 40
+    learnset MOVE_SWAGGER, 46
+    learnset MOVE_FLARE_BLITZ, 58
+    learnset MOVE_CLOSE_COMBAT, 60
+	learnset MOVE_GIGA_IMPACT, 66
     terminatelearnset
 
 levelup SPECIES_TAUROS_AQUA
     learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_TAIL_WHIP, 3
+    learnset MOVE_RAGE, 5
+	learnset MOVE_DOUBLE_KICK, 10
+    learnset MOVE_HORN_ATTACK, 14
+    learnset MOVE_AQUA_JET, 15
+    learnset MOVE_PURSUIT, 15
+    learnset MOVE_WORK_UP, 16
+    learnset MOVE_PAYBACK, 16
+    learnset MOVE_SCARY_FACE, 18
+	learnset MOVE_WORK_UP, 20
+	learnset MOVE_BULLDOZE, 22
+    learnset MOVE_REST, 30
+    learnset MOVE_ZEN_HEADBUTT, 35
+    learnset MOVE_TAKE_DOWN, 35
+	learnset MOVE_LIQUIDATION, 40
+    learnset MOVE_SWAGGER, 46
+    learnset MOVE_WAVE_CRASH, 58
+    learnset MOVE_CLOSE_COMBAT, 60
+	learnset MOVE_GIGA_IMPACT, 66
     terminatelearnset
 
 levelup SPECIES_OINKOLOGNE_FEMALE
