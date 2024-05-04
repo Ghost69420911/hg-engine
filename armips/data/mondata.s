@@ -486,7 +486,7 @@ mondata SPECIES_FEAROW, "Fearow"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE, ABILITY_NONE
+    abilities ABILITY_KEEN_EYE, ABILITY_SNIPER
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_FEAROW, "It shoots itself suddenly high into\nthe sky, then plummets down in\none fell swoop to strike its prey."
@@ -4140,7 +4140,7 @@ mondata SPECIES_ESPEON, "Espeon"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SOLAR_POWER, ABILITY_MAGIC_BOUNCE
+    abilities ABILITY_SOUL_HEART, ABILITY_MAGIC_BOUNCE
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_ESPEON, "It uses the fine hair that covers\nits body to sense air currents and\npredict its enemy’s actions."
@@ -27149,7 +27149,7 @@ mondata SPECIES_WOOPER_PALDEAN, "-----"
 
 
 mondata SPECIES_TAUROS_COMBAT, "-----"
-    basestats 75, 110, 105, 100, 30, 70
+    basestats 105, 110, 105, 70, 30, 70
     types TYPE_FIGHTING, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
