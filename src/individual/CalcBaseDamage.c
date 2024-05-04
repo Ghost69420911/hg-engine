@@ -119,6 +119,8 @@ static const u16 MegaLauncherMovesTable[] = {
         MOVE_HEAL_PULSE,
         MOVE_ORIGIN_PULSE,
         MOVE_TERRAIN_PULSE,
+		MOVE_FLAME_BURST,
+		MOVE_LUSTER_PURGE,
         MOVE_WATER_PULSE,
 };
 
@@ -258,7 +260,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // handle slow start
     if ((AttackingMon.ability == ABILITY_SLOW_START)
-     && ((BattleWorkMonDataGet(bw, sp, 3, 0) - BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SLOW_START_COUNTER, NULL)) < 5))
+     && ((BattleWorkMonDataGet(bw, sp, 3, 0) - BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SLOW_START_COUNTER, NULL)) < 1))
         attack /= 2;
 
     // handle defeatist
@@ -406,6 +408,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         attack = attack * 150 / 100;
     }
+	
+    if (AttackingMon.ability == ABILITY_HYPER_CUTTER)
+    {
+        attack = attack * 130 / 100;
+    }
 
     // handle guts
     if ((AttackingMon.ability == ABILITY_GUTS) && (AttackingMon.condition))
@@ -416,13 +423,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     //handle toxic boost
     if ((AttackingMon.ability == ABILITY_TOXIC_BOOST) && ((AttackingMon.condition & STATUS_FLAG_BADLY_POISONED) || (AttackingMon.condition & STATUS_FLAG_POISONED)))
     {
-        attack = attack * 150 / 100;
+        attack = attack * 200 / 100;
     }
 
     //handle flare boost
     if ((AttackingMon.ability == ABILITY_FLARE_BOOST) && ((AttackingMon.condition & STATUS_FLAG_BURNED)))
     {
-        sp_attack = sp_attack * 150 / 100;
+        sp_attack = sp_attack * 200 / 100;
     }
 
     //handle tough claws
@@ -453,6 +460,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         defense = defense * 150 / 100;
     }
+	
+	if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_GRASS_PELT) == TRUE) && (sp->terrainOverlay.type == GRASSY_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
+    {
+        sp_defense = sp_defense * 150 / 100;
+    }
+
 
     // handle plus/minus
     if (((AttackingMon.ability == ABILITY_PLUS) || (AttackingMon.ability == ABILITY_MINUS)) &&
@@ -466,6 +479,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FUR_COAT) == TRUE))
     {
         defense *= 2;
+    }
+
+	if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BIG_PECKS) == TRUE))
+    {
+        defense = defense * 130 / 100;
     }
 
     // handle mud/water sport
@@ -604,11 +622,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
         // handle normalize - 20% boost if a normal type move is used (and it changes types to normal too)
         if (AttackingMon.ability == ABILITY_NORMALIZE && movetype == TYPE_NORMAL) {
-            movepower = movepower * 120 / 100;
+            movepower = movepower * 150 / 100;
         }
     }
 
-    // handle heatproof/dry skin
+    // handle heatproof/dry skin/water compaction
     if ((movetype == TYPE_FIRE) && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_HEATPROOF) == TRUE))
     {
         movepower /= 2;
@@ -617,6 +635,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((movetype == TYPE_FIRE) && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DRY_SKIN) == TRUE))
     {
         movepower = movepower * 125 / 100;
+    }
+
+	
+	if ((movetype == TYPE_WATER) && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WATER_COMPACTION) == TRUE))
+    {
+        movepower /= 2;
     }
 
     // handle simple
@@ -701,7 +725,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         if ((IronFistMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_IRON_FIST))
         {
-            movepower = movepower * 12 / 10;
+            movepower = movepower * 15 / 10;
             break;
         }
     }
@@ -964,6 +988,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             }
             break;
         case MISTY_TERRAIN:
+		    if (IsClientGrounded(sp, attacker) && movetype == TYPE_FAIRY) {
+                damage = damage * 130 / 100;
+                break;
+            }
+		
             if (IsClientGrounded(sp, defender) && movetype == TYPE_DRAGON) {
                 damage /= 2;
                 break;
