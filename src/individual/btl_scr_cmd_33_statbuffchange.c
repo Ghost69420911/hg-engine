@@ -249,7 +249,12 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
                       || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_HYPER_CUTTER) == TRUE)
                        && ((STAT_ATTACK + stattochange) == STAT_ATTACK))
                        || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_BIG_PECKS) == TRUE)
-                       && ((STAT_ATTACK + stattochange) == STAT_DEFENSE)))
+                       && ((STAT_ATTACK + stattochange) == STAT_DEFENSE))
+					   || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_COMPOUND_EYES) == TRUE)
+                       && ((STAT_ATTACK + stattochange) == STAT_ACCURACY))
+					   || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_ILLUMINATE) == TRUE)
+                       && ((STAT_ATTACK + stattochange) == STAT_ACCURACY)))
+					   
                     {
                     if (sp->addeffect_type == ADD_EFFECT_ABILITY)
                     {
