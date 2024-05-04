@@ -449,16 +449,6 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     {
         accuracy = accuracy * 130 / 100;
     }
-	
-	    if (GetBattlerAbility(sp,attacker) == ABILITY_KEEN_EYE)
-    {
-        accuracy = accuracy * 130 / 100;
-    }
-	
-	    if (GetBattlerAbility(sp,attacker) == ABILITY_ILLUMINATE)
-    {
-        accuracy = accuracy * 130 / 100;
-    }
 
     //handle Wonder Skin
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WONDER_SKIN) == TRUE) && (sp->moveTbl[move_no].split == SPLIT_STATUS))
@@ -693,26 +683,6 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
             break;
         }
     }
-	
-    if ((ability1 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == ELECTRIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
-    {
-        speed1 *= 2;
-    }
-	
-	if ((ability1 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == PSYCHIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
-    {
-        speed1 *= 2;
-    }
-
-    if ((ability2 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == ELECTRIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
-    {
-        speed2 *= 2;
-    }
-	
-	if ((ability2 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == PSYCHIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
-    {
-        speed2 *= 2;
-    }
 
     if ((ability1 == ABILITY_SURGE_SURFER) && (sp->terrainOverlay.type == ELECTRIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0))
     {
@@ -747,7 +717,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     }
 
     if ((ability1 == ABILITY_SLOW_START)
-     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slowStartTurns) < 1))
+     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slowStartTurns) < 5))
     {
         speed1 /= 2;
     }
@@ -1182,8 +1152,6 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
 
     temp = (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_BOOST_CRITICAL_RATE) + critical_count + (ability == ABILITY_SUPER_LUCK)
          + (2 * ((hold_effect == HOLD_EFFECT_BOOST_CHANSEY_CRITICAL) && (species == SPECIES_CHANSEY)))
-		 + (2 * ((hold_effect == HOLD_EFFECT_BOOST_CHANSEY_CRITICAL) && (species == SPECIES_BLISSEY)))
-		 + (2 * ((hold_effect == HOLD_EFFECT_BOOST_FARFETCHD_CRITICAL) && (species == SPECIES_SIRFETCHD)))
          + (2 * ((hold_effect == HOLD_EFFECT_BOOST_FARFETCHD_CRITICAL) && (species == SPECIES_FARFETCHD)));
 
     if (temp > 4)
