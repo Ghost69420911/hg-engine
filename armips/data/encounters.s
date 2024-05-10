@@ -9949,36 +9949,36 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -10792,25 +10792,25 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_TOTODILE, 30, 30
+encounter SPECIES_TOTODILE, 25, 25
+encounter SPECIES_SQUIRTLE, 30, 30
+encounter SPECIES_SQUIRTLE, 30, 30
+encounter SPECIES_MARILL, 30, 30
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_TOTODILE, 30, 30
+encounter SPECIES_TOTODILE, 25, 25
+encounter SPECIES_SQUIRTLE, 30, 30
+encounter SPECIES_SQUIRTLE, 30, 30
+encounter SPECIES_MARILL, 30, 30
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_TOTODILE, 30, 30
+encounter SPECIES_TOTODILE, 25, 25
+encounter SPECIES_SQUIRTLE, 30, 30
+encounter SPECIES_SQUIRTLE, 30, 30
+encounter SPECIES_MARILL, 30, 30
 
 // swarm grass
 pokemon SPECIES_DODUO
@@ -13331,46 +13331,46 @@ superrodrate 75
 walklevels 30, 25, 30, 25, 35, 35, 20, 20, 30, 28, 30, 28
 
 // morning encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_CHIMCHAR
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_CHIMCHAR
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
 
 // day encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_CHIMCHAR
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_CHIMCHAR
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
 
 // night encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
-pokemon SPECIES_TANGELA
-pokemon SPECIES_MR_MIME
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_CHIMCHAR
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_CHIMCHAR
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TURTWIG
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -13381,36 +13381,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_MUDKIP, 30, 30
+encounter SPECIES_PIPLUP, 25, 25
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
+encounter SPECIES_PIPLUP, 30, 30
 
 // swarm grass
 pokemon SPECIES_TANGELA
