@@ -100,6 +100,6 @@
 #define RESTORE_ITEMS_AT_BATTLE_END
 
 // PROTEAN_GENERATION defines the behavior that protean should exhibit, where it either changes type every move (<=8) or changes type once per appearance in battle (>=9)
-#define PROTEAN_GENERATION 9
+#define PROTEAN_GENERATION 4
 
 #endif
