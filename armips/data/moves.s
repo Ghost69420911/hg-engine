@@ -152,7 +152,7 @@ movedata MOVE_ICE_PUNCH, "Ice Punch"
     terminatedata
     movedescription MOVE_ICE_PUNCH, "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n"
 
-movedata MOVE_THUNDER_PUNCH, "Thunder Punch"
+movedata MOVE_THUNDER_PUNCH, "Thunder Punch" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 75
@@ -3352,7 +3352,7 @@ movedata MOVE_MILK_DRINK, "Milk Drink"
     terminatedata
     movedescription MOVE_MILK_DRINK, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
 
-movedata MOVE_SPARK, "Spark"
+movedata MOVE_SPARK, "Spark" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 65
@@ -5512,7 +5512,7 @@ movedata MOVE_COVET, "Covet"
     terminatedata
     movedescription MOVE_COVET, "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n"
 
-movedata MOVE_VOLT_TACKLE, "Volt Tackle"
+movedata MOVE_VOLT_TACKLE, "Volt Tackle" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_RECOIL_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 120
@@ -6539,10 +6539,10 @@ movedata MOVE_DRAGON_RUSH, "Dragon Rush"
 movedata MOVE_POWER_GEM, "Power Gem"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 80
+    basepower 90
     type TYPE_ROCK
     accuracy 100
-    pp 20
+    pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -6760,7 +6760,7 @@ movedata MOVE_SHADOW_CLAW, "Shadow Claw"
     terminatedata
     movedescription MOVE_SHADOW_CLAW, "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_THUNDER_FANG, "Thunder Fang"
+movedata MOVE_THUNDER_FANG, "Thunder Fang" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_FLINCH_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 65
@@ -8392,7 +8392,7 @@ movedata MOVE_GRASS_PLEDGE, "Grass Pledge"
     terminatedata
     movedescription MOVE_GRASS_PLEDGE, "When used with its\nwater equivalent,\nits power increases\nand a vast swamp\nappears."
 
-movedata MOVE_VOLT_SWITCH, "Volt Switch"
+movedata MOVE_VOLT_SWITCH, "Volt Switch" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_SWITCH_HIT
     pss SPLIT_PHYSICAL
     basepower 70
@@ -8504,10 +8504,10 @@ movedata MOVE_ELECTROWEB, "Electroweb"
     terminatedata
     movedescription MOVE_ELECTROWEB, "The user traps the\nfoe in an electric\nnet. It also lowers\nthe foe’s Speed."
 
-movedata MOVE_WILD_CHARGE, "Wild Charge"
-    battleeffect MOVE_EFFECT_RECOIL_THIRD
+movedata MOVE_WILD_CHARGE, "Wild Charge" //PHYSICALELECTRIC
+    battleeffect MOVE_EFFECT_RECOIL_PARALYZE_HIT
     pss SPLIT_PHYSICAL
-    basepower 100
+    basepower 120
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
@@ -9801,7 +9801,7 @@ movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
     terminatedata
     movedescription MOVE_BABY_DOLL_EYES, "---"
 
-movedata MOVE_NUZZLE, "Nuzzle"
+movedata MOVE_NUZZLE, "Nuzzle" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 20
@@ -10393,7 +10393,7 @@ movedata MOVE_BLOOM_DOOM_SPECIAL, "Bloom Doom"
     terminatedata
     movedescription MOVE_BLOOM_DOOM_SPECIAL, "---"
 
-movedata MOVE_GIGAVOLT_HAVOC_PHYSICAL, "Gigavolt Havoc"
+movedata MOVE_GIGAVOLT_HAVOC_PHYSICAL, "Gigavolt Havoc" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 0
@@ -10585,7 +10585,7 @@ movedata MOVE_TWINKLE_TACKLE_SPECIAL, "Twinkle Tackle"
     terminatedata
     movedescription MOVE_TWINKLE_TACKLE_SPECIAL, "---"
 
-movedata MOVE_CATASTROPIKA, "Catastropika"
+movedata MOVE_CATASTROPIKA, "Catastropika" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 210
@@ -11513,7 +11513,7 @@ movedata MOVE_TEARFUL_LOOK, "Tearful Look"
     terminatedata
     movedescription MOVE_TEARFUL_LOOK, "---"
 
-movedata MOVE_ZING_ZAP, "Zing Zap"
+movedata MOVE_ZING_ZAP, "Zing Zap" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
     basepower 80
@@ -11593,7 +11593,7 @@ movedata MOVE_MIND_BLOWN, "Mind Blown"
     terminatedata
     movedescription MOVE_MIND_BLOWN, "---"
 
-movedata MOVE_PLASMA_FISTS, "Plasma Fists"
+movedata MOVE_PLASMA_FISTS, "Plasma Fists" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 100
@@ -11721,7 +11721,7 @@ movedata MOVE_CLANGOROUS_SOULBLAZE, "Clangorous Soulblaze"
     terminatedata
     movedescription MOVE_CLANGOROUS_SOULBLAZE, "---"
 	
-movedata MOVE_ZIPPY_ZAP, "Zippy Zap"
+movedata MOVE_ZIPPY_ZAP, "Zippy Zap" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT_AND_EVA_UP
     pss SPLIT_PHYSICAL
     basepower 80
@@ -12121,7 +12121,7 @@ movedata MOVE_OCTOLOCK, "Octolock"
     terminatedata
     movedescription MOVE_OCTOLOCK, "---"
 
-movedata MOVE_BOLT_BEAK, "Bolt Beak"
+movedata MOVE_BOLT_BEAK, "Bolt Beak" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 85
@@ -12201,7 +12201,7 @@ movedata MOVE_MAX_FLUTTERBY, "Max Flutterby"
     terminatedata
     movedescription MOVE_MAX_FLUTTERBY, "---"
 
-movedata MOVE_MAX_LIGHTNING, "Max Lightning"
+movedata MOVE_MAX_LIGHTNING, "Max Lightning" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 10
@@ -12585,7 +12585,7 @@ movedata MOVE_BEHEMOTH_BASH, "Behemoth Bash"
     terminatedata
     movedescription MOVE_BEHEMOTH_BASH, "---"
 
-movedata MOVE_AURA_WHEEL, "Aura Wheel"
+movedata MOVE_AURA_WHEEL, "Aura Wheel" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 110
@@ -12862,7 +12862,7 @@ movedata MOVE_METEOR_BEAM, "Meteor Beam"
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ROCK
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -14329,7 +14329,7 @@ movedata MOVE_BITTER_BLADE, "Bitter Blade"
     terminatedata
     movedescription MOVE_BITTER_BLADE, "---"
 
-movedata MOVE_DOUBLE_SHOCK, "Double Shock"
+movedata MOVE_DOUBLE_SHOCK, "Double Shock" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 120
@@ -14713,7 +14713,7 @@ movedata MOVE_TEMPER_FLARE, "Temper Flare"
     terminatedata
     movedescription MOVE_TEMPER_FLARE, "---"
 
-movedata MOVE_SUPERCELL_SLAM, "Supercell Slam"
+movedata MOVE_SUPERCELL_SLAM, "Supercell Slam" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_CRASH_ON_MISS
     pss SPLIT_PHYSICAL
     basepower 100
