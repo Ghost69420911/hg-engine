@@ -338,9 +338,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower *= 2;
 
     // handle metal powder
-    if ((DefendingMon.item_held_effect == HOLD_EFFECT_METAL_POWDER) && (DefendingMon.species == SPECIES_DITTO))
+    if ((DefendingMon.item_held_effect == HOLD_EFFECT_METAL_POWDER) && ((DefendingMon.species == SPECIES_DITTO) || (sp->battlemon[defender].imposter_flag == 1)))
         defense *= 2;
-
+	
+    if ((DefendingMon.item_held_effect == HOLD_EFFECT_METAL_POWDER) && ((DefendingMon.species == SPECIES_DITTO) || (sp->battlemon[defender].imposter_flag == 1)))
+        sp_defense *= 2;
+	
     // handle eviolite
    // if ((DefendingMon.item_held_effect == HOLD_EFFECT_EVIOLITE)
    //     defense *= 2;
