@@ -700,7 +700,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         speed1 = speed1 * 15 / 10;
     }
 
-    if ((hold_effect1 == HOLD_EFFECT_BOOST_DITTO_SPEED) && (sp->battlemon[client1].species == SPECIES_DITTO))
+    if ((hold_effect1 == HOLD_EFFECT_BOOST_DITTO_SPEED) && ((sp->battlemon[client1].species == SPECIES_DITTO) || (sp->battlemon[client1].imposter_flag == 1)))
     {
         speed1 *= 2;
     }
@@ -782,7 +782,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         speed2 = speed2 * 15 / 10;
     }
 
-    if ((hold_effect2 == HOLD_EFFECT_BOOST_DITTO_SPEED) && (sp->battlemon[client2].species == SPECIES_DITTO))
+    if ((hold_effect2 == HOLD_EFFECT_BOOST_DITTO_SPEED) && ((sp->battlemon[client2].species == SPECIES_DITTO) || (sp->battlemon[client2].imposter_flag == 1)))
     {
         speed2 *= 2;
     }
