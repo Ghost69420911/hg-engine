@@ -1328,7 +1328,7 @@ trainerdata 33, "Jasmine"
         move MOVE_MAGNET_BOMB
         move MOVE_SUPERSONIC
         move MOVE_THUNDER_WAVE
-		ability ABILITY_MAGNET_PULL
+		ability ABILITY_LEVITATE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1379,7 +1379,7 @@ trainerdata 33, "Jasmine"
         move MOVE_DIG
         move MOVE_ROCK_THROW
         move MOVE_IRON_TAIL
-		ability ABILITY_STURDY
+		ability ABILITY_EARTH_EATER
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -8772,7 +8772,7 @@ trainerdata 253, "Brock"
         move MOVE_EARTHQUAKE
         move MOVE_CURSE
         move MOVE_STONE_EDGE
-		ability ABILITY_STURDY
+		ability ABILITY_EARTH_EATER
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
