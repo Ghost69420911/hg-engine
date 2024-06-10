@@ -10268,7 +10268,7 @@ encounter SPECIES_TENTACRUEL, 35, 35
 encounter SPECIES_TENTACRUEL, 35, 35
 
 // rock smash encounters
-encounter SPECIES_DIGLETT, 24, 37
+encounter SPECIES_SHUCKLE, 24, 37
 encounter SPECIES_SHUCKLE, 32, 35
 
 // old rod encounters
