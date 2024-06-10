@@ -2458,7 +2458,7 @@ movedata MOVE_CRABHAMMER, "Crabhammer"
 
 movedata MOVE_EXPLOSION, "Explosion"
     battleeffect MOVE_EFFECT_HALVE_DEFENSE
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 250
     type TYPE_NORMAL
     accuracy 100
@@ -5513,13 +5513,13 @@ movedata MOVE_COVET, "Covet"
     movedescription MOVE_COVET, "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n"
 
 movedata MOVE_VOLT_TACKLE, "Volt Tackle" //PHYSICALELECTRIC
-    battleeffect MOVE_EFFECT_RECOIL_PARALYZE_HIT
+    battleeffect MOVE_EFFECT_RECOIL_THIRD
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 90
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
-    effectchance 10
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -8511,7 +8511,7 @@ movedata MOVE_WILD_CHARGE, "Wild Charge" //PHYSICALELECTRIC
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -13051,7 +13051,7 @@ movedata MOVE_COACHING, "Coaching"
 
 movedata MOVE_FLIP_TURN, "Flip Turn"
     battleeffect MOVE_EFFECT_SWITCH_HIT
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 60
     type TYPE_WATER
     accuracy 100
