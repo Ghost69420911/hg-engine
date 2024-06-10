@@ -3812,6 +3812,7 @@ levelup SPECIES_CROCONAW
     learnset MOVE_RAGE, 8
     learnset MOVE_BITE, 13
     learnset MOVE_SCARY_FACE, 15
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_ICE_FANG, 21
     learnset MOVE_FLAIL, 24
     learnset MOVE_CRUNCH, 30
@@ -3835,6 +3836,7 @@ levelup SPECIES_FERALIGATR
     learnset MOVE_RAGE, 8
     learnset MOVE_BITE, 13
     learnset MOVE_SCARY_FACE, 15
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_ICE_FANG, 21
     learnset MOVE_FLAIL, 24
     learnset MOVE_CRUNCH, 32
@@ -6307,6 +6309,7 @@ levelup SPECIES_POOCHYENA
     learnset MOVE_ODOR_SLEUTH, 13
     learnset MOVE_ROAR, 16
     learnset MOVE_SWAGGER, 19
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_ASSURANCE, 22
     learnset MOVE_SCARY_FACE, 25
     learnset MOVE_EMBARGO, 28
@@ -6320,6 +6323,7 @@ levelup SPECIES_POOCHYENA
 
 
 levelup SPECIES_MIGHTYENA
+	learnset MOVE_JAW_LOCK, 0
     learnset MOVE_SNARL, 0
     learnset MOVE_SNARL, 1
     learnset MOVE_FIRE_FANG, 1
@@ -7222,6 +7226,7 @@ levelup SPECIES_MAWILE
     learnset MOVE_BITE, 10
     learnset MOVE_BATON_PASS, 15
     learnset MOVE_VICE_GRIP, 17
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_FEINT_ATTACK, 21
     learnset MOVE_SWEET_SCENT, 23
     learnset MOVE_FAKE_TEARS, 25
@@ -7581,6 +7586,7 @@ levelup SPECIES_CARVANHA
     learnset MOVE_BITE, 16
     learnset MOVE_POISON_FANG, 17
     learnset MOVE_SCARY_FACE, 19
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_SCREECH, 21
     learnset MOVE_ICE_FANG, 22
     learnset MOVE_SWAGGER, 25
@@ -7608,6 +7614,7 @@ levelup SPECIES_SHARPEDO
     learnset MOVE_ASSURANCE, 15
     learnset MOVE_BITE, 16
     learnset MOVE_SCARY_FACE, 19
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_SCREECH, 21
     learnset MOVE_ICE_FANG, 22
     learnset MOVE_SWAGGER, 25
@@ -9511,6 +9518,7 @@ levelup SPECIES_LUXIO
     learnset MOVE_CHARGE, 9
     learnset MOVE_BITE, 14
     learnset MOVE_SPARK, 15
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_ROAR, 23
     learnset MOVE_VOLT_SWITCH, 31
     learnset MOVE_THUNDER_FANG, 33
@@ -9533,6 +9541,7 @@ levelup SPECIES_LUXRAY
     learnset MOVE_CHARGE, 9
     learnset MOVE_BITE, 14
     learnset MOVE_SPARK, 15
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_ROAR, 23
     learnset MOVE_VOLT_SWITCH, 33
     learnset MOVE_THUNDER_FANG, 35
@@ -10485,6 +10494,7 @@ levelup SPECIES_HIPPOPOTAS
     learnset MOVE_YAWN, 10
     learnset MOVE_DIG, 17
     learnset MOVE_SAND_TOMB, 18
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_TAKE_DOWN, 23
     learnset MOVE_SANDSTORM, 24
     learnset MOVE_CRUNCH, 25
@@ -10509,6 +10519,7 @@ levelup SPECIES_HIPPOWDON
     learnset MOVE_YAWN, 13
     learnset MOVE_DIG, 17
     learnset MOVE_SAND_TOMB, 18
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_TAKE_DOWN, 23
     learnset MOVE_SANDSTORM, 24
     learnset MOVE_CRUNCH, 25
@@ -10629,6 +10640,7 @@ levelup SPECIES_CARNIVINE
     learnset MOVE_BITE, 7
     learnset MOVE_VINE_WHIP, 11
     learnset MOVE_SWEET_SCENT, 17
+	learnset MOVE_JAW_LOCK, 20
     learnset MOVE_INGRAIN, 21
     learnset MOVE_FEINT_ATTACK, 27
     learnset MOVE_LEAF_TORNADO, 31
