@@ -1438,13 +1438,13 @@ trainerdata 34, "Chuck"
         ivs 150
         abilityslot 0
         level 33
-        pokemon SPECIES_HERACROSS
-        item ITEM_CUSTAP_BERRY
-        move MOVE_MEGAHORN
+        pokemon SPECIES_AIPOM
+        item ITEM_EVIOLITE
+        move MOVE_DOUBLE_HIT
         move MOVE_FOCUS_PUNCH
-        move MOVE_ENDURE
+        move MOVE_FAKE_OUT
         move MOVE_ATTRACT
-		ability ABILITY_SWARM
+		ability ABILITY_TECHNICIAN
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -9045,7 +9045,7 @@ trainerdata 256, "Erika"
         // mon 0
         ivs 250
         abilityslot 0
-        level 57
+        level 63
         pokemon SPECIES_TANGROWTH
         item ITEM_HEAT_ROCK
         move MOVE_SUNNY_DAY
@@ -9062,7 +9062,7 @@ trainerdata 256, "Erika"
         // mon 1
         ivs 250
         abilityslot 0
-        level 57
+        level 63
         pokemon SPECIES_VICTREEBEL
         item ITEM_EXPERT_BELT
         move MOVE_SOLAR_BEAM
@@ -9079,7 +9079,7 @@ trainerdata 256, "Erika"
         // mon 2
         ivs 250
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_SUNFLORA
         item ITEM_PERSIM_BERRY
         move MOVE_FLAME_CHARGE
@@ -9096,7 +9096,7 @@ trainerdata 256, "Erika"
         // mon 3
         ivs 250
         abilityslot 0
-        level 57
+        level 64
         pokemon SPECIES_JUMPLUFF
         item ITEM_FOCUS_SASH
         move MOVE_TAILWIND
@@ -9113,7 +9113,7 @@ trainerdata 256, "Erika"
         // mon 4
         ivs 250
         abilityslot 0
-        level 58
+        level 65
         pokemon SPECIES_VENUSAUR
         item ITEM_VENUSAURITE
         move MOVE_GROWTH
@@ -9130,7 +9130,7 @@ trainerdata 256, "Erika"
         // mon 5
         ivs 250
         abilityslot 0
-        level 60
+        level 66
         pokemon SPECIES_BELLOSSOM
         item ITEM_KEBIA_BERRY
         move MOVE_SUNNY_DAY
@@ -12884,7 +12884,7 @@ trainerdata 326, "Jo & Zoe"
         // mon 0
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_CRADILY
         move MOVE_GIGA_DRAIN
         move MOVE_LEECH_SEED
@@ -12895,7 +12895,7 @@ trainerdata 326, "Jo & Zoe"
 		// mon 1
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_BRELOOM
         move MOVE_BULLET_SEED
         move MOVE_SPORE
@@ -12906,7 +12906,7 @@ trainerdata 326, "Jo & Zoe"
         // mon 2
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_WORMADAM
         move MOVE_ENERGY_BALL
         move MOVE_BUG_BUZZ
@@ -12917,7 +12917,7 @@ trainerdata 326, "Jo & Zoe"
 		// mon 3
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_ABOMASNOW
         move MOVE_ENERGY_BALL
         move MOVE_BLIZZARD
@@ -13227,7 +13227,7 @@ trainerdata 336, "Tanya"
         // mon 0
         ivs 0
         abilityslot 0
-        level 54
+        level 60
         pokemon SPECIES_TANGELA
         move MOVE_LEECH_SEED
         move MOVE_STUN_SPORE
@@ -13238,7 +13238,7 @@ trainerdata 336, "Tanya"
 		// mon 0
         ivs 0
         abilityslot 0
-        level 55
+        level 61
         pokemon SPECIES_CACTURNE
         move MOVE_SUCKER_PUNCH
         move MOVE_NEEDLE_ARM
@@ -13249,7 +13249,7 @@ trainerdata 336, "Tanya"
 		// mon 0
         ivs 0
         abilityslot 0
-        level 54
+        level 60
         pokemon SPECIES_VILEPLUME
         move MOVE_KNOCK_OFF
         move MOVE_STUN_SPORE
@@ -13260,7 +13260,7 @@ trainerdata 336, "Tanya"
 		// mon 0
         ivs 0
         abilityslot 0
-        level 55
+        level 61
         pokemon SPECIES_SHIFTRY
         move MOVE_WHIRLWIND
         move MOVE_LEAF_TORNADO
@@ -13514,7 +13514,7 @@ trainerdata 346, "Julia"
         // mon 0
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_WEEPINBELL
         move MOVE_GIGA_DRAIN
         move MOVE_TOXIC_SPIKES
@@ -13525,7 +13525,7 @@ trainerdata 346, "Julia"
 		// mon 1
         ivs 0
         abilityslot 0
-        level 54
+        level 60
         pokemon SPECIES_TROPIUS
         move MOVE_DRAGON_DANCE
         move MOVE_DUAL_WINGBEAT
@@ -13536,7 +13536,7 @@ trainerdata 346, "Julia"
 		// mon 2
         ivs 0
         abilityslot 0
-        level 54
+        level 60
         pokemon SPECIES_TOEDSCRUEL
         move MOVE_SPORE
         move MOVE_STOMPING_TANTRUM
@@ -13547,7 +13547,7 @@ trainerdata 346, "Julia"
         // mon 3
         ivs 0
         abilityslot 0
-        level 54
+        level 60
         pokemon SPECIES_CARNIVINE
         move MOVE_VINE_WHIP
         move MOVE_WRING_OUT
@@ -13964,42 +13964,42 @@ trainerdata 356, "Michelle"
         // mon 0
         ivs 0
         abilityslot 32
-        level 53
+        level 59
         pokemon SPECIES_TREECKO
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
-        level 53
+        level 59
         pokemon SPECIES_TURTWIG
         ballseal 0
 		
 		//mon 2
         ivs 0
         abilityslot 32
-        level 54
+        level 60
         pokemon SPECIES_GROVYLE
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
-        level 54
+        level 60
         pokemon SPECIES_GROTLE
         ballseal 0
 		
 		// mon 4
         ivs 0
         abilityslot 32
-        level 55
+        level 61
         pokemon SPECIES_SCEPTILE
         ballseal 0
 
         // mon 5
         ivs 0
         abilityslot 0
-        level 55
+        level 61
         pokemon SPECIES_TORTERRA
         ballseal 0
     endparty
@@ -16097,7 +16097,7 @@ trainerdata 416, "Jo & Zoe"
         // mon 0
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_BRELOOM
         move MOVE_BULLET_SEED
         move MOVE_SPORE
@@ -16108,7 +16108,7 @@ trainerdata 416, "Jo & Zoe"
         // mon 1
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_CRADILY
         move MOVE_GIGA_DRAIN
         move MOVE_LEECH_SEED
@@ -16119,7 +16119,7 @@ trainerdata 416, "Jo & Zoe"
 		// mon 2
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_ABOMASNOW
         move MOVE_ENERGY_BALL
         move MOVE_BLIZZARD
@@ -16130,7 +16130,7 @@ trainerdata 416, "Jo & Zoe"
         // mon 3
         ivs 0
         abilityslot 0
-        level 57
+        level 60
         pokemon SPECIES_WORMADAM
         move MOVE_ENERGY_BALL
         move MOVE_BUG_BUZZ
