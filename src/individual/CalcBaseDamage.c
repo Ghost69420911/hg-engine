@@ -293,12 +293,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 130 / 100;
     }
 
-//    // handle punk rock TODO uncomment
-//    if (AttackingMon.ability == ABILITY_PUNK_ROCK && IsMoveSoundBased(sp->current_move_index))
-//    {
-//        movepower = movepower * 130 / 100;
-//        break;
-//    }
+    // handle cacophony
+    if (AttackingMon.ability == ABILITY_CACOPHONY && IsMoveSoundBased(sp->current_move_index))
+    {
+        movepower = movepower * 150 / 100;
+    }
 
 
     // type boosting held items
@@ -344,10 +343,24 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((DefendingMon.item_held_effect == HOLD_EFFECT_METAL_POWDER) && ((DefendingMon.species == SPECIES_DITTO) || (sp->battlemon[defender].imposter_flag == 1)))
         sp_defense *= 2;
 	
-    // handle eviolite
-   // if ((DefendingMon.item_held_effect == HOLD_EFFECT_EVIOLITE)
-   //     defense *= 2;
-   //     sp_defense *= 2;
+    // Handle Eviolite
+    if (DefendingMon.item_held_effect == HOLD_EFFECT_EVIOLITE) {
+        u16 speciesWithForm;
+        speciesWithForm = PokeOtherFormMonsNoGet(sp->battlemon[defender].species, sp->battlemon[defender].form_no);
+
+        struct Evolution *evoTable;
+        evoTable = sys_AllocMemory(0, MAX_EVOS_PER_POKE * sizeof(struct Evolution));
+        ArchiveDataLoad(evoTable, 34, speciesWithForm); // 34 is evo narc
+
+        // If a Pokémon has any evolutions, there should be a non EVO_NONE entry at the top
+        // A more thorough check would be to check all methods, but would take longer
+        // This should yield the same result if things are written correctly
+        if (evoTable[0].method != EVO_NONE) {
+            defense = defense * 150 / 100;
+            sp_defense = sp_defense * 150 / 100;
+			sys_FreeMemoryEz(evoTable);
+        }
+    }
 
     // handle thick club
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_THICK_CLUB)
@@ -936,12 +949,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         damage /= 2;
     }
 
-//    // handle punk rock TODO uncomment
-//    if (DefendingMon.ability == ABILITY_PUNK_ROCK && IsMoveSoundBased(moveno))
-//    {
-//        damage /= 2;
-//        break;
-//    }
+   // handle cacophony
+    if (DefendingMon.ability == ABILITY_CACOPHONY && IsMoveSoundBased(moveno))
+    {
+        damage /= 2;
+    }
 
     // Handle field effects
     if (sp->terrainOverlay.numberOfTurnsLeft > 0) {

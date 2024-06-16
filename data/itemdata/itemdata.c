@@ -37194,7 +37194,7 @@ const ITEMDATA __data[] =
 [ITEM_EVIOLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 200,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_EVIOLITE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
