@@ -22,6 +22,15 @@
 
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
 
+//custom asm scripts
+.include "armips/asm/custom/mart_items.s"
+.include "armips/asm/custom/ev_cap.s"
+.include "armips/asm/custom/hidden_power.s"
+.include "armips/asm/custom/hp_bar_speed.s"
+.include "armips/asm/custom/smashable_rock_items.s"
+.include "armips/asm/custom/vitamins.s"
+.include "armips/asm/custom/waterfall.s"
+
 .if REUSABLE_TMS == 1
 
 .include "armips/asm/tm.s" // make tms infinite

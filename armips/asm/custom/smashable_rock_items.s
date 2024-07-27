@@ -16,8 +16,8 @@
 .halfword ITEM_CLAW_FOSSIL
 .halfword ITEM_ARMOR_FOSSIL
 .halfword ITEM_SKULL_FOSSIL
-.halfword ITEM_RARE_BONE
 .halfword ITEM_OLD_AMBER
+.halfword ITEM_DOME_FOSSIL
 
 /* Cliff Cave Table */
 .org 0x02209624
@@ -37,10 +37,10 @@
 .halfword ITEM_MAX_ETHER
 .halfword ITEM_REVIVE
 .halfword ITEM_STAR_PIECE
-.halfword ITEM_RED_SHARD
-.halfword ITEM_GREEN_SHARD
-.halfword ITEM_BLUE_SHARD
-.halfword ITEM_YELLOW_SHARD
+.halfword ITEM_ORAN_BERRY
+.halfword ITEM_ORAN_BERRY
+.halfword ITEM_ORAN_BERRY
+.halfword ITEM_ORAN_BERRY
 .halfword ITEM_MAX_REVIVE
 
 .close
