@@ -4092,7 +4092,7 @@ movedata MOVE_SPIT_UP, "Spit Up"
     battleeffect MOVE_EFFECT_SPIT_UP
     pss SPLIT_SPECIAL
     basepower 1
-    type TYPE_SPIT_UP
+    type TYPE_POISON
     accuracy 100
     pp 10
     effectchance 0
