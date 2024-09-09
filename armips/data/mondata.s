@@ -2599,7 +2599,7 @@ mondata SPECIES_MR_MIME, "Mr. Mime"
 
 mondata SPECIES_SCYTHER, "Scyther"
     basestats 70, 110, 80, 105, 55, 80
-    types TYPE_BUG, TYPE_FLYING
+    types TYPE_BUG, TYPE_NORMAL
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -5129,7 +5129,7 @@ mondata SPECIES_RAIKOU, "Raikou"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_SIMPLE, ABILITY_VOLT_ABSORB
+    abilities ABILITY_SIMPLE, ABILITY_COMPETITIVE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_RAIKOU, "The rain clouds it carries let it\nfire thunderbolts at will. They say\nthat it descended with lightning."
@@ -5150,7 +5150,7 @@ mondata SPECIES_ENTEI, "Entei"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_INNER_FOCUS, ABILITY_FLASH_FIRE
+    abilities ABILITY_INNER_FOCUS, ABILITY_DEFIANT
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_ENTEI, "Volcanoes erupt when it barks.\nUnable to contain its sheer power,\nit races headlong around the land."
@@ -5171,7 +5171,7 @@ mondata SPECIES_SUICUNE, "Suicune"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRESSURE, ABILITY_WATER_ABSORB
+    abilities ABILITY_PRESSURE, ABILITY_CLEAR_BODY
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_SUICUNE, "Said to be the embodiment of\nnorth winds, it can instantly\npurify filthy, murky water."
@@ -8972,7 +8972,7 @@ mondata SPECIES_DRIFBLIM, "Drifblim"
     basefriendship 50
     growthrate GROWTH_FLUCTUATING
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_AFTERMATH, ABILITY_UNBURDEN
+    abilities ABILITY_WIND_RIDER, ABILITY_UNBURDEN
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_DRIFBLIM, "It can generate and release gas\nwithin its body. That’s how it can\ncontrol the altitude of its drift."
