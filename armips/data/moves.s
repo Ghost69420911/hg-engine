@@ -1065,14 +1065,14 @@ movedata MOVE_DRILL_PECK, "Drill Peck"
     movedescription MOVE_DRILL_PECK, "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n"
 
 movedata MOVE_SUBMISSION, "Submission"
-    battleeffect MOVE_EFFECT_RECOIL_QUARTER_DAMAGE_DELT
+    battleeffect MOVE_EFFECT_DECREASE_POWER_WITH_LESS_USER_HP
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 150
     type TYPE_FIGHTING
     accuracy 100
-    pp 20
+    pp 5
     effectchance 0
-    target MOVE_TARGET_SELECTED
+    target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x05
@@ -4058,7 +4058,7 @@ movedata MOVE_FAKE_OUT, "Fake Out"
 
 movedata MOVE_UPROAR, "Uproar"
     battleeffect MOVE_EFFECT_UPROAR
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_NORMAL
     accuracy 100
@@ -8841,14 +8841,14 @@ movedata MOVE_SECRET_SWORD, "Secret Sword"
     movedescription MOVE_SECRET_SWORD, "The user cuts with\nits long horn. The\nodd power in the\nhorn does physical\ndamage to the foe."
 
 movedata MOVE_GLACIATE, "Glaciate"
-    battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
+    battleeffect MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 85
+    basepower 95
     type TYPE_ICE
     accuracy 95
     pp 10
-    effectchance 100
-    target MOVE_TARGET_BOTH
+    effectchance 30
+    target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
@@ -8905,12 +8905,12 @@ movedata MOVE_FIERY_DANCE, "Fiery Dance"
     movedescription MOVE_FIERY_DANCE, "Cloaked in flames,\nthe user dances.\nIt may also raise\nthe user’s Sp. Atk."
 
 movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH
+    battleeffect MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 140
-    type TYPE_ICE
-    accuracy 90
-    pp 5
+    basepower 95
+    type TYPE_ELECTRIC
+    accuracy 95
+    pp 10
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
@@ -8921,12 +8921,12 @@ movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
     movedescription MOVE_FREEZE_SHOCK, "A two-turn attack\nthat hits the foe\nwith electrically\ncharged ice. It may\nparalyze the foe."
 
 movedata MOVE_ICE_BURN, "Ice Burn"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH
+    battleeffect MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 140
-    type TYPE_ICE
-    accuracy 90
-    pp 5
+    basepower 95
+    type TYPE_FIRE
+    accuracy 95
+    pp 10
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
@@ -11101,7 +11101,7 @@ movedata MOVE_BEAK_BLAST, "Beak Blast"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 100
-    type TYPE_FLYING
+    type TYPE_FIRE
     accuracy 100
     pp 15
     effectchance 0
@@ -12892,7 +12892,7 @@ movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
 movedata MOVE_MISTY_EXPLOSION, "Misty Explosion"
     battleeffect MOVE_EFFECT_HALVE_DEFENSE
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 200
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 100
     pp 5
@@ -13435,7 +13435,7 @@ movedata MOVE_CHLOROBLAST, "Chloroblast"
 
 movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     battleeffect MOVE_EFFECT_FLINCH_HIT
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 100
     type TYPE_ICE
     accuracy 85
