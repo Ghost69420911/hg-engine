@@ -1264,7 +1264,7 @@ trainerdata 32, "Pryce"
         move MOVE_ICE_SHARD
         move MOVE_CURSE
         move MOVE_AVALANCHE
-		ability ABILITY_OBLIVIOUS
+		ability ABILITY_SNOW_WARNING
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
