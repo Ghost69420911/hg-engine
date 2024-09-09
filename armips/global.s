@@ -30,6 +30,7 @@
 .include "armips/asm/custom/smashable_rock_items.s"
 .include "armips/asm/custom/vitamins.s"
 .include "armips/asm/custom/waterfall.s"
+.include "armips/asm/custom/tm_palettes.s"
 
 .if REUSABLE_TMS == 1
 
