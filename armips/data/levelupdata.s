@@ -10985,7 +10985,7 @@ levelup SPECIES_UXIE
     learnset MOVE_MEMENTO, 1
     learnset MOVE_NATURAL_GIFT, 1
     learnset MOVE_FLAIL, 1
-	learnset MOVE_MYSTIC_POWER, 5
+	learnset MOVE_MYSTICAL_POWER, 5
     learnset MOVE_SWIFT, 13
     learnset MOVE_ENDURE, 14
     learnset MOVE_IMPRISON, 17
@@ -11007,7 +11007,7 @@ levelup SPECIES_MESPRIT
     learnset MOVE_HEALING_WISH, 1
     learnset MOVE_NATURAL_GIFT, 1
     learnset MOVE_COPYCAT, 1
-	learnset MOVE_MYSTIC_POWER, 5	
+	learnset MOVE_MYSTICAL_POWER, 5	
     learnset MOVE_SWIFT, 13
     learnset MOVE_PROTECT, 14
     learnset MOVE_IMPRISON, 17
@@ -11029,7 +11029,7 @@ levelup SPECIES_AZELF
     learnset MOVE_REST, 1
     learnset MOVE_NATURAL_GIFT, 1
     learnset MOVE_LAST_RESORT, 1
-	learnset MOVE_MYSTIC_POWER, 5
+	learnset MOVE_MYSTICAL_POWER, 5
     learnset MOVE_SWIFT, 13
     learnset MOVE_DETECT, 14
     learnset MOVE_IMPRISON, 17

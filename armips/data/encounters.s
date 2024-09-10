@@ -7339,7 +7339,7 @@ pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
-encounterwithform SPECIES_URSALUNA, 1
+monwithform SPECIES_URSALUNA, 1
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
