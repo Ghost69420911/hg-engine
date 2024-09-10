@@ -2205,6 +2205,7 @@ typedef enum UpdateMonConditionState {
     UMC_STATE_POISON,
     UMC_STATE_BAD_POISON,
     UMC_STATE_BURN,
+	UMC_STATE_FROSTBITTEN,
     UMC_STATE_NIGHTMARE,
     UMC_STATE_CURSE,
     UMC_STATE_BINDING,
@@ -2346,6 +2347,16 @@ void BattleControllerPlayer_UpdateMonCondition(void *bw, struct BattleStruct *sp
             if ((sp->battlemon[battlerId].condition & STATUS_FLAG_BURNED) && sp->battlemon[battlerId].hp != 0) {
                 sp->client_work = battlerId;
                 LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BURN_DAMAGE);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                flag = 1;
+            }
+            sp->stateUpdateMonCondition++;
+            break;
+		case UMC_STATE_FROSTBITTEN:
+            if ((sp->battlemon[battlerId].condition & STATUS_FLAG_FROSTBITTEN) && sp->battlemon[battlerId].hp != 0) {
+                sp->client_work = battlerId;
+                LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FROSTBITTEN);
                 sp->next_server_seq_no = sp->server_seq_no;
                 sp->server_seq_no = 22;
                 flag = 1;
