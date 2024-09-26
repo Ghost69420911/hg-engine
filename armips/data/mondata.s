@@ -19189,7 +19189,7 @@ mondata SPECIES_OBSTAGOON, "Obstagoon"
 
 mondata SPECIES_PERRSERKER, "Perrserker"
     basestats 70, 110, 100, 50, 50, 60
-    types TYPE_STEEL, TYPE_STEEL
+    types TYPE_STEEL, TYPE_FIGHTING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
