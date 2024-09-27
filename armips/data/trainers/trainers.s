@@ -8100,7 +8100,7 @@ trainerdata 243, "Katie"
         ballseal 0
     endparty
 
-trainerdata 244, "Lance"
+trainerdata 244, "Lance" //CHAMPION
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_CHAMPION
     nummons 6
@@ -9233,7 +9233,7 @@ trainerdata 257, "Janine"
         level 62
         pokemon SPECIES_GENGAR
         item ITEM_GENGARITE
-        move MOVE_SLUDGE_WAVE
+        move MOVE_VENOSHOCK
         move MOVE_SHADOW_BALL
         move MOVE_SUBSTITUTE
         move MOVE_DESTINY_BOND
@@ -26568,7 +26568,7 @@ trainerdata 700, "Giovanni" //DIZZY PUNCH, SUCKER PUNCH, SWAGGER PLAY
     endparty
 
 trainerdata 701, "Lance" //Rematch
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_CHAMPION
     nummons 6
     item ITEM_FULL_RESTORE
@@ -26585,12 +26585,12 @@ trainerdata 701, "Lance" //Rematch
         abilityslot 0
         level 80
         pokemon SPECIES_GYARADOS
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        item ITEM_WACAN_BERRY
+        move MOVE_DRAGON_DANCE
+        move MOVE_OUTRAGE
+        move MOVE_WATERFALL
+        move MOVE_TAUNT
+		ability ABILITY_INTIMIDATE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26601,13 +26601,13 @@ trainerdata 701, "Lance" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_SALAMENCE
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_AERODACTYL
+        item ITEM_AERODACTYLITE
+        move MOVE_ROOST
+        move MOVE_STONE_EDGE
+        move MOVE_EARTHQUAKE
+        move MOVE_CRUNCH
+		ability ABILITY_UNNERVE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26618,13 +26618,13 @@ trainerdata 701, "Lance" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_AERODACTYL
-        item ITEM_AERODACTYLITE
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_DRAGONITE
+        item ITEM_CHOICE_BAND
+        move MOVE_EXTREME_SPEED
+        move MOVE_EARTHQUAKE
+        move MOVE_FIRE_PUNCH
+        move MOVE_OUTRAGE
+		ability ABILITY_INNER_FOCUS
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26635,13 +26635,13 @@ trainerdata 701, "Lance" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_KOMMO_O
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_SALAMENCE
+        item ITEM_LEFTOVERS
+        move MOVE_FLY
+        move MOVE_ROOST
+        move MOVE_SUBSTITUTE
+        move MOVE_DRAGON_DANCE
+		ability ABILITY_INTIMIDATE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26652,13 +26652,13 @@ trainerdata 701, "Lance" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_DRAGONITE
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_DUDUNSPARCE //THREE SEGMENT
+        item ITEM_BRIGHT_POWDER
+        move MOVE_BULLDOZE
+        move MOVE_ATTRACT
+        move MOVE_DRAGON_RUSH
+        move MOVE_BODY_SLAM
+		ability ABILITY_SERENE_GRACE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26669,13 +26669,13 @@ trainerdata 701, "Lance" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_CELESTEELA
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_FLYGON
+        item ITEM_SAFETY_GOGGLES
+        move MOVE_TAILWIND
+        move MOVE_EARTHQUAKE
+        move MOVE_DRACO_METEOR
+        move MOVE_U_TURN
+		ability ABILITY_SAND_STREAM
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26684,7 +26684,7 @@ trainerdata 701, "Lance" //Rematch
     endparty
 
 trainerdata 702, "Will" //Rematch
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_ELITE_FOUR_0
     nummons 6
     item ITEM_FULL_RESTORE
@@ -26701,12 +26701,12 @@ trainerdata 702, "Will" //Rematch
         abilityslot 0
         level 80
         pokemon SPECIES_GRUMPIG
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        item ITEM_LEFTOVERS
+        move MOVE_EXPANDING_FORCE
+        move MOVE_THUNDER_WAVE
+        move MOVE_LIGHT_SCREEN
+        move MOVE_TELEPORT
+		ability ABILITY_PSYCHIC_SURGE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26717,13 +26717,13 @@ trainerdata 702, "Will" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_HATTERENE
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_JYNX
+        item ITEM_NEVER_MELT_ICE
+        move MOVE_ATTRACT
+        move MOVE_FROST_BREATH
+        move MOVE_DRAINING_KISS
+        move MOVE_PSYCHIC
+		ability ABILITY_OBLIVIOUS
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26736,11 +26736,11 @@ trainerdata 702, "Will" //Rematch
         level 80
         pokemon SPECIES_SLOWBRO
         item ITEM_SLOWBRONITE
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        move MOVE_SLACK_OFF
+        move MOVE_ICE_BEAM
+        move MOVE_SCALD
+        move MOVE_PSYCHIC
+		ability ABILITY_REGENERATOR
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26752,12 +26752,12 @@ trainerdata 702, "Will" //Rematch
         abilityslot 0
         level 80
         pokemon SPECIES_XATU
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        item ITEM_TWISTED_SPOON
+        move MOVE_ME_FIRST
+        move MOVE_OMINOUS_WIND
+        move MOVE_U_TURN
+        move MOVE_FUTURE_SIGHT
+		ability ABILITY_MAGIC_BOUNCE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26768,13 +26768,13 @@ trainerdata 702, "Will" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_JYNX
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_WYRDEER
+        item ITEM_ASSAULT_VEST
+        move MOVE_PSYSHIELD_BASH
+        move MOVE_LUNGE
+        move MOVE_BULLDOZE
+        move MOVE_STOMP
+		ability ABILITY_INTIMIDATE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26785,13 +26785,13 @@ trainerdata 702, "Will" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_NECROZMA
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_GALLADE
+        item ITEM_LIFE_ORB
+        move MOVE_DRAIN_PUNCH
+        move MOVE_LEAF_BLADE
+        move MOVE_PSYCHO_CUT
+        move MOVE_DOUBLE_TEAM
+		ability ABILITY_SHARPNESS
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26800,7 +26800,7 @@ trainerdata 702, "Will" //Rematch
     endparty
 
 trainerdata 703, "Koga" //Rematch
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_ELITE_FOUR_2
     nummons 6
     item ITEM_FULL_RESTORE
@@ -26816,13 +26816,13 @@ trainerdata 703, "Koga" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_ACCELGOR
+        pokemon SPECIES_NINJASK
         item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        move MOVE_STEALTH_ROCK
+        move MOVE_BATON_PASS
+        move MOVE_SUBSTITUTE
+        move MOVE_X_SCISSOR
+		ability ABILITY_SPEED_BOOST
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26835,11 +26835,11 @@ trainerdata 703, "Koga" //Rematch
         level 80
         pokemon SPECIES_BEEDRILL
         item ITEM_BEEDRILLITE
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        move MOVE_U_TURN
+        move MOVE_POISON_JAB
+        move MOVE_DOUBLE_TEAM
+        move MOVE_TWINEEDLE
+		ability ABILITY_SNIPER
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26850,13 +26850,13 @@ trainerdata 703, "Koga" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_NAGANADEL
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_CROBAT
+        item ITEM_RAZOR_CLAW
+        move MOVE_DOUBLE_TEAM
+        move MOVE_QUICK_ATTACK
+        move MOVE_X_SCISSOR
+        move MOVE_CROSS_POISON
+		ability ABILITY_INFILTRATOR
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26867,13 +26867,13 @@ trainerdata 703, "Koga" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_NINJASK
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_NIDOKING
+        item ITEM_SOFT_SAND
+        move MOVE_EARTHQUAKE
+        move MOVE_GUNK_SHOT
+        move MOVE_FISSURE
+        move MOVE_BULK_UP
+		ability ABILITY_RIVALRY
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26884,13 +26884,13 @@ trainerdata 703, "Koga" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_CROBAT
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_TOXICROAK
+        item ITEM_MENTAL_HERB
+        move MOVE_TAUNT
+        move MOVE_LOW_KICK
+        move MOVE_PURSUIT
+        move MOVE_SUCKER_PUNCH
+		ability ABILITY_POISON_TOUCH
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26901,13 +26901,13 @@ trainerdata 703, "Koga" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_GRENINJA
-        item ITEM_FOCUS_SASH
+        pokemon SPECIES_SHIFTRY
+        item ITEM_EXPERT_BELT
         move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        move MOVE_TAILWIND
+        move MOVE_HEAT_WAVE
+        move MOVE_LEAF_TORNADO
+		ability ABILITY_WIND_RIDER
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26916,7 +26916,7 @@ trainerdata 703, "Koga" //Rematch
     endparty
 
 trainerdata 704, "Bruno" //Rematch
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_ELITE_FOUR_3
     nummons 6
     item ITEM_FULL_RESTORE
@@ -26934,11 +26934,11 @@ trainerdata 704, "Bruno" //Rematch
         level 80
         pokemon SPECIES_HITMONTOP
         item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        move MOVE_REVERSAL
+        move MOVE_FAKE_OUT
+        move MOVE_STEALTH_ROCK
+        move MOVE_TRIPLE_AXEL
+		ability ABILITY_TECHNICIAN
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26949,13 +26949,13 @@ trainerdata 704, "Bruno" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_LEDIAN
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_HERACROSS
+        item ITEM_HERACRONITE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_PIN_MISSILE
+        move MOVE_BULLET_SEED
+        move MOVE_ROCK_BLAST
+		ability ABILITY_MOXIE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26966,13 +26966,13 @@ trainerdata 704, "Bruno" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_HERACROSS
-        item ITEM_HERACRONITE
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_MACHAMP
+        item ITEM_LEFTOVERS
+        move MOVE_STONE_EDGE
+        move MOVE_FORESIGHT
+        move MOVE_DYNAMIC_PUNCH
+        move MOVE_CROSS_CHOP
+		ability ABILITY_NO_GUARD
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -26983,13 +26983,13 @@ trainerdata 704, "Bruno" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_BUZZWOLE
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_LEDIAN
+        item ITEM_PUNCHING_GLOVE
+        move MOVE_DRAIN_PUNCH
+        move MOVE_POWER_UP_PUNCH
+        move MOVE_COMET_PUNCH
+        move MOVE_U_TURN
+		ability ABILITY_IRON_FIST
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -27000,13 +27000,13 @@ trainerdata 704, "Bruno" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_PHEROMOSA
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_PERRSERKER
+        item ITEM_METAL_COAT
+        move MOVE_METAL_CLAW
+        move MOVE_GYRO_BALL
+        move MOVE_CURSE
+        move MOVE_CLOSE_COMBAT
+		ability ABILITY_STEELY_SPIRIT
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -27017,13 +27017,13 @@ trainerdata 704, "Bruno" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_MACHAMP
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_CONFUSE_RAY
-        move MOVE_BABY_DOLL_EYES
-        move MOVE_FREEZE_DRY
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_HARIYAMA
+        item ITEM_CHESTO_BERRY
+        move MOVE_SMELLING_SALTS
+        move MOVE_YAWN
+        move MOVE_REST
+        move MOVE_BODY_PRESS
+		ability ABILITY_GUTS
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -27032,7 +27032,7 @@ trainerdata 704, "Bruno" //Rematch
     endparty
 
 trainerdata 705, "Karen" //Rematch
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass CLASS_ELITE_FOUR_1
     nummons 6
     item ITEM_FULL_RESTORE
@@ -27051,7 +27051,7 @@ trainerdata 705, "Karen" //Rematch
         pokemon SPECIES_VILEPLUME
         item ITEM_PERSIM_BERRY
         move MOVE_DRAINING_KISS
-        move MOVE_FRUSTRATION
+        move MOVE_FOUL_PLAY
         move MOVE_MOONLIGHT
         move MOVE_PETAL_DANCE
 		ability ABILITY_EFFECT_SPORE
@@ -27088,7 +27088,7 @@ trainerdata 705, "Karen" //Rematch
         move MOVE_KNOCK_OFF
         move MOVE_EXTREME_SPEED
         move MOVE_BELLY_DRUM
-		ability ABILITY_SHEER_FORCE
+		ability ABILITY_DEFIANT
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -27099,13 +27099,13 @@ trainerdata 705, "Karen" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_ZOROARK
-        item ITEM_FOCUS_SASH
-        move MOVE_DARK_PULSE
-        move MOVE_FLAMETHROWER
-        move MOVE_SLUDGE_WAVE
-        move MOVE_PROTECT
-		ability ABILITY_ILLUSION
+        pokemon SPECIES_MIGHTYENA
+        item ITEM_BLACK_GLASSES
+        move MOVE_CRUNCH
+        move MOVE_MUD_SLAP
+        move MOVE_ASSURANCE
+        move MOVE_TAUNT
+		ability ABILITY_MOXIE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -27116,13 +27116,13 @@ trainerdata 705, "Karen" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        monwithform SPECIES_ZOROARK, 1
-        item ITEM_FOCUS_SASH
-        move MOVE_ICY_WIND
-        move MOVE_SHADOW_BALL
-        move MOVE_FLAMETHROWER
-        move MOVE_HYPER_VOICE
-		ability ABILITY_SNOW_CLOAK
+        pokemon SPECIES_ABSOL
+        item ITEM_STICKY_BARB
+        move MOVE_PROTECT
+        move MOVE_PERISH_SONG
+        move MOVE_MEAN_LOOK
+        move MOVE_SUCKER_PUNCH
+		ability ABILITY_PRESSURE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -27133,13 +27133,13 @@ trainerdata 705, "Karen" //Rematch
         ivs 200
         abilityslot 0
         level 80
-        pokemon SPECIES_GUZZLORD
+        pokemon SPECIES_GRANBULL
         item ITEM_ASSAULT_VEST
-        move MOVE_FLAMETHROWER
-        move MOVE_SLUDGE_WAVE
-        move MOVE_HYPER_VOICE
-        move MOVE_DRAGON_PULSE
-		ability ABILITY_THICK_FAT
+        move MOVE_JAW_LOCK
+        move MOVE_BABY_DOLL_EYES
+        move MOVE_BULK_UP
+        move MOVE_PLAY_ROUGH
+		ability ABILITY_STRONG_JAW
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
