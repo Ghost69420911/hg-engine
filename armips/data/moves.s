@@ -2911,7 +2911,7 @@ movedata MOVE_POWDER_SNOW, "Powder Snow"
     type TYPE_ICE
     accuracy 100
     pp 25
-    effectchance 10
+    effectchance 50
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -8847,7 +8847,7 @@ movedata MOVE_GLACIATE, "Glaciate"
     type TYPE_ICE
     accuracy 95
     pp 10
-    effectchance 30
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE
@@ -8911,7 +8911,7 @@ movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
     type TYPE_ELECTRIC
     accuracy 95
     pp 10
-    effectchance 30
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -8927,7 +8927,7 @@ movedata MOVE_ICE_BURN, "Ice Burn"
     type TYPE_FIRE
     accuracy 95
     pp 10
-    effectchance 30
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -9232,7 +9232,7 @@ movedata MOVE_FREEZE_DRY, "Freeze-Dry"
     type TYPE_ICE
     accuracy 100
     pp 20
-    effectchance 10
+    effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12892,7 +12892,7 @@ movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
 movedata MOVE_MISTY_EXPLOSION, "Misty Explosion"
     battleeffect MOVE_EFFECT_HALVE_DEFENSE
     pss SPLIT_SPECIAL
-    basepower 200
+    basepower 150
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 100
     pp 5
@@ -13200,7 +13200,7 @@ movedata MOVE_FREEZING_GLARE, "Freezing Glare"
     type TYPE_PSYCHIC
     accuracy 100
     pp 10
-    effectchance 10
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
     flags  FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
