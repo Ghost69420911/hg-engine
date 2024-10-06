@@ -27948,12 +27948,12 @@ trainerdata 717, "Jasmine" //Rematch
         ivs 200
         abilityslot 32
         level 80
-        pokemon SPECIES_BASTIODON
+        pokemon SPECIES_FORRETRESS
         item ITEM_RED_CARD
         move MOVE_STEALTH_ROCK
-        move MOVE_ROAR
-        move MOVE_STONE_EDGE
-        move MOVE_BODY_PRESS
+        move MOVE_GYRO_BALL
+        move MOVE_CURSE
+        move MOVE_TOXIC_SPIKES
 		ability ABILITY_STURDY
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
