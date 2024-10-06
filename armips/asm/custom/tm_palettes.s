@@ -3,6 +3,7 @@
 
 // Thankyou Drayano!
 // Edits the palettes of modified TMs
+// No palettes for fairy as yet, using psychic as placeholder
 
 .open "base/arm9.bin", 0x02000000
 
@@ -23,11 +24,12 @@ PALETTE_GHOST equ 411
 PALETTE_ROCK equ 412
 PALETTE_FLYING equ 413
 PALETTE_BUG equ 610
+PALETTE_FAIRY equ 401
 
 // Start of TM Palette Table
 .org 0x02100BD6
 
-// Between each TM we need to skip 8 * (TM gap - 1) bytes
+// Between each TM we need to skip 8 * (TM gap - 1) extra bytes (this is only relevant if in future more TMs are able to be added and bytes need to be skipped; or if you want to delete a TM for some reason. Otherwise no additional TM gap required)
 
 // TM001 FOCUS_PUNCH
 .skip 2
@@ -161,7 +163,7 @@ PALETTE_BUG equ 610
 
 // TM027 RETURN
 .skip 2
-.halfword PALETTE_PSYCHIC
+.halfword PALETTE_FAIRY
 .skip 4
 
 // TM028 DIG
@@ -246,12 +248,12 @@ PALETTE_BUG equ 610
 
 // TM044 REST
 .skip 2
-.halfword PALETTE_NORMAL
+.halfword PALETTE_PSYCHIC
 .skip 4
 
 // TM045 ATTRACT
 .skip 2
-.halfword PALETTE_PSYCHIC
+.halfword PALETTE_FAIRY
 .skip 4
 
 // TM046 THIEF
@@ -416,7 +418,7 @@ PALETTE_BUG equ 610
 
 // TM078 CAPTIVATE
 .skip 2
-.halfword PALETTE_PSYCHIC
+.halfword PALETTE_FAIRY
 .skip 4
 
 // TM079 DARK_PULSE
