@@ -1065,13 +1065,13 @@ movedata MOVE_DRILL_PECK, "Drill Peck"
     movedescription MOVE_DRILL_PECK, "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n"
 
 movedata MOVE_SUBMISSION, "Submission"
-    battleeffect MOVE_EFFECT_DECREASE_POWER_WITH_LESS_USER_HP
+    battleeffect MOVE_EFFECT_SWITCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 150
+    basepower 70
     type TYPE_FIGHTING
     accuracy 100
-    pp 5
-    effectchance 0
+    pp 20
+    effectchance 100
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -2297,7 +2297,7 @@ movedata MOVE_LOVELY_KISS, "Lovely Kiss"
     movedescription MOVE_LOVELY_KISS, "With a scary face, the\nuser tries to force a\nkiss on the foe. If it\nsucceeds, the target\nfalls asleep."
 
 movedata MOVE_SKY_ATTACK, "Sky Attack"
-    battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_FLYING
@@ -7065,7 +7065,7 @@ movedata MOVE_CROSS_POISON, "Cross Poison"
     movedescription MOVE_CROSS_POISON, "A slashing attack\nthat may also leave\nthe target poisoned.\nIt has a high\ncritical-hit ratio."
 
 movedata MOVE_GUNK_SHOT, "Gunk Shot"
-    battleeffect MOVE_EFFECT_ATK_DEF_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_ATK_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_POISON
