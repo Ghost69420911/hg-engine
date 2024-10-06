@@ -7303,7 +7303,7 @@ mondata SPECIES_CRADILY, "Cradily"
 
 mondata SPECIES_ANORITH, "Anorith"
     basestats 45, 95, 50, 75, 40, 50
-    types TYPE_ROCK, TYPE_BUG
+    types TYPE_ROCK, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -7324,7 +7324,7 @@ mondata SPECIES_ANORITH, "Anorith"
 
 mondata SPECIES_ARMALDO, "Armaldo"
     basestats 75, 125, 100, 45, 70, 80
-    types TYPE_ROCK, TYPE_BUG
+    types TYPE_ROCK, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -8584,7 +8584,7 @@ mondata SPECIES_ROSERADE, "Roserade"
 
 mondata SPECIES_CRANIDOS, "Cranidos"
     basestats 67, 125, 40, 58, 30, 30
-    types TYPE_ROCK, TYPE_FIGHTING
+    types TYPE_ROCK, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -8605,7 +8605,7 @@ mondata SPECIES_CRANIDOS, "Cranidos"
 
 mondata SPECIES_RAMPARDOS, "Rampardos"
     basestats 97, 165, 60, 58, 65, 50
-    types TYPE_ROCK, TYPE_FIGHTING
+    types TYPE_ROCK, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
