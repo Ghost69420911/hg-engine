@@ -5961,12 +5961,12 @@ movedata MOVE_PAYBACK, "Payback"
     movedescription MOVE_PAYBACK, "If the user can use\nthis attack after the\nfoe attacks, its\npower is doubled.\n"
 
 movedata MOVE_ASSURANCE, "Assurance"
-    battleeffect MOVE_EFFECT_DOUBLE_POWER_IF_TARGET_HIT
+    battleeffect MOVE_EFFECT_USER_ATK_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 120
     type TYPE_DARK
     accuracy 100
-    pp 10
+    pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0

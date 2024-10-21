@@ -6619,6 +6619,7 @@ levelup SPECIES_MASQUERAIN
     learnset MOVE_AIR_SLASH, 38
     learnset MOVE_BUG_BUZZ, 42
     learnset MOVE_WHIRLWIND, 48
+	learnset MOVE_HYDRO_PUMP, 50
     learnset MOVE_QUIVER_DANCE, 52
     terminatelearnset
 
@@ -6763,6 +6764,7 @@ levelup SPECIES_NINJASK
     learnset MOVE_SLASH, 37
     learnset MOVE_SWORDS_DANCE, 49
     learnset MOVE_X_SCISSOR, 56
+	learnset MOVE_DUAL_WINGBEAT, 61
     terminatelearnset
 
 
