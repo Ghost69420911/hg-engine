@@ -1488,3 +1488,9 @@ The opposing {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} froze the opposing\f{STR
 {STRVAR_1 1, 0, 0} is\nfrostbitten!
 The wild {STRVAR_1 1, 0, 0} is\nfrostbitten!
 The opposing {STRVAR_1 1, 0, 0} is\nfrostbitten!
+{STRVAR_1 1, 0, 0} is\noverflowing with space power!
+The wild {STRVAR_1 1, 0, 0} is\noverflowing with space power!
+The opposing {STRVAR_1 1, 0, 0} is\noverflowing with space power!
+{STRVAR_1 1, 0, 0} absorbed\nelectricity!
+The wild {STRVAR_1 1, 0, 0} absorbed\nelectricity!
+The opposing {STRVAR_1 1, 0, 0} absorbed\nelectricity!
