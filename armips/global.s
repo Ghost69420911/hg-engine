@@ -31,6 +31,7 @@
 .include "armips/asm/custom/vitamins.s"
 .include "armips/asm/custom/waterfall.s"
 .include "armips/asm/custom/tm_palettes.s"
+.include "armips/asm/custom/hidden_items.s"
 
 .if REUSABLE_TMS == 1
 
