@@ -4552,6 +4552,7 @@ levelup SPECIES_ESPEON
     learnset MOVE_FUTURE_SIGHT, 38
     learnset MOVE_POWER_SWAP, 39
     learnset MOVE_LAST_RESORT, 48
+	learnset MOVE_TWIN_BEAM, 56
     terminatelearnset
 
 
@@ -10069,6 +10070,7 @@ levelup SPECIES_SPIRITOMB
     learnset MOVE_HEX, 25
     learnset MOVE_OMINOUS_WIND, 25
     learnset MOVE_NASTY_PLOT, 27
+	learnset MOVE_LAST_RESPECTS, 32
     learnset MOVE_SUCKER_PUNCH, 33
     learnset MOVE_HYPNOSIS, 35
     learnset MOVE_MEMENTO, 36
