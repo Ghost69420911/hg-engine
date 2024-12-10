@@ -21,6 +21,8 @@
 .include "armips/asm/swarms.s" // modify swarms
 
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
+.include "armips/asm/tm_palettes.s" // allows editing of pallete table for TMs 
+.include "armips/asm/hidden_items.s" // allows editing of hidden items for Dowsing Machine 
 
 //custom asm scripts
 .include "armips/asm/custom/mart_items.s"
@@ -30,10 +32,7 @@
 .include "armips/asm/custom/smashable_rock_items.s"
 .include "armips/asm/custom/vitamins.s"
 .include "armips/asm/custom/waterfall.s"
-.include "armips/asm/tm_palettes.s" // allows editing of pallete table for TMs 
-.include "armips/asm/hidden_items.s" // allows editing of hidden items for Dowsing Machine 
 
-.if REUSABLE_TMS == 1
 .include "armips/asm/tm.s" // make tms infinite
 .include "armips/asm/forget_hm.s" // allows hm to be forgotten
 
