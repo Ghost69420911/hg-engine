@@ -193,4 +193,10 @@ struct TrainerMoney PrizeMoney[] = // 0x34C04 in Overlay 12; 2 bytes for trainer
 	{ .class = TRAINERCLASS_COMMANDER_SATURN, .multiplier = 30 },
 	{ .class = TRAINERCLASS_COMMANDER_CHARON, .multiplier = 30 },
 	{ .class = TRAINERCLASS_GALACTIC_BOSS, .multiplier = 30 },
+	{ .class = TRAINERCLASS_CASTLE_LADY, .multiplier = 30 },
+	{ .class = TRAINERCLASS_STAT_TRAINER_BUCK, .multiplier = 30 },
+	{ .class = TRAINERCLASS_STAT_TRAINER_CHERYL, .multiplier = 30 },
+	{ .class = TRAINERCLASS_STAT_TRAINER_MARLEY, .multiplier = 30 },
+	{ .class = TRAINERCLASS_STAT_TRAINER_MIRA, .multiplier = 30 },
+	{ .class = TRAINERCLASS_STAT_TRAINER_RILEY, .multiplier = 30 },
 };
