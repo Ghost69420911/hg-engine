@@ -880,7 +880,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     else// if (movesplit == SPLIT_SPECIAL) // same as above, handle special moves
     if (movesplit == SPLIT_SPECIAL)
 	{
-        // frostbite halves special damage.  this is ignored by guts and facade (as of gen 6)
+        // frostbite halves special damage.  this is ignored by guts and facade for parity with burn
 		if ((AttackingMon.condition & STATUS_FLAG_FROSTBITTEN) && (AttackingMon.ability != ABILITY_GUTS) && (moveno != MOVE_FACADE))
         {
             damage /= 2;

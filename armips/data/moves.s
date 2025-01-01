@@ -137,7 +137,7 @@ movedata MOVE_FIRE_PUNCH, "Fire Punch"
     movedescription MOVE_FIRE_PUNCH, "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n"
 
 movedata MOVE_ICE_PUNCH, "Ice Punch"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_ICE
@@ -937,7 +937,7 @@ movedata MOVE_SURF, "Surf"
     movedescription MOVE_SURF, "It swamps the entire\nbattlefield with a\ngiant wave.\nIt can also be used\nfor crossing water."
 
 movedata MOVE_ICE_BEAM, "Ice Beam"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_ICE
@@ -953,7 +953,7 @@ movedata MOVE_ICE_BEAM, "Ice Beam"
     movedescription MOVE_ICE_BEAM, "The foe is struck\nwith an icy-cold\nbeam of energy.\nIt may also freeze\nthe target solid."
 
 movedata MOVE_BLIZZARD, "Blizzard"
-    battleeffect MOVE_EFFECT_BLIZZARD
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_BLIZZARD : MOVE_EFFECT_BLIZZARD
     pss SPLIT_SPECIAL
     basepower 110
     type TYPE_ICE
@@ -2041,13 +2041,13 @@ movedata MOVE_FIRE_BLAST, "Fire Blast"
     movedescription MOVE_FIRE_BLAST, "The foe is attacked\nwith an intense blast\nof all-consuming fire.\nIt may also leave the\ntarget with a burn."
 
 movedata MOVE_WATERFALL, "Waterfall"
-    battleeffect MOVE_EFFECT_FLINCH_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_WATER
     accuracy 100
     pp 15
-    effectchance 20
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -2905,7 +2905,7 @@ movedata MOVE_SPITE, "Spite"
     movedescription MOVE_SPITE, "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit."
 
 movedata MOVE_POWDER_SNOW, "Powder Snow"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 40
     type TYPE_ICE
@@ -6777,7 +6777,7 @@ movedata MOVE_THUNDER_FANG, "Thunder Fang" //PHYSICALELECTRIC
     movedescription MOVE_THUNDER_FANG, "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed."
 
 movedata MOVE_ICE_FANG, "Ice Fang"
-    battleeffect MOVE_EFFECT_FLINCH_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FLINCH_FROSTBITE_HIT : MOVE_EFFECT_FLINCH_FREEZE_HIT
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_ICE
@@ -8841,7 +8841,7 @@ movedata MOVE_SECRET_SWORD, "Secret Sword"
     movedescription MOVE_SECRET_SWORD, "The user cuts with\nits long horn. The\nodd power in the\nhorn does physical\ndamage to the foe."
 
 movedata MOVE_GLACIATE, "Glaciate"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 95
     type TYPE_ICE
@@ -8905,7 +8905,7 @@ movedata MOVE_FIERY_DANCE, "Fiery Dance"
     movedescription MOVE_FIERY_DANCE, "Cloaked in flames,\nthe user dances.\nIt may also raise\nthe user’s Sp. Atk."
 
 movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 95
     type TYPE_ELECTRIC
@@ -8921,7 +8921,7 @@ movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
     movedescription MOVE_FREEZE_SHOCK, "A two-turn attack\nthat hits the foe\nwith electrically\ncharged ice. It may\nparalyze the foe."
 
 movedata MOVE_ICE_BURN, "Ice Burn"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 95
     type TYPE_FIRE
@@ -13194,7 +13194,7 @@ movedata MOVE_DRAGON_ENERGY, "Dragon Energy"
     movedescription MOVE_DRAGON_ENERGY, "---"
 
 movedata MOVE_FREEZING_GLARE, "Freezing Glare"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_PSYCHIC

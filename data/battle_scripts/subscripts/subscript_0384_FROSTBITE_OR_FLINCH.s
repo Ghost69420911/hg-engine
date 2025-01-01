@@ -5,7 +5,7 @@
 
 _000:
     CheckEffectActivation _003
-	Call BATTLE_SUBSCRIPT_FREEZE
+	Call BATTLE_SUBSCRIPT_FROSTBITE
 
 _003:
     CheckEffectActivation _007

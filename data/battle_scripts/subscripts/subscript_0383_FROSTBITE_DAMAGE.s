@@ -11,14 +11,15 @@ _000:
 
 _020:
     UpdateVar OPCODE_MUL, BSCRIPT_VAR_HP_CALC, -1
-    // {0} is frozen solid!
-    PrintMessage 1473, TAG_NICKNAME, BATTLER_CATEGORY_MSG_TEMP
+    // {0} is hurt by its frostbite!
+    PrintMessage 1499, TAG_NICKNAME, BATTLER_CATEGORY_MSG_TEMP
     Wait 
     WaitButtonABTime 30
     PlayBattleAnimation BATTLER_CATEGORY_MSG_TEMP, BATTLE_ANIMATION_FROZEN
     Wait 
     UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_NO_BLINK
     GoToSubscript BATTLE_SUBSCRIPT_UPDATE_HP
+	Call BATTLE_SUBSCRIPT_SWITCH_IN_ABILITY_CHECK
 
 _041:
     End 
