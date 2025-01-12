@@ -25,6 +25,8 @@ _printUnnerveMessage:
 _realHazardsCheck:
     // toxic spikes can inflict poison through magic guard, but not subsequently damage the mon (which is already handled in the damage subscript)
     //CheckAbility CHECK_OPCODE_HAVE, BATTLER_CATEGORY_SWITCHED_MON, ABILITY_MAGIC_GUARD, _105
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SWITCHED_MON, BMON_DATA_TYPE_1, TYPE_BUG, _end
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SWITCHED_MON, BMON_DATA_TYPE_2, TYPE_BUG, _end
     CompareVarToValue OPCODE_FLAG_SET, BSCRIPT_VAR_FIELD_CONDITION, FIELD_CONDITION_GRAVITY, _checkSpikes
     CheckItemHoldEffect CHECK_OPCODE_HAVE, BATTLER_CATEGORY_SWITCHED_MON, HOLD_EFFECT_SPEED_DOWN_GROUNDED, _checkSpikes
     CheckAbility CHECK_OPCODE_HAVE, BATTLER_CATEGORY_SWITCHED_MON, ABILITY_LEVITATE, _checkStealthRock
