@@ -389,7 +389,7 @@
 #define SUB_SEQ_CANNOT_USE_MOVE                       (379)
 #define SUB_SEQ_POWER_HERB_METEOR_BEAM                (380)
 #define SUB_SEQ_SP_ATK_UP_RAIN_SKIP                   (381)
-#define SUB_SEQ_APPLY_FROSTBITE                             (382)
+#define SUB_SEQ_APPLY_FROSTBITE                        (382)
 #define SUB_SEQ_FROSTBITE_DAMAGE                      (383)
 #define SUB_SEQ_FROSTBITE_OR_FLINCH                   (384)
 

@@ -1,5 +1,4 @@
 .include "asm/include/battle_commands.inc"
-.include "include/config.h"
 
 .data
 

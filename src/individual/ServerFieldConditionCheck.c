@@ -561,7 +561,7 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp) {
                                     || (GetBattlerAbility(sp, battlerId) == ABILITY_HYDRATION
                                     && sp->field_condition & WEATHER_RAIN_ANY
                                     && sp->battlemon[battlerId].hp
-                                    && (u8)sp->battlemon[battlerId].condition)) {
+                                    && sp->battlemon[battlerId].condition & STATUS_ANY_PERSISTENT)) {
                                         seq_no = SUB_SEQ_SHED_SKIN;
                                         ret = TRUE;
                                     }
