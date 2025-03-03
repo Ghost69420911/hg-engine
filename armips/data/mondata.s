@@ -267,7 +267,7 @@ mondata SPECIES_METAPOD, "Metapod"
 
 
 mondata SPECIES_BUTTERFREE, "Butterfree"
-    basestats 60, 45, 50, 95, 120, 90
+    basestats 60, 45, 50, 95, 110, 90
     types TYPE_BUG, TYPE_PSYCHIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -330,7 +330,7 @@ mondata SPECIES_KAKUNA, "Kakuna"
 
 
 mondata SPECIES_BEEDRILL, "Beedrill"
-    basestats 65, 130, 40, 100, 45, 80
+    basestats 65, 110, 45, 105, 45, 80
     types TYPE_BUG, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -813,7 +813,7 @@ mondata SPECIES_VULPIX, "Vulpix"
 
 
 mondata SPECIES_NINETALES, "Ninetales"
-    basestats 73, 81, 75, 100, 81, 100
+    basestats 73, 81, 75, 100, 81, 109
     types TYPE_FIRE, TYPE_FAIRY
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -1758,7 +1758,7 @@ mondata SPECIES_MAGNETON, "Magneton"
 
 
 mondata SPECIES_FARFETCHD, "Farfetch’d"
-    basestats 72, 120, 55, 80, 108, 60
+    basestats 72, 110, 55, 80, 88, 60
     types TYPE_FIGHTING, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -4677,7 +4677,7 @@ mondata SPECIES_PILOSWINE, "Piloswine"
 
 
 mondata SPECIES_CORSOLA, "Corsola"
-    basestats 65, 55, 125, 85, 65, 125
+    basestats 65, 55, 125, 35, 65, 125
     types TYPE_WATER, TYPE_ROCK
     catchrate 60
     baseexp 0 // defined in baseexp.s
@@ -6378,7 +6378,7 @@ mondata SPECIES_SABLEYE, "Sableye"
 
 
 mondata SPECIES_MAWILE, "Mawile"
-    basestats 80, 85, 85, 50, 85, 85
+    basestats 80, 85, 85, 50, 75, 75
     types TYPE_STEEL, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -6483,7 +6483,7 @@ mondata SPECIES_MEDITITE, "Meditite"
 
 
 mondata SPECIES_MEDICHAM, "Medicham"
-    basestats 60, 90, 75, 80, 90, 75
+    basestats 64, 90, 75, 80, 90, 75
     types TYPE_FIGHTING, TYPE_PSYCHIC
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -8699,7 +8699,7 @@ mondata SPECIES_WORMADAM, "Wormadam"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_ANTICIPATION, ABILITY_NONE
+    abilities ABILITY_ANTICIPATION, ABILITY_HEATPROOF
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_WORMADAM, "It is said that a WORMADAM that\nevolves on a cold day will have a\nthicker cloak."
@@ -10505,7 +10505,7 @@ mondata SPECIES_WORMADAM_SANDY, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_ANTICIPATION, ABILITY_NONE
+    abilities ABILITY_ANTICIPATION, ABILITY_SAND_VEIL
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_WORMADAM_SANDY, "-----"
@@ -10526,7 +10526,7 @@ mondata SPECIES_WORMADAM_TRASHY, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_ANTICIPATION, ABILITY_NONE
+    abilities ABILITY_ANTICIPATION, ABILITY_HEAVY_METAL
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_WORMADAM_TRASHY, "-----"
@@ -19188,7 +19188,7 @@ mondata SPECIES_OBSTAGOON, "Obstagoon"
 
 
 mondata SPECIES_PERRSERKER, "Perrserker"
-    basestats 70, 110, 100, 50, 50, 60
+    basestats 90, 140, 130, 50, 50, 70
     types TYPE_STEEL, TYPE_FIGHTING
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -19209,7 +19209,7 @@ mondata SPECIES_PERRSERKER, "Perrserker"
 
 
 mondata SPECIES_CURSOLA, "Cursola"
-    basestats 60, 95, 50, 30, 145, 130
+    basestats 70, 95, 65, 30, 145, 135
     types TYPE_GHOST, TYPE_ROCK
     catchrate 30
     baseexp 0 // defined in baseexp.s
@@ -19230,7 +19230,7 @@ mondata SPECIES_CURSOLA, "Cursola"
 
 
 mondata SPECIES_SIRFETCHD, "Sirfetch’d"
-    basestats 62, 135, 95, 65, 68, 82
+    basestats 82, 135, 125, 75, 88, 60
     types TYPE_FIGHTING, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -21246,7 +21246,7 @@ mondata SPECIES_WIGLETT, "Wiglett"
 
 
 mondata SPECIES_WUGTRIO, "Wugtrio"
-    basestats 35, 100, 50, 120, 50, 70
+    basestats 50, 100, 90, 130, 50, 90
     types TYPE_WATER, TYPE_WATER
     catchrate 50
     baseexp 0 // defined in baseexp.s
@@ -21645,7 +21645,7 @@ mondata SPECIES_ANNIHILAPE, "Annihilape"
 
 
 mondata SPECIES_CLODSIRE, "Clodsire"
-    basestats 130, 75, 60, 20, 45, 100
+    basestats 130, 75, 60, 20, 65, 100
     types TYPE_POISON, TYPE_GROUND
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -21687,7 +21687,7 @@ mondata SPECIES_FARIGIRAF, "Farigiraf"
 
 
 mondata SPECIES_DUDUNSPARCE, "Dudunspars"
-    basestats 125, 100, 80, 55, 85, 75
+    basestats 145, 110, 100, 55, 85, 95
     types TYPE_NORMAL, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -22675,7 +22675,7 @@ mondata SPECIES_MEGA_BLASTOISE, "-----"
     colorflip 0, 0
 
 mondata SPECIES_MEGA_BEEDRILL, "-----"
-    basestats 65, 150, 40, 145, 15, 80
+    basestats 65, 150, 45, 145, 45, 100
     types TYPE_BUG, TYPE_POISON
     catchrate 45
     baseexp 159
@@ -23011,7 +23011,7 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
     colorflip 0, 0
 
 mondata SPECIES_MEGA_SABLEYE, "-----"
-    basestats 50, 85, 125, 20, 85, 115
+    basestats 100, 85, 125, 30, 85, 125
     types TYPE_DARK, TYPE_GHOST
     catchrate 45
     baseexp 98
@@ -23027,7 +23027,7 @@ mondata SPECIES_MEGA_SABLEYE, "-----"
     colorflip 0, 0
 
 mondata SPECIES_MEGA_MAWILE, "-----"
-    basestats 50, 105, 125, 50, 55, 95
+    basestats 80, 105, 125, 70, 75, 95
     types TYPE_STEEL, TYPE_FAIRY
     catchrate 45
     baseexp 98
@@ -23059,7 +23059,7 @@ mondata SPECIES_MEGA_AGGRON, "-----"
     colorflip 0, 0
 
 mondata SPECIES_MEGA_MEDICHAM, "-----"
-    basestats 60, 100, 85, 100, 80, 85
+    basestats 64, 110, 85, 110, 120, 85
     types TYPE_FIGHTING, TYPE_PSYCHIC
     catchrate 90
     baseexp 153
@@ -23427,7 +23427,7 @@ mondata SPECIES_RATTATA_ALOLAN, "-----"
     colorflip BODY_COLOR_BLACK, 0
 
 mondata SPECIES_RATICATE_ALOLAN, "-----"
-    basestats 75, 71, 70, 77, 40, 80
+    basestats 95, 80, 90, 75, 40, 80
     types TYPE_NORMAL, TYPE_DARK
     catchrate 127
     baseexp 145
@@ -23539,7 +23539,7 @@ mondata SPECIES_DIGLETT_ALOLAN, "-----"
     colorflip BODY_COLOR_BROWN, 0
 
 mondata SPECIES_DUGTRIO_ALOLAN, "-----"
-    basestats 35, 100, 60, 110, 50, 70
+    basestats 50, 100, 100, 120, 50, 90
     types TYPE_GROUND, TYPE_STEEL
     catchrate 50
     baseexp 149
@@ -23571,7 +23571,7 @@ mondata SPECIES_MEOWTH_ALOLAN, "-----"
     colorflip BODY_COLOR_GRAY, 0
 
 mondata SPECIES_PERSIAN_ALOLAN, "-----"
-    basestats 65, 60, 60, 115, 75, 65
+    basestats 85, 60, 60, 115, 135, 75
     types TYPE_DARK, TYPE_DARK
     catchrate 90
     baseexp 154
@@ -23683,7 +23683,7 @@ mondata SPECIES_EXEGGUTOR_ALOLAN, "-----"
     colorflip BODY_COLOR_YELLOW, 0
 
 mondata SPECIES_MAROWAK_ALOLAN, "-----"
-    basestats 60, 80, 110, 45, 50, 80
+    basestats 80, 80, 110, 45, 50, 110
     types TYPE_FIRE, TYPE_GHOST
     catchrate 75
     baseexp 149
@@ -23779,7 +23779,7 @@ mondata SPECIES_SLOWBRO_GALARIAN, "-----"
     colorflip BODY_COLOR_PINK, 0
 
 mondata SPECIES_FARFETCHD_GALARIAN, "-----"
-    basestats 52, 95, 55, 55, 58, 62
+    basestats 72, 115, 55, 75, 88, 60
     types TYPE_FIGHTING, TYPE_FLYING
     catchrate 45
     baseexp 132
@@ -23891,7 +23891,7 @@ mondata SPECIES_SLOWKING_GALARIAN, "-----"
     colorflip BODY_COLOR_PINK, 0
 
 mondata SPECIES_CORSOLA_GALARIAN, "-----"
-    basestats 60, 55, 100, 30, 65, 100
+    basestats 60, 55, 130, 30, 65, 130
     types TYPE_GHOST, TYPE_ROCK
     catchrate 60
     baseexp 144
@@ -26899,7 +26899,7 @@ mondata SPECIES_TATSUGIRI_STRETCHY, "-----"
     colorflip BODY_COLOR_PINK, 0
 
 mondata SPECIES_DUDUNSPARCE_THREE_SEGMENT, "-----"
-    basestats 125, 100, 80, 55, 85, 75
+    basestats 145, 110, 100, 55, 85, 95
     types TYPE_NORMAL, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -27214,6 +27214,6 @@ mondata SPECIES_URSALUNA_BLOODMOON, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_SCRAPPY, ABILITY_NONE
+    abilities ABILITY_MINDS_EYE, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
