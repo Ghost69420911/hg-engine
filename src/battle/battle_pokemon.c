@@ -1190,3 +1190,23 @@ BOOL LONG_CALL DoesSideHave2Battlers(void *bw, u32 client)
     }
     return FALSE;
 }
+
+int GetBattlerStatusCondition(struct BattleStruct *ctx, int battlerId) {
+    if (ctx->battlemon[battlerId].condition & STATUS_FLAG_ASLEEP) {
+        return STATUS_FLAG_ASLEEP;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_POISONED) {
+        return STATUS_FLAG_POISONED;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_BURNED) {
+        return STATUS_FLAG_BURNED;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_FROZEN) {
+        return STATUS_FLAG_FROZEN;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_PARALYZED) {
+        return STATUS_FLAG_PARALYZED;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_BADLY_POISONED) {
+        return STATUS_FLAG_BADLY_POISONED;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_FROSTBITTEN) {
+        return STATUS_FLAG_FROSTBITTEN;
+    }
+
+    return STATUS_FLAG_NONE;
+}

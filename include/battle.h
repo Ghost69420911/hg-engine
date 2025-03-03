@@ -220,6 +220,7 @@
  *  in BattleStruct's battlemon[battler].condition field
  *     or GetMonData(mon, MON_DATA_STATUS, NULL);
  */
+#define STATUS_FLAG_NONE (0x00) 
 #define STATUS_FLAG_ASLEEP (0x07)
 #define STATUS_FLAG_POISONED (0x08)
 #define STATUS_FLAG_BURNED (0x10)
