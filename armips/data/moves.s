@@ -939,11 +939,11 @@ movedata MOVE_SURF, "Surf"
 movedata MOVE_ICE_BEAM, "Ice Beam"
     battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 9
     type TYPE_ICE
     accuracy 100
     pp 10
-    effectchance 10
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -2041,13 +2041,13 @@ movedata MOVE_FIRE_BLAST, "Fire Blast"
     movedescription MOVE_FIRE_BLAST, "The foe is attacked\nwith an intense blast\nof all-consuming fire.\nIt may also leave the\ntarget with a burn."
 
 movedata MOVE_WATERFALL, "Waterfall"
-    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
+    battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_WATER
     accuracy 100
     pp 15
-    effectchance 100
+    effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
