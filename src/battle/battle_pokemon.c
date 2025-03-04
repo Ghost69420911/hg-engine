@@ -1233,21 +1233,21 @@ BOOL LONG_CALL DoesSideHave2Battlers(void *bw, u32 client)
 }
 
 int GetBattlerStatusCondition(struct BattleStruct *ctx, int battlerId) {
-    if (ctx->battlemon[battlerId].condition & STATUS_FLAG_ASLEEP) {
-        return STATUS_FLAG_ASLEEP;
-    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_POISONED) {
-        return STATUS_FLAG_POISONED;
-    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_BURNED) {
-        return STATUS_FLAG_BURNED;
-    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_FROZEN) {
-        return STATUS_FLAG_FROZEN;
-    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_PARALYZED) {
-        return STATUS_FLAG_PARALYZED;
-    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_BADLY_POISONED) {
-        return STATUS_FLAG_BADLY_POISONED;
-    } else if (ctx->battlemon[battlerId].condition & STATUS_FLAG_FROSTBITTEN) {
-        return STATUS_FLAG_FROSTBITTEN;
+    if (ctx->battlemon[battlerId].condition & STATUS_SLEEP) {
+        return CONDITION_SLEEP;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_POISON) {
+        return CONDITION_POISON;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_BURN) {
+        return CONDITION_BURN;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FREEZE) {
+        return CONDITION_FREEZE;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_PARALYSIS) {
+        return CONDITION_PARALYSIS;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_BAD_POISON) {
+        return CONDITION_POISON;
+    } else if (ctx->battlemon[battlerId].condition & STATUS_FROSTBITE) {
+        return CONDITION_FROSTBITE;
     }
 
-    return STATUS_FLAG_NONE;
+    return CONDITION_NONE;
 }

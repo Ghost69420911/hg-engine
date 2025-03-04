@@ -513,7 +513,7 @@ BOOL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int server_seq_n
         else if(sp->battlemon[sp->battlerIdTemp].condition & STATUS_PARALYSIS) {
             seq_no = SUB_SEQ_APPLY_PARALYSIS;
 		}
-        else if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_FROSTBITTEN) {
+        else if(sp->battlemon[sp->battlerIdTemp].condition & STATUS_FROSTBITE) {
             seq_no = SUB_SEQ_APPLY_FROSTBITE;
         }
         if(seq_no) {

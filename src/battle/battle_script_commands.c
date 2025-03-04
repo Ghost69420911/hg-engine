@@ -1122,6 +1122,9 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             case MOVE_EFFECT_RAISE_SPEED_HIT:
             case MOVE_EFFECT_POISON_HIT:
             case MOVE_EFFECT_FREEZE_HIT:
+			case MOVE_EFFECT_FROSTBITE_HIT:
+			case MOVE_EFFECT_FROSTBITE_BLIZZARD:
+			case MOVE_EFFECT_FLINCH_FROSTBITE_HIT:
             case MOVE_EFFECT_FLINCH_FREEZE_HIT:
             case MOVE_EFFECT_RAISE_ATTACK_HIT:
             case MOVE_EFFECT_LOWER_ACCURACY_HIT:
@@ -3718,7 +3721,7 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     if (sp->battlemon[sp->defence_client].condition & (STATUS_SLEEP | STATUS_FREEZE))
         captureRate *= 2;
 
-    if (sp->battlemon[sp->defence_client].condition & (STATUS_POISON_ALL | STATUS_BURN | STATUS_PARALYSIS))
+    if (sp->battlemon[sp->defence_client].condition & (STATUS_POISON_ALL | STATUS_BURN | STATUS_PARALYSIS | STATUS_FROSTBITE))
         captureRate = captureRate * 15 / 10;
 
     if (captureRate > 255)

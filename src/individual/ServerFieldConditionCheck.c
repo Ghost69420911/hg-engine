@@ -849,8 +849,8 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp) {
                 while (sp->scc_work < client_set_max) {
                     battlerId = sp->turnOrder[sp->scc_work];
 
-                    if ((sp->battlemon[battlerId].condition & STATUS_FLAG_FROSTBITTEN) && sp->battlemon[battlerId].hp != 0) {
-                        sp->client_work = battlerId;
+                    if ((sp->battlemon[battlerId].condition & STATUS_FROSTBITE) && sp->battlemon[battlerId].hp != 0) {
+                        sp->battlerIdTemp = battlerId;
                         LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_FROSTBITE_DAMAGE);
                         sp->next_server_seq_no = sp->server_seq_no;
                         sp->server_seq_no = 22;

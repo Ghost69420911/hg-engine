@@ -289,10 +289,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 130 / 100;
     }
 
-    // handle punk rock
-    if (AttackingMon.ability == ABILITY_PUNK_ROCK && IsMoveSoundBased(sp->current_move_index))
+    // handle cacophony
+    if (AttackingMon.ability == ABILITY_CACOPHONY && IsMoveSoundBased(sp->current_move_index))
     {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 150 / 100;
     }
 
 
@@ -908,7 +908,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if (movesplit == SPLIT_SPECIAL)
 	{
         // frostbite halves special damage.  this is ignored by guts and facade for parity with burn
-		if ((AttackingMon.condition & STATUS_FLAG_FROSTBITTEN) && (AttackingMon.ability != ABILITY_GUTS) && (moveno != MOVE_FACADE))
+		if ((AttackingMon.condition & STATUS_FROSTBITE) && (AttackingMon.ability != ABILITY_GUTS) && (moveno != MOVE_FACADE))
         {
             damage /= 2;
         }
@@ -1015,8 +1015,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         damage /= 2;
     }
 
-    // handle punk rock TODO uncomment
-    if (DefendingMon.ability == ABILITY_PUNK_ROCK && IsMoveSoundBased(moveno))
+    // handle CACOPHONY TODO uncomment
+    if (DefendingMon.ability == ABILITY_CACOPHONY && IsMoveSoundBased(moveno))
     {
         damage /= 2;
     }
