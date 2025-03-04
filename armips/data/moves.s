@@ -944,7 +944,7 @@ movedata MOVE_ICE_BEAM, "Ice Beam"
     type TYPE_ICE
     accuracy 100
     pp 10
-    effectchance 10
+    effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
