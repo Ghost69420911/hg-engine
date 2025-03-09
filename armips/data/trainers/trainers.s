@@ -5,7 +5,7 @@
 .include "armips/include/macros.s"
 
 .include "asm/include/abilities.inc"
-.include "asm/include/items.inc"
+.include "asm/include/items.inc"			
 .include "asm/include/moves.inc"
 .include "asm/include/species.inc"
 
@@ -28503,7 +28503,7 @@ trainerdata 138, "Wallace" //Mickey
 trainerdata 141, "Juan" //Mickey
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_JUAN
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -28523,7 +28523,7 @@ trainerdata 141, "Juan" //Mickey
         move MOVE_NONE
         move MOVE_NONE
         move MOVE_NONE
-		ability ABILITY_SHIELDS_DOWN        
+		ability ABILITY_MARVEL_SCALE     
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -28534,13 +28534,30 @@ trainerdata 141, "Juan" //Mickey
         ivs 0
         abilityslot 0
         level 80
-        monwithform SPECIES_SHAYMIN, 1
+        monwithform SPECIES_SLOWPOKE, 1
 		item ITEM_ASPEAR_BERRY
-        move MOVE_LUNAR_BLESSING
+        move MOVE_JUNGLE_HEALING
         move MOVE_NONE
         move MOVE_NONE
         move MOVE_NONE
-		ability ABILITY_MARVEL_SCALE
+		ability ABILITY_SYNCHRONIZE
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+		// mon 2
+        ivs 0
+        abilityslot 0
+        level 80
+        monwithform SPECIES_URSALUNA, 1
+		item ITEM_ASPEAR_BERRY
+        move MOVE_JUNGLE_HEALING
+        move MOVE_NONE
+        move MOVE_NONE
+        move MOVE_NONE
+		ability ABILITY_SYNCHRONIZE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT

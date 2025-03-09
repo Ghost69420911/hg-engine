@@ -127,6 +127,189 @@ enum
 };
 
 /**
+ *  @brief check if held item effect needs to activate, specifically directly after moves. for things like healing items
+ *
+ *  @param bw battle work structure; void * because we haven't defined the battle work structure
+ *  @param sp global battle structure
+ *  @param battlerId is the battler to check
+ *  @return TRUE if a held item effect is going to happen; FALSE otherwise
+ */
+BOOL LONG_CALL TryUseHeldItem(void *bw, struct BattleStruct *sp, int battlerId) {
+    BOOL ret = FALSE;
+	int script;
+	int item;
+	
+	item = HeldItemHoldEffectGet(sp, battlerId);
+
+if (sp->battlemon[battlerId].hp) {
+	 switch (item) {
+        case HOLD_EFFECT_PRZ_RESTORE: // cheri berry
+            if (sp->battlemon[battlerId].condition & STATUS_PARALYSIS) {
+                script = SUB_SEQ_ITEM_RECOVER_PRZ;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_SLP_RESTORE: // chesto berry
+            if (sp->battlemon[battlerId].condition & STATUS_SLEEP) {
+                script = SUB_SEQ_ITEM_RECOVER_SLP;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_PSN_RESTORE: // pecha berry
+            if (sp->battlemon[battlerId].condition & STATUS_POISON_ALL) {
+                script = SUB_SEQ_ITEM_RECOVER_PSN;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_BRN_RESTORE: // rawst berry
+            if (sp->battlemon[battlerId].condition & STATUS_BURN) {
+                script = SUB_SEQ_ITEM_RECOVER_BRN;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_FRZ_RESTORE: // aspear berry
+            if (sp->battlemon[battlerId].condition & (STATUS_FREEZE | STATUS_FROSTBITE)) {
+                script = SUB_SEQ_ITEM_RECOVER_FRZ;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_CONFUSE_RESTORE: // persim berry
+            if (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION) { 
+                script = SUB_SEQ_ITEM_RECOVER_CNF;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_STATUS_RESTORE: // lum berry
+            if ((sp->battlemon[battlerId].condition & STATUS_ALL) || (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION)) {
+                if (sp->battlemon[battlerId].condition & STATUS_PARALYSIS) {
+                    script = SUB_SEQ_ITEM_RECOVER_PRZ;
+                }
+                if (sp->battlemon[battlerId].condition & STATUS_SLEEP) {
+                    script = SUB_SEQ_ITEM_RECOVER_SLP;
+                }
+                if (sp->battlemon[battlerId].condition & STATUS_POISON_ALL) {
+                    script = SUB_SEQ_ITEM_RECOVER_PSN;
+                }
+                if (sp->battlemon[battlerId].condition & STATUS_BURN) {
+                    script = SUB_SEQ_ITEM_RECOVER_BRN;
+                }
+                if (sp->battlemon[battlerId].condition & (STATUS_FREEZE | STATUS_FROSTBITE)) {
+                    script = SUB_SEQ_ITEM_RECOVER_FRZ;
+                }
+                if (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION) {
+                    script = SUB_SEQ_ITEM_RECOVER_CNF;
+                }
+                if ((sp->battlemon[battlerId].condition & STATUS_ALL) && (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION)) {
+                    script = SUB_SEQ_ITEM_RECOVER_ALL;
+                }
+                ret = TRUE;
+            }
+            break;
+		default:
+            break;
+        }
+        if (ret == TRUE) {
+            sp->battlerIdTemp = battlerId;
+            sp->item_work = GetBattleMonItem(sp, battlerId);
+            LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, script);
+            sp->next_server_seq_no = sp->server_seq_no;
+            sp->server_seq_no = 22;
+        }
+    }
+    return ret;
+}
+
+/**
+ *  @brief check if held item effect needs to activate, specifically directly after moves.  for things like status items
+ *
+ *  @param bw battle work structure; void * because we haven't defined the battle work structure
+ *  @param sp global battle structure
+ *  @param battlerId is the battler to check
+ *  @param script is the script to run if TRUE is returned; LoadBattleSubSeqScript is used for this one ???NOT CALLED IN PRET
+ *  @return TRUE if a held item effect is going to happen and *seq_no is assigned that number; FALSE otherwise
+ */
+BOOL LONG_CALL HeldItemHealStatusCheck(void *bw, struct BattleStruct *sp, int battlerId, int *script) {
+    BOOL ret = FALSE;
+    int item;
+    
+	item = HeldItemHoldEffectGet(sp, battlerId);
+
+if (sp->battlemon[battlerId].hp) {
+	 switch (item) {
+        case HOLD_EFFECT_PRZ_RESTORE: // cheri berry
+            if (sp->battlemon[battlerId].condition & STATUS_PARALYSIS) {
+                *script = SUB_SEQ_ITEM_RECOVER_PRZ;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_SLP_RESTORE: // chesto berry
+            if (sp->battlemon[battlerId].condition & STATUS_SLEEP) {
+                *script = SUB_SEQ_ITEM_RECOVER_SLP;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_PSN_RESTORE: // pecha berry
+            if (sp->battlemon[battlerId].condition & STATUS_POISON_ALL) {
+                *script = SUB_SEQ_ITEM_RECOVER_PSN;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_BRN_RESTORE: // rawst berry
+            if (sp->battlemon[battlerId].condition & STATUS_BURN) {
+                *script = SUB_SEQ_ITEM_RECOVER_BRN;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_FRZ_RESTORE: // aspear berry
+            if (sp->battlemon[battlerId].condition & (STATUS_FREEZE | STATUS_FROSTBITE)) {
+                *script = SUB_SEQ_ITEM_RECOVER_FRZ;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_CONFUSE_RESTORE: // persim berry
+            if (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION) { 
+                *script = SUB_SEQ_ITEM_RECOVER_CNF;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_STATUS_RESTORE: // lum berry
+            if ((sp->battlemon[battlerId].condition & STATUS_ALL) || (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION)) {
+                if (sp->battlemon[battlerId].condition & STATUS_PARALYSIS) {
+                    *script = SUB_SEQ_ITEM_RECOVER_PRZ;
+                }
+                if (sp->battlemon[battlerId].condition & STATUS_SLEEP) {
+                    *script = SUB_SEQ_ITEM_RECOVER_SLP;
+                }
+                if (sp->battlemon[battlerId].condition & STATUS_POISON_ALL) {
+                    *script = SUB_SEQ_ITEM_RECOVER_PSN;
+                }
+                if (sp->battlemon[battlerId].condition & STATUS_BURN) {
+                    *script = SUB_SEQ_ITEM_RECOVER_BRN;
+                }
+                if (sp->battlemon[battlerId].condition & (STATUS_FREEZE | STATUS_FROSTBITE)) {
+                    *script = SUB_SEQ_ITEM_RECOVER_FRZ;
+                }
+                if (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION) {
+                    *script = SUB_SEQ_ITEM_RECOVER_CNF;
+                }
+                if ((sp->battlemon[battlerId].condition & STATUS_ALL) && (sp->battlemon[battlerId].condition2 & STATUS2_CONFUSION)) {
+                    *script = SUB_SEQ_ITEM_RECOVER_ALL;
+                }
+                ret = TRUE;
+            }
+            break;
+        default:
+            break;
+        }
+        if (ret == TRUE) {
+            sp->item_work = GetBattleMonItem(sp, battlerId);
+        }
+    }
+    return ret;
+}
+
+
+/**
  *  @brief handle item effects for an attacker's items on move hit.  loads the subscript and returns to parent
  *         this function is for an attacker's held item effect triggering after hitting with a move
  *

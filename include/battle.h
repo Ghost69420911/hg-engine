@@ -2374,21 +2374,21 @@ BOOL LONG_CALL Battle_IsFishingEncounter(void *bw);
  *
  *  @param bw battle work structure; void * because we haven't defined the battle work structure
  *  @param sp global battle structure
- *  @param client_no is the battler to check
+ *  @param battlerId is the battler to check
  *  @return TRUE if a held item effect is going to happen; FALSE otherwise
  */
-BOOL LONG_CALL TryUseHeldItem(void *bw, struct BattleStruct *sp, int client_no);
+BOOL LONG_CALL TryUseHeldItem(void *bw, struct BattleStruct *sp, int battlerId);
 
 /**
  *  @brief check if held item effect needs to activate, specifically directly after moves.  for things like status items
  *
  *  @param bw battle work structure; void * because we haven't defined the battle work structure
  *  @param sp global battle structure
- *  @param client_no is the battler to check
- *  @param seq_no is the script to run if TRUE is returned; LoadBattleSubSeqScript is used for this one
+ *  @param battlerId is the battler to check
+ *  @param script is the script to run if TRUE is returned; LoadBattleSubSeqScript is used for this one
  *  @return TRUE if a held item effect is going to happen and *seq_no is assigned that number; FALSE otherwise
  */
-BOOL LONG_CALL HeldItemHealStatusCheck(void *bw, struct BattleStruct *sp, int client_no, int *seq_no);
+BOOL LONG_CALL HeldItemHealStatusCheck(void *bw, struct BattleStruct *sp, int battlerId, int *script);
 
 /**
  *  @brief
@@ -3233,6 +3233,8 @@ void LONG_CALL BattleControllerPlayer_CalcExecutionOrder(struct BattleSystem *bw
 BOOL LONG_CALL CurseUserIsGhost(struct BattleStruct *ctx, u16 moveNo, int battlerId);
 
 void LONG_CALL UnlockBattlerOutOfCurrentMove(struct BattleSystem *bsys, struct BattleStruct *ctx, int battlerId);
+
+int LONG_CALL GetBattlerStatusCondition(struct BattleStruct *ctx, int battlerId);
 
 /**
  *  @brief checks if the given moveNo is a two-turn move at all
