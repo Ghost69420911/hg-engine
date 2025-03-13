@@ -2374,21 +2374,21 @@ BOOL LONG_CALL Battle_IsFishingEncounter(void *bw);
  *
  *  @param bw battle work structure; void * because we haven't defined the battle work structure
  *  @param sp global battle structure
- *  @param battlerId is the battler to check
+ *  @param client_no is the battler to check
  *  @return TRUE if a held item effect is going to happen; FALSE otherwise
  */
-BOOL LONG_CALL TryUseHeldItem(void *bw, struct BattleStruct *sp, int battlerId);
+BOOL LONG_CALL TryUseHeldItem(void *bw, struct BattleStruct *sp, int client_no);
 
 /**
  *  @brief check if held item effect needs to activate, specifically directly after moves.  for things like status items
  *
  *  @param bw battle work structure; void * because we haven't defined the battle work structure
  *  @param sp global battle structure
- *  @param battlerId is the battler to check
- *  @param script is the script to run if TRUE is returned; LoadBattleSubSeqScript is used for this one
+ *  @param client_no is the battler to check
+ *  @param seq_no is the script to run if TRUE is returned; LoadBattleSubSeqScript is used for this one
  *  @return TRUE if a held item effect is going to happen and *seq_no is assigned that number; FALSE otherwise
  */
-BOOL LONG_CALL HeldItemHealStatusCheck(void *bw, struct BattleStruct *sp, int battlerId, int *script);
+BOOL LONG_CALL HeldItemHealStatusCheck(void *bw, struct BattleStruct *sp, int client_no, int *seq_no);
 
 /**
  *  @brief
