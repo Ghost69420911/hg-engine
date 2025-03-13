@@ -94,6 +94,7 @@ BOOL BtlCmd_TryWish(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_TryFutureSight(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_SetMultiHit(struct BattleSystem *bsys, struct BattleStruct *ctx);
 BOOL BtlCmd_TrySubstitute(void *bw, struct BattleStruct *sp);
+BOOL BtlCmd_TrySwapItems(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_RapidSpin(void *bw, struct BattleStruct *sp);
 BOOL CanKnockOffApply(struct BattleSystem *bw, struct BattleStruct *sp);
 BOOL BtlCmd_GenerateEndOfBattleItem(struct BattleSystem *bw, struct BattleStruct *sp);
@@ -1168,14 +1169,14 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
                 break;
         }
         // moves boosted by sheer force that still maintain their effect
-        if ((sp->current_move_index == MOVE_SPARKLING_ARIA) 
+        if ((sp->current_move_index == MOVE_SPARKLING_ARIA)
         // || (sp->current_move_index == MOVE_GENESIS_SUPERNOVA) // doesnt have an eff atm but still on the table
-         || (sp->current_move_index == MOVE_SPIRIT_SHACKLE) 
-         || (sp->current_move_index == MOVE_ANCHOR_SHOT) 
+         || (sp->current_move_index == MOVE_SPIRIT_SHACKLE)
+         || (sp->current_move_index == MOVE_ANCHOR_SHOT)
         // || (sp->current_move_index == MOVE_EERIE_SPELL) // same as genesis supernova
-         || (sp->current_move_index == MOVE_CEASELESS_EDGE) 
-         || (sp->current_move_index == MOVE_STONE_AXE) 
-         || (sp->current_move_index == MOVE_ELECTRO_SHOT)) { // according to bulbapedia but only on the electro shot page ? 
+         || (sp->current_move_index == MOVE_CEASELESS_EDGE)
+         || (sp->current_move_index == MOVE_STONE_AXE)
+         || (sp->current_move_index == MOVE_ELECTRO_SHOT)) { // according to bulbapedia but only on the electro shot page ?
             sp->battlemon[sp->attack_client].sheer_force_flag = 1;
         }
     }
@@ -3033,7 +3034,7 @@ BOOL btl_scr_cmd_FF_checkcanactivatedefiantorcompetitive(void *bsys UNUSED, stru
     int failAddress = read_battle_script_param(ctx);
     int handleDefiantAddress = read_battle_script_param(ctx);
     int handleCompetitiveAddress = read_battle_script_param(ctx);
-    
+
     if ((ctx->battlemon[ctx->state_client].hp != 0)
     && (ctx->oneSelfFlag[ctx->state_client].defiant_flag)
     && (ctx->battlemon[ctx->state_client].states[STAT_ATTACK] < 12)
@@ -3978,6 +3979,107 @@ BOOL BtlCmd_GenerateEndOfBattleItem(struct BattleSystem *bw, struct BattleStruct
             }
         }
     }
+
+    return FALSE;
+}
+
+/**
+ *  @brief check if a held item can be removed from the species it is attached to
+ *
+ *  @param species the species of the mon
+ *  @param item the held item of the attacker
+ *  @return TRUE if item can be removed, FALSE otherwise
+ */
+BOOL LONG_CALL CanItemBeRemovedFromSpecies(u16 species, u16 item)
+{
+    // blanket item bans
+    if (IS_ITEM_MAIL(item) /*|| IS_ITEM_Z_CRYSTAL(item)*/)
+        return FALSE;
+
+    // then species-specific
+    switch (species) {
+    case SPECIES_ZAMAZENTA:
+        return item != ITEM_RUSTED_SHIELD;
+    case SPECIES_ZACIAN:
+        return item != ITEM_RUSTED_SWORD;
+    case SPECIES_GENESECT:
+        return !IS_ITEM_GENESECT_DRIVE(item);
+    case SPECIES_KYOGRE:
+        return item != ITEM_BLUE_ORB;
+    case SPECIES_GROUDON:
+        return item != ITEM_RED_ORB;
+    case SPECIES_GIRATINA:
+        return item != ITEM_GRISEOUS_ORB && item != ITEM_GRISEOUS_CORE;
+    case SPECIES_SILVALLY:
+        return !IS_ITEM_MEMORY(item);
+    case SPECIES_OGERPON:
+        return !IS_ITEM_MASK(item);
+    }
+
+    // then the other swathes of species
+    if ((IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
+     || CheckMegaData(species, item))
+        return FALSE;
+
+    return TRUE;
+}
+
+/**
+ *  @brief check if a held item can be tricked or not depending on the items and species
+ *
+ *  @param attacker_item the held item of the attacker
+ *  @param attacker_species the attacker species
+ *  @param defender_item the held item of the defender
+ *  @param defender_species the defender species
+ *  @return TRUE if the interacting species and items can trick, FALSE otherwise
+ */
+BOOL LONG_CALL CanTrickHeldItem(u16 attacker_item, u16 attacker_species, u16 defender_item, u16 defender_species)
+{
+    // if( ((attacker_item == ITEM_RUSTED_SHIELD || defender_item == ITEM_RUSTED_SHIELD) && (attacker_species == SPECIES_ZAMAZENTA || defender_species == SPECIES_ZAMAZENTA))
+    //     || ((attacker_item == ITEM_RUSTED_SWORD || defender_item == ITEM_RUSTED_SWORD) && (attacker_species == SPECIES_ZACIAN || defender_species == SPECIES_ZACIAN))
+    //     || ((IS_ITEM_GENESECT_DRIVE(attacker_item) || IS_ITEM_GENESECT_DRIVE(defender_item)) && (attacker_species == SPECIES_GENESECT || defender_species == SPECIES_GENESECT))
+    //     || ((attacker_item == ITEM_BLUE_ORB || defender_item == ITEM_BLUE_ORB) && (attacker_species == SPECIES_KYOGRE || defender_species == SPECIES_KYOGRE))
+    //     || ((attacker_item == ITEM_RED_ORB || defender_item == ITEM_RED_ORB) && (attacker_species == SPECIES_GROUDON || defender_species == SPECIES_GROUDON))
+    //     || ((attacker_item == ITEM_GRISEOUS_ORB || defender_item == ITEM_GRISEOUS_ORB) && (attacker_species == SPECIES_GIRATINA || defender_species == SPECIES_GIRATINA))
+    //     || ((IS_ITEM_MEMORY(attacker_item) || IS_ITEM_MEMORY(defender_item)) && (attacker_species == SPECIES_SILVALLY || defender_species == SPECIES_SILVALLY))
+    //     || ((attacker_item == ITEM_BOOSTER_ENERGY || defender_item == ITEM_BOOSTER_ENERGY) && (IS_SPECIES_PARADOX_FORM(attacker_species) || IS_SPECIES_PARADOX_FORM(defender_species)))
+    //     || ((IS_ITEM_MASK(attacker_item) || IS_ITEM_MASK(defender_item)) && (attacker_species == SPECIES_OGERPON || defender_species == SPECIES_OGERPON))
+    //     || (CheckMegaData(attacker_species, attacker_item) || CheckMegaData(defender_species, defender_item))
+    //     || (CheckMegaData(attacker_species, defender_item) || CheckMegaData(defender_species, attacker_item))
+    //     || IS_ITEM_MAIL(attacker_item) // || IS_ITEM_Z_CRYSTAL(attacker_item)
+    //     || IS_ITEM_MAIL(defender_item)) // || IS_ITEM_Z_CRYSTAL(defender_item)
+    //     return FALSE;
+    // return TRUE;
+    return (CanItemBeRemovedFromSpecies(attacker_species, attacker_item)
+         && CanItemBeRemovedFromSpecies(attacker_species, defender_item)
+         && CanItemBeRemovedFromSpecies(defender_species, attacker_item)
+         && CanItemBeRemovedFromSpecies(defender_species, defender_item));
+}
+
+BOOL BtlCmd_TrySwapItems(void* bw, struct BattleStruct *sp)
+{
+    IncrementBattleScriptPtr(sp, 1);
+
+    int attack = read_battle_script_param(sp);
+    int defence = read_battle_script_param(sp);
+
+    int isTrickAllowedInFight = BattleTypeGet(bw) & (BATTLE_TYPE_BATTLE_TOWER | BATTLE_TYPE_WIRELESS);
+#ifdef AI_CAN_GRAB_ITEMS
+    isTrickAllowedInFight = 0;
+#endif
+
+    int attackerItem = sp->battlemon[sp->attack_client].item;
+    int attackerSpecies = sp->battlemon[sp->attack_client].species;
+    int defenderItem = sp->battlemon[sp->defence_client].item;
+    int defenderSpecies = sp->battlemon[sp->defence_client].species;
+    if (isTrickAllowedInFight != 0)
+        IncrementBattleScriptPtr(sp, attack);
+    else if (attackerItem == 0 && defenderItem == 0)
+        IncrementBattleScriptPtr(sp, attack);
+    else if (!CanTrickHeldItem(attackerItem, attackerSpecies, defenderItem, defenderSpecies))
+        IncrementBattleScriptPtr(sp, attack);
+    else if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STICKY_HOLD) == TRUE)
+        IncrementBattleScriptPtr(sp, defence);
 
     return FALSE;
 }

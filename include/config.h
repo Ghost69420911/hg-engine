@@ -90,6 +90,9 @@
 // Uncomment this line to enable this functionality
 // #define IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS
 
+// Some forms only exist in their debut games, with accompying mechanics. IMPLEMENT_GONE_SPECIES_MECHANICS lets these forms' mechanics coexist with the latest mechanics. Examples include Noble Pokémon
+#define IMPLEMENT_DEXIT_FORMS_MECHANICS
+
 // EXPAND_PC_BOXES will expand the amount of pc boxes if enabled to 30
 // comment out the line below to keep the max at 18
 // #define EXPAND_PC_BOXES
@@ -109,6 +112,9 @@
 // RESTORE_ITEMS_AT_BATTLE_END will restore held items that are single-use at the end of battle (Gen 9)
 // comment out the line below to revert back to Gen 8- behavior
 #define RESTORE_ITEMS_AT_BATTLE_END
+
+// AI_CAN_GRAB_ITEMS allows to use Trick, Switcheroo, (Thief still todo) on the Player and actually grab items. This can result in lost items.
+#define AI_CAN_GRAB_ITEMS
 
 // PROTEAN_GENERATION defines the behavior that Protean should exhibit, where it either changes type every move (<=8) or changes type once per appearance in battle (>=9)
 #define PROTEAN_GENERATION 4
@@ -134,5 +140,8 @@
 
 // REUSABLE_TMS will make TMs infinite and hide the quantity number.
 #define REUSABLE_TMS
+
+// STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
+#define STATIC_HP_BAR
 
 #endif

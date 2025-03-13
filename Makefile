@@ -12,6 +12,11 @@ define n
 
 endef
 
+# Check if user cloned git repository correctly first thing to prevent excessive user enquiries
+ifneq ($(shell git rev-parse --is-inside-work-tree 2>/dev/null), true)
+$(error Current directory is not a git repository. Please follow the instructions in the README: https://github.com/BluRosie/hg-engine)
+endif
+
 ifneq ($(VALID_GAMECODE), 0)
 # invalid rom detected based on gamecode.  this primarily catches other-language roms
 $(error ROM Code read from $(ROMNAME) ($(GAMECODE)) does not match valid ROM Code ($(DESIRED_GAMECODE)).$(n)Please use a valid US HeartGold ROM.$(n)hg-engine does not work with non-USA ROM files)
@@ -441,6 +446,12 @@ move_narc: $(NARC_FILES)
 
 	@echo "form data table:"
 	cp $(POKEFORMDATATBL_BIN) $(POKEFORMDATATBL_TARGET)
+
+	@echo "form to species mapping table:"
+	cp $(FORMTOSPECIES_BIN) $(FORMTOSPECIES_TARGET)
+
+	@echo "form reversion mapping table:"
+	cp $(FORMREVERSION_BIN) $(FORMREVERSION_TARGET)
 
 # needed to keep the $(SDAT_OBJ_DIR)/WAVE_ARC_PV%/00.swav from being detected as an intermediate file
 .SECONDARY:
