@@ -191,8 +191,6 @@
 #define TRAINERCLASS_STAT_TRAINER_MARLEY    187
 #define TRAINERCLASS_STAT_TRAINER_MIRA      188
 #define TRAINERCLASS_STAT_TRAINER_RILEY     189
-<<<<<<< Updated upstream
-=======
 #define TRAINERCLASS_EVIL_TRAINER_VOLO      190
 #define TRAINERCLASS_CHAMPION_ALDER         191
 #define TRAINERCLASS_PKMN_TRAINER_ALAIN     192
@@ -236,7 +234,6 @@
 #define TRAINERCLASS_EX_NEO_PLASMA_COLERESS 230
 #define TRAINERCLASS_PKMN_TRAINER_EMMET     231
 #define TRAINERCLASS_PKMN_TRAINER_INGO      232
->>>>>>> Stashed changes
 
 // Only used to display attributes of phone contacts
 #define TRAINERCLASS_PHONE_MOM               200
