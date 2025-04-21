@@ -771,8 +771,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     {
         speed1 = speed1 * 15 / 10;
     }
-
-    if ((hold_effect1 == HOLD_EFFECT_DITTO_SPEED_UP) && (sp->battlemon[client1].species == SPECIES_DITTO))
+    if ((hold_effect1 == HOLD_EFFECT_DITTO_SPEED_UP) && ((sp->battlemon[client1].species == SPECIES_DITTO) || (sp->battlemon[client1].imposter_flag == 1)))
     {
         speed1 *= 2;
     }
@@ -827,7 +826,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         speed2 = speed2 * 15 / 10;
     }
 
-    if ((hold_effect2 == HOLD_EFFECT_DITTO_SPEED_UP) && (sp->battlemon[client2].species == SPECIES_DITTO))
+    if ((hold_effect2 == HOLD_EFFECT_DITTO_SPEED_UP) && ((sp->battlemon[client2].species == SPECIES_DITTO) || (sp->battlemon[client2].imposter_flag == 1)))
     {
         speed2 *= 2;
     }
@@ -1192,8 +1191,11 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     ability = sp->battlemon[attacker].ability;
 
     temp = (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_CRITRATE_UP) + critical_count + (ability == ABILITY_SUPER_LUCK)
-         + (2 * ((hold_effect == HOLD_EFFECT_CHANSEY_CRITRATE_UP) && (species == SPECIES_CHANSEY)))
-         + (2 * ((hold_effect == HOLD_EFFECT_FARFETCHD_CRITRATE_UP) && (species == SPECIES_FARFETCHD)));
+         + (2 * ((hold_effect == HOLD_EFFECT_CHANSEY_CRITRATE_UP) && (species == SPECIES_HAPPINY)))
+		 + (2 * ((hold_effect == HOLD_EFFECT_CHANSEY_CRITRATE_UP) && (species == SPECIES_CHANSEY)))
+		 + (2 * ((hold_effect == HOLD_EFFECT_CHANSEY_CRITRATE_UP) && (species == SPECIES_BLISSEY)))
+		 + (2 * ((hold_effect == HOLD_EFFECT_FARFETCHD_CRITRATE_UP) && (species == SPECIES_SIRFETCHD)))
+		 + (2 * ((hold_effect == HOLD_EFFECT_FARFETCHD_CRITRATE_UP) && (species == SPECIES_FARFETCHD)));
 
     if (temp > 4)
     {
@@ -2110,7 +2112,7 @@ BOOL LONG_CALL BattleSystem_CheckMoveEffect(void *bw, struct BattleStruct *sp, i
             sp->waza_status_flag &= ~MOVE_STATUS_FLAG_MISS;
         }
         // Blizzard is 100% accurate in Snow also
-        if (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY) && sp->moveTbl[move].effect == MOVE_EFFECT_BLIZZARD) {
+        if (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY) && sp->moveTbl[move].effect == (MOVE_EFFECT_BLIZZARD | MOVE_EFFECT_FROSTBITE_BLIZZARD)) {
             sp->waza_status_flag &= ~MOVE_STATUS_FLAG_MISS;
         }
     }

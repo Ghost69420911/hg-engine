@@ -5,7 +5,6 @@
 .include "armips/include/constants.s"
 .include "armips/include/config.s"
 .include "armips/include/movemacros.s"
-
 .include "asm/include/debug.inc"
 .include "asm/include/moves.inc"
 .include "asm/include/move_effects.inc"
@@ -30,7 +29,7 @@ movedata MOVE_POUND, "Pound"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 40
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 100
     pp 35
     effectchance 0
@@ -61,9 +60,9 @@ movedata MOVE_KARATE_CHOP, "Karate Chop"
 movedata MOVE_DOUBLE_SLAP, "Double Slap"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 15
-    type TYPE_NORMAL
-    accuracy 85
+    basepower 25
+    type TYPE_FIGHTING
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -77,9 +76,9 @@ movedata MOVE_DOUBLE_SLAP, "Double Slap"
 movedata MOVE_COMET_PUNCH, "Comet Punch"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 18
-    type TYPE_NORMAL
-    accuracy 85
+    basepower 25
+    type TYPE_FAIRY
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -94,7 +93,7 @@ movedata MOVE_MEGA_PUNCH, "Mega Punch"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 80
-    type TYPE_NORMAL
+    type TYPE_FIGHTING
     accuracy 85
     pp 20
     effectchance 0
@@ -109,8 +108,8 @@ movedata MOVE_MEGA_PUNCH, "Mega Punch"
 movedata MOVE_PAY_DAY, "Pay Day"
     battleeffect MOVE_EFFECT_INCREASE_PRIZE_MONEY
     pss SPLIT_PHYSICAL
-    basepower 40
-    type TYPE_NORMAL
+    basepower 120
+    type TYPE_STEEL
     accuracy 100
     pp 20
     effectchance 0
@@ -139,7 +138,7 @@ movedata MOVE_FIRE_PUNCH, "Fire Punch"
     movedescription MOVE_FIRE_PUNCH, "The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n"
 
 movedata MOVE_ICE_PUNCH, "Ice Punch"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_ICE
@@ -154,7 +153,7 @@ movedata MOVE_ICE_PUNCH, "Ice Punch"
     terminatedata
     movedescription MOVE_ICE_PUNCH, "The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n"
 
-movedata MOVE_THUNDER_PUNCH, "Thunder Punch"
+movedata MOVE_THUNDER_PUNCH, "Thunder Punch" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 75
@@ -206,7 +205,7 @@ movedata MOVE_GUILLOTINE, "Guillotine"
     battleeffect MOVE_EFFECT_ONE_HIT_KO
     pss SPLIT_PHYSICAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_STEEL
     accuracy 30
     pp 5
     effectchance 0
@@ -219,10 +218,10 @@ movedata MOVE_GUILLOTINE, "Guillotine"
     movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits."
 
 movedata MOVE_RAZOR_WIND, "Razor Wind"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT
+    battleeffect MOVE_EFFECT_HIT_IN_3_TURNS
     pss SPLIT_SPECIAL
-    basepower 80
-    type TYPE_NORMAL
+    basepower 120
+    type TYPE_FLYING
     accuracy 100
     pp 10
     effectchance 0
@@ -251,11 +250,11 @@ movedata MOVE_SWORDS_DANCE, "Swords Dance"
     movedescription MOVE_SWORDS_DANCE, "A frenetic dance to\nuplift the fighting\nspirit. It sharply\nraises the user’s\nAttack stat."
 
 movedata MOVE_CUT, "Cut"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_PHYSICAL
-    basepower 50
-    type TYPE_NORMAL
-    accuracy 95
+    basepower 60
+    type TYPE_STEEL
+    accuracy 100
     pp 30
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -317,9 +316,9 @@ movedata MOVE_WHIRLWIND, "Whirlwind"
 movedata MOVE_FLY, "Fly"
     battleeffect MOVE_EFFECT_FLY
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 100
     type TYPE_FLYING
-    accuracy 95
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -333,10 +332,10 @@ movedata MOVE_FLY, "Fly"
 movedata MOVE_BIND, "Bind"
     battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_PHYSICAL
-    basepower 15
+    basepower 35
     type TYPE_NORMAL
-    accuracy 85
-    pp 20
+    accuracy 95
+    pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -349,9 +348,9 @@ movedata MOVE_BIND, "Bind"
 movedata MOVE_SLAM, "Slam"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 100
     type TYPE_NORMAL
-    accuracy 75
+    accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -397,7 +396,7 @@ movedata MOVE_STOMP, "Stomp"
 movedata MOVE_DOUBLE_KICK, "Double Kick"
     battleeffect MOVE_EFFECT_HIT_TWICE
     pss SPLIT_PHYSICAL
-    basepower 30
+    basepower 50
     type TYPE_FIGHTING
     accuracy 100
     pp 30
@@ -414,7 +413,7 @@ movedata MOVE_MEGA_KICK, "Mega Kick"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 120
-    type TYPE_NORMAL
+    type TYPE_FIGHTING
     accuracy 75
     pp 5
     effectchance 0
@@ -491,7 +490,7 @@ movedata MOVE_HEADBUTT, "Headbutt"
     movedescription MOVE_HEADBUTT, "The user attacks with\nits head. It may make\nthe foe flinch. To find\nPokémon, hit trees."
 
 movedata MOVE_HORN_ATTACK, "Horn Attack"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_NORMAL
@@ -509,9 +508,9 @@ movedata MOVE_HORN_ATTACK, "Horn Attack"
 movedata MOVE_FURY_ATTACK, "Fury Attack"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 15
-    type TYPE_NORMAL
-    accuracy 85
+    basepower 25
+    type TYPE_DARK
+    accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -573,10 +572,10 @@ movedata MOVE_BODY_SLAM, "Body Slam"
 movedata MOVE_WRAP, "Wrap"
     battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_PHYSICAL
-    basepower 15
-    type TYPE_NORMAL
-    accuracy 90
-    pp 20
+    basepower 35
+    type TYPE_POISON
+    accuracy 95
+    pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -606,7 +605,7 @@ movedata MOVE_THRASH, "Thrash"
     battleeffect MOVE_EFFECT_CONTINUE_AND_CONFUSE_SELF
     pss SPLIT_PHYSICAL
     basepower 120
-    type TYPE_NORMAL
+    type TYPE_DARK
     accuracy 100
     pp 10
     effectchance 0
@@ -669,11 +668,11 @@ movedata MOVE_POISON_STING, "Poison Sting"
 movedata MOVE_TWINEEDLE, "Twineedle"
     battleeffect MOVE_EFFECT_POISON_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 25
+    basepower 45
     type TYPE_BUG
     accuracy 100
     pp 20
-    effectchance 20
+    effectchance 30
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -687,7 +686,7 @@ movedata MOVE_PIN_MISSILE, "Pin Missile"
     pss SPLIT_PHYSICAL
     basepower 25
     type TYPE_BUG
-    accuracy 95
+    accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -939,13 +938,13 @@ movedata MOVE_SURF, "Surf"
     movedescription MOVE_SURF, "It swamps the entire\nbattlefield with a\ngiant wave.\nIt can also be used\nfor crossing water."
 
 movedata MOVE_ICE_BEAM, "Ice Beam"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 90
+    basepower 9
     type TYPE_ICE
     accuracy 100
     pp 10
-    effectchance 10
+    effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -955,7 +954,7 @@ movedata MOVE_ICE_BEAM, "Ice Beam"
     movedescription MOVE_ICE_BEAM, "The foe is struck\nwith an icy-cold\nbeam of energy.\nIt may also freeze\nthe target solid."
 
 movedata MOVE_BLIZZARD, "Blizzard"
-    battleeffect MOVE_EFFECT_BLIZZARD
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_BLIZZARD : MOVE_EFFECT_BLIZZARD
     pss SPLIT_SPECIAL
     basepower 110
     type TYPE_ICE
@@ -1005,11 +1004,11 @@ movedata MOVE_BUBBLE_BEAM, "Bubble Beam"
 movedata MOVE_AURORA_BEAM, "Aurora Beam"
     battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower 70
     type TYPE_ICE
     accuracy 100
     pp 20
-    effectchance 10
+    effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -1051,7 +1050,7 @@ movedata MOVE_PECK, "Peck"
     movedescription MOVE_PECK, "The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n"
 
 movedata MOVE_DRILL_PECK, "Drill Peck"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_FLYING
@@ -1067,11 +1066,11 @@ movedata MOVE_DRILL_PECK, "Drill Peck"
     movedescription MOVE_DRILL_PECK, "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n"
 
 movedata MOVE_SUBMISSION, "Submission"
-    battleeffect MOVE_EFFECT_RECOIL_QUARTER
+    battleeffect MOVE_EFFECT_SWITCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 70
     type TYPE_FIGHTING
-    accuracy 80
+    accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -1131,13 +1130,13 @@ movedata MOVE_SEISMIC_TOSS, "Seismic Toss"
     movedescription MOVE_SEISMIC_TOSS, "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level."
 
 movedata MOVE_STRENGTH, "Strength"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_ATTACK_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
-    type TYPE_NORMAL
+    basepower 100
+    type TYPE_FIGHTING
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 10
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -1149,7 +1148,7 @@ movedata MOVE_STRENGTH, "Strength"
 movedata MOVE_ABSORB, "Absorb"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 20
+    basepower 35
     type TYPE_GRASS
     accuracy 100
     pp 25
@@ -1165,7 +1164,7 @@ movedata MOVE_ABSORB, "Absorb"
 movedata MOVE_MEGA_DRAIN, "Mega Drain"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 60
     type TYPE_GRASS
     accuracy 100
     pp 15
@@ -1343,7 +1342,7 @@ movedata MOVE_FIRE_SPIN, "Fire Spin"
     pss SPLIT_SPECIAL
     basepower 35
     type TYPE_FIRE
-    accuracy 85
+    accuracy 95
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -1997,7 +1996,7 @@ movedata MOVE_SMOG, "Smog"
 movedata MOVE_SLUDGE, "Sludge"
     battleeffect MOVE_EFFECT_POISON_HIT
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower 75
     type TYPE_POISON
     accuracy 100
     pp 20
@@ -2015,9 +2014,9 @@ movedata MOVE_BONE_CLUB, "Bone Club"
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_GROUND
-    accuracy 85
-    pp 20
-    effectchance 10
+    accuracy 100
+    pp 10
+    effectchance 30
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -2063,7 +2062,7 @@ movedata MOVE_CLAMP, "Clamp"
     pss SPLIT_PHYSICAL
     basepower 35
     type TYPE_WATER
-    accuracy 85
+    accuracy 95
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2083,7 +2082,7 @@ movedata MOVE_SWIFT, "Swift"
     pp 20
     effectchance 0
     target RANGE_ADJACENT_OPPONENTS
-    priority 0
+    priority 1
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0x11
     contesttype CONTEST_COOL
@@ -2109,8 +2108,8 @@ movedata MOVE_SKULL_BASH, "Skull Bash"
 movedata MOVE_SPIKE_CANNON, "Spike Cannon"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 20
-    type TYPE_NORMAL
+    basepower 25
+    type TYPE_STEEL
     accuracy 100
     pp 15
     effectchance 0
@@ -2155,13 +2154,13 @@ movedata MOVE_AMNESIA, "Amnesia"
     movedescription MOVE_AMNESIA, "The user temporarily\nempties its mind to\nforget its concerns.\nIt sharply raises the\nuser’s Sp. Def stat."
 
 movedata MOVE_KINESIS, "Kinesis"
-    battleeffect MOVE_EFFECT_ACC_DOWN
-    pss SPLIT_STATUS
-    basepower 0
-    type TYPE_PSYCHIC
-    accuracy 80
+    battleeffect MOVE_EFFECT_LOWER_SP_DEF_HIT
+    pss SPLIT_SPECIAL
+    basepower 90
+    type TYPE_FIGHTING
+    accuracy 100
     pp 15
-    effectchance 0
+    effectchance 10
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
@@ -2253,9 +2252,9 @@ movedata MOVE_POISON_GAS, "Poison Gas"
 movedata MOVE_BARRAGE, "Barrage"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 15
-    type TYPE_NORMAL
-    accuracy 85
+    basepower 25
+    type TYPE_PSYCHIC
+    accuracy 100
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2286,7 +2285,7 @@ movedata MOVE_LOVELY_KISS, "Lovely Kiss"
     battleeffect MOVE_EFFECT_STATUS_SLEEP
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 75
     pp 10
     effectchance 0
@@ -2299,13 +2298,13 @@ movedata MOVE_LOVELY_KISS, "Lovely Kiss"
     movedescription MOVE_LOVELY_KISS, "With a scary face, the\nuser tries to force a\nkiss on the foe. If it\nsucceeds, the target\nfalls asleep."
 
 movedata MOVE_SKY_ATTACK, "Sky Attack"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH
+    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
-    basepower 140
+    basepower 120
     type TYPE_FLYING
-    accuracy 90
+    accuracy 100
     pp 5
-    effectchance 30
+    effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -2380,9 +2379,9 @@ movedata MOVE_SPORE, "Spore"
 
 movedata MOVE_FLASH, "Flash"
     battleeffect MOVE_EFFECT_ACC_DOWN
-    pss SPLIT_STATUS
-    basepower 0
-    type TYPE_NORMAL
+    pss SPLIT_SPECIAL
+    basepower 50
+    type TYPE_ELECTRIC
     accuracy 100
     pp 20
     effectchance 0
@@ -2460,7 +2459,7 @@ movedata MOVE_CRABHAMMER, "Crabhammer"
 
 movedata MOVE_EXPLOSION, "Explosion"
     battleeffect MOVE_EFFECT_HALVE_DEFENSE
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 250
     type TYPE_NORMAL
     accuracy 100
@@ -2477,9 +2476,9 @@ movedata MOVE_EXPLOSION, "Explosion"
 movedata MOVE_FURY_SWIPES, "Fury Swipes"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 18
+    basepower 25
     type TYPE_NORMAL
-    accuracy 80
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2494,8 +2493,8 @@ movedata MOVE_BONEMERANG, "Bonemerang"
     battleeffect MOVE_EFFECT_HIT_TWICE
     pss SPLIT_PHYSICAL
     basepower 50
-    type TYPE_GROUND
-    accuracy 90
+    type TYPE_GHOST
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2685,9 +2684,9 @@ movedata MOVE_SKETCH, "Sketch"
 movedata MOVE_TRIPLE_KICK, "Triple Kick"
     battleeffect MOVE_EFFECT_HIT_THREE_TIMES_INCREMENT_BASE_POWER_10
     pss SPLIT_PHYSICAL
-    basepower 10
+    basepower 20
     type TYPE_FIGHTING
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2720,7 +2719,7 @@ movedata MOVE_SPIDER_WEB, "Spider Web"
     basepower 0
     type TYPE_BUG
     accuracy 0
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -2847,7 +2846,7 @@ movedata MOVE_AEROBLAST, "Aeroblast"
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FLYING
-    accuracy 95
+    accuracy 100
     pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -2907,13 +2906,13 @@ movedata MOVE_SPITE, "Spite"
     movedescription MOVE_SPITE, "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit."
 
 movedata MOVE_POWDER_SNOW, "Powder Snow"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 40
     type TYPE_ICE
     accuracy 100
     pp 25
-    effectchance 10
+    effectchance 50
     target RANGE_ADJACENT_OPPONENTS
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -3053,9 +3052,9 @@ movedata MOVE_MUD_SLAP, "Mud-Slap"
 movedata MOVE_OCTAZOOKA, "Octazooka"
     battleeffect MOVE_EFFECT_LOWER_ACCURACY_HIT
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower 75
     type TYPE_WATER
-    accuracy 85
+    accuracy 100
     pp 10
     effectchance 50
     target RANGE_SINGLE_TARGET
@@ -3070,7 +3069,7 @@ movedata MOVE_SPIKES, "Spikes"
     battleeffect MOVE_EFFECT_SET_SPIKES
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_GROUND
+    type TYPE_STEEL
     accuracy 0
     pp 20
     effectchance 0
@@ -3182,8 +3181,8 @@ movedata MOVE_BONE_RUSH, "Bone Rush"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
     basepower 25
-    type TYPE_GROUND
-    accuracy 90
+    type TYPE_GHOST
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -3354,7 +3353,7 @@ movedata MOVE_MILK_DRINK, "Milk Drink"
     terminatedata
     movedescription MOVE_MILK_DRINK, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
 
-movedata MOVE_SPARK, "Spark"
+movedata MOVE_SPARK, "Spark" //physicalelectric
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 65
@@ -3389,11 +3388,11 @@ movedata MOVE_FURY_CUTTER, "Fury Cutter"
 movedata MOVE_STEEL_WING, "Steel Wing"
     battleeffect MOVE_EFFECT_RAISE_DEF_HIT
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 90
     type TYPE_STEEL
     accuracy 90
     pp 25
-    effectchance 10
+    effectchance 20
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -3422,7 +3421,7 @@ movedata MOVE_ATTRACT, "Attract"
     battleeffect MOVE_EFFECT_INFATUATE
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 100
     pp 15
     effectchance 0
@@ -3454,7 +3453,7 @@ movedata MOVE_HEAL_BELL, "Heal Bell"
     battleeffect MOVE_EFFECT_CURE_PARTY_STATUS
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_STEEL
     accuracy 0
     pp 5
     effectchance 0
@@ -3470,7 +3469,7 @@ movedata MOVE_RETURN, "Return"
     battleeffect MOVE_EFFECT_POWER_BASED_ON_FRIENDSHIP
     pss SPLIT_PHYSICAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 100
     pp 20
     effectchance 0
@@ -3486,8 +3485,8 @@ movedata MOVE_PRESENT, "Present"
     battleeffect MOVE_EFFECT_RANDOM_POWER_MAYBE_HEAL
     pss SPLIT_PHYSICAL
     basepower 1
-    type TYPE_NORMAL
-    accuracy 90
+    type TYPE_ICE
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -3502,7 +3501,7 @@ movedata MOVE_FRUSTRATION, "Frustration"
     battleeffect MOVE_EFFECT_POWER_BASED_ON_LOW_FRIENDSHIP
     pss SPLIT_PHYSICAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_DARK
     accuracy 100
     pp 20
     effectchance 0
@@ -3597,9 +3596,9 @@ movedata MOVE_DYNAMIC_PUNCH, "Dynamic Punch"
 movedata MOVE_MEGAHORN, "Megahorn"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 100
     type TYPE_BUG
-    accuracy 85
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -3694,7 +3693,7 @@ movedata MOVE_SWEET_SCENT, "Sweet Scent"
     battleeffect MOVE_EFFECT_EVA_DOWN_2
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 100
     pp 20
     effectchance 0
@@ -3725,11 +3724,11 @@ movedata MOVE_IRON_TAIL, "Iron Tail"
 movedata MOVE_METAL_CLAW, "Metal Claw"
     battleeffect MOVE_EFFECT_RAISE_ATTACK_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 40
     type TYPE_STEEL
-    accuracy 95
+    accuracy 100
     pp 35
-    effectchance 10
+    effectchance 50
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -3837,9 +3836,9 @@ movedata MOVE_CROSS_CHOP, "Cross Chop"
 movedata MOVE_TWISTER, "Twister"
     battleeffect MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 70
     type TYPE_DRAGON
-    accuracy 100
+    accuracy 95
     pp 20
     effectchance 20
     target RANGE_ADJACENT_OPPONENTS
@@ -3997,11 +3996,11 @@ movedata MOVE_FUTURE_SIGHT, "Future Sight"
 movedata MOVE_ROCK_SMASH, "Rock Smash"
     battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 50
     type TYPE_FIGHTING
     accuracy 100
     pp 15
-    effectchance 50
+    effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -4015,7 +4014,7 @@ movedata MOVE_WHIRLPOOL, "Whirlpool"
     pss SPLIT_SPECIAL
     basepower 35
     type TYPE_WATER
-    accuracy 85
+    accuracy 95
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -4060,7 +4059,7 @@ movedata MOVE_FAKE_OUT, "Fake Out"
 
 movedata MOVE_UPROAR, "Uproar"
     battleeffect MOVE_EFFECT_UPROAR
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_NORMAL
     accuracy 100
@@ -4078,7 +4077,7 @@ movedata MOVE_STOCKPILE, "Stockpile"
     battleeffect MOVE_EFFECT_STOCKPILE
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_POISON
     accuracy 0
     pp 20
     effectchance 0
@@ -4094,7 +4093,7 @@ movedata MOVE_SPIT_UP, "Spit Up"
     battleeffect MOVE_EFFECT_SPIT_UP
     pss SPLIT_SPECIAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_POISON
     accuracy 100
     pp 10
     effectchance 0
@@ -4110,7 +4109,7 @@ movedata MOVE_SWALLOW, "Swallow"
     battleeffect MOVE_EFFECT_SWALLOW
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_POISON
     accuracy 0
     pp 10
     effectchance 0
@@ -4251,10 +4250,10 @@ movedata MOVE_FOCUS_PUNCH, "Focus Punch"
     movedescription MOVE_FOCUS_PUNCH, "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used."
 
 movedata MOVE_SMELLING_SALTS, "Smelling Salts"
-    battleeffect MOVE_EFFECT_DOUBLE_POWER_AND_CURE_PARALYSIS
+    battleeffect MOVE_EFFECT_DOUBLE_DAMAGE_ON_STATUS
     pss SPLIT_PHYSICAL
-    basepower 70
-    type TYPE_NORMAL
+    basepower 65
+    type TYPE_FIGHTING
     accuracy 100
     pp 10
     effectchance 0
@@ -4382,7 +4381,7 @@ movedata MOVE_WISH, "Wish"
     battleeffect MOVE_EFFECT_HEAL_IN_3_TURNS
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 0
     pp 10
     effectchance 0
@@ -4603,7 +4602,7 @@ movedata MOVE_IMPRISON, "Imprison"
     movedescription MOVE_IMPRISON, "If the foe knows any\nmove also known by\nthe user, the foe\nis prevented\nfrom using it."
 
 movedata MOVE_REFRESH, "Refresh"
-    battleeffect MOVE_EFFECT_HEAL_STATUS
+    battleeffect MOVE_EFFECT_CURE_PARTY_STATUS
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -4627,7 +4626,7 @@ movedata MOVE_GRUDGE, "Grudge"
     pp 5
     effectchance 0
     target RANGE_USER
-    priority 0
+    priority 3
     flags 0
     appeal 0x0A
     contesttype CONTEST_TOUGH
@@ -4685,7 +4684,7 @@ movedata MOVE_DIVE, "Dive"
 movedata MOVE_ARM_THRUST, "Arm Thrust"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_PHYSICAL
-    basepower 15
+    basepower 25
     type TYPE_FIGHTING
     accuracy 100
     pp 20
@@ -4736,7 +4735,7 @@ movedata MOVE_LUSTER_PURGE, "Luster Purge"
     basepower 95
     type TYPE_PSYCHIC
     accuracy 100
-    pp 5
+    pp 10
     effectchance 50
     target RANGE_SINGLE_TARGET
     priority 0
@@ -4750,9 +4749,9 @@ movedata MOVE_MIST_BALL, "Mist Ball"
     battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
     pss SPLIT_SPECIAL
     basepower 95
-    type TYPE_PSYCHIC
+    type TYPE_FAIRY
     accuracy 100
-    pp 5
+    pp 10
     effectchance 50
     target RANGE_SINGLE_TARGET
     priority 0
@@ -4797,9 +4796,9 @@ movedata MOVE_TEETER_DANCE, "Teeter Dance"
 movedata MOVE_BLAZE_KICK, "Blaze Kick"
     battleeffect MOVE_EFFECT_HIGH_CRITICAL_BURN_HIT
     pss SPLIT_PHYSICAL
-    basepower 85
+    basepower 90
     type TYPE_FIRE
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 10
     target RANGE_SINGLE_TARGET
@@ -4845,7 +4844,7 @@ movedata MOVE_ICE_BALL, "Ice Ball"
 movedata MOVE_NEEDLE_ARM, "Needle Arm"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 90
     type TYPE_GRASS
     accuracy 100
     pp 15
@@ -4911,7 +4910,7 @@ movedata MOVE_CRUSH_CLAW, "Crush Claw"
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_NORMAL
-    accuracy 95
+    accuracy 100
     pp 10
     effectchance 50
     target RANGE_SINGLE_TARGET
@@ -4971,15 +4970,15 @@ movedata MOVE_METEOR_MASH, "Meteor Mash"
     movedescription MOVE_METEOR_MASH, "The foe is hit with a\nhard punch fired\nlike a meteor.\nIt may also raise\nthe user’s Attack."
 
 movedata MOVE_ASTONISH, "Astonish"
-    battleeffect MOVE_EFFECT_FLINCH_HIT
+    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY
     pss SPLIT_PHYSICAL
-    basepower 30
+    basepower 40
     type TYPE_GHOST
     accuracy 100
-    pp 15
-    effectchance 30
+    pp 10
+    effectchance 100
     target RANGE_SINGLE_TARGET
-    priority 0
+    priority 3
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x05
     contesttype CONTEST_SMART
@@ -5213,7 +5212,7 @@ movedata MOVE_SIGNAL_BEAM, "Signal Beam"
 movedata MOVE_SHADOW_PUNCH, "Shadow Punch"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 80
     type TYPE_GHOST
     accuracy 0
     pp 20
@@ -5263,7 +5262,7 @@ movedata MOVE_SAND_TOMB, "Sand Tomb"
     pss SPLIT_PHYSICAL
     basepower 35
     type TYPE_GROUND
-    accuracy 85
+    accuracy 95
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -5293,9 +5292,9 @@ movedata MOVE_SHEER_COLD, "Sheer Cold"
 movedata MOVE_MUDDY_WATER, "Muddy Water"
     battleeffect MOVE_EFFECT_LOWER_ACCURACY_HIT
     pss SPLIT_SPECIAL
-    basepower 90
-    type TYPE_WATER
-    accuracy 85
+    basepower 85
+    type TYPE_GROUND
+    accuracy 100
     pp 10
     effectchance 30
     target RANGE_ADJACENT_OPPONENTS
@@ -5403,7 +5402,7 @@ movedata MOVE_HOWL, "Howl"
     movedescription MOVE_HOWL, "The user howls loudly\nto raise its spirit,\nboosting its Attack\nstat.\n"
 
 movedata MOVE_DRAGON_CLAW, "Dragon Claw"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_DRAGON
@@ -5455,7 +5454,7 @@ movedata MOVE_BOUNCE, "Bounce"
     pss SPLIT_PHYSICAL
     basepower 85
     type TYPE_FLYING
-    accuracy 85
+    accuracy 100
     pp 5
     effectchance 30
     target RANGE_SINGLE_TARGET
@@ -5485,7 +5484,7 @@ movedata MOVE_MUD_SHOT, "Mud Shot"
 movedata MOVE_POISON_TAIL, "Poison Tail"
     battleeffect MOVE_EFFECT_HIGH_CRITICAL_POISON_HIT
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 60
     type TYPE_POISON
     accuracy 100
     pp 25
@@ -5502,7 +5501,7 @@ movedata MOVE_COVET, "Covet"
     battleeffect MOVE_EFFECT_STEAL_HELD_ITEM
     pss SPLIT_PHYSICAL
     basepower 60
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 100
     pp 25
     effectchance 0
@@ -5514,14 +5513,14 @@ movedata MOVE_COVET, "Covet"
     terminatedata
     movedescription MOVE_COVET, "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n"
 
-movedata MOVE_VOLT_TACKLE, "Volt Tackle"
-    battleeffect MOVE_EFFECT_RECOIL_PARALYZE_HIT
+movedata MOVE_VOLT_TACKLE, "Volt Tackle" //PHYSICALELECTRIC
+    battleeffect MOVE_EFFECT_RECOIL_THIRD
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 90
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
-    effectchance 10
+    effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -5615,7 +5614,7 @@ movedata MOVE_ROCK_BLAST, "Rock Blast"
     pss SPLIT_PHYSICAL
     basepower 25
     type TYPE_ROCK
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -5645,7 +5644,7 @@ movedata MOVE_SHOCK_WAVE, "Shock Wave"
 movedata MOVE_WATER_PULSE, "Water Pulse"
     battleeffect MOVE_EFFECT_CONFUSE_HIT
     pss SPLIT_SPECIAL
-    basepower 60
+    basepower 80
     type TYPE_WATER
     accuracy 100
     pp 20
@@ -5679,7 +5678,7 @@ movedata MOVE_PSYCHO_BOOST, "Psycho Boost"
     pss SPLIT_SPECIAL
     basepower 140
     type TYPE_PSYCHIC
-    accuracy 90
+    accuracy 100
     pp 5
     effectchance 100
     target RANGE_SINGLE_TARGET
@@ -5790,7 +5789,7 @@ movedata MOVE_HEALING_WISH, "Healing Wish"
     battleeffect MOVE_EFFECT_FAINT_AND_FULL_HEAL_NEXT_MON
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_PSYCHIC
+    type TYPE_FAIRY
     accuracy 0
     pp 10
     effectchance 0
@@ -5804,7 +5803,7 @@ movedata MOVE_HEALING_WISH, "Healing Wish"
 
 movedata MOVE_BRINE, "Brine"
     battleeffect MOVE_EFFECT_DOUBLE_POWER_WHEN_BELOW_HALF
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_WATER
     accuracy 100
@@ -5837,8 +5836,8 @@ movedata MOVE_NATURAL_GIFT, "Natural Gift"
 movedata MOVE_FEINT, "Feint"
     battleeffect MOVE_EFFECT_REMOVE_PROTECT
     pss SPLIT_PHYSICAL
-    basepower 30
-    type TYPE_NORMAL
+    basepower 50
+    type TYPE_DARK
     accuracy 100
     pp 10
     effectchance 0
@@ -5853,7 +5852,7 @@ movedata MOVE_FEINT, "Feint"
 movedata MOVE_PLUCK, "Pluck"
     battleeffect MOVE_EFFECT_EAT_BERRY
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 75
     type TYPE_FLYING
     accuracy 100
     pp 20
@@ -5900,7 +5899,7 @@ movedata MOVE_ACUPRESSURE, "Acupressure"
 
 movedata MOVE_METAL_BURST, "Metal Burst"
     battleeffect MOVE_EFFECT_METAL_BURST
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 1
     type TYPE_STEEL
     accuracy 100
@@ -5963,12 +5962,12 @@ movedata MOVE_PAYBACK, "Payback"
     movedescription MOVE_PAYBACK, "If the user can use\nthis attack after the\nfoe attacks, its\npower is doubled.\n"
 
 movedata MOVE_ASSURANCE, "Assurance"
-    battleeffect MOVE_EFFECT_DOUBLE_POWER_IF_TARGET_HIT
+    battleeffect MOVE_EFFECT_USER_ATK_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 120
     type TYPE_DARK
     accuracy 100
-    pp 10
+    pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -6046,7 +6045,7 @@ movedata MOVE_HEAL_BLOCK, "Heal Block"
     battleeffect MOVE_EFFECT_PREVENT_HEALING
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_PSYCHIC
+    type TYPE_FAIRY
     accuracy 100
     pp 15
     effectchance 0
@@ -6062,7 +6061,7 @@ movedata MOVE_WRING_OUT, "Wring Out"
     battleeffect MOVE_EFFECT_INCREASE_POWER_WITH_MORE_HP
     pss SPLIT_SPECIAL
     basepower 1
-    type TYPE_NORMAL
+    type TYPE_POISON
     accuracy 100
     pp 5
     effectchance 0
@@ -6110,7 +6109,7 @@ movedata MOVE_LUCKY_CHANT, "Lucky Chant"
     battleeffect MOVE_EFFECT_PREVENT_CRITS
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_PSYCHIC
     accuracy 0
     pp 30
     effectchance 0
@@ -6270,7 +6269,7 @@ movedata MOVE_HEART_SWAP, "Heart Swap"
     battleeffect MOVE_EFFECT_SWAP_STAT_CHANGES
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_PSYCHIC
+    type TYPE_FAIRY
     accuracy 0
     pp 10
     effectchance 0
@@ -6333,7 +6332,7 @@ movedata MOVE_FLARE_BLITZ, "Flare Blitz"
 movedata MOVE_FORCE_PALM, "Force Palm"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower 85
     type TYPE_FIGHTING
     accuracy 100
     pp 10
@@ -6349,7 +6348,7 @@ movedata MOVE_FORCE_PALM, "Force Palm"
 movedata MOVE_AURA_SPHERE, "Aura Sphere"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_SPECIAL
-    basepower 80
+    basepower 90
     type TYPE_FIGHTING
     accuracy 0
     pp 20
@@ -6475,7 +6474,7 @@ movedata MOVE_AIR_SLASH, "Air Slash"
     movedescription MOVE_AIR_SLASH, "The user attacks with\na blade of air that\nslices even the sky.\nIt may also make the\ntarget flinch."
 
 movedata MOVE_X_SCISSOR, "X-Scissor"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_BUG
@@ -6525,9 +6524,9 @@ movedata MOVE_DRAGON_PULSE, "Dragon Pulse"
 movedata MOVE_DRAGON_RUSH, "Dragon Rush"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 100
+    basepower 90
     type TYPE_DRAGON
-    accuracy 75
+    accuracy 90
     pp 10
     effectchance 20
     target RANGE_SINGLE_TARGET
@@ -6541,10 +6540,10 @@ movedata MOVE_DRAGON_RUSH, "Dragon Rush"
 movedata MOVE_POWER_GEM, "Power Gem"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 80
+    basepower 90
     type TYPE_ROCK
     accuracy 100
-    pp 20
+    pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
     priority 0
@@ -6762,7 +6761,7 @@ movedata MOVE_SHADOW_CLAW, "Shadow Claw"
     terminatedata
     movedescription MOVE_SHADOW_CLAW, "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_THUNDER_FANG, "Thunder Fang"
+movedata MOVE_THUNDER_FANG, "Thunder Fang" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_FLINCH_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 65
@@ -6779,7 +6778,7 @@ movedata MOVE_THUNDER_FANG, "Thunder Fang"
     movedescription MOVE_THUNDER_FANG, "The user bites with\nelectrified fangs.\nIt may also make the\nfoe flinch or become\nparalyzed."
 
 movedata MOVE_ICE_FANG, "Ice Fang"
-    battleeffect MOVE_EFFECT_FLINCH_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FLINCH_FROSTBITE_HIT : MOVE_EFFECT_FLINCH_FREEZE_HIT
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_ICE
@@ -6831,7 +6830,7 @@ movedata MOVE_MUD_BOMB, "Mud Bomb"
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_GROUND
-    accuracy 85
+    accuracy 95
     pp 10
     effectchance 30
     target RANGE_SINGLE_TARGET
@@ -6861,9 +6860,9 @@ movedata MOVE_PSYCHO_CUT, "Psycho Cut"
 movedata MOVE_ZEN_HEADBUTT, "Zen Headbutt"
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 70
     type TYPE_PSYCHIC
-    accuracy 90
+    accuracy 100
     pp 15
     effectchance 20
     target RANGE_SINGLE_TARGET
@@ -6879,7 +6878,7 @@ movedata MOVE_MIRROR_SHOT, "Mirror Shot"
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_STEEL
-    accuracy 85
+    accuracy 95
     pp 10
     effectchance 30
     target RANGE_SINGLE_TARGET
@@ -6909,10 +6908,10 @@ movedata MOVE_FLASH_CANNON, "Flash Cannon"
 movedata MOVE_ROCK_CLIMB, "Rock Climb"
     battleeffect MOVE_EFFECT_CONFUSE_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
-    type TYPE_NORMAL
-    accuracy 85
-    pp 20
+    basepower 80
+    type TYPE_ROCK
+    accuracy 100
+    pp 10
     effectchance 20
     target RANGE_SINGLE_TARGET
     priority 0
@@ -7039,7 +7038,7 @@ movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
     pss SPLIT_PHYSICAL
     basepower 150
     type TYPE_ROCK
-    accuracy 90
+    accuracy 100
     pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -7053,10 +7052,10 @@ movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
 movedata MOVE_CROSS_POISON, "Cross Poison"
     battleeffect MOVE_EFFECT_HIGH_CRITICAL_POISON_HIT
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 90
     type TYPE_POISON
     accuracy 100
-    pp 20
+    pp 15
     effectchance 10
     target RANGE_SINGLE_TARGET
     priority 0
@@ -7067,13 +7066,13 @@ movedata MOVE_CROSS_POISON, "Cross Poison"
     movedescription MOVE_CROSS_POISON, "A slashing attack\nthat may also leave\nthe target poisoned.\nIt has a high\ncritical-hit ratio."
 
 movedata MOVE_GUNK_SHOT, "Gunk Shot"
-    battleeffect MOVE_EFFECT_POISON_HIT
+    battleeffect MOVE_EFFECT_USER_ATK_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_POISON
-    accuracy 80
+    accuracy 100
     pp 5
-    effectchance 30
+    effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -7100,8 +7099,8 @@ movedata MOVE_IRON_HEAD, "Iron Head"
 
 movedata MOVE_MAGNET_BOMB, "Magnet Bomb"
     battleeffect MOVE_EFFECT_BYPASS_ACCURACY
-    pss SPLIT_PHYSICAL
-    basepower 60
+    pss SPLIT_SPECIAL
+    basepower 80
     type TYPE_STEEL
     accuracy 0
     pp 20
@@ -7134,7 +7133,7 @@ movedata MOVE_CAPTIVATE, "Captivate"
     battleeffect MOVE_EFFECT_SP_ATK_DOWN_2_OPPOSITE_GENDER
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_NORMAL
+    type TYPE_FAIRY
     accuracy 100
     pp 20
     effectchance 0
@@ -7181,10 +7180,10 @@ movedata MOVE_GRASS_KNOT, "Grass Knot"
 movedata MOVE_CHATTER, "Chatter"
     battleeffect MOVE_EFFECT_CONFUSE_HIT
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower 90
     type TYPE_FLYING
     accuracy 100
-    pp 20
+    pp 15
     effectchance DEBUG_NEEDS_TESTING ? 100 : 0 // always confuse
     target RANGE_SINGLE_TARGET
     priority 0
@@ -7231,7 +7230,7 @@ movedata MOVE_CHARGE_BEAM, "Charge Beam"
     pss SPLIT_SPECIAL
     basepower 50
     type TYPE_ELECTRIC
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 70
     target RANGE_SINGLE_TARGET
@@ -7277,7 +7276,7 @@ movedata MOVE_AQUA_JET, "Aqua Jet"
 movedata MOVE_ATTACK_ORDER, "Attack Order"
     battleeffect MOVE_EFFECT_HIGH_CRITICAL
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 120
     type TYPE_BUG
     accuracy 100
     pp 15
@@ -7307,12 +7306,12 @@ movedata MOVE_DEFEND_ORDER, "Defend Order"
     movedescription MOVE_DEFEND_ORDER, "The user calls out\nits underlings to\nshield its body,\nraising its Defense\nand Sp. Def stats."
 
 movedata MOVE_HEAL_ORDER, "Heal Order"
-    battleeffect MOVE_EFFECT_RESTORE_HALF_HP
+    battleeffect MOVE_EFFECT_HEAL_HALF_REMOVE_FLYING_TYPE
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
     accuracy 0
-    pp 10
+    pp 20
     effectchance 0
     target RANGE_USER
     priority 0
@@ -7341,9 +7340,9 @@ movedata MOVE_HEAD_SMASH, "Head Smash"
 movedata MOVE_DOUBLE_HIT, "Double Hit"
     battleeffect MOVE_EFFECT_HIT_TWICE
     pss SPLIT_PHYSICAL
-    basepower 35
+    basepower 50
     type TYPE_NORMAL
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -7375,7 +7374,7 @@ movedata MOVE_SPACIAL_REND, "Spacial Rend"
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_DRAGON
-    accuracy 95
+    accuracy 100
     pp 5
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -7439,7 +7438,7 @@ movedata MOVE_DARK_VOID, "Dark Void"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
-    accuracy 50
+    accuracy 80
     pp 10
     effectchance 0
     target RANGE_ADJACENT_OPPONENTS
@@ -7772,7 +7771,7 @@ movedata MOVE_FLAME_BURST, "Flame Burst"
 
 movedata MOVE_SLUDGE_WAVE, "Sludge Wave"
     battleeffect MOVE_EFFECT_POISON_HIT
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 95
     type TYPE_POISON
     accuracy 100
@@ -7917,10 +7916,10 @@ movedata MOVE_LOW_SWEEP, "Low Sweep"
 movedata MOVE_ACID_SPRAY, "Acid Spray"
     battleeffect MOVE_EFFECT_LOWER_SP_DEF_2_HIT
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 50
     type TYPE_POISON
     accuracy 100
-    pp 20
+    pp 15
     effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
@@ -8203,7 +8202,7 @@ movedata MOVE_SHIFT_GEAR, "Shift Gear"
     movedescription MOVE_SHIFT_GEAR, "Rotating its gears,\nthe user raises its\nAttack and sharply\nraises its Speed."
 
 movedata MOVE_CIRCLE_THROW, "Circle Throw"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_FORCE_SWITCH
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_FIGHTING
@@ -8394,9 +8393,9 @@ movedata MOVE_GRASS_PLEDGE, "Grass Pledge"
     terminatedata
     movedescription MOVE_GRASS_PLEDGE, "When used with its\nwater equivalent,\nits power increases\nand a vast swamp\nappears."
 
-movedata MOVE_VOLT_SWITCH, "Volt Switch"
+movedata MOVE_VOLT_SWITCH, "Volt Switch" //PHYSICALELECTRIC
     battleeffect MOVE_EFFECT_SWITCH_HIT
-    pss SPLIT_SPECIAL
+    pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_ELECTRIC
     accuracy 100
@@ -8459,7 +8458,7 @@ movedata MOVE_FROST_BREATH, "Frost Breath"
     movedescription MOVE_FROST_BREATH, "The user blows\ncold air at the foe.\nIt always results in\na critical hit."
 
 movedata MOVE_DRAGON_TAIL, "Dragon Tail"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_FORCE_SWITCH
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_DRAGON
@@ -8506,14 +8505,14 @@ movedata MOVE_ELECTROWEB, "Electroweb"
     terminatedata
     movedescription MOVE_ELECTROWEB, "The user traps the\nfoe in an electric\nnet. It also lowers\nthe foe’s Speed."
 
-movedata MOVE_WILD_CHARGE, "Wild Charge"
-    battleeffect MOVE_EFFECT_RECOIL_THIRD
+movedata MOVE_WILD_CHARGE, "Wild Charge" //PHYSICALELECTRIC
+    battleeffect MOVE_EFFECT_RECOIL_PARALYZE_HIT
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower 120
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 10
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -8719,7 +8718,7 @@ movedata MOVE_TAIL_SLAP, "Tail Slap"
     pss SPLIT_PHYSICAL
     basepower 25
     type TYPE_NORMAL
-    accuracy 85
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -8767,7 +8766,7 @@ movedata MOVE_GEAR_GRIND, "Gear Grind"
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_STEEL
-    accuracy 85
+    accuracy 100
     pp 15
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -8843,13 +8842,13 @@ movedata MOVE_SECRET_SWORD, "Secret Sword"
     movedescription MOVE_SECRET_SWORD, "The user cuts with\nits long horn. The\nodd power in the\nhorn does physical\ndamage to the foe."
 
 movedata MOVE_GLACIATE, "Glaciate"
-    battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower 95
     type TYPE_ICE
     accuracy 95
     pp 10
-    effectchance 100
+    effectchance 50
     target RANGE_ADJACENT_OPPONENTS
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE
@@ -8907,13 +8906,13 @@ movedata MOVE_FIERY_DANCE, "Fiery Dance"
     movedescription MOVE_FIERY_DANCE, "Cloaked in flames,\nthe user dances.\nIt may also raise\nthe user’s Sp. Atk."
 
 movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_PARALYZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 140
-    type TYPE_ICE
-    accuracy 90
-    pp 5
-    effectchance 30
+    basepower 95
+    type TYPE_ELECTRIC
+    accuracy 95
+    pp 10
+    effectchance 50
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -8923,13 +8922,13 @@ movedata MOVE_FREEZE_SHOCK, "Freeze Shock"
     movedescription MOVE_FREEZE_SHOCK, "A two-turn attack\nthat hits the foe\nwith electrically\ncharged ice. It may\nparalyze the foe."
 
 movedata MOVE_ICE_BURN, "Ice Burn"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_BURN_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
-    basepower 140
-    type TYPE_ICE
-    accuracy 90
-    pp 5
-    effectchance 30
+    basepower 95
+    type TYPE_FIRE
+    accuracy 95
+    pp 10
+    effectchance 50
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -9234,7 +9233,7 @@ movedata MOVE_FREEZE_DRY, "Freeze-Dry"
     type TYPE_ICE
     accuracy 100
     pp 20
-    effectchance 10
+    effectchance 20
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -9244,9 +9243,9 @@ movedata MOVE_FREEZE_DRY, "Freeze-Dry"
     movedescription MOVE_FREEZE_DRY, "---"
 
 movedata MOVE_DISARMING_VOICE, "Disarming Voice"
-    battleeffect MOVE_EFFECT_BYPASS_ACCURACY
+    battleeffect MOVE_EFFECT_REMOVE_HELD_ITEM
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 60
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 0
     pp 15
@@ -9294,7 +9293,7 @@ movedata MOVE_TOPSY_TURVY, "Topsy-Turvy"
 movedata MOVE_DRAINING_KISS, "Draining Kiss"
     battleeffect MOVE_EFFECT_RECOVER_THREE_QUARTERS_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 50
+    basepower 55
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 100
     pp 10
@@ -9392,7 +9391,7 @@ movedata MOVE_PLAY_ROUGH, "Play Rough"
     pss SPLIT_PHYSICAL
     basepower 90
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 10
     target RANGE_SINGLE_TARGET
@@ -9404,13 +9403,13 @@ movedata MOVE_PLAY_ROUGH, "Play Rough"
     movedescription MOVE_PLAY_ROUGH, "The user attacks by\nplaying rough with the\ntarget. This may also\nlower the target's\nAttack stat."
 
 movedata MOVE_FAIRY_WIND, "Fairy Wind"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_ALL_STATS_HIT
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 60
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 100
-    pp 30
-    effectchance 0
+    pp 5
+    effectchance 10
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -9566,7 +9565,7 @@ movedata MOVE_HYPERSPACE_HOLE, "Hyperspace Hole"
 movedata MOVE_WATER_SHURIKEN, "Water Shuriken"
     battleeffect MOVE_EFFECT_MULTI_HIT
     pss SPLIT_SPECIAL
-    basepower 15
+    basepower 25
     type TYPE_WATER
     accuracy 100
     pp 20
@@ -9803,7 +9802,7 @@ movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
     terminatedata
     movedescription MOVE_BABY_DOLL_EYES, "---"
 
-movedata MOVE_NUZZLE, "Nuzzle"
+movedata MOVE_NUZZLE, "Nuzzle" //physicalelectric
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_PHYSICAL
     basepower 20
@@ -9836,12 +9835,12 @@ movedata MOVE_HOLD_BACK, "Hold Back"
     movedescription MOVE_HOLD_BACK, "The user holds back\nwhen it attacks, and\nthe target is left\nwith at least 1 HP."
 
 movedata MOVE_INFESTATION, "Infestation"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_SPECIAL
-    basepower 20
+    basepower 35
     type TYPE_BUG
-    accuracy 100
-    pp 20
+    accuracy 95
+    pp 15
     effectchance 100
     target RANGE_SINGLE_TARGET
     priority 0
@@ -10395,7 +10394,7 @@ movedata MOVE_BLOOM_DOOM_SPECIAL, "Bloom Doom"
     terminatedata
     movedescription MOVE_BLOOM_DOOM_SPECIAL, "---"
 
-movedata MOVE_GIGAVOLT_HAVOC_PHYSICAL, "Gigavolt Havoc"
+movedata MOVE_GIGAVOLT_HAVOC_PHYSICAL, "Gigavolt Havoc" //physicalelectric
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 0
@@ -10587,7 +10586,7 @@ movedata MOVE_TWINKLE_TACKLE_SPECIAL, "Twinkle Tackle"
     terminatedata
     movedescription MOVE_TWINKLE_TACKLE_SPECIAL, "---"
 
-movedata MOVE_CATASTROPIKA, "Catastropika"
+movedata MOVE_CATASTROPIKA, "Catastropika" //physicalelectric
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 210
@@ -10734,7 +10733,7 @@ movedata MOVE_FLORAL_HEALING, "Floral Healing"
 movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 95
+    basepower 100
     type TYPE_GROUND
     accuracy 95
     pp 10
@@ -11103,7 +11102,7 @@ movedata MOVE_BEAK_BLAST, "Beak Blast"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 100
-    type TYPE_FLYING
+    type TYPE_FIRE
     accuracy 100
     pp 15
     effectchance 0
@@ -11515,7 +11514,7 @@ movedata MOVE_TEARFUL_LOOK, "Tearful Look"
     terminatedata
     movedescription MOVE_TEARFUL_LOOK, "---"
 
-movedata MOVE_ZING_ZAP, "Zing Zap"
+movedata MOVE_ZING_ZAP, "Zing Zap" //physicalelectric
     battleeffect MOVE_EFFECT_FLINCH_HIT
     pss SPLIT_PHYSICAL
     basepower 80
@@ -11595,7 +11594,7 @@ movedata MOVE_MIND_BLOWN, "Mind Blown"
     terminatedata
     movedescription MOVE_MIND_BLOWN, "The user attacks\neverything around it by\ncausing its own head to\nexplode. This also\ndamages the user."
 
-movedata MOVE_PLASMA_FISTS, "Plasma Fists"
+movedata MOVE_PLASMA_FISTS, "Plasma Fists" //physicalelectric
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 100
@@ -11723,7 +11722,7 @@ movedatalongname MOVE_CLANGOROUS_SOULBLAZE, "Clang Soulblaze", "Clangorous Soulb
     terminatedata
     movedescription MOVE_CLANGOROUS_SOULBLAZE, "---"
 
-movedata MOVE_ZIPPY_ZAP, "Zippy Zap"
+movedata MOVE_ZIPPY_ZAP, "Zippy Zap" //physicalelectric
     battleeffect MOVE_EFFECT_RAISE_EVA_HIT
     pss SPLIT_PHYSICAL
     basepower 80
@@ -12123,7 +12122,7 @@ movedata MOVE_OCTOLOCK, "Octolock"
     terminatedata
     movedescription MOVE_OCTOLOCK, "---"
 
-movedata MOVE_BOLT_BEAK, "Bolt Beak"
+movedata MOVE_BOLT_BEAK, "Bolt Beak" //physicalelectric
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 85
@@ -12203,7 +12202,7 @@ movedata MOVE_MAX_FLUTTERBY, "Max Flutterby"
     terminatedata
     movedescription MOVE_MAX_FLUTTERBY, "---"
 
-movedata MOVE_MAX_LIGHTNING, "Max Lightning"
+movedata MOVE_MAX_LIGHTNING, "Max Lightning" //physicalelectric
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 10
@@ -12479,7 +12478,7 @@ movedata MOVE_BODY_PRESS, "Body Press"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 80
-    type TYPE_FIGHTING
+    type TYPE_STEEL
     accuracy 100
     pp 10
     effectchance 0
@@ -12524,11 +12523,11 @@ movedata MOVE_DRUM_BEATING, "Drum Beating"
     movedescription MOVE_DRUM_BEATING, "---"
 
 movedata MOVE_SNAP_TRAP, "Snap Trap"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_PHYSICAL
     basepower 35
-    type TYPE_GRASS
-    accuracy 100
+    type TYPE_STEEL
+    accuracy 95
     pp 15
     effectchance 100
     target RANGE_SINGLE_TARGET
@@ -12587,7 +12586,7 @@ movedata MOVE_BEHEMOTH_BASH, "Behemoth Bash"
     terminatedata
     movedescription MOVE_BEHEMOTH_BASH, "The user's body\nbecomes a firm shield\nand slams into the\ntarget fiercely."
 
-movedata MOVE_AURA_WHEEL, "Aura Wheel"
+movedata MOVE_AURA_WHEEL, "Aura Wheel" //physicalelectric
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 110
@@ -12864,7 +12863,7 @@ movedata MOVE_METEOR_BEAM, "Meteor Beam"
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ROCK
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 100
     target RANGE_SINGLE_TARGET
@@ -12876,7 +12875,7 @@ movedata MOVE_METEOR_BEAM, "Meteor Beam"
     movedescription MOVE_METEOR_BEAM, "The user gathers\nenergy from space to\nraise its Sp. Atk on\nthe first turn, then\nattacks on the next."
 
 movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_POISON_HIT
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_POISON
@@ -12894,7 +12893,7 @@ movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
 movedata MOVE_MISTY_EXPLOSION, "Misty Explosion"
     battleeffect MOVE_EFFECT_HALVE_DEFENSE // damage portion handled in CalcBaseDamage.c
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 150
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     accuracy 100
     pp 5
@@ -13053,7 +13052,7 @@ movedata MOVE_COACHING, "Coaching"
 
 movedata MOVE_FLIP_TURN, "Flip Turn"
     battleeffect MOVE_EFFECT_SWITCH_HIT
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 60
     type TYPE_WATER
     accuracy 100
@@ -13072,7 +13071,7 @@ movedata MOVE_TRIPLE_AXEL, "Triple Axel"
     pss SPLIT_PHYSICAL
     basepower 20
     type TYPE_ICE
-    accuracy 90
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -13196,13 +13195,13 @@ movedata MOVE_DRAGON_ENERGY, "Dragon Energy"
     movedescription MOVE_DRAGON_ENERGY, "---"
 
 movedata MOVE_FREEZING_GLARE, "Freezing Glare"
-    battleeffect MOVE_EFFECT_FREEZE_HIT
+    battleeffect (FROSTBITE_IMPLEMENTED >= 1) ? MOVE_EFFECT_FROSTBITE_HIT : MOVE_EFFECT_FREEZE_HIT
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_PSYCHIC
     accuracy 100
     pp 10
-    effectchance 10
+    effectchance 30
     target RANGE_SINGLE_TARGET
     priority 0
     flags  FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -13437,7 +13436,7 @@ movedata MOVE_CHLOROBLAST, "Chloroblast"
 
 movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     battleeffect MOVE_EFFECT_FLINCH_HIT
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 100
     type TYPE_ICE
     accuracy 85
@@ -13902,9 +13901,9 @@ movedata MOVE_SALT_CURE, "Salt Cure"
 movedata MOVE_TRIPLE_DIVE, "Triple Dive"
     battleeffect MOVE_EFFECT_HIT_THREE_TIMES
     pss SPLIT_PHYSICAL
-    basepower 30
+    basepower 20
     type TYPE_WATER
-    accuracy 95
+    accuracy 100
     pp 10
     effectchance 0
     target RANGE_SINGLE_TARGET
@@ -14252,7 +14251,7 @@ movedata MOVE_CHILLING_WATER, "Chilling Water"
     movedescription MOVE_CHILLING_WATER, "---"
 
 movedata MOVE_HYPER_DRILL, "Hyper Drill"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_REMOVE_PROTECT
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_NORMAL
@@ -14331,7 +14330,7 @@ movedata MOVE_BITTER_BLADE, "Bitter Blade"
     terminatedata
     movedescription MOVE_BITTER_BLADE, "---"
 
-movedata MOVE_DOUBLE_SHOCK, "Double Shock"
+movedata MOVE_DOUBLE_SHOCK, "Double Shock" //physicalelectric
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 120
@@ -14715,7 +14714,7 @@ movedata MOVE_TEMPER_FLARE, "Temper Flare"
     terminatedata
     movedescription MOVE_TEMPER_FLARE, "---"
 
-movedata MOVE_SUPERCELL_SLAM, "Supercell Slam"
+movedata MOVE_SUPERCELL_SLAM, "Supercell Slam" //physicalelectric
     battleeffect MOVE_EFFECT_CRASH_ON_MISS
     pss SPLIT_PHYSICAL
     basepower 100

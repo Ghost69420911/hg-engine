@@ -478,6 +478,9 @@ BOOL LONG_CALL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int se
         }
         else if(sp->battlemon[sp->battlerIdTemp].condition & STATUS_PARALYSIS) {
             seq_no = SUB_SEQ_APPLY_PARALYSIS;
+		}
+        else if(sp->battlemon[sp->battlerIdTemp].condition & STATUS_FROSTBITE) {
+            seq_no = SUB_SEQ_APPLY_FROSTBITE;
         }
         if(seq_no) {
             sp->addeffect_type = ADD_STATUS_ABILITY;

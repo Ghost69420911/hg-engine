@@ -653,9 +653,10 @@ _0540: // Trainer 337
     trainertextentry 337, TEXT_DEFEATED_IN_OVERWORLD, "When I was in the military, this is what\nLt. Surge taught me...\rLock the doors, watch out for fire,\nand always have two electric fences\ffor safety!\n"
 
 _054C: // Trainer 232
-    trainertextentry 232, TEXT_NOTICE_IN_OVERWORLD, "Lt. Surge saw my potential with\nElectric-type Pokémon.\fThink you can beat me?\r"
-    trainertextentry 232, TEXT_DEFEATED_IN_BATTLE, "Ooh, how shocking!\n"
-    trainertextentry 232, TEXT_DEFEATED_IN_OVERWORLD, "The reason that Lt. Surge is protected\nby electric fences isn’t because\fhe’s a coward! It’s so you won’t\funderestimate his strength!\n"
+    trainertextentry 232, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Lt. Surge saw my potential with\nElectric-type Pokémon.\fThink you can beat me?\r"
+    trainertextentry 232, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Ooh, how shocking!\n"
+    trainertextentry 232, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "The reason that Lt. Surge is protected\nby electric fences isn’t because\fhe’s a coward! It’s so you won’t\funderestimate his strength!\n"
+    trainertextentry 232, TEXT_DOUBLE_ONLY_1_POKEMON_1, "You’ve got only one Pokémon?\nThen I’m not battling with you."
 
 _0558: // Trainer 396
     trainertextentry 396, TEXT_NOTICE_IN_OVERWORLD, "I’m going to take you down!\nPrepare to be shocked!\r"
@@ -705,10 +706,15 @@ _05B8: // Trainer 230
     trainertextentry 230, TEXT_DEFEATED_IN_OVERWORLD, "You made your mind stronger, not just\nyour abilities.\n"
 
 _05C4: // Trainer 415
-    trainertextentry 415, TEXT_NOTICE_IN_OVERWORLD, "The Fighting Dojo next door was once\nthis city’s Gym.\r"
-    trainertextentry 415, TEXT_DEFEATED_IN_BATTLE, "I was no match...\n"
-    trainertextentry 415, TEXT_DEFEATED_IN_OVERWORLD, "Karate King, the master of the Fighting\nDojo, was just destroyed by Sabrina.\n"
-
+    trainertextentry 415, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "The Fighting Dojo next door was once\nthis city’s Gym.\r"
+    trainertextentry 415, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "I was no match...\n"
+    trainertextentry 415, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Karate King, the master of the Fighting\nDojo, was just destroyed by Sabrina.\n"
+	trainertextentry 415, TEXT_DOUBLE_ONLY_1_POKEMON_1, "I was no match...\n"
+	trainertextentry 415, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "The Fighting Dojo next door was once\nthis city’s Gym.\r"
+    trainertextentry 415, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "I was no match...\n"
+    trainertextentry 415, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Karate King, the master of the Fighting\nDojo, was just destroyed by Sabrina.\n"
+	trainertextentry 415, TEXT_DOUBLE_ONLY_1_POKEMON_2, "I was no match...\n"
+	
 _05D0: // Trainer 368
     trainertextentry 368, TEXT_NOTICE_IN_OVERWORLD, "The power of all those you defeated\ncomes to me!\r"
     trainertextentry 368, TEXT_DEFEATED_IN_BATTLE, "Strong...\nFar too strong...\n"
@@ -1052,8 +1058,11 @@ _0904: // Trainer 296
     trainertextentry 296, TEXT_DEFEATED_IN_OVERWORLD, "I have to watch out for blemishes\ncaused by the sun.\n"
 
 _0910: // Trainer 353
-    trainertextentry 353, TEXT_DEFEATED_IN_BATTLE, "Ayieeeh! No, no, no, believe it I can’t!\nStrong very much be you! Match I am\fnot to you!\n"
-
+    trainertextentry 353, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Oh! Hey, you!\nWill you help me with my CRIMINAL?\rDon’t tell me... You’d rather battle?\r"
+    trainertextentry 353, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "I’m worried about crime...\n"
+	trainertextentry 353, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Ayieeeh! No, no, no, believe it I can’t!\nStrong very much be you! Match I am\fnot to you!\n"
+	trainertextentry 353, TEXT_DOUBLE_ONLY_1_POKEMON_1, "I’m worried about crime...\n"
+	
 _0914: // Trainer 148
     trainertextentry 148, TEXT_NOTICE_IN_OVERWORLD, "OK! I’m No. 4. I’ll stomp you!\r"
     trainertextentry 148, TEXT_DEFEATED_IN_BATTLE, "Whoa! Too much.\n"

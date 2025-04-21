@@ -217,7 +217,7 @@
 #define ITEM_JABOCA_BERRY    211
 #define ITEM_ROWAP_BERRY     212
 
-#define IS_ITEM_BERRY(item) ((item >= ITEM_CHERI_BERRY && item <= ITEM_ROWAP_BERRY) || (item >= ITEM_ROSELI_BERRY && item <= ITEM_MARANGA_BERRY))
+#define IS_ITEM_BERRY(item) ((item >= ITEM_CHERI_BERRY && item <= ITEM_ROWAP_BERRY) || (item >= ITEM_ROSELI_BERRY && item <= ITEM_MARANGA_BERRY) || (item == ITEM_WHITE_HERB) || (item == ITEM_MENTAL_HERB) || (item == ITEM_POWER_HERB) || (item == ITEM_MIRROR_HERB))
 #define IS_ITEM_MAIL(item) ((item >= ITEM_GRASS_MAIL && item <= ITEM_BRICK_MAIL))
 
 #define ITEM_BRIGHT_POWDER   213

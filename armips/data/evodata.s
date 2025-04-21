@@ -241,8 +241,8 @@ evodata SPECIES_PIDGEOT
 
 evodata SPECIES_RATTATA
     evolution EVO_LEVEL, 20, SPECIES_RATICATE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_RATTATA, 1
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RATTATA, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -253,8 +253,8 @@ evodata SPECIES_RATTATA
 
 evodata SPECIES_RATICATE
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_RATICATE, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RATICATE, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -313,7 +313,7 @@ evodata SPECIES_ARBOK
 
 evodata SPECIES_PIKACHU
     evolution EVO_STONE, ITEM_THUNDER_STONE, SPECIES_RAICHU
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SHINY_STONE, SPECIES_RAICHU, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -325,8 +325,8 @@ evodata SPECIES_PIKACHU
 
 evodata SPECIES_RAICHU
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_RAICHU, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RAICHU, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -337,8 +337,8 @@ evodata SPECIES_RAICHU
 
 evodata SPECIES_SANDSHREW
     evolution EVO_LEVEL, 22, SPECIES_SANDSLASH
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_SANDSHREW, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SANDSHREW, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -349,8 +349,8 @@ evodata SPECIES_SANDSHREW
 
 evodata SPECIES_SANDSLASH
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_SANDSLASH, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SANDSLASH, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -457,8 +457,8 @@ evodata SPECIES_CLEFABLE
 
 evodata SPECIES_VULPIX
     evolution EVO_STONE, ITEM_FIRE_STONE, SPECIES_NINETALES
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_VULPIX, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_VULPIX, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -469,8 +469,8 @@ evodata SPECIES_VULPIX
 
 evodata SPECIES_NINETALES
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_NINETALES, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_NINETALES, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -613,9 +613,9 @@ evodata SPECIES_VENOMOTH
 
 evodata SPECIES_DIGLETT
     evolution EVO_LEVEL, 26, SPECIES_DUGTRIO
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WIGLETT
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_DIGLETT, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_DIGLETT, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -625,9 +625,9 @@ evodata SPECIES_DIGLETT
 
 evodata SPECIES_DUGTRIO
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WUGTRIO
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_DUGTRIO, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_DUGTRIO, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -637,9 +637,9 @@ evodata SPECIES_DUGTRIO
 
 evodata SPECIES_MEOWTH
     evolution EVO_LEVEL, 28, SPECIES_PERSIAN
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_MEOWTH, 1
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_MEOWTH, 2
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MEOWTH, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -648,9 +648,9 @@ evodata SPECIES_MEOWTH
     terminateevodata
 
 evodata SPECIES_PERSIAN
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+	evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_PERSIAN, 1
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_PERSIAN, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -709,8 +709,8 @@ evodata SPECIES_PRIMEAPE
 
 evodata SPECIES_GROWLITHE
     evolution EVO_STONE, ITEM_FIRE_STONE, SPECIES_ARCANINE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_GROWLITHE, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GROWLITHE, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -721,8 +721,8 @@ evodata SPECIES_GROWLITHE
 
 evodata SPECIES_ARCANINE
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_ARCANINE, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ARCANINE, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -746,7 +746,7 @@ evodata SPECIES_POLIWAG
 evodata SPECIES_POLIWHIRL
     evolution EVO_STONE, ITEM_WATER_STONE, SPECIES_POLIWRATH
     evolution EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_POLITOED
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_KINGS_ROCK, SPECIES_POLITOED
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -877,7 +877,7 @@ evodata SPECIES_VICTREEBEL
 
 evodata SPECIES_TENTACOOL
     evolution EVO_LEVEL, 30, SPECIES_TENTACRUEL
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_TOEDSCOOL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -888,7 +888,7 @@ evodata SPECIES_TENTACOOL
     terminateevodata
 
 evodata SPECIES_TENTACRUEL
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_TOEDSCRUEL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -901,8 +901,8 @@ evodata SPECIES_TENTACRUEL
 
 evodata SPECIES_GEODUDE
     evolution EVO_LEVEL, 25, SPECIES_GRAVELER
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GEODUDE, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GEODUDE, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -914,8 +914,8 @@ evodata SPECIES_GEODUDE
 evodata SPECIES_GRAVELER
     evolution EVO_TRADE, 0, SPECIES_GOLEM
     evolution EVO_STONE, ITEM_LINKING_CORD, SPECIES_GOLEM
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GEODUDE, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GEODUDE, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -925,8 +925,8 @@ evodata SPECIES_GRAVELER
 
 evodata SPECIES_GOLEM
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GOLEM, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GOLEM, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -937,8 +937,8 @@ evodata SPECIES_GOLEM
 
 evodata SPECIES_PONYTA
     evolution EVO_LEVEL, 40, SPECIES_RAPIDASH
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_PONYTA, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_PONYTA, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -949,8 +949,8 @@ evodata SPECIES_PONYTA
 
 evodata SPECIES_RAPIDASH
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_RAPIDASH, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RAPIDASH, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -962,8 +962,8 @@ evodata SPECIES_RAPIDASH
 evodata SPECIES_SLOWPOKE
     evolution EVO_LEVEL, 37, SPECIES_SLOWBRO
     evolution EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_SLOWKING
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_KINGS_ROCK, SPECIES_SLOWKING
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_SLOWPOKE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -973,8 +973,8 @@ evodata SPECIES_SLOWPOKE
 
 evodata SPECIES_SLOWBRO
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_SLOWBRO, 2
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SLOWBRO, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1009,8 +1009,8 @@ evodata SPECIES_MAGNETON
 
 evodata SPECIES_FARFETCHD
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_FARFETCHD, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_FARFETCHD, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1069,8 +1069,8 @@ evodata SPECIES_DEWGONG
 
 evodata SPECIES_GRIMER
     evolution EVO_LEVEL, 38, SPECIES_MUK
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GRIMER, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GRIMER, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1081,8 +1081,8 @@ evodata SPECIES_GRIMER
 
 evodata SPECIES_MUK
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_MUK, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MUK, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1153,7 +1153,7 @@ evodata SPECIES_GENGAR
 
 evodata SPECIES_ONIX
     evolution EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_STEELIX
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_METAL_COAT, SPECIES_STEELIX
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1213,8 +1213,8 @@ evodata SPECIES_KINGLER
 
 evodata SPECIES_VOLTORB
     evolution EVO_LEVEL, 30, SPECIES_ELECTRODE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_VOLTORB, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_VOLTORB, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1225,8 +1225,8 @@ evodata SPECIES_VOLTORB
 
 evodata SPECIES_ELECTRODE
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_ELECTRODE, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ELECTRODE, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1237,7 +1237,7 @@ evodata SPECIES_ELECTRODE
 
 evodata SPECIES_EXEGGCUTE
     evolution EVO_STONE, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SUN_STONE, SPECIES_EXEGGUTOR, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1249,8 +1249,8 @@ evodata SPECIES_EXEGGCUTE
 
 evodata SPECIES_EXEGGUTOR
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_EXEGGUTOR, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_EXEGGUTOR, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1261,7 +1261,7 @@ evodata SPECIES_EXEGGUTOR
 
 evodata SPECIES_CUBONE
     evolution EVO_LEVEL, 28, SPECIES_MAROWAK
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_FIRE_STONE, SPECIES_MAROWAK, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1273,8 +1273,8 @@ evodata SPECIES_CUBONE
 
 evodata SPECIES_MAROWAK
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_MAROWAK, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MAROWAK, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1321,7 +1321,7 @@ evodata SPECIES_LICKITUNG
 
 evodata SPECIES_KOFFING
     evolution EVO_LEVEL, 35, SPECIES_WEEZING
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SHINY_STONE, SPECIES_WEEZING, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1333,8 +1333,8 @@ evodata SPECIES_KOFFING
 
 evodata SPECIES_WEEZING
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_WEEZING, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_WEEZING, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1357,7 +1357,7 @@ evodata SPECIES_RHYHORN
 
 evodata SPECIES_RHYDON
     evolution EVO_TRADE_ITEM, ITEM_PROTECTOR, SPECIES_RHYPERIOR
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_PROTECTOR, SPECIES_RHYPERIOR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1417,7 +1417,7 @@ evodata SPECIES_HORSEA
 
 evodata SPECIES_SEADRA
     evolution EVO_TRADE_ITEM, ITEM_DRAGON_SCALE, SPECIES_KINGDRA
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_DRAGON_SCALE, SPECIES_KINGDRA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1477,8 +1477,8 @@ evodata SPECIES_STARMIE
 
 evodata SPECIES_MR_MIME
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_MR_MIME, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MR_MIME, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1490,7 +1490,7 @@ evodata SPECIES_MR_MIME
 evodata SPECIES_SCYTHER
     evolution EVO_TRADE_ITEM, ITEM_METAL_COAT, SPECIES_SCIZOR
     evolution EVO_STONE, ITEM_BLACK_AUGURITE, SPECIES_KLEAVOR
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_METAL_COAT, SPECIES_SCIZOR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1513,7 +1513,7 @@ evodata SPECIES_JYNX
 
 evodata SPECIES_ELECTABUZZ
     evolution EVO_TRADE_ITEM, ITEM_ELECTIRIZER, SPECIES_ELECTIVIRE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_ELECTIRIZER, SPECIES_ELECTIVIRE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1525,7 +1525,7 @@ evodata SPECIES_ELECTABUZZ
 
 evodata SPECIES_MAGMAR
     evolution EVO_TRADE_ITEM, ITEM_MAGMARIZER, SPECIES_MAGMORTAR
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_MAGMARIZER, SPECIES_MAGMORTAR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1549,9 +1549,9 @@ evodata SPECIES_PINSIR
 
 evodata SPECIES_TAUROS
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DUSK_STONE, SPECIES_TAUROS, 1
+    evolutionwithform EVO_STONE, ITEM_FIRE_STONE, SPECIES_TAUROS, 2
+    evolutionwithform EVO_STONE, ITEM_WATER_STONE, SPECIES_TAUROS, 3
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1657,7 +1657,7 @@ evodata SPECIES_FLAREON
 
 evodata SPECIES_PORYGON
     evolution EVO_TRADE_ITEM, ITEM_UP_GRADE, SPECIES_PORYGON2
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_UP_GRADE, SPECIES_PORYGON2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1741,8 +1741,8 @@ evodata SPECIES_SNORLAX
 
 evodata SPECIES_ARTICUNO
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_ARTICUNO, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ARTICUNO, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1753,8 +1753,8 @@ evodata SPECIES_ARTICUNO
 
 evodata SPECIES_ZAPDOS
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_ZAPDOS, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ZAPDOS, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1765,8 +1765,8 @@ evodata SPECIES_ZAPDOS
 
 evodata SPECIES_MOLTRES
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_MOLTRES, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MOLTRES, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1884,8 +1884,8 @@ evodata SPECIES_CYNDAQUIL
     terminateevodata
 
 evodata SPECIES_QUILAVA
-    evolution EVO_LEVEL, 36, SPECIES_TYPHLOSION
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_LEVEL_DAY, 36, SPECIES_TYPHLOSION
+    evolutionwithform EVO_LEVEL_NIGHT, 36, SPECIES_TYPHLOSION, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -1897,8 +1897,8 @@ evodata SPECIES_QUILAVA
 
 evodata SPECIES_TYPHLOSION
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_TYPHLOSION, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_TYPHLOSION, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2341,8 +2341,8 @@ evodata SPECIES_YANMA
 
 evodata SPECIES_WOOPER
     evolution EVO_LEVEL, 20, SPECIES_QUAGSIRE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WOOPER, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_WOOPER, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2401,8 +2401,8 @@ evodata SPECIES_MURKROW
 
 evodata SPECIES_SLOWKING
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_SLOWKING, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SLOWKING, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2545,8 +2545,8 @@ evodata SPECIES_GRANBULL
 
 evodata SPECIES_QWILFISH
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_QWILFISH, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_QWILFISH, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2556,8 +2556,8 @@ evodata SPECIES_QWILFISH
     terminateevodata
 
 evodata SPECIES_SCIZOR
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_BLACK_AUGURITE, SPECIES_KLEAVOR
+    evolution EVO_STONE, ITEM_RAZOR_CLAW, SPECIES_SCYTHER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2593,8 +2593,8 @@ evodata SPECIES_HERACROSS
 
 evodata SPECIES_SNEASEL
     evolution EVO_ITEM_NIGHT, ITEM_RAZOR_CLAW, SPECIES_WEAVILE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_SNEASEL, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SNEASEL, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2617,7 +2617,7 @@ evodata SPECIES_TEDDIURSA
 
 evodata SPECIES_URSARING
     evolution EVO_ITEM_NIGHT, ITEM_PEAT_BLOCK, SPECIES_URSALUNA
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_ITEM_NIGHT, ITEM_MOON_STONE, SPECIES_URSALUNA, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2677,8 +2677,8 @@ evodata SPECIES_PILOSWINE
 
 evodata SPECIES_CORSOLA
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_CORSOLA, 1
+	evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_CORSOLA, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2809,7 +2809,7 @@ evodata SPECIES_DONPHAN
 
 evodata SPECIES_PORYGON2
     evolution EVO_TRADE_ITEM, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_DUBIOUS_DISC, SPECIES_PORYGON_Z
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3169,8 +3169,8 @@ evodata SPECIES_MIGHTYENA
 
 evodata SPECIES_ZIGZAGOON
     evolution EVO_LEVEL, 20, SPECIES_LINOONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ZIGZAGOON, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_ZIGZAGOON, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3181,8 +3181,8 @@ evodata SPECIES_ZIGZAGOON
 
 evodata SPECIES_LINOONE
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_LINOONE, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_LINOONE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4202,7 +4202,7 @@ evodata SPECIES_ARMALDO
 evodata SPECIES_FEEBAS
     evolution EVO_BEAUTY, 170, SPECIES_MILOTIC
     evolution EVO_TRADE_ITEM, ITEM_PRISM_SCALE, SPECIES_MILOTIC
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_PRISM_SCALE, SPECIES_MILOTIC
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4285,7 +4285,7 @@ evodata SPECIES_DUSKULL
 
 evodata SPECIES_DUSCLOPS
     evolution EVO_TRADE_ITEM, ITEM_REAPER_CLOTH, SPECIES_DUSKNOIR
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_REAPER_CLOTH, SPECIES_DUSKNOIR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4406,8 +4406,8 @@ evodata SPECIES_WALREIN
 evodata SPECIES_CLAMPERL
     evolution EVO_TRADE_ITEM, ITEM_DEEP_SEA_TOOTH, SPECIES_HUNTAIL
     evolution EVO_TRADE_ITEM, ITEM_DEEP_SEA_SCALE, SPECIES_GOREBYSS
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_DEEP_SEA_SCALE, SPECIES_GOREBYSS
+    evolution EVO_STONE, ITEM_DEEP_SEA_TOOTH, SPECIES_HUNTAIL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5281,7 +5281,7 @@ evodata SPECIES_BONSLY
 
 evodata SPECIES_MIMEJR
     evolution EVO_HAS_MOVE, MOVE_MIMIC, SPECIES_MR_MIME
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_ICE_STONE, SPECIES_MR_MIME, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5292,7 +5292,7 @@ evodata SPECIES_MIMEJR
     terminateevodata
 
 evodata SPECIES_HAPPINY
-    evolution EVO_ITEM_DAY, ITEM_OVAL_STONE, SPECIES_CHANSEY
+    evolution EVO_STONE, ITEM_OVAL_STONE, SPECIES_CHANSEY
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11419,8 +11419,8 @@ evodata SPECIES_WYRDEER
 terminateevodata
 
 evodata SPECIES_KLEAVOR
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_METAL_COAT, SPECIES_SCIZOR
+    evolution EVO_STONE, ITEM_RAZOR_CLAW, SPECIES_SCYTHER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11996,7 +11996,7 @@ terminateevodata
 
 evodata SPECIES_TOEDSCOOL
     evolution EVO_LEVEL, 30, SPECIES_TOEDSCRUEL
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_DURIN_BERRY, SPECIES_TENTACOOL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12007,7 +12007,7 @@ evodata SPECIES_TOEDSCOOL
 terminateevodata
 
 evodata SPECIES_TOEDSCRUEL
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_STONE, ITEM_DURIN_BERRY, SPECIES_TENTACRUEL
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12140,9 +12140,9 @@ terminateevodata
 
 evodata SPECIES_WIGLETT
     evolution EVO_LEVEL, 26, SPECIES_WUGTRIO
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_DIGLETT, 0
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_DIGLETT, 1
+	evolutionwithform EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WIGLETT, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12152,9 +12152,9 @@ terminateevodata
 
 evodata SPECIES_WUGTRIO
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_DUGTRIO, 0
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_DUGTRIO, 1
+	evolutionwithform EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WUGTRIO, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13534,8 +13534,8 @@ terminateevodata
 
 evodata SPECIES_RATTATA_ALOLAN
     evolutionwithform EVO_LEVEL_NIGHT, 20, SPECIES_RATICATE, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RATTATA, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_RATTATA, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13546,8 +13546,8 @@ terminateevodata
 
 evodata SPECIES_RATICATE_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RATICATE, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_RATICATE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13558,8 +13558,8 @@ terminateevodata
 
 evodata SPECIES_RAICHU_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RAICHU, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_RAICHU, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13570,8 +13570,8 @@ terminateevodata
 
 evodata SPECIES_SANDSHREW_ALOLAN
     evolutionwithform EVO_STONE, ITEM_ICE_STONE, SPECIES_SANDSLASH, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SANDSHREW, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_SANDSHREW, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13582,8 +13582,8 @@ terminateevodata
 
 evodata SPECIES_SANDSLASH_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SANDSLASH, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_SANDSLASH, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13594,8 +13594,8 @@ terminateevodata
 
 evodata SPECIES_VULPIX_ALOLAN
     evolutionwithform EVO_STONE, ITEM_ICE_STONE, SPECIES_NINETALES, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_VULPIX, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_VULPIX, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13606,8 +13606,8 @@ terminateevodata
 
 evodata SPECIES_NINETALES_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_NINETALES, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_NINETALES, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13618,9 +13618,9 @@ terminateevodata
 
 evodata SPECIES_DIGLETT_ALOLAN
     evolutionwithform EVO_LEVEL, 26, SPECIES_DUGTRIO, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_DIGLETT, 0
+    evolution EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WIGLETT
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_DIGLETT, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13630,9 +13630,9 @@ terminateevodata
 
 evodata SPECIES_DUGTRIO_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_DUGTRIO, 0
+    evolution EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WUGTRIO
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_DUGTRIO, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13642,9 +13642,9 @@ terminateevodata
 
 evodata SPECIES_MEOWTH_ALOLAN
     evolutionwithform EVO_FRIENDSHIP, 0, SPECIES_PERSIAN, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MEOWTH, 0
+    evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_MEOWTH, 2
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_MEOWTH, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13654,8 +13654,8 @@ terminateevodata
 
 evodata SPECIES_PERSIAN_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_PERSIAN, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_PERSIAN, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13666,8 +13666,8 @@ terminateevodata
 
 evodata SPECIES_GEODUDE_ALOLAN
     evolutionwithform EVO_LEVEL, 25, SPECIES_GRAVELER, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GEODUDE, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GEODUDE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13679,8 +13679,8 @@ terminateevodata
 evodata SPECIES_GRAVELER_ALOLAN
     evolutionwithform EVO_TRADE, 0, SPECIES_GOLEM, 1
     evolutionwithform EVO_STONE, ITEM_LINKING_CORD, SPECIES_GOLEM, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GRAVELER, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GRAVELER, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13690,8 +13690,8 @@ terminateevodata
 
 evodata SPECIES_GOLEM_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GOLEM, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GOLEM, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13702,8 +13702,8 @@ terminateevodata
 
 evodata SPECIES_GRIMER_ALOLAN
     evolutionwithform EVO_LEVEL, 38, SPECIES_MUK, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GRIMER, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_GRIMER, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13714,8 +13714,8 @@ terminateevodata
 
 evodata SPECIES_MUK_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MUK, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_MUK, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13726,8 +13726,8 @@ terminateevodata
 
 evodata SPECIES_EXEGGUTOR_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_EXEGGUTOR, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_EXEGGUTOR, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13738,8 +13738,8 @@ terminateevodata
 
 evodata SPECIES_MAROWAK_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MAROWAK, 0
+	evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_MAROWAK, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13894,9 +13894,9 @@ terminateevodata
 
 evodata SPECIES_MEOWTH_GALARIAN
     evolution EVO_LEVEL, 28, SPECIES_PERRSERKER
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_PAMTRE_BERRY, SPECIES_MEOWTH, 1
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MEOWTH, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_MEOWTH, 2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13906,8 +13906,8 @@ terminateevodata
 
 evodata SPECIES_PONYTA_GALARIAN
     evolutionwithform EVO_LEVEL, 40, SPECIES_RAPIDASH, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_PONYTA, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_PONYTA, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13918,8 +13918,8 @@ terminateevodata
 
 evodata SPECIES_RAPIDASH_GALARIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_RAPIDASH, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_RAPIDASH, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13931,8 +13931,8 @@ terminateevodata
 evodata SPECIES_SLOWPOKE_GALARIAN
     evolutionwithform EVO_STONE, ITEM_GALARICA_CUFF, SPECIES_SLOWBRO, 2
     evolutionwithform EVO_STONE, ITEM_GALARICA_WREATH, SPECIES_SLOWKING, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SLOWPOKE, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_SLOWPOKE, 1 
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13942,8 +13942,8 @@ terminateevodata
 
 evodata SPECIES_SLOWBRO_GALARIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SLOWBRO, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_SLOWBRO, 2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13954,8 +13954,8 @@ terminateevodata
 
 evodata SPECIES_FARFETCHD_GALARIAN
     evolution EVO_AMOUNT_OF_CRITICAL_HITS, 3, SPECIES_SIRFETCHD
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_FARFETCHD, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_FARFETCHD, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13966,8 +13966,8 @@ terminateevodata
 
 evodata SPECIES_WEEZING_GALARIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_WEEZING, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_WEEZING, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13978,8 +13978,8 @@ terminateevodata
 
 evodata SPECIES_MR_MIME_GALARIAN
     evolution EVO_LEVEL, 42, SPECIES_MR_RIME
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MR_MIME, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_MR_MIME, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13990,8 +13990,8 @@ terminateevodata
 
 evodata SPECIES_ARTICUNO_GALARIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ARTICUNO, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_ARTICUNO, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14002,8 +14002,8 @@ terminateevodata
 
 evodata SPECIES_ZAPDOS_GALARIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ZAPDOS, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_ZAPDOS, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14014,8 +14014,8 @@ terminateevodata
 
 evodata SPECIES_MOLTRES_GALARIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_MOLTRES, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_MOLTRES, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14026,8 +14026,8 @@ terminateevodata
 
 evodata SPECIES_SLOWKING_GALARIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SLOWKING, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_SLOWKING, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14038,8 +14038,8 @@ terminateevodata
 
 evodata SPECIES_CORSOLA_GALARIAN
     evolution EVO_LEVEL, 38, SPECIES_CURSOLA
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_CORSOLA, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_CORSOLA, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14050,8 +14050,8 @@ terminateevodata
 
 evodata SPECIES_ZIGZAGOON_GALARIAN
     evolutionwithform EVO_LEVEL, 20, SPECIES_LINOONE, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ZIGZAGOON, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_ZIGZAGOON, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14062,8 +14062,8 @@ terminateevodata
 
 evodata SPECIES_LINOONE_GALARIAN
     evolution EVO_LEVEL, 35, SPECIES_OBSTAGOON
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_LINOONE, 0
+	evolutionwithform EVO_STONE, ITEM_BELUE_BERRY, SPECIES_LINOONE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15934,8 +15934,8 @@ terminateevodata
 
 evodata SPECIES_GROWLITHE_HISUIAN
     evolutionwithform EVO_STONE, ITEM_FIRE_STONE, SPECIES_ARCANINE, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_GROWLITHE, 0
+	evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_GROWLITHE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15946,8 +15946,8 @@ terminateevodata
 
 evodata SPECIES_ARCANINE_HISUIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ARCANINE, 0
+	evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_ARCANINE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15958,8 +15958,8 @@ terminateevodata
 
 evodata SPECIES_VOLTORB_HISUIAN
     evolutionwithform EVO_STONE, ITEM_LEAF_STONE, SPECIES_ELECTRODE, 1
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_VOLTORB, 0
+	evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_VOLTORB, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15970,8 +15970,8 @@ terminateevodata
 
 evodata SPECIES_ELECTRODE_HISUIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_ELECTRODE, 0
+	evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_ELECTRODE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15982,8 +15982,8 @@ terminateevodata
 
 evodata SPECIES_TYPHLOSION_HISUIAN
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_TYPHLOSION, 0
+	evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_TYPHLOSION, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15994,8 +15994,8 @@ terminateevodata
 
 evodata SPECIES_QWILFISH_HISUIAN
     evolution EVO_LEVEL, 20, SPECIES_OVERQWIL // placeholder
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_QWILFISH, 0
+	evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_QWILFISH, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16006,8 +16006,8 @@ terminateevodata
 
 evodata SPECIES_SNEASEL_HISUIAN
     evolution EVO_ITEM_DAY, ITEM_RAZOR_CLAW, SPECIES_SNEASLER
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_SNEASEL, 0
+	evolutionwithform EVO_STONE, ITEM_SPELON_BERRY, SPECIES_SNEASEL, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16387,8 +16387,8 @@ terminateevodata
 
 evodata SPECIES_WOOPER_PALDEAN
     evolution EVO_LEVEL, 20, SPECIES_CLODSIRE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DURIN_BERRY, SPECIES_WOOPER, 0
+    evolutionwithform EVO_STONE, ITEM_WATMEL_BERRY, SPECIES_WOOPER, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16400,10 +16400,10 @@ terminateevodata
 
 evodata SPECIES_TAUROS_COMBAT
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DAWN_STONE, SPECIES_TAUROS, 0
+    evolutionwithform EVO_STONE, ITEM_FIRE_STONE, SPECIES_TAUROS, 2
+    evolutionwithform EVO_STONE, ITEM_WATER_STONE, SPECIES_TAUROS, 3
+	evolutionwithform EVO_STONE, ITEM_DUSK_STONE, SPECIES_TAUROS, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16413,10 +16413,10 @@ terminateevodata
 
 evodata SPECIES_TAUROS_BLAZE
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DUSK_STONE, SPECIES_TAUROS, 1
+    evolutionwithform EVO_STONE, ITEM_DAWN_STONE, SPECIES_TAUROS, 0
+    evolutionwithform EVO_STONE, ITEM_WATER_STONE, SPECIES_TAUROS, 3
+	evolutionwithform EVO_STONE, ITEM_FIRE_STONE, SPECIES_TAUROS, 2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -16426,10 +16426,10 @@ terminateevodata
 
 evodata SPECIES_TAUROS_AQUA
     evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_STONE, ITEM_DUSK_STONE, SPECIES_TAUROS, 1
+    evolutionwithform EVO_STONE, ITEM_FIRE_STONE, SPECIES_TAUROS, 2
+    evolutionwithform EVO_STONE, ITEM_DAWN_STONE, SPECIES_TAUROS, 0
+	evolutionwithform EVO_STONE, ITEM_WATER_STONE, SPECIES_TAUROS, 3
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

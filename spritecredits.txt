@@ -1,0 +1,140 @@
+I have tried to ensure only sprites with use permission were included, if you would like your art removed from this project please let me know
+There is some ambiguity of who should be credited for certain overworld sprites. While I have tried to attribute credit correctly, please let me know if you have not been credited correctly
+Unless stated, no sprites have been edited (aside from minor edits to maintain 16 colour pallete indexing and 80*80/32*32 sizing). 
+Where directions of overworld sprites have been missing I have made some basic placeholders (Glacia, Drake, Brandon, Tucker, Greta, Spenser) which are missing feet animations, as is Noland
+All new trainer sprites are missing animations
+
+Trainer Sprites:
+
+TRAINERCLASS_CHAMPION_STEVEN        GameFreak
+TRAINERCLASS_CHAMPION_WALLACE       GameFreak
+TRAINERCLASS_ELITE_FOUR_SIDNEY      CDRX73
+TRAINERCLASS_ELITE_FOUR_PHOEBE      Brumirage
+TRAINERCLASS_ELITE_FOUR_GLACIA      Grapo
+TRAINERCLASS_ELITE_FOUR_DRAKE       GameFreak (edited)
+TRAINERCLASS_LEADER_ROXANNE         Kyle-Dove
+TRAINERCLASS_LEADER_BRAWLY          Gnomowladny
+TRAINERCLASS_LEADER_WATTSON         GameFreak
+TRAINERCLASS_LEADER_FLANNERY        ZacWeavile
+TRAINERCLASS_LEADER_NORMAN          GameFreak
+TRAINERCLASS_LEADER_WINONA          Gnomowladny
+TRAINERCLASS_LEADER_LIZA            GameFreak
+TRAINERCLASS_LEADER_TATE            GameFreak
+TRAINERCLASS_LEADER_JUAN            GameFreak
+TRAINERCLASS_CHAMPION_CYNTHIA       GameFreak
+TRAINERCLASS_SPECIAL_AGENT          Kyle-Dove
+TRAINERCLASS_ELITE_FOUR_AARON       GameFreak
+TRAINERCLASS_ELITE_FOUR_BERTHA      GameFreak
+TRAINERCLASS_ELITE_FOUR_FLINT       GameFreak
+TRAINERCLASS_ELITE_FOUR_LUCIAN      GameFreak
+TRAINERCLASS_LEADER_ROARK           GameFreak
+TRAINERCLASS_LEADER_GARDENIA        GameFreak
+TRAINERCLASS_LEADER_MAYLENE         GameFreak
+TRAINERCLASS_LEADER_CRASHER_WAKE    GameFreak
+TRAINERCLASS_LEADER_FANTINA         GameFreak
+TRAINERCLASS_LEADER_BYRON           GameFreak
+TRAINERCLASS_LEADER_CANDICE         GameFreak
+TRAINERCLASS_LEADER_VOLKNER         GameFreak
+TRAINERCLASS_PKMN_TRAINER_GREEN     Psystar63
+TRAINERCLASS_PKMN_TRAINER_YELLOW    Tyche
+TRAINERCLASS_PKMN_TRAINER_LEAF      Kyle-Dove
+TRAINERCLASS_PKMN_TRAINER_KRIS      Gregarlink10
+TRAINERCLASS_PKMN_TRAINER_BRENDAN   Hyo-oppa
+TRAINERCLASS_PKMN_TRAINER_MAY       Hyo-oppa
+TRAINERCLASS_PKMN_TRAINER_WALLY     Beliot419
+TRAINERCLASS_PKMN_TRAINER_BARRY     GameFreak
+TRAINERCLASS_FACTORY_DIRECTOR       Kyle-Dove
+TRAINERCLASS_ARENA_TYCOON           Kyle-Dove
+TRAINERCLASS_DOME_ACE               Kyle-Dove
+TRAINERCLASS_PIKE_QUEEN             Kyle-Dove (edited)
+TRAINERCLASS_PALACE_MAVEN           Kyle-Dove
+TRAINERCLASS_PYRAMID_KING           Kyle-Dove
+TRAINERCLASS_SALON_MAIDEN           Kyle-Dove
+TRAINERCLASS_ADMIN_MATT             IceJkai
+TRAINERCLASS_ADMIN_SHELLY           Gnomowladny
+TRAINERCLASS_AQUA_LEADER            Kyle-Dove
+TRAINERCLASS_ADMIN_TABITHA          Kyle-Dove
+TRAINERCLASS_ADMIN_COURTNEY         ZacWeavile
+TRAINERCLASS_MAGMA_LEADER           Hyo-oppa
+TRAINERCLASS_COMMANDER_MARS         GameFreak
+TRAINERCLASS_COMMANDER_JUPITER      GameFreak
+TRAINERCLASS_COMMANDER_SATURN       GameFreak
+TRAINERCLASS_COMMANDER_CHARON       GameFreak
+TRAINERCLASS_GALACTIC_BOSS          GameFreak
+TRAINERCLASS_CASTLE_LADY            GameFreak
+TRAINERCLASS_STAT_TRAINER_BUCK      GameFreak
+TRAINERCLASS_STAT_TRAINER_CHERYL    GameFreak
+TRAINERCLASS_STAT_TRAINER_MARLEY    GameFreak
+TRAINERCLASS_STAT_TRAINER_MIRA      GameFreak
+TRAINERCLASS_STAT_TRAINER_RILEY     GameFreak
+
+Considering replacing: Steven, Drake, Yellow, Leaf, Lucy, Anabel
+
+
+
+Overworld Sprites:
+
+TRAINERCLASS_CHAMPION_STEVEN        GameFreak
+TRAINERCLASS_CHAMPION_WALLACE       PurpleZaffre (spriter), DevDuelist (oommissioned)
+TRAINERCLASS_ELITE_FOUR_SIDNEY      Kyle-Dove, KleinStudio
+TRAINERCLASS_ELITE_FOUR_PHOEBE      Wergan
+TRAINERCLASS_ELITE_FOUR_GLACIA      Kyle-Dove (edited), Wergan
+TRAINERCLASS_ELITE_FOUR_DRAKE       Kyle-Dove (edited), Wergan
+TRAINERCLASS_LEADER_ROXANNE         PurpleZaffre
+TRAINERCLASS_LEADER_BRAWLY          PurpleZaffre
+TRAINERCLASS_LEADER_WATTSON         PurpleZaffre (spriter), DevDuelist (oommissioned)
+TRAINERCLASS_LEADER_FLANNERY        PurpleZaffre
+TRAINERCLASS_LEADER_NORMAN          PurpleZaffre
+TRAINERCLASS_LEADER_WINONA          PurpleZaffre (spriter), DevDuelist (oommissioned)
+TRAINERCLASS_LEADER_LIZA            PurpleZaffre
+TRAINERCLASS_LEADER_TATE            PurpleZaffre
+TRAINERCLASS_LEADER_JUAN            PurpleZaffre
+TRAINERCLASS_CHAMPION_CYNTHIA       GameFreak
+TRAINERCLASS_SPECIAL_AGENT          GameFreak
+TRAINERCLASS_ELITE_FOUR_AARON       GameFreak
+TRAINERCLASS_ELITE_FOUR_BERTHA      GameFreak
+TRAINERCLASS_ELITE_FOUR_FLINT       GameFreak
+TRAINERCLASS_ELITE_FOUR_LUCIAN      GameFreak
+TRAINERCLASS_LEADER_ROARK           GameFreak
+TRAINERCLASS_LEADER_GARDENIA        GameFreak
+TRAINERCLASS_LEADER_MAYLENE         GameFreak
+TRAINERCLASS_LEADER_CRASHER_WAKE    GameFreak
+TRAINERCLASS_LEADER_FANTINA         GameFreak
+TRAINERCLASS_LEADER_BYRON           GameFreak
+TRAINERCLASS_LEADER_CANDICE         GameFreak
+TRAINERCLASS_LEADER_VOLKNER         GameFreak
+TRAINERCLASS_PKMN_TRAINER_GREEN     JikarOriginal (edited)
+TRAINERCLASS_PKMN_TRAINER_YELLOW    DStar99
+TRAINERCLASS_PKMN_TRAINER_LEAF      Wolfang62
+TRAINERCLASS_PKMN_TRAINER_KRIS      Gregarlink10
+TRAINERCLASS_PKMN_TRAINER_BRENDAN   Tebited15
+TRAINERCLASS_PKMN_TRAINER_MAY       Tebited15
+TRAINERCLASS_PKMN_TRAINER_WALLY     Kyle-Dove, KleinStudio
+TRAINERCLASS_PKMN_TRAINER_BARRY     GameFreak
+TRAINERCLASS_FACTORY_DIRECTOR       Kyle-Dove (edited)
+TRAINERCLASS_ARENA_TYCOON           Kyle-Dove (edited), Wergan
+TRAINERCLASS_DOME_ACE               Kyle-Dove (edited), Wergan
+TRAINERCLASS_PIKE_QUEEN             DiegoWT (spriter), Hydreinite (oommissioned)
+TRAINERCLASS_PALACE_MAVEN           Kyle-Dove (edited), Wergan
+TRAINERCLASS_PYRAMID_KING           Kyle-Dove (edited), Wergan
+TRAINERCLASS_SALON_MAIDEN           Vergolophus
+TRAINERCLASS_ADMIN_MATT             JikarOriginal
+TRAINERCLASS_ADMIN_SHELLY           DiegoWT (spriter), LoganPaul0 (oommissioned)
+TRAINERCLASS_AQUA_LEADER            DiegoWT (spriter), Kyle-Dove (oommissioned)
+TRAINERCLASS_ADMIN_TABITHA          AerunFE
+TRAINERCLASS_ADMIN_COURTNEY         JikarOriginal
+TRAINERCLASS_MAGMA_LEADER           PurpleZaffre
+TRAINERCLASS_COMMANDER_MARS         GameFreak
+TRAINERCLASS_COMMANDER_JUPITER      GameFreak
+TRAINERCLASS_COMMANDER_SATURN       GameFreak
+TRAINERCLASS_COMMANDER_CHARON       GameFreak
+TRAINERCLASS_GALACTIC_BOSS          GameFreak
+TRAINERCLASS_CASTLE_LADY            GameFreak
+TRAINERCLASS_STAT_TRAINER_BUCK      GameFreak
+TRAINERCLASS_STAT_TRAINER_CHERYL    GameFreak
+TRAINERCLASS_STAT_TRAINER_MARLEY    GameFreak
+TRAINERCLASS_STAT_TRAINER_MIRA      GameFreak
+TRAINERCLASS_STAT_TRAINER_RILEY     GameFreak
+
+Consider replacing: Yellow, Maxie, Green (shorter, sprite looks like G5), Matt, Aaron (Palette), Charon (Palette), Noland, Glacia, Drake, Brandon, Tucker, Greta, Spenser
+

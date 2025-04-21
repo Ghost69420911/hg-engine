@@ -289,10 +289,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 130 / 100;
     }
 
-    // handle punk rock
-    if (AttackingMon.ability == ABILITY_PUNK_ROCK && IsMoveSoundBased(sp->current_move_index))
+    // handle cacophony
+    if (AttackingMon.ability == ABILITY_CACOPHONY && IsMoveSoundBased(sp->current_move_index))
     {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 150 / 100;
     }
 
 
@@ -589,6 +589,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     else if ((movetype == TYPE_DARK) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_DARK_AURA) != 0)
       && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) != 0))
         movepower = movepower * 100 / 133;
+		
+    // if dark aura is not present AND aura break is present
+    else if ((movetype == TYPE_DARK) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_DARK_AURA) == 0)
+      && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) != 0))
+        movepower = movepower * 100 / 133;
 
 #if FAIRY_TYPE_IMPLEMENTED == 1
     // if FAIRY aura is present but not aura break
@@ -598,6 +603,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // if FAIRY aura is present AND aura break
     else if ((movetype == TYPE_FAIRY) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_FAIRY_AURA) != 0)
+      && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) != 0))
+        movepower = movepower * 100 / 133;
+		
+    // if FAIRY aura is not present AND aura break is present
+    else if ((movetype == TYPE_FAIRY) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_FAIRY_AURA) == 0)
       && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) != 0))
         movepower = movepower * 100 / 133;
 #endif
@@ -909,8 +919,15 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
     else// if (movesplit == SPLIT_SPECIAL) // same as above, handle special moves
-    {
-        // handle light screen
+    if (movesplit == SPLIT_SPECIAL)
+	{
+        // frostbite halves special damage.  this is ignored by guts and facade for parity with burn
+		if ((AttackingMon.condition & STATUS_FROSTBITE) && (AttackingMon.ability != ABILITY_GUTS) && (moveno != MOVE_FACADE))
+        {
+            damage /= 2;
+        }
+		
+		// handle light screen
         if (((side_cond & SIDE_STATUS_LIGHT_SCREEN) != 0)
          && (critical == 1)
          && (sp->moveTbl[moveno].effect != MOVE_EFFECT_REMOVE_SCREENS)
@@ -1012,8 +1029,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         damage /= 2;
     }
 
-    // handle punk rock TODO uncomment
-    if (DefendingMon.ability == ABILITY_PUNK_ROCK && IsMoveSoundBased(moveno))
+    // handle CACOPHONY TODO uncomment
+    if (DefendingMon.ability == ABILITY_CACOPHONY && IsMoveSoundBased(moveno))
     {
         damage /= 2;
     }

@@ -205,6 +205,7 @@
  *  in BattleStruct's battlemon[battler].condition field
  *     or GetMonData(mon, MON_DATA_STATUS, NULL);
  */
+
 // Status
 #define STATUS_NONE         0
 #define STATUS_SLEEP_0      (1 << 0)
@@ -215,7 +216,9 @@
 #define STATUS_FREEZE       (1 << 5)
 #define STATUS_PARALYSIS    (1 << 6)
 #define STATUS_BAD_POISON   (1 << 7)
+#define STATUS_FROSTBITE    (1 << 12)
 #define STATUS_POISON_COUNT (15 << 8)
+
 
 #define CONDITION_NONE      0
 #define CONDITION_SLEEP     1
@@ -223,15 +226,16 @@
 #define CONDITION_BURN      3
 #define CONDITION_FREEZE    4
 #define CONDITION_PARALYSIS 5
+#define CONDITION_FROSTBITE 192
 
 #define STATUS_SLEEP      (STATUS_SLEEP_0 | STATUS_SLEEP_1 | STATUS_SLEEP_2)
 #define STATUS_NOT_SLEEP  ~STATUS_SLEEP
 #define STATUS_POISON_ALL (STATUS_POISON | STATUS_BAD_POISON | STATUS_POISON_COUNT)
 
-#define STATUS_ALL             (STATUS_SLEEP | STATUS_POISON | STATUS_BURN | STATUS_FREEZE | STATUS_PARALYSIS | STATUS_BAD_POISON)
-#define STATUS_FACADE_BOOST    (STATUS_POISON | STATUS_BAD_POISON | STATUS_BURN | STATUS_PARALYSIS)
-#define STATUS_CAN_SYNCHRONIZE (STATUS_POISON | STATUS_BURN | STATUS_PARALYSIS)
-#define STATUS_ANY_PERSISTENT  (STATUS_SLEEP | STATUS_POISON_ALL | STATUS_BURN | STATUS_FREEZE | STATUS_PARALYSIS)
+#define STATUS_ALL             (STATUS_SLEEP | STATUS_POISON | STATUS_BURN | STATUS_FREEZE | STATUS_PARALYSIS | STATUS_BAD_POISON | STATUS_FROSTBITE)
+#define STATUS_FACADE_BOOST    (STATUS_POISON | STATUS_BAD_POISON | STATUS_BURN | STATUS_PARALYSIS | STATUS_FROSTBITE)
+#define STATUS_CAN_SYNCHRONIZE (STATUS_POISON | STATUS_BURN | STATUS_PARALYSIS | STATUS_FROSTBITE)
+#define STATUS_ANY_PERSISTENT  (STATUS_SLEEP | STATUS_POISON_ALL | STATUS_BURN | STATUS_FREEZE | STATUS_PARALYSIS | STATUS_FROSTBITE)
 
 #define STATUS_POISON_COUNT_SHIFT 8
 
@@ -3321,6 +3325,8 @@ void LONG_CALL BattleControllerPlayer_CalcExecutionOrder(struct BattleSystem *bw
 BOOL LONG_CALL CurseUserIsGhost(struct BattleStruct *ctx, u16 moveNo, int battlerId);
 
 void LONG_CALL UnlockBattlerOutOfCurrentMove(struct BattleSystem *bsys, struct BattleStruct *ctx, int battlerId);
+
+int LONG_CALL GetBattlerStatusCondition(struct BattleStruct *ctx, int battlerId);
 
 /**
  *  @brief checks if the given moveNo is a two-turn move at all

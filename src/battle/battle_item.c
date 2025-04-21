@@ -126,6 +126,7 @@ enum
 	SWHAC_END
 };
 
+
 /**
  *  @brief handle item effects for an attacker's items on move hit.  loads the subscript and returns to parent
  *         this function is for an attacker's held item effect triggering after hitting with a move
