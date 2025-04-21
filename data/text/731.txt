@@ -188,3 +188,48 @@ a ₧₦ Trainer
 a ₧₦ Trainer
 a ₧₦ Trainer
 a ₧₦ Trainer
+<<<<<<< Updated upstream
+=======
+a Evil Trainer
+a Champion
+a ₧₦ Trainer
+a Legend
+a Leader
+a Leader
+a Leader
+a Leader
+a Leader
+a Leader
+a Leader
+a Leader
+a Leader
+a Leader
+a Champion
+a Leader
+a Leader
+a Elite Four
+a Elite Four
+a Elite Four
+a Leader
+a Leader
+a ₧₦ Trainer
+a Neo Plasma
+a Plasma
+a ₧₦ Trainer
+a Unova Legend
+a Unova Legend
+a ₧₦ Trainer
+a ₧₦ Trainer
+a Prof Assistant
+a ₧₦ Trainer
+a Ex Elite Four
+a Shadow Triad
+a Neo T Plasma
+a Team Plasma
+a Neo T Plasma
+a Team Plasma
+a Neo Plasma
+a Ex Neo Plasma
+a ₧₦ Trainer
+a ₧₦ Trainer
+>>>>>>> Stashed changes
