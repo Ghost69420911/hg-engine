@@ -10,55 +10,55 @@
 
 encounterdata   0   // New Bark Town
 
-walkrate 0
+walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_RIOLU
+pokemon SPECIES_MAGBY
+pokemon SPECIES_ELEKID
+pokemon SPECIES_RIOLU
+pokemon SPECIES_MAGBY
+pokemon SPECIES_ELEKID
+pokemon SPECIES_RALTS
+pokemon SPECIES_SWABLU
+pokemon SPECIES_PANSAGE
+pokemon SPECIES_PANSEAR
+pokemon SPECIES_PANPOUR
+pokemon SPECIES_AXEW
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_BULBASAUR
+pokemon SPECIES_CHARMANDER
+pokemon SPECIES_SQUIRTLE
+pokemon SPECIES_CHIKORITA
+pokemon SPECIES_CYNDAQUIL
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_TREECKO
+pokemon SPECIES_TORCHIC
+pokemon SPECIES_MUDKIP
+pokemon SPECIES_TURTWIG
+pokemon SPECIES_CHIMCHAR
+pokemon SPECIES_PIPLUP
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SLAKOTH
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_DRIFLOON
+pokemon SPECIES_SLAKOTH
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_DRIFLOON
+pokemon SPECIES_MUNNA
+pokemon SPECIES_WOOBAT
+pokemon SPECIES_ZORUA
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_SOLOSIS
+monwithform SPECIES_ZORUA, 1
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -126,7 +126,12 @@ walklevels 2, 3, 2, 3, 3, 3, 2, 2, 4, 4, 4, 4
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_SENTRET
 pokemon SPECIES_PIDGEY
+pokemon SPECIES_LILLIPUP
+pokemon SPECIES_LILLIPUP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_BLITZLE
 pokemon SPECIES_SENTRET
+<<<<<<< Updated upstream
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_SENTRET
@@ -135,12 +140,23 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_RATTATA
 pokemon SPECIES_NATU
+=======
+pokemon SPECIES_BLITZLE
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_ROCKRUFF
+>>>>>>> Stashed changes
 
 // day encounter slots
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_SENTRET
 pokemon SPECIES_PIDGEY
+pokemon SPECIES_LILLIPUP
+pokemon SPECIES_LILLIPUP
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_BLITZLE
 pokemon SPECIES_SENTRET
+<<<<<<< Updated upstream
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_SENTRET
@@ -149,10 +165,19 @@ pokemon SPECIES_RATTATA
 pokemon SPECIES_PIDGEY
 pokemon SPECIES_RATTATA
 pokemon SPECIES_NATU
+=======
+pokemon SPECIES_BLITZLE
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_ROCKRUFF
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_PANCHAM
+pokemon SPECIES_SPEAROW
 pokemon SPECIES_HOOTHOOT
+<<<<<<< Updated upstream
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOPPIP
@@ -163,6 +188,16 @@ pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_RATTATA
 pokemon SPECIES_MURKROW
+=======
+monwithform SPECIES_RATTATA, 1
+pokemon SPECIES_HOPPIP
+monwithform SPECIES_RATTATA, 1
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_ROCKRUFF
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_RATTATA
+pokemon SPECIES_ROCKRUFF
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -218,55 +253,55 @@ pokemon SPECIES_NONE
 
 encounterdata   2   // Cherrygrove City
 
-walkrate 0
+walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_CRABRAWLER
+pokemon SPECIES_FOMANTIS
+pokemon SPECIES_TOGEDEMARU
+pokemon SPECIES_SALANDIT
+pokemon SPECIES_KOMALA
+pokemon SPECIES_JANGMO_O
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SNIVY
+pokemon SPECIES_TEPIG
+pokemon SPECIES_OSHAWOTT
+pokemon SPECIES_CHESPIN
+pokemon SPECIES_FENNEKIN
+pokemon SPECIES_FROAKIE
+pokemon SPECIES_ROWLET
+pokemon SPECIES_LITTEN
+pokemon SPECIES_POPPLIO
+pokemon SPECIES_GROOKEY
+pokemon SPECIES_SCORBUNNY
+pokemon SPECIES_SOBBLE
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SANDYGAST
+pokemon SPECIES_LITWICK
+pokemon SPECIES_PAWNIARD
+pokemon SPECIES_SANDYGAST
+pokemon SPECIES_LITWICK
+pokemon SPECIES_PAWNIARD
+pokemon SPECIES_PHANTUMP
+pokemon SPECIES_PUMPKABOO
+pokemon SPECIES_IMPIDIMP
+monwithform SPECIES_ZIGZAGOON, 1
+pokemon SPECIES_MORPEKO
+pokemon SPECIES_COSMOG
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -328,9 +363,10 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 2, 3, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4
+walklevels 3, 3, 3, 4, 4, 5, 4, 4, 5, 4, 4, 4
 
 // morning encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_LEDYBA
 pokemon SPECIES_CATERPIE
 pokemon SPECIES_LEDYBA
@@ -371,6 +407,48 @@ monwithform SPECIES_RATTATA, 1
 monwithform SPECIES_RATTATA, 1
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT
+=======
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_ILLUMISE
+pokemon SPECIES_EEVEE
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_ILLUMISE
+pokemon SPECIES_EEVEE
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_AIPOM
+pokemon SPECIES_TAILLOW
+pokemon SPECIES_TAILLOW
+pokemon SPECIES_BURMY
+pokemon SPECIES_MUNCHLAX
+
+// day encounter slots
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_ILLUMISE
+pokemon SPECIES_EEVEE
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_ILLUMISE
+pokemon SPECIES_EEVEE
+pokemon SPECIES_STARLY
+pokemon SPECIES_PIDOVE
+pokemon SPECIES_PATRAT
+pokemon SPECIES_PATRAT
+pokemon SPECIES_SEWADDLE
+pokemon SPECIES_LARVESTA
+
+// night encounter slots
+pokemon SPECIES_DOTTLER
+pokemon SPECIES_GOSSIFLEUR
+pokemon SPECIES_NYMBLE
+pokemon SPECIES_DOTTLER
+pokemon SPECIES_GOSSIFLEUR
+pokemon SPECIES_NYMBLE
+monwithform SPECIES_RATTATA, 1
+monwithform SPECIES_RATTATA, 1
+pokemon SPECIES_SHROODLE
+pokemon SPECIES_VAROOM
+pokemon SPECIES_MIENFOO
+pokemon SPECIES_GREAVARD
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -437,7 +515,11 @@ walklevels 4, 5, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6
 // morning encounter slots
 pokemon SPECIES_SPINARAK
 pokemon SPECIES_METAPOD
+<<<<<<< Updated upstream
 pokemon SPECIES_SPINARAK
+=======
+pokemon SPECIES_BONSLY
+>>>>>>> Stashed changes
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_LEDYBA
 pokemon SPECIES_BELLSPROUT
@@ -446,12 +528,20 @@ pokemon SPECIES_METAPOD
 pokemon SPECIES_CATERPIE
 pokemon SPECIES_WEEDLE
 pokemon SPECIES_PARAS
+<<<<<<< Updated upstream
 pokemon SPECIES_PARAS
+=======
+pokemon SPECIES_CHERUBI
+>>>>>>> Stashed changes
 
 // day encounter slots
 pokemon SPECIES_SPINARAK
 pokemon SPECIES_METAPOD
+<<<<<<< Updated upstream
 pokemon SPECIES_SPINARAK
+=======
+pokemon SPECIES_BONSLY
+>>>>>>> Stashed changes
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_LEDYBA
 pokemon SPECIES_BELLSPROUT
@@ -460,6 +550,7 @@ pokemon SPECIES_METAPOD
 pokemon SPECIES_CATERPIE
 pokemon SPECIES_WEEDLE
 pokemon SPECIES_PARAS
+<<<<<<< Updated upstream
 pokemon SPECIES_PARAS
 
 // night encounter slots
@@ -475,6 +566,23 @@ pokemon SPECIES_VENONAT
 pokemon SPECIES_VENONAT
 pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_HOOTHOOT
+=======
+pokemon SPECIES_CHERUBI
+
+// night encounter slots
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_BALTOY
+pokemon SPECIES_SHROOMISH
+pokemon SPECIES_SEEDOT
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_POOCHYENA
+pokemon SPECIES_SENTRET
+pokemon SPECIES_SNUBBULL
+pokemon SPECIES_VENONAT
+pokemon SPECIES_MURKROW
+pokemon SPECIES_NATU
+pokemon SPECIES_SKORUPI
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -530,55 +638,55 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata   5   // Violet City
 
-walkrate 0
+walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_DODUO
+pokemon SPECIES_LEDYBA
+pokemon SPECIES_YANMA
+pokemon SPECIES_TAILLOW
+pokemon SPECIES_WINGULL
+pokemon SPECIES_SWABLU
+pokemon SPECIES_STARLY
+pokemon SPECIES_CHATOT
+pokemon SPECIES_PIDOVE
+pokemon SPECIES_DUCKLETT
+pokemon SPECIES_ARCHEN
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SPRIGATITO
+pokemon SPECIES_FUECOCO
+pokemon SPECIES_QUAXLY
+pokemon SPECIES_PIKACHU
+pokemon SPECIES_MAREEP
+pokemon SPECIES_AZURILL
+pokemon SPECIES_WATTREL
+pokemon SPECIES_PAWMI
+pokemon SPECIES_ROOKIDEE
+pokemon SPECIES_MUDBRAY
+pokemon SPECIES_HATENNA
+pokemon SPECIES_DREEPY
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_ZUBAT
+pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_NATU
+pokemon SPECIES_MURKROW
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_DRIFLOON
+pokemon SPECIES_WOOBAT
+pokemon SPECIES_VULLABY
+monwithform SPECIES_ORICORIO, 3
+monwithform SPECIES_ORICORIO, 2
+monwithform SPECIES_ORICORIO, 1
+pokemon SPECIES_ORICORIO
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -640,6 +748,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 5, 6, 5, 6, 7, 7, 5, 5, 8, 7, 8, 7
 
 // morning encounter slots
@@ -669,12 +778,44 @@ pokemon SPECIES_SUNKERN
 pokemon SPECIES_ODDISH
 pokemon SPECIES_SUNKERN
 pokemon SPECIES_LEDYBA
+=======
+walklevels 7, 8, 6, 7, 8, 8, 6, 6, 9, 8, 9, 10
+
+// morning encounter slots
+pokemon SPECIES_TANGELA
+pokemon SPECIES_LOTAD
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_CACNEA
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_ODDISH
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_BOUNSWEET
+
+// day encounter slots
+pokemon SPECIES_TANGELA
+pokemon SPECIES_LOTAD
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_CACNEA
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_ODDISH
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_BOUNSWEET
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
+<<<<<<< Updated upstream
 pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_RATTATA
@@ -683,6 +824,16 @@ pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_GASTLY
 pokemon SPECIES_SPINARAK
+=======
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_FERROSEED
+pokemon SPECIES_YAMASK
+pokemon SPECIES_MORELULL
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_APPLIN
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -744,6 +895,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 5, 6, 5, 6, 7, 7, 5, 5, 8, 7, 8, 7
 
 // morning encounter slots
@@ -773,12 +925,44 @@ pokemon SPECIES_SUNKERN
 pokemon SPECIES_ODDISH
 pokemon SPECIES_SUNKERN
 pokemon SPECIES_WEEPINBELL
+=======
+walklevels 7, 8, 6, 7, 8, 8, 6, 6, 9, 8, 9, 10
+
+// morning encounter slots
+pokemon SPECIES_TANGELA
+pokemon SPECIES_LOTAD
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_CACNEA
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_ODDISH
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_BOUNSWEET
+
+// day encounter slots
+pokemon SPECIES_TANGELA
+pokemon SPECIES_LOTAD
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_BELLSPROUT
+pokemon SPECIES_CACNEA
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_ODDISH
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_BOUNSWEET
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
+<<<<<<< Updated upstream
 pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_RATTATA
@@ -787,6 +971,16 @@ pokemon SPECIES_GASTLY
 pokemon SPECIES_BELLSPROUT
 pokemon SPECIES_GASTLY
 pokemon SPECIES_WEEPINBELL
+=======
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_FERROSEED
+pokemon SPECIES_YAMASK
+pokemon SPECIES_MORELULL
+pokemon SPECIES_SINISTEA
+pokemon SPECIES_APPLIN
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -852,6 +1046,7 @@ walklevels 8, 6, 8, 6, 8, 8, 8, 8, 8, 6, 8, 6
 
 // morning encounter slots
 pokemon SPECIES_WOOPER
+<<<<<<< Updated upstream
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_WOOPER
@@ -891,6 +1086,47 @@ pokemon SPECIES_MAREEP
 pokemon SPECIES_MAREEP
 pokemon SPECIES_YANMA
 pokemon SPECIES_YANMA
+=======
+pokemon SPECIES_YAMPER
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_WOOPER
+pokemon SPECIES_CHEWTLE
+pokemon SPECIES_CHEWTLE
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_APPLIN
+pokemon SPECIES_STUFFUL
+pokemon SPECIES_MAREEP
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_CLAUNCHER
+
+// day encounter slots
+pokemon SPECIES_WOOPER
+pokemon SPECIES_YAMPER
+pokemon SPECIES_HOPPIP
+pokemon SPECIES_WOOPER
+pokemon SPECIES_CHEWTLE
+pokemon SPECIES_CHEWTLE
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_APPLIN
+pokemon SPECIES_STUFFUL
+pokemon SPECIES_MAREEP
+pokemon SPECIES_CUTIEFLY
+pokemon SPECIES_CLAUNCHER
+
+// night encounter slots
+monwithform SPECIES_WOOPER, 1
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_SCATTERBUG
+monwithform SPECIES_WOOPER, 1
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_BUNNELBY
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_FLABEBE
+pokemon SPECIES_SKIDDO
+pokemon SPECIES_MAREEP
+pokemon SPECIES_LITLEO
+pokemon SPECIES_PYUKUMUKU
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -1472,11 +1708,16 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 9, 9, 9, 9, 8, 8, 7, 7, 10, 9, 10, 9
+=======
+walklevels 12, 12, 12, 12, 10, 10, 11, 11, 14, 12, 13, 15
+>>>>>>> Stashed changes
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
+<<<<<<< Updated upstream
 pokemon SPECIES_ONIX
 pokemon SPECIES_ONIX
 pokemon SPECIES_SANDSHREW
@@ -1487,10 +1728,23 @@ pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
+=======
+pokemon SPECIES_ONIX
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_SANDSHREW
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_ARON
+pokemon SPECIES_ARON
+pokemon SPECIES_ROGGENROLA
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_ROLYCOLY
+pokemon SPECIES_LARVITAR
+>>>>>>> Stashed changes
 
 // day encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
+<<<<<<< Updated upstream
 pokemon SPECIES_ONIX
 pokemon SPECIES_ONIX
 pokemon SPECIES_SANDSHREW
@@ -1501,10 +1755,23 @@ pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
+=======
+pokemon SPECIES_ONIX
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_SANDSHREW
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_ARON
+pokemon SPECIES_ARON
+pokemon SPECIES_ROGGENROLA
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_ROLYCOLY
+pokemon SPECIES_LARVITAR
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
+<<<<<<< Updated upstream
 pokemon SPECIES_ONIX
 pokemon SPECIES_ONIX
 pokemon SPECIES_SANDSHREW
@@ -1515,6 +1782,18 @@ pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
+=======
+pokemon SPECIES_ONIX
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_SANDSHREW
+pokemon SPECIES_RHYHORN
+pokemon SPECIES_ARON
+pokemon SPECIES_ARON
+pokemon SPECIES_ROGGENROLA
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_ROLYCOLY
+pokemon SPECIES_LARVITAR
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -1576,11 +1855,16 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 10, 10, 10, 10, 9, 9, 10, 10, 11, 8, 11, 8
+=======
+walklevels 12, 12, 12, 12, 10, 10, 11, 11, 14, 12, 13, 15
+>>>>>>> Stashed changes
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
+<<<<<<< Updated upstream
 pokemon SPECIES_ONIX
 pokemon SPECIES_ONIX
 pokemon SPECIES_SANDSHREW
@@ -1591,10 +1875,23 @@ pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
+=======
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_ONIX
+pokemon SPECIES_DIGLETT
+monwithform SPECIES_DIGLETT, 1
+pokemon SPECIES_PHANPY
+pokemon SPECIES_NUMEL
+pokemon SPECIES_CUBONE
+pokemon SPECIES_TRAPINCH
+pokemon SPECIES_TRAPINCH
+pokemon SPECIES_GIBLE
+>>>>>>> Stashed changes
 
 // day encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
+<<<<<<< Updated upstream
 pokemon SPECIES_ONIX
 pokemon SPECIES_ONIX
 pokemon SPECIES_SANDSHREW
@@ -1605,10 +1902,23 @@ pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
+=======
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_ONIX
+pokemon SPECIES_DIGLETT
+monwithform SPECIES_DIGLETT, 1
+pokemon SPECIES_PHANPY
+pokemon SPECIES_NUMEL
+pokemon SPECIES_CUBONE
+pokemon SPECIES_TRAPINCH
+pokemon SPECIES_TRAPINCH
+pokemon SPECIES_GIBLE
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_GEODUDE
+<<<<<<< Updated upstream
 pokemon SPECIES_ONIX
 pokemon SPECIES_ONIX
 pokemon SPECIES_SANDSHREW
@@ -1619,6 +1929,18 @@ pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
 pokemon SPECIES_CUBONE
+=======
+monwithform SPECIES_GEODUDE, 1
+pokemon SPECIES_ONIX
+pokemon SPECIES_DIGLETT
+monwithform SPECIES_DIGLETT, 1
+pokemon SPECIES_PHANPY
+pokemon SPECIES_NUMEL
+pokemon SPECIES_CUBONE
+pokemon SPECIES_TRAPINCH
+pokemon SPECIES_TRAPINCH
+pokemon SPECIES_GIBLE
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -1784,45 +2106,72 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 10, 11, 10, 11, 10, 10, 10, 10, 12, 8, 12, 12
 
 // morning encounter slots
 pokemon SPECIES_PARAS
+=======
+walklevels 12, 12, 12, 12, 10, 10, 11, 11, 14, 12, 13, 15
+
+// morning encounter slots
+pokemon SPECIES_KRABBY
+>>>>>>> Stashed changes
 pokemon SPECIES_PARAS
 pokemon SPECIES_WOOPER
 pokemon SPECIES_POLIWAG
 pokemon SPECIES_PSYDUCK
 pokemon SPECIES_POLIWAG
 pokemon SPECIES_WOOPER
+<<<<<<< Updated upstream
 pokemon SPECIES_PARAS
+=======
+pokemon SPECIES_LOTAD
+>>>>>>> Stashed changes
 pokemon SPECIES_POLIWHIRL
 pokemon SPECIES_PARASECT
 pokemon SPECIES_POLIWHIRL
 pokemon SPECIES_POLITOED
 
 // day encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_PARAS
+=======
+pokemon SPECIES_KRABBY
+>>>>>>> Stashed changes
 pokemon SPECIES_PARAS
 pokemon SPECIES_WOOPER
 pokemon SPECIES_POLIWAG
 pokemon SPECIES_PSYDUCK
 pokemon SPECIES_POLIWAG
 pokemon SPECIES_WOOPER
+<<<<<<< Updated upstream
 pokemon SPECIES_PARAS
+=======
+pokemon SPECIES_LOTAD
+>>>>>>> Stashed changes
 pokemon SPECIES_POLIWHIRL
 pokemon SPECIES_PARASECT
 pokemon SPECIES_POLIWHIRL
 pokemon SPECIES_POLITOED
 
 // night encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_PARAS
+=======
+pokemon SPECIES_KRABBY
+>>>>>>> Stashed changes
 pokemon SPECIES_PARAS
 monwithform SPECIES_WOOPER, 1
 pokemon SPECIES_POLIWAG
 pokemon SPECIES_PSYDUCK
 pokemon SPECIES_POLIWAG
 monwithform SPECIES_WOOPER, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_PARAS
+=======
+pokemon SPECIES_LOTAD
+>>>>>>> Stashed changes
 pokemon SPECIES_POLIWHIRL
 pokemon SPECIES_PARASECT
 pokemon SPECIES_POLIWHIRL
@@ -1888,18 +2237,28 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 11, 12, 11, 12, 11, 11, 11, 11, 13, 9, 13, 9
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
+=======
+walklevels 14, 14, 13, 15, 12, 13, 14, 15, 16, 13, 15, 17
+
+// morning encounter slots
+pokemon SPECIES_NACLI
+pokemon SPECIES_NOSEPASS
+pokemon SPECIES_NACLI
+>>>>>>> Stashed changes
 monwithform SPECIES_SLOWPOKE, 1
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
 pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_SHELLDER
 pokemon SPECIES_SHELLDER
@@ -1908,12 +2267,23 @@ pokemon SPECIES_SHELLDER
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHELLDER
+pokemon SPECIES_NOIBAT
+
+// day encounter slots
+pokemon SPECIES_NACLI
+pokemon SPECIES_NOSEPASS
+pokemon SPECIES_NACLI
+>>>>>>> Stashed changes
 monwithform SPECIES_SLOWPOKE, 1
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
 pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_SHELLDER
 pokemon SPECIES_SHELLDER
@@ -1922,15 +2292,31 @@ pokemon SPECIES_SHELLDER
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHELLDER
+pokemon SPECIES_NOIBAT
+
+// night encounter slots
+pokemon SPECIES_NACLI
+pokemon SPECIES_NOSEPASS
+pokemon SPECIES_NACLI
+>>>>>>> Stashed changes
 monwithform SPECIES_SLOWPOKE, 1
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
 pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_SLOWPOKE
 monwithform SPECIES_SLOWPOKE, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_SHELLDER
 pokemon SPECIES_SHELLDER
+=======
+pokemon SPECIES_SHELLDER
+pokemon SPECIES_SHELLDER
+pokemon SPECIES_NOIBAT
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -2096,6 +2482,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 13, 14, 13, 14, 14, 14, 13, 13, 13, 14, 13, 14
 
 // morning encounter slots
@@ -2111,10 +2498,28 @@ pokemon SPECIES_PINECO
 pokemon SPECIES_PINECO
 pokemon SPECIES_AIPOM
 pokemon SPECIES_AIPOM
+=======
+walklevels 16, 16, 15, 17, 14, 15, 16, 17, 18, 15, 17, 20
+
+// morning encounter slots
+pokemon SPECIES_VENIPEDE
+pokemon SPECIES_TOEDSCOOL
+pokemon SPECIES_DEERLING
+pokemon SPECIES_EKANS
+pokemon SPECIES_EKANS
+pokemon SPECIES_SCYTHER
+pokemon SPECIES_TAROUNTULA
+pokemon SPECIES_NYMBLE
+pokemon SPECIES_PINECO
+pokemon SPECIES_PINECO
+pokemon SPECIES_TROPIUS
+pokemon SPECIES_DURANT
+>>>>>>> Stashed changes
 
 // day encounter slots
 pokemon SPECIES_VENONAT
 monwithform SPECIES_VOLTORB, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_VENONAT
 pokemon SPECIES_VENONAT
 pokemon SPECIES_VENONAT
@@ -2125,10 +2530,23 @@ pokemon SPECIES_PINECO
 pokemon SPECIES_PINECO
 pokemon SPECIES_AIPOM
 pokemon SPECIES_AIPOM
+=======
+pokemon SPECIES_DEERLING
+pokemon SPECIES_EKANS
+pokemon SPECIES_EKANS
+pokemon SPECIES_VENONAT
+pokemon SPECIES_SPINARAK
+pokemon SPECIES_TEDDIURSA
+pokemon SPECIES_SHELMET
+pokemon SPECIES_KARRABLAST
+pokemon SPECIES_AIPOM
+pokemon SPECIES_HERACROSS
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_ODDISH
 monwithform SPECIES_RATTATA, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_ODDISH
 pokemon SPECIES_ODDISH
 pokemon SPECIES_ODDISH
@@ -2139,6 +2557,18 @@ pokemon SPECIES_PINECO
 pokemon SPECIES_PINECO
 pokemon SPECIES_AIPOM
 pokemon SPECIES_AIPOM
+=======
+pokemon SPECIES_DEERLING
+pokemon SPECIES_EKANS
+pokemon SPECIES_EKANS
+pokemon SPECIES_ODDISH
+pokemon SPECIES_STANTLER
+pokemon SPECIES_EXEGGCUTE
+pokemon SPECIES_PINECO
+pokemon SPECIES_PINECO
+pokemon SPECIES_AIPOM
+pokemon SPECIES_PINSIR
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_SPOINK
@@ -2200,11 +2630,19 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 15, 16, 15, 16, 17, 17, 15, 15, 18, 15, 18, 15
 
 // morning encounter slots
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
+=======
+walklevels 16, 16, 15, 17, 14, 15, 16, 17, 18, 15, 17, 20
+
+// morning encounter slots
+pokemon SPECIES_SAWK
+pokemon SPECIES_THROH
+>>>>>>> Stashed changes
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_IGGLYBUFF
 pokemon SPECIES_CLEFFA
@@ -2217,8 +2655,13 @@ pokemon SPECIES_CHINGLING
 pokemon SPECIES_WYNAUT
 
 // day encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
+=======
+pokemon SPECIES_SAWK
+pokemon SPECIES_THROH
+>>>>>>> Stashed changes
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_IGGLYBUFF
 pokemon SPECIES_CLEFFA
@@ -2231,8 +2674,13 @@ pokemon SPECIES_BONSLY
 pokemon SPECIES_BUDEW
 
 // night encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_DROWZEE
+=======
+pokemon SPECIES_SAWK
+pokemon SPECIES_THROH
+>>>>>>> Stashed changes
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_IGGLYBUFF
 pokemon SPECIES_CLEFFA
@@ -2304,6 +2752,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 16, 16, 16, 16, 18, 18, 14, 14, 18, 14, 18, 16
 
 // morning encounter slots
@@ -2313,8 +2762,20 @@ pokemon SPECIES_DROWZEE
 pokemon SPECIES_STANTLER
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
+=======
+walklevels 19, 19, 17, 17, 18, 17, 19, 20, 21, 19, 20, 23
+
+// morning encounter slots
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_VIGOROTH
+pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_STANTLER
+>>>>>>> Stashed changes
 pokemon SPECIES_ABRA
+pokemon SPECIES_KADABRA
+pokemon SPECIES_KADABRA
 pokemon SPECIES_ABRA
+<<<<<<< Updated upstream
 pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
@@ -2347,6 +2808,40 @@ pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
+=======
+pokemon SPECIES_NUMEL
+pokemon SPECIES_TORKOAL
+pokemon SPECIES_TROPIUS
+pokemon SPECIES_BELDUM
+
+// day encounter slots
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_CORPHISH
+pokemon SPECIES_TRAPINCH
+pokemon SPECIES_STANTLER
+pokemon SPECIES_SPOINK
+pokemon SPECIES_KADABRA
+pokemon SPECIES_KADABRA
+pokemon SPECIES_SPOINK
+pokemon SPECIES_ZANGOOSE
+pokemon SPECIES_SEVIPER
+pokemon SPECIES_LOUDRED
+pokemon SPECIES_BAGON
+
+// night encounter slots
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_DUSKULL
+pokemon SPECIES_STANTLER
+pokemon SPECIES_GULPIN
+pokemon SPECIES_KADABRA
+pokemon SPECIES_KADABRA
+pokemon SPECIES_GULPIN
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_MAWILE
+pokemon SPECIES_NUZLEAF
+pokemon SPECIES_ABSOL
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -2408,12 +2903,21 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 14, 14, 14, 14, 16, 16, 16, 16, 14, 18, 14, 18
 
 
 // morning encounter slots
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
+=======
+walklevels 19, 19, 17, 17, 18, 17, 19, 20, 21, 19, 20, 23
+
+
+// morning encounter slots
+pokemon SPECIES_SCYTHER
+pokemon SPECIES_JOLTIK
+>>>>>>> Stashed changes
 pokemon SPECIES_BEEDRILL
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_PINSIR
@@ -2426,8 +2930,13 @@ pokemon SPECIES_KLEAVOR
 pokemon SPECIES_KLEAVOR
 
 // day encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
+=======
+pokemon SPECIES_SCYTHER
+pokemon SPECIES_JOLTIK
+>>>>>>> Stashed changes
 pokemon SPECIES_BEEDRILL
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_PINSIR
@@ -2440,8 +2949,13 @@ pokemon SPECIES_SCYTHER
 pokemon SPECIES_SCYTHER
 
 // night encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_KAKUNA
 pokemon SPECIES_METAPOD
+=======
+pokemon SPECIES_SCYTHER
+pokemon SPECIES_JOLTIK
+>>>>>>> Stashed changes
 pokemon SPECIES_BEEDRILL
 pokemon SPECIES_BUTTERFREE
 pokemon SPECIES_PINSIR
@@ -2617,11 +3131,16 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 16, 16, 16, 16, 17, 17, 17, 17, 17, 19, 17, 19
+=======
+walklevels 19, 19, 17, 17, 18, 17, 19, 20, 21, 19, 20, 23
+>>>>>>> Stashed changes
 
 // morning encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
+<<<<<<< Updated upstream
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_GROWLITHE
@@ -2632,10 +3151,23 @@ pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
+=======
+pokemon SPECIES_NIDORINO
+pokemon SPECIES_NIDORINA
+monwithform SPECIES_GROWLITHE, 1
+pokemon SPECIES_VULPIX
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_VULPIX
+pokemon SPECIES_SLUGMA
+pokemon SPECIES_NUMEL
+pokemon SPECIES_DARUMAKA
+pokemon SPECIES_LARVESTA
+>>>>>>> Stashed changes
 
 // day encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
+<<<<<<< Updated upstream
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_GROWLITHE
@@ -2646,10 +3178,23 @@ pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
+=======
+pokemon SPECIES_NIDORINO
+pokemon SPECIES_NIDORINA
+monwithform SPECIES_GROWLITHE, 1
+pokemon SPECIES_VULPIX
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_VULPIX
+pokemon SPECIES_PLUSLE
+pokemon SPECIES_MINUN
+pokemon SPECIES_SHINX
+pokemon SPECIES_EMOLGA
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
+<<<<<<< Updated upstream
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_GROWLITHE
@@ -2660,6 +3205,18 @@ pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_HOUNDOUR
+=======
+pokemon SPECIES_NIDORINO
+pokemon SPECIES_NIDORINA
+monwithform SPECIES_GROWLITHE, 1
+pokemon SPECIES_VULPIX
+pokemon SPECIES_GROWLITHE
+pokemon SPECIES_VULPIX
+pokemon SPECIES_CROAGUNK
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_MAREANIE
+pokemon SPECIES_SALANDIT
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -2721,6 +3278,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 18, 20, 18, 20, 20, 20, 19, 19, 20, 20, 20, 20
 
 // morning encounter slots
@@ -2728,12 +3286,22 @@ monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
+=======
+walklevels 22, 22, 20, 20, 21, 20, 22, 23, 24, 23, 24, 26
+
+// morning encounter slots
+pokemon SPECIES_SANDILE
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_SANDILE
+pokemon SPECIES_SCRAGGY
+>>>>>>> Stashed changes
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 pokemon SPECIES_PERRSERKER
 pokemon SPECIES_PERRSERKER
+<<<<<<< Updated upstream
 pokemon SPECIES_PERRSERKER
 pokemon SPECIES_PERRSERKER
 
@@ -2742,12 +3310,23 @@ pokemon SPECIES_MEOWTH
 pokemon SPECIES_MEOWTH
 pokemon SPECIES_MEOWTH
 pokemon SPECIES_MEOWTH
+=======
+pokemon SPECIES_ZORUA
+pokemon SPECIES_ZORUA
+
+// day encounter slots
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_SOLOSIS
+>>>>>>> Stashed changes
 pokemon SPECIES_MEOWTH
 pokemon SPECIES_MEOWTH
 pokemon SPECIES_MEOWTH
 pokemon SPECIES_MEOWTH
 pokemon SPECIES_PERSIAN
 pokemon SPECIES_PERSIAN
+<<<<<<< Updated upstream
 pokemon SPECIES_PERSIAN
 pokemon SPECIES_PERSIAN
 
@@ -2756,14 +3335,29 @@ monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
+=======
+pokemon SPECIES_MORPEKO
+pokemon SPECIES_MORPEKO
+
+// night encounter slots
+pokemon SPECIES_PHANTUMP
+pokemon SPECIES_PUMPKABOO
+pokemon SPECIES_PHANTUMP
+pokemon SPECIES_PUMPKABOO
+>>>>>>> Stashed changes
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_MEOWTH, 1
 monwithform SPECIES_PERSIAN, 1
 monwithform SPECIES_PERSIAN, 1
+<<<<<<< Updated upstream
 monwithform SPECIES_PERSIAN, 1
 monwithform SPECIES_PERSIAN, 1
+=======
+pokemon SPECIES_DEINO
+pokemon SPECIES_DEINO
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -2819,55 +3413,55 @@ pokemon SPECIES_NONE
 
 encounterdata  27   // Ecruteak City
 
-walkrate 0
+walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_ESPEON
+pokemon SPECIES_VAPOREON
+pokemon SPECIES_JOLTEON
+pokemon SPECIES_FLAREON
+pokemon SPECIES_SLOWPOKE
+pokemon SPECIES_MAWILE
+pokemon SPECIES_STUNKY
+pokemon SPECIES_GLACEON
+pokemon SPECIES_LEAFEON
+pokemon SPECIES_MIENFOO
+pokemon SPECIES_MIENFOO
+pokemon SPECIES_SYLVEON
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_EEVEE
+pokemon SPECIES_VAPOREON
+pokemon SPECIES_JOLTEON
+pokemon SPECIES_FLAREON
+pokemon SPECIES_FLETCHINDER
+pokemon SPECIES_ESPURR
+pokemon SPECIES_HAWLUCHA
+pokemon SPECIES_GLACEON
+pokemon SPECIES_LEAFEON
+pokemon SPECIES_PASSIMIAN
+pokemon SPECIES_PASSIMIAN
+pokemon SPECIES_SYLVEON
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_UMBREON
+pokemon SPECIES_VAPOREON
+pokemon SPECIES_JOLTEON
+pokemon SPECIES_FLAREON
+pokemon SPECIES_GASTLY
+monwithform SPECIES_CORSOLA, 1
+pokemon SPECIES_GOLETT
+pokemon SPECIES_GLACEON
+pokemon SPECIES_LEAFEON
+pokemon SPECIES_SPIRITOMB
+pokemon SPECIES_SPIRITOMB
+pokemon SPECIES_SYLVEON
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -3969,6 +4563,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 24, 24, 24, 24, 24, 24, 24, 24, 21, 21, 21, 21
 
 // morning encounter slots
@@ -3981,11 +4576,26 @@ pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_SNUBBULL
 pokemon SPECIES_SNUBBULL
 pokemon SPECIES_FARFETCHD
+=======
+walklevels 27, 27, 25, 26, 27, 26, 28, 24, 27, 28, 25, 29
+
+// morning encounter slots
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_BUNEARY
+monwithform SPECIES_FARFETCHD, 1
+monwithform SPECIES_FARFETCHD, 1
+pokemon SPECIES_MAGNEMITE
+pokemon SPECIES_MAGNEMITE
+pokemon SPECIES_PONYTA
+pokemon SPECIES_PONYTA
+pokemon SPECIES_FARFETCHD
+>>>>>>> Stashed changes
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_GRANBULL
 pokemon SPECIES_GRANBULL
 
 // day encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_SNUBBULL
 monwithform SPECIES_FARFETCHD, 1
@@ -3995,19 +4605,40 @@ pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_SNUBBULL
 pokemon SPECIES_SNUBBULL
 pokemon SPECIES_FARFETCHD
+=======
+pokemon SPECIES_VIGOROTH
+pokemon SPECIES_MAKUHITA
+monwithform SPECIES_FARFETCHD, 1
+monwithform SPECIES_FARFETCHD, 1
+pokemon SPECIES_MAGNEMITE
+pokemon SPECIES_MAGNEMITE
+pokemon SPECIES_BUIZEL
+pokemon SPECIES_BUIZEL
+pokemon SPECIES_FARFETCHD
+>>>>>>> Stashed changes
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_GRANBULL
 pokemon SPECIES_GRANBULL
 
 // night encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_SNUBBULL
+=======
+pokemon SPECIES_CROAGUNK
+pokemon SPECIES_SNEASEL
+>>>>>>> Stashed changes
 monwithform SPECIES_FARFETCHD, 1
 monwithform SPECIES_FARFETCHD, 1
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
+<<<<<<< Updated upstream
 pokemon SPECIES_SNUBBULL
 pokemon SPECIES_SNUBBULL
+=======
+monwithform SPECIES_PONYTA, 1
+monwithform SPECIES_PONYTA, 1
+>>>>>>> Stashed changes
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_GRANBULL
@@ -4073,7 +4704,11 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 25, 26, 25, 26, 25, 25, 25, 25, 24, 24, 24, 24
+=======
+walklevels 27, 27, 25, 26, 27, 26, 28, 24, 27, 28, 25, 29
+>>>>>>> Stashed changes
 
 // morning encounter slots
 pokemon SPECIES_MILTANK
@@ -4171,55 +4806,55 @@ pokemon SPECIES_NONE
 
 encounterdata  40   // Olivine City
 
-walkrate 0
+walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+monwithform SPECIES_DIGLETT, 1
+pokemon SPECIES_MAGNEMITE
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_MAWILE
+pokemon SPECIES_ARON
+pokemon SPECIES_BRONZOR
+pokemon SPECIES_FERROSEED
+pokemon SPECIES_KLINK
+monwithform SPECIES_STUNFISK, 1
+pokemon SPECIES_PAWNIARD
+pokemon SPECIES_DURANT
+pokemon SPECIES_HONEDGE
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SANDSLASH
+pokemon SPECIES_DUGTRIO
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_RHYDON
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_NUMEL
+pokemon SPECIES_GASTRODON
+pokemon SPECIES_GIBLE
+pokemon SPECIES_GLISCOR
+pokemon SPECIES_DRILBUR
+pokemon SPECIES_PALPITOAD
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+monwithform SPECIES_ARCANINE, 1
+monwithform SPECIES_GRAVELER, 1
+pokemon SPECIES_AERODACTYL
+pokemon SPECIES_LILEEP
+pokemon SPECIES_ANORITH
+pokemon SPECIES_CRANIDOS
+pokemon SPECIES_SHIELDON
+pokemon SPECIES_TIRTOUGA
+pokemon SPECIES_ARCEUS
+pokemon SPECIES_TYRUNT
+pokemon SPECIES_AMAURA
+monwithform SPECIES_LYCANROC, 2
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -4359,11 +4994,11 @@ encounter SPECIES_CORSOLA, 20, 20
 encounter SPECIES_KRABBY, 20, 20
 
 // super rod encounters
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_GYARADOS, 40, 40
 encounter SPECIES_CORSOLA, 40, 40
 encounter SPECIES_KRABBY, 40, 40
 encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_OCTILLERY, 40, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4438,7 +5073,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
+<<<<<<< Updated upstream
 encounter SPECIES_MANTINE, 20, 30
+=======
+encounter SPECIES_FEEBAS, 20, 30
+>>>>>>> Stashed changes
 encounter SPECIES_CORSOLA, 20, 30
 encounterwithform SPECIES_CORSOLA, 1, 20, 30
 encounter SPECIES_MANTINE, 20, 30
@@ -5315,55 +5954,55 @@ pokemon SPECIES_NONE
 
 encounterdata  51   // Cianwood City
 
-walkrate 0
+walkrate 25
 surfrate 15
 rocksmashrate 30
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_HITMONCHAN
+pokemon SPECIES_HITMONLEE
+pokemon SPECIES_HITMONTOP
+pokemon SPECIES_HERACROSS
+pokemon SPECIES_MEDITITE
+pokemon SPECIES_CROAGUNK
+pokemon SPECIES_KUBFU
+pokemon SPECIES_KUBFU
+pokemon SPECIES_KUBFU
+pokemon SPECIES_PASSIMIAN
+pokemon SPECIES_CLOBBOPUS
+pokemon SPECIES_FALINKS
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_HITMONCHAN
+pokemon SPECIES_HITMONLEE
+pokemon SPECIES_HITMONTOP
+pokemon SPECIES_HERACROSS
+pokemon SPECIES_KUBFU
+pokemon SPECIES_KUBFU
+pokemon SPECIES_KUBFU
+pokemon SPECIES_HAWLUCHA
+pokemon SPECIES_BEWEAR
+pokemon SPECIES_PASSIMIAN
+pokemon SPECIES_CLOBBOPUS
+pokemon SPECIES_FALINKS
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_HITMONCHAN
+pokemon SPECIES_HITMONLEE
+pokemon SPECIES_HITMONTOP
+pokemon SPECIES_HERACROSS
+pokemon SPECIES_MEDITITE
+pokemon SPECIES_CROAGUNK
+pokemon SPECIES_GURDURR
+pokemon SPECIES_KUBFU
+pokemon SPECIES_KUBFU
+pokemon SPECIES_KUBFU
+pokemon SPECIES_CLOBBOPUS
+pokemon SPECIES_FALINKS
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -5429,6 +6068,7 @@ walklevels 28, 26, 28, 26, 27, 27, 29, 29, 28, 30, 28, 30
 
 // morning encounter slots
 pokemon SPECIES_VOLTORB
+<<<<<<< Updated upstream
 pokemon SPECIES_MAREEP
 monwithform SPECIES_VOLTORB, 1
 pokemon SPECIES_MAREEP
@@ -5438,11 +6078,23 @@ pokemon SPECIES_GIRAFARIG
 pokemon SPECIES_STANTLER
 pokemon SPECIES_FLAAFFY
 pokemon SPECIES_FLAAFFY
+=======
+pokemon SPECIES_SNEASEL
+monwithform SPECIES_VOLTORB, 1
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_ELECTRODE
+monwithform SPECIES_ELECTRODE, 1
+pokemon SPECIES_FARIGIRAF
+pokemon SPECIES_SWINUB
+>>>>>>> Stashed changes
 pokemon SPECIES_FLAAFFY
 pokemon SPECIES_FLAAFFY
+pokemon SPECIES_AMPHAROS
+pokemon SPECIES_AMPHAROS
 
 // day encounter slots
 pokemon SPECIES_VOLTORB
+<<<<<<< Updated upstream
 pokemon SPECIES_MAREEP
 monwithform SPECIES_VOLTORB, 1
 pokemon SPECIES_MAREEP
@@ -5452,11 +6104,23 @@ pokemon SPECIES_GIRAFARIG
 pokemon SPECIES_STANTLER
 pokemon SPECIES_FLAAFFY
 pokemon SPECIES_FLAAFFY
+=======
+pokemon SPECIES_SNEASEL
+monwithform SPECIES_VOLTORB, 1
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_ELECTRODE
+monwithform SPECIES_ELECTRODE, 1
+pokemon SPECIES_FARIGIRAF
+pokemon SPECIES_SWINUB
+>>>>>>> Stashed changes
 pokemon SPECIES_FLAAFFY
 pokemon SPECIES_FLAAFFY
+pokemon SPECIES_AMPHAROS
+pokemon SPECIES_AMPHAROS
 
 // night encounter slots
 pokemon SPECIES_VOLTORB
+<<<<<<< Updated upstream
 pokemon SPECIES_MAREEP
 monwithform SPECIES_VOLTORB, 1
 pokemon SPECIES_MAREEP
@@ -5466,8 +6130,19 @@ pokemon SPECIES_GIRAFARIG
 pokemon SPECIES_STANTLER
 pokemon SPECIES_FLAAFFY
 pokemon SPECIES_FLAAFFY
+=======
+pokemon SPECIES_SNEASEL
+monwithform SPECIES_VOLTORB, 1
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_ELECTRODE
+monwithform SPECIES_ELECTRODE, 1
+pokemon SPECIES_FARIGIRAF
+pokemon SPECIES_SWINUB
+>>>>>>> Stashed changes
 pokemon SPECIES_FLAAFFY
 pokemon SPECIES_FLAAFFY
+pokemon SPECIES_AMPHAROS
+pokemon SPECIES_AMPHAROS
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -5952,6 +6627,7 @@ pokemon SPECIES_FURRET
 pokemon SPECIES_NOCTOWL
 pokemon SPECIES_GIRAFARIG
 pokemon SPECIES_MAROWAK
+<<<<<<< Updated upstream
 pokemon SPECIES_GIRAFARIG
 monwithform SPECIES_EXEGGUTOR, 1
 pokemon SPECIES_FURRET
@@ -5959,10 +6635,20 @@ pokemon SPECIES_NOCTOWL
 pokemon SPECIES_FURRET
 pokemon SPECIES_NOCTOWL
 pokemon SPECIES_FURRET
+=======
+pokemon SPECIES_FARIGIRAF
+monwithform SPECIES_EXEGGUTOR, 1
+pokemon SPECIES_EXEGGUTOR
+pokemon SPECIES_NOCTOWL
+monwithform SPECIES_EXEGGUTOR, 1
+pokemon SPECIES_NOCTOWL
+pokemon SPECIES_HOUNDOOM
+>>>>>>> Stashed changes
 pokemon SPECIES_NOCTOWL
 
 // day encounter slots
 pokemon SPECIES_FURRET
+<<<<<<< Updated upstream
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_GIRAFARIG
 pokemon SPECIES_MAROWAK
@@ -5974,11 +6660,25 @@ pokemon SPECIES_FURRET
 pokemon SPECIES_PIDGEOTTO
 pokemon SPECIES_FURRET
 pokemon SPECIES_PIDGEOTTO
+=======
+pokemon SPECIES_SWELLOW
+pokemon SPECIES_GIRAFARIG
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_FARIGIRAF
+monwithform SPECIES_EXEGGUTOR, 1
+pokemon SPECIES_EXEGGUTOR
+pokemon SPECIES_PIDGEOTTO
+monwithform SPECIES_EXEGGUTOR, 1
+pokemon SPECIES_STARAVIA
+pokemon SPECIES_KIRLIA
+pokemon SPECIES_CORVISQUIRE
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_FURRET
 pokemon SPECIES_FEAROW
 pokemon SPECIES_GIRAFARIG
+<<<<<<< Updated upstream
 pokemon SPECIES_MAROWAK
 pokemon SPECIES_GIRAFARIG
 monwithform SPECIES_EXEGGUTOR, 1
@@ -5988,6 +6688,17 @@ pokemon SPECIES_FURRET
 pokemon SPECIES_FEAROW
 pokemon SPECIES_FURRET
 pokemon SPECIES_FEAROW
+=======
+monwithform SPECIES_MAROWAK, 1
+pokemon SPECIES_FARIGIRAF
+monwithform SPECIES_EXEGGUTOR, 1
+pokemon SPECIES_EXEGGUTOR
+pokemon SPECIES_DRIFBLIM
+monwithform SPECIES_EXEGGUTOR, 1
+pokemon SPECIES_HONCHKROW
+pokemon SPECIES_ROTOM
+pokemon SPECIES_SIGILYPH
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -6153,6 +6864,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 32, 31, 32, 31, 31, 31, 33, 33, 33, 35, 33, 35
 
 // morning encounter slots
@@ -6195,6 +6907,50 @@ pokemon SPECIES_LICKITUNG
 monwithform SPECIES_WEEZING, 1
 pokemon SPECIES_TOEDSCRUEL
 monwithform SPECIES_WEEZING, 1
+=======
+walklevels 42, 41, 42, 41, 41, 43, 44, 44, 44, 46, 43, 47
+
+// morning encounter slots
+pokemon SPECIES_KARRABLAST
+pokemon SPECIES_SHELMET
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_AMAURA
+pokemon SPECIES_CRABRAWLER
+pokemon SPECIES_SNOM
+pokemon SPECIES_FALINKS
+pokemon SPECIES_TANDEMAUS
+monwithform SPECIES_VULPIX, 1
+pokemon SPECIES_TOEDSCRUEL
+pokemon SPECIES_CAPSAKID
+pokemon SPECIES_TOEDSCRUEL
+
+// day encounter slots
+pokemon SPECIES_KARRABLAST
+pokemon SPECIES_SHELMET
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_AMAURA
+pokemon SPECIES_CRABRAWLER
+pokemon SPECIES_SNOM
+pokemon SPECIES_FALINKS
+pokemon SPECIES_TANDEMAUS
+monwithform SPECIES_VULPIX, 1
+pokemon SPECIES_TOEDSCRUEL
+pokemon SPECIES_CAPSAKID
+pokemon SPECIES_TOEDSCRUEL
+
+// night encounter slots
+pokemon SPECIES_KARRABLAST
+pokemon SPECIES_SHELMET
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_AMAURA
+pokemon SPECIES_CRABRAWLER
+pokemon SPECIES_SNOM
+pokemon SPECIES_FALINKS
+pokemon SPECIES_TANDEMAUS
+monwithform SPECIES_VULPIX, 1
+pokemon SPECIES_TOEDSCRUEL
+pokemon SPECIES_CAPSAKID
+>>>>>>> Stashed changes
 pokemon SPECIES_TOEDSCRUEL
 
 // hoenn encounter slots
@@ -6257,11 +7013,12 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 42, 41, 42, 41, 41, 43, 44, 44, 44, 46, 43, 47
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_DELIBIRD
+<<<<<<< Updated upstream
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_DELIBIRD
@@ -6271,11 +7028,23 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_GLALIE
 
 // day encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_DELIBIRD
+<<<<<<< Updated upstream
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_DELIBIRD
@@ -6285,9 +7054,21 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 pokemon SPECIES_SMOOCHUM
+=======
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_GLALIE
 
 // night encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SNEASEL
@@ -6299,7 +7080,20 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_FROSLASS
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6361,11 +7155,12 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 42, 41, 42, 41, 41, 43, 44, 44, 44, 46, 43, 47
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_DELIBIRD
+<<<<<<< Updated upstream
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_DELIBIRD
@@ -6375,11 +7170,23 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_GLALIE
 
 // day encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_DELIBIRD
+<<<<<<< Updated upstream
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_DELIBIRD
@@ -6389,9 +7196,21 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 pokemon SPECIES_SMOOCHUM
+=======
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_GLALIE
 
 // night encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SNEASEL
@@ -6403,7 +7222,20 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_FROSLASS
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6465,11 +7297,12 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 42, 41, 42, 41, 41, 43, 44, 44, 44, 46, 43, 47
 
 // morning encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_DELIBIRD
+<<<<<<< Updated upstream
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_DELIBIRD
@@ -6479,11 +7312,23 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_GLALIE
 
 // day encounter slots
 pokemon SPECIES_SWINUB
 pokemon SPECIES_DELIBIRD
+<<<<<<< Updated upstream
 pokemon SPECIES_SWINUB
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_DELIBIRD
@@ -6493,9 +7338,21 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_JYNX
 pokemon SPECIES_JYNX
 pokemon SPECIES_SMOOCHUM
+=======
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_GLALIE
 
 // night encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_SNEASEL
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_SNEASEL
@@ -6507,7 +7364,20 @@ pokemon SPECIES_PILOSWINE
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_JYNX
 pokemon SPECIES_ZUBAT
+=======
+pokemon SPECIES_SWINUB
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_CETODDLE
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_EISCUE
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_ARCTOZOLT
+pokemon SPECIES_ARCTOVISH
+pokemon SPECIES_VANILLITE
+>>>>>>> Stashed changes
 pokemon SPECIES_JYNX
+monwithform SPECIES_DARUMAKA, 1
+pokemon SPECIES_FROSLASS
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6569,7 +7439,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 42, 41, 42, 41, 41, 43, 44, 44, 44, 46, 43, 47
 
 // morning encounter slots
 monwithform SPECIES_SANDSHREW, 1
@@ -6777,49 +7647,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DRATINI
+pokemon SPECIES_LARVITAR
+pokemon SPECIES_BAGON
+pokemon SPECIES_BELDUM
+pokemon SPECIES_GIBLE
+pokemon SPECIES_DEINO
+pokemon SPECIES_GOOMY
+pokemon SPECIES_JANGMO_O
+pokemon SPECIES_DREEPY
+pokemon SPECIES_FRIGIBAX
+pokemon SPECIES_TAPU_KOKO
+pokemon SPECIES_TAPU_FINI
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DRATINI
+pokemon SPECIES_LARVITAR
+pokemon SPECIES_BAGON
+pokemon SPECIES_BELDUM
+pokemon SPECIES_GIBLE
+pokemon SPECIES_DEINO
+pokemon SPECIES_GOOMY
+pokemon SPECIES_JANGMO_O
+pokemon SPECIES_DREEPY
+pokemon SPECIES_FRIGIBAX
+pokemon SPECIES_TAPU_LELE
+pokemon SPECIES_TAPU_BULU
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DRATINI
+pokemon SPECIES_LARVITAR
+pokemon SPECIES_BAGON
+pokemon SPECIES_BELDUM
+pokemon SPECIES_GIBLE
+pokemon SPECIES_DEINO
+pokemon SPECIES_GOOMY
+pokemon SPECIES_JANGMO_O
+pokemon SPECIES_DREEPY
+pokemon SPECIES_FRIGIBAX
+pokemon SPECIES_MELTAN
+pokemon SPECIES_POIPOLE
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -6875,55 +7745,55 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata  66   // Dragons Den
 
-walkrate 0
+walkrate 15
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DRUDDIGON
+pokemon SPECIES_TYRUNT
+pokemon SPECIES_GOOMY
+pokemon SPECIES_NOIBAT
+pokemon SPECIES_TURTONATOR
+pokemon SPECIES_APPLIN
+pokemon SPECIES_DREEPY
+pokemon SPECIES_DURALUDON
+pokemon SPECIES_REGIDRAGO
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DRUDDIGON
+pokemon SPECIES_TYRUNT
+pokemon SPECIES_GOOMY
+pokemon SPECIES_NOIBAT
+pokemon SPECIES_TURTONATOR
+pokemon SPECIES_APPLIN
+pokemon SPECIES_DREEPY
+pokemon SPECIES_DURALUDON
+pokemon SPECIES_REGIDRAGO
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DRUDDIGON
+pokemon SPECIES_TYRUNT
+pokemon SPECIES_GOOMY
+pokemon SPECIES_NOIBAT
+pokemon SPECIES_TURTONATOR
+pokemon SPECIES_APPLIN
+pokemon SPECIES_DREEPY
+pokemon SPECIES_DURALUDON
+pokemon SPECIES_REGIDRAGO
+pokemon SPECIES_GOUGING_FIRE
+pokemon SPECIES_RAGING_BOLT
+pokemon SPECIES_WALKING_WAKE
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -6985,6 +7855,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 32, 32, 32, 32, 33, 33, 29, 29, 34, 36, 34, 36
 
 // morning encounter slots
@@ -6992,12 +7863,22 @@ pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
+=======
+walklevels 45, 44, 45, 44, 44, 46, 47, 47, 48, 49, 46, 51
+
+// morning encounter slots
+pokemon SPECIES_PHANPY
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_GLISCOR
+>>>>>>> Stashed changes
 monwithform SPECIES_GROWLITHE, 1
 monwithform SPECIES_GROWLITHE, 1
 pokemon SPECIES_SKARMORY
 pokemon SPECIES_SKARMORY
 monwithform SPECIES_ARCANINE, 1
 monwithform SPECIES_ARCANINE, 1
+<<<<<<< Updated upstream
 monwithform SPECIES_ARCANINE, 1
 monwithform SPECIES_ARCANINE, 1
 
@@ -7006,12 +7887,23 @@ pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
+=======
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_GREAT_TUSK
+
+// day encounter slots
+pokemon SPECIES_PHANPY
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_GLISCOR
+>>>>>>> Stashed changes
 monwithform SPECIES_GROWLITHE, 1
 monwithform SPECIES_GROWLITHE, 1
 pokemon SPECIES_SKARMORY
 pokemon SPECIES_SKARMORY
 monwithform SPECIES_ARCANINE, 1
 monwithform SPECIES_ARCANINE, 1
+<<<<<<< Updated upstream
 monwithform SPECIES_ARCANINE, 1
 monwithform SPECIES_ARCANINE, 1
 
@@ -7020,14 +7912,29 @@ pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
 pokemon SPECIES_PHANPY
 pokemon SPECIES_GLIGAR
+=======
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_GREAT_TUSK
+
+// night encounter slots
+pokemon SPECIES_PHANPY
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_GLISCOR
+>>>>>>> Stashed changes
 monwithform SPECIES_GROWLITHE, 1
 monwithform SPECIES_GROWLITHE, 1
 pokemon SPECIES_SKARMORY
 pokemon SPECIES_SKARMORY
 monwithform SPECIES_ARCANINE, 1
 monwithform SPECIES_ARCANINE, 1
+<<<<<<< Updated upstream
 monwithform SPECIES_ARCANINE, 1
 monwithform SPECIES_ARCANINE, 1
+=======
+pokemon SPECIES_IRON_THORNS
+pokemon SPECIES_GREAT_TUSK
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -7092,6 +7999,7 @@ superrodrate 0
 walklevels 3, 2, 3, 2, 2, 2, 2, 2, 3, 4, 3, 4
 
 // morning encounter slots
+<<<<<<< Updated upstream
 pokemon SPECIES_DODUO
 pokemon SPECIES_SPEAROW
 pokemon SPECIES_SENTRET
@@ -7132,6 +8040,48 @@ pokemon SPECIES_SENTRET
 pokemon SPECIES_SENTRET
 pokemon SPECIES_SENTRET
 pokemon SPECIES_SENTRET
+=======
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_SENTRET
+pokemon SPECIES_CHATOT
+pokemon SPECIES_GLAMEOW
+pokemon SPECIES_CUBONE
+pokemon SPECIES_AIPOM
+pokemon SPECIES_TYNAMO
+pokemon SPECIES_YUNGOOS
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_ROCKRUFF
+
+// day encounter slots
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_SENTRET
+pokemon SPECIES_CHATOT
+pokemon SPECIES_GLAMEOW
+pokemon SPECIES_CUBONE
+pokemon SPECIES_AIPOM
+pokemon SPECIES_TYNAMO
+pokemon SPECIES_YUNGOOS
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_ROCKRUFF
+
+// night encounter slots
+pokemon SPECIES_CUBCHOO
+pokemon SPECIES_LITWICK
+pokemon SPECIES_JOLTIK
+pokemon SPECIES_LITWICK
+pokemon SPECIES_CHATOT
+pokemon SPECIES_GLAMEOW
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_SOLOSIS
+pokemon SPECIES_TYNAMO
+pokemon SPECIES_YUNGOOS
+pokemon SPECIES_GRUBBIN
+pokemon SPECIES_ROCKRUFF
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -7201,6 +8151,7 @@ pokemon SPECIES_MURKROW
 pokemon SPECIES_TEDDIURSA
 pokemon SPECIES_MURKROW
 pokemon SPECIES_TEDDIURSA
+<<<<<<< Updated upstream
 pokemon SPECIES_TEDDIURSA
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
@@ -7208,6 +8159,15 @@ pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_MURKROW
 pokemon SPECIES_DUDUNSPARCE
+=======
+pokemon SPECIES_BONSLY
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DRILBUR
+pokemon SPECIES_MURKROW
+pokemon SPECIES_DRILBUR
+>>>>>>> Stashed changes
 
 // day encounter slots
 pokemon SPECIES_GEODUDE
@@ -7215,6 +8175,7 @@ pokemon SPECIES_MURKROW
 pokemon SPECIES_TEDDIURSA
 pokemon SPECIES_MURKROW
 pokemon SPECIES_TEDDIURSA
+<<<<<<< Updated upstream
 pokemon SPECIES_TEDDIURSA
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
@@ -7222,6 +8183,15 @@ pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_MURKROW
 pokemon SPECIES_DUDUNSPARCE
+=======
+pokemon SPECIES_BONSLY
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DRILBUR
+pokemon SPECIES_MURKROW
+pokemon SPECIES_DRILBUR
+>>>>>>> Stashed changes
 
 // night encounter slots
 pokemon SPECIES_GEODUDE
@@ -7229,6 +8199,7 @@ pokemon SPECIES_MURKROW
 pokemon SPECIES_TEDDIURSA
 pokemon SPECIES_MURKROW
 pokemon SPECIES_TEDDIURSA
+<<<<<<< Updated upstream
 pokemon SPECIES_TEDDIURSA
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
@@ -7236,6 +8207,15 @@ pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_MURKROW
 pokemon SPECIES_DUDUNSPARCE
+=======
+pokemon SPECIES_BONSLY
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DRILBUR
+pokemon SPECIES_MURKROW
+pokemon SPECIES_DRILBUR
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -7297,6 +8277,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 43, 43, 43, 43, 45, 45, 40, 40, 45, 43, 45, 43
 
 // morning encounter slots
@@ -7305,10 +8286,21 @@ pokemon SPECIES_MURKROW
 pokemon SPECIES_URSARING
 pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
+=======
+walklevels 47, 47, 48, 47, 48, 50, 45, 45, 50, 48, 50, 52
+
+// morning encounter slots
+>>>>>>> Stashed changes
 pokemon SPECIES_GRAVELER
+pokemon SPECIES_MURKROW
+pokemon SPECIES_URSARING
+pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
+pokemon SPECIES_AERODACTYL
 pokemon SPECIES_WOBBUFFET
+pokemon SPECIES_CRUSTLE
 pokemon SPECIES_WOBBUFFET
+<<<<<<< Updated upstream
 pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_URSALUNA
@@ -7319,10 +8311,23 @@ pokemon SPECIES_MURKROW
 pokemon SPECIES_URSARING
 pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
+=======
+pokemon SPECIES_EXCADRILL
+pokemon SPECIES_CRUSTLE
+monwithform SPECIES_URSALUNA, 1
+
+// day encounter slots
+>>>>>>> Stashed changes
 pokemon SPECIES_GRAVELER
+pokemon SPECIES_MURKROW
+pokemon SPECIES_URSARING
+pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
+pokemon SPECIES_AERODACTYL
 pokemon SPECIES_WOBBUFFET
+pokemon SPECIES_CRUSTLE
 pokemon SPECIES_WOBBUFFET
+<<<<<<< Updated upstream
 pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
 pokemon SPECIES_URSALUNA
@@ -7333,12 +8338,29 @@ pokemon SPECIES_MURKROW
 pokemon SPECIES_URSARING
 pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
+=======
+pokemon SPECIES_EXCADRILL
+pokemon SPECIES_CRUSTLE
+pokemon SPECIES_URSALUNA
+
+// night encounter slots
+>>>>>>> Stashed changes
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
+pokemon SPECIES_MURKROW
+pokemon SPECIES_URSARING
 pokemon SPECIES_URSARING
 pokemon SPECIES_WOBBUFFET
+pokemon SPECIES_AERODACTYL
+pokemon SPECIES_WOBBUFFET
+pokemon SPECIES_CRUSTLE
+pokemon SPECIES_WOBBUFFET
+<<<<<<< Updated upstream
+pokemon SPECIES_URSARING
+pokemon SPECIES_WOBBUFFET
+=======
+pokemon SPECIES_EXCADRILL
+pokemon SPECIES_CRUSTLE
+>>>>>>> Stashed changes
 monwithform SPECIES_URSALUNA, 1
 
 // hoenn encounter slots
@@ -7401,6 +8423,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100
 
 // morning encounter slots
@@ -7444,6 +8467,51 @@ pokemon SPECIES_ROARING_MOON
 pokemon SPECIES_IRON_VALIANT
 pokemon SPECIES_ROARING_MOON
 pokemon SPECIES_IRON_VALIANT
+=======
+walklevels 42, 41, 42, 41, 41, 43, 44, 44, 44, 46, 43, 47
+
+// morning encounter slots
+pokemon SPECIES_SLAKING
+pokemon SPECIES_ALTARIA
+pokemon SPECIES_SKUNTANK
+pokemon SPECIES_LUCARIO
+pokemon SPECIES_PORYGON
+pokemon SPECIES_PORYGON
+pokemon SPECIES_KLINK
+pokemon SPECIES_FERROTHORN
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_TYRANTRUM
+pokemon SPECIES_AURORUS
+
+// day encounter slots
+pokemon SPECIES_SLAKING
+pokemon SPECIES_ALTARIA
+pokemon SPECIES_SKUNTANK
+pokemon SPECIES_LUCARIO
+pokemon SPECIES_PORYGON
+pokemon SPECIES_PORYGON
+pokemon SPECIES_KLINK
+pokemon SPECIES_FERROTHORN
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_RAMPARDOS
+pokemon SPECIES_BASTIODON
+
+// night encounter slots
+pokemon SPECIES_SLAKING
+pokemon SPECIES_ALTARIA
+pokemon SPECIES_SKUNTANK
+pokemon SPECIES_LUCARIO
+pokemon SPECIES_PORYGON
+pokemon SPECIES_PORYGON
+pokemon SPECIES_KLINK
+pokemon SPECIES_FERROTHORN
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_HELIOPTILE
+pokemon SPECIES_ARMALDO
+pokemon SPECIES_CRADILY
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -8539,55 +9607,55 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata  82   // Cliff Edge Gate
 
-walkrate 0
+walkrate 20
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 34, 36, 34, 32, 35, 36, 35, 37, 37, 36, 37, 40
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SALANDIT
+pokemon SPECIES_STUFFUL
+pokemon SPECIES_DREDNAW
+pokemon SPECIES_CARKOL
+pokemon SPECIES_STONJOURNER
+pokemon SPECIES_CHARCADET
+pokemon SPECIES_NACLI
+pokemon SPECIES_TOEDSCOOL
+pokemon SPECIES_KLAWF
+pokemon SPECIES_GLIMMET
+pokemon SPECIES_CLODSIRE
+pokemon SPECIES_KROOKODILE
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SALANDIT
+pokemon SPECIES_STUFFUL
+pokemon SPECIES_DREDNAW
+pokemon SPECIES_CARKOL
+pokemon SPECIES_STONJOURNER
+pokemon SPECIES_CHARCADET
+pokemon SPECIES_NACLI
+pokemon SPECIES_TOEDSCOOL
+pokemon SPECIES_KLAWF
+pokemon SPECIES_GLIMMET
+pokemon SPECIES_CLODSIRE
+pokemon SPECIES_KROOKODILE
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SALANDIT
+pokemon SPECIES_STUFFUL
+pokemon SPECIES_DREDNAW
+pokemon SPECIES_CARKOL
+pokemon SPECIES_STONJOURNER
+pokemon SPECIES_CHARCADET
+pokemon SPECIES_NACLI
+pokemon SPECIES_TOEDSCOOL
+pokemon SPECIES_KLAWF
+pokemon SPECIES_GLIMMET
+pokemon SPECIES_CLODSIRE
+pokemon SPECIES_KROOKODILE
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -8649,7 +9717,11 @@ rocksmashrate 30
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 29, 26, 27, 29, 26, 27, 25, 27, 27, 29, 30, 30
+=======
+walklevels 34, 36, 34, 32, 35, 36, 35, 37, 37, 36, 37, 40
+>>>>>>> Stashed changes
 
 // morning encounter slots
 monwithform SPECIES_DIGLETT, 1
@@ -8668,14 +9740,24 @@ pokemon SPECIES_SANDSLASH
 // day encounter slots
 monwithform SPECIES_DIGLETT, 1
 monwithform SPECIES_GEODUDE, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_ELECTABUZZ
 pokemon SPECIES_KINGLER
 pokemon SPECIES_ELECTABUZZ
+=======
+pokemon SPECIES_MAGMAR
+pokemon SPECIES_KINGLER
+pokemon SPECIES_MAGMAR
+>>>>>>> Stashed changes
 pokemon SPECIES_SANDSHREW
 monwithform SPECIES_DUGTRIO, 1
 pokemon SPECIES_CLODSIRE
 monwithform SPECIES_GRAVELER, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_ELECTABUZZ
+=======
+pokemon SPECIES_MAGMAR
+>>>>>>> Stashed changes
 pokemon SPECIES_SANDSLASH
 pokemon SPECIES_SANDSLASH
 
@@ -8684,14 +9766,24 @@ monwithform SPECIES_DIGLETT, 1
 monwithform SPECIES_GEODUDE, 1
 pokemon SPECIES_ELECTABUZZ
 pokemon SPECIES_KINGLER
+<<<<<<< Updated upstream
 pokemon SPECIES_ELECTABUZZ
+=======
+pokemon SPECIES_MAGMAR
+>>>>>>> Stashed changes
 pokemon SPECIES_SANDSHREW
 monwithform SPECIES_DUGTRIO, 1
 pokemon SPECIES_CLODSIRE
 monwithform SPECIES_GRAVELER, 1
+<<<<<<< Updated upstream
 pokemon SPECIES_ELECTABUZZ
 pokemon SPECIES_SANDSLASH
 pokemon SPECIES_SANDSLASH
+=======
+pokemon SPECIES_MAGMAR
+pokemon SPECIES_ELECTABUZZ
+pokemon SPECIES_SANDSLASH
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -10625,6 +11717,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
+<<<<<<< Updated upstream
 walklevels 32, 27, 27, 28, 29, 31, 28, 27, 27, 29, 29, 31
 
 // morning encounter slots
@@ -10636,12 +11729,26 @@ pokemon SPECIES_NOCTOWL
 pokemon SPECIES_NOCTOWL
 monwithform SPECIES_RAPIDASH, 1 
 monwithform SPECIES_RAPIDASH, 1
+=======
+walklevels 42, 41, 42, 41, 41, 43, 44, 44, 44, 46, 43, 47
+
+// morning encounter slots
+monwithform SPECIES_RAPIDASH, 1
+pokemon SPECIES_MISMAGIUS
+monwithform SPECIES_RAPIDASH, 1
+pokemon SPECIES_MISMAGIUS
+pokemon SPECIES_PIDGEOT
+pokemon SPECIES_PIDGEOT
+pokemon SPECIES_ROSERADE
+pokemon SPECIES_ROSERADE
+>>>>>>> Stashed changes
 pokemon SPECIES_NINETALES
 pokemon SPECIES_NINETALES
 pokemon SPECIES_NINETALES
 pokemon SPECIES_NINETALES
 
 // day encounter slots
+<<<<<<< Updated upstream
 monwithform SPECIES_PONYTA, 1
 pokemon SPECIES_MISDREAVUS
 monwithform SPECIES_PONYTA, 1
@@ -10650,12 +11757,23 @@ pokemon SPECIES_NOCTOWL
 pokemon SPECIES_NOCTOWL
 monwithform SPECIES_RAPIDASH, 1 
 monwithform SPECIES_RAPIDASH, 1
+=======
+monwithform SPECIES_RAPIDASH, 1
+pokemon SPECIES_MISMAGIUS
+monwithform SPECIES_RAPIDASH, 1
+pokemon SPECIES_MISMAGIUS
+pokemon SPECIES_PIDGEOT
+pokemon SPECIES_PIDGEOT
+pokemon SPECIES_ROSERADE
+pokemon SPECIES_ROSERADE
+>>>>>>> Stashed changes
 pokemon SPECIES_ARCANINE
 pokemon SPECIES_ARCANINE
 pokemon SPECIES_ARCANINE
 pokemon SPECIES_ARCANINE
 
 // night encounter slots
+<<<<<<< Updated upstream
 monwithform SPECIES_PONYTA, 1
 pokemon SPECIES_MISDREAVUS
 monwithform SPECIES_PONYTA, 1
@@ -10664,6 +11782,16 @@ pokemon SPECIES_NOCTOWL
 pokemon SPECIES_NOCTOWL
 monwithform SPECIES_RAPIDASH, 1 
 monwithform SPECIES_RAPIDASH, 1
+=======
+monwithform SPECIES_RAPIDASH, 1
+pokemon SPECIES_MISMAGIUS
+monwithform SPECIES_RAPIDASH, 1
+pokemon SPECIES_MISMAGIUS
+pokemon SPECIES_PIDGEOT
+pokemon SPECIES_PIDGEOT
+pokemon SPECIES_ROSERADE
+pokemon SPECIES_ROSERADE
+>>>>>>> Stashed changes
 pokemon SPECIES_HOUNDOOM
 pokemon SPECIES_HOUNDOOM
 pokemon SPECIES_HOUNDOOM
@@ -10729,6 +11857,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 31, 31, 31, 31, 35, 35, 33, 33, 33, 33, 33, 33
 
 // morning encounter slots
@@ -10772,6 +11901,51 @@ pokemon SPECIES_BULBASAUR
 pokemon SPECIES_CHARMANDER
 pokemon SPECIES_EEVEE
 pokemon SPECIES_EEVEE
+=======
+walklevels 52, 53, 53, 53, 55, 55, 54, 52, 56, 54, 57, 60
+
+// morning encounter slots
+pokemon SPECIES_EELEKTROSS
+pokemon SPECIES_AMBIPOM
+pokemon SPECIES_FLYGON
+pokemon SPECIES_GARDEVOIR
+pokemon SPECIES_SHIFTRY
+pokemon SPECIES_HITMONTOP
+pokemon SPECIES_SCOLIPEDE
+pokemon SPECIES_BOUFFALANT
+pokemon SPECIES_VOLCARONA
+pokemon SPECIES_KELDEO
+pokemon SPECIES_MELOETTA
+pokemon SPECIES_GENESECT
+
+// day encounter slots
+pokemon SPECIES_RUNERIGUS
+pokemon SPECIES_SIRFETCHD
+pokemon SPECIES_APPLETUN
+pokemon SPECIES_GALLADE
+pokemon SPECIES_GOLISOPOD
+pokemon SPECIES_SCOVILLAIN
+pokemon SPECIES_CORVIKNIGHT
+pokemon SPECIES_GIGALITH
+pokemon SPECIES_MAGNEZONE
+pokemon SPECIES_DIANCIE
+pokemon SPECIES_HOOPA
+pokemon SPECIES_VOLCANION
+
+// night encounter slots
+pokemon SPECIES_ZOROARK
+pokemon SPECIES_GOTHITELLE
+pokemon SPECIES_GOURGEIST
+pokemon SPECIES_DHELMISE
+monwithform SPECIES_ZOROARK, 1
+pokemon SPECIES_HOUNDOOM
+pokemon SPECIES_GENGAR
+pokemon SPECIES_DUSKNOIR
+pokemon SPECIES_HYDREIGON
+pokemon SPECIES_GLASTRIER
+pokemon SPECIES_SPECTRIER
+pokemon SPECIES_CALYREX
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -10833,6 +12007,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
+<<<<<<< Updated upstream
 walklevels 34, 34, 34, 34, 36, 36, 36, 36, 38, 36, 38, 36
 
 // morning encounter slots
@@ -10876,6 +12051,51 @@ pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
+=======
+walklevels 52, 53, 53, 53, 55, 55, 54, 52, 56, 54, 57, 60
+
+// morning encounter slots
+pokemon SPECIES_PYROAR
+pokemon SPECIES_PANGORO
+pokemon SPECIES_MIENSHAO
+pokemon SPECIES_TOXTRICITY
+pokemon SPECIES_TOXICROAK
+pokemon SPECIES_WYRDEER
+pokemon SPECIES_TINKATON
+monwithform SPECIES_LILLIGANT, 1
+pokemon SPECIES_SALAMENCE
+pokemon SPECIES_UXIE
+pokemon SPECIES_AZELF
+pokemon SPECIES_MESPRIT
+
+// day encounter slots
+pokemon SPECIES_STOUTLAND
+pokemon SPECIES_ZEBSTRIKA
+pokemon SPECIES_HARIYAMA
+pokemon SPECIES_PORYGON2
+pokemon SPECIES_ELECTIVIRE
+pokemon SPECIES_MAGMORTAR
+pokemon SPECIES_HATTERENE
+monwithform SPECIES_BRAVIARY, 1
+pokemon SPECIES_GARCHOMP
+pokemon SPECIES_TORNADUS
+pokemon SPECIES_THUNDURUS
+pokemon SPECIES_LANDORUS
+
+// night encounter slots
+pokemon SPECIES_LIEPARD
+pokemon SPECIES_CHANDELURE
+pokemon SPECIES_TREVENANT
+pokemon SPECIES_GRIMMSNARL
+pokemon SPECIES_OBSTAGOON
+pokemon SPECIES_SPIRITOMB
+pokemon SPECIES_BISHARP
+pokemon SPECIES_WEAVILE
+pokemon SPECIES_BAXCALIBUR
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_REGISTEEL
+>>>>>>> Stashed changes
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
