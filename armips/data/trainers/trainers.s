@@ -63,7 +63,7 @@ trainerdata 1, "Silver" //rival2 chikorita
         // mon 1
         ivs 30
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_ZUBAT
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
@@ -80,7 +80,7 @@ trainerdata 1, "Silver" //rival2 chikorita
         // mon 2
         ivs 30
         abilityslot 0
-        level 18
+        level 20
         pokemon SPECIES_BAYLEEF
 		item ITEM_MIRACLE_SEED
         move MOVE_POUND
@@ -153,29 +153,49 @@ trainerdata 4, "Wade"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 6
         pokemon SPECIES_CATERPIE
+=======
+        level 8
+        pokemon SPECIES_LEDYBA
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 6
         pokemon SPECIES_CATERPIE
+=======
+        level 7
+        pokemon SPECIES_BURMY
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 6
         pokemon SPECIES_WEEDLE
+=======
+        level 9
+        pokemon SPECIES_SEWADDLE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 6
         pokemon SPECIES_CATERPIE
+=======
+        level 8
+        pokemon SPECIES_SCATTERBUG
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -195,7 +215,11 @@ trainerdata 5, "Victoria"
         // mon 0
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 18
+=======
+        level 21
+>>>>>>> Stashed changes
         pokemon SPECIES_AIPOM
         move MOVE_BEAT_UP
         move MOVE_DOUBLE_HIT
@@ -206,7 +230,11 @@ trainerdata 5, "Victoria"
 		// mon 1
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 18
+=======
+        level 20
+>>>>>>> Stashed changes
         pokemon SPECIES_SENTRET
         move MOVE_SCRATCH
         move MOVE_FORESIGHT
@@ -217,12 +245,21 @@ trainerdata 5, "Victoria"
 		// mon 2
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 18
         pokemon SPECIES_FURRET
         move MOVE_AGILITY
         move MOVE_FORESIGHT
         move MOVE_FURY_SWIPES
         move MOVE_HONE_CLAWS
+=======
+        level 20
+        pokemon SPECIES_KECLEON
+        move MOVE_RECOVER
+        move MOVE_PSYBEAM
+        move MOVE_FURY_SWIPES
+        move MOVE_IRON_TAIL
+>>>>>>> Stashed changes
         ballseal 0
 		
 		// mon 3
@@ -239,7 +276,11 @@ trainerdata 5, "Victoria"
 		// mon 4
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 18
+=======
+        level 19
+>>>>>>> Stashed changes
         pokemon SPECIES_SENTRET
         move MOVE_CHARM
         move MOVE_LAST_RESORT
@@ -250,9 +291,15 @@ trainerdata 5, "Victoria"
 		// mon 5
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 18
         pokemon SPECIES_FURRET
         move MOVE_SUCKER_PUNCH
+=======
+        level 21
+        pokemon SPECIES_BIBAREL
+        move MOVE_AQUA_JET
+>>>>>>> Stashed changes
         move MOVE_ICE_BEAM
         move MOVE_THUNDERBOLT
         move MOVE_REST
@@ -278,6 +325,13 @@ trainerdata 6, "Keith"
         level 22
         pokemon SPECIES_GROWLITHE
         ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 22
+        monwithform SPECIES_GROWLITHE, 1
+        ballseal 0
     endparty
 
 trainerdata 7, "Irwin"
@@ -296,36 +350,54 @@ trainerdata 7, "Irwin"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 6
         pokemon SPECIES_VOLTORB
+=======
+        level 22
+        monwithform SPECIES_VOLTORB, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 10
+=======
+        level 24
+>>>>>>> Stashed changes
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 15
+=======
+        level 25
+>>>>>>> Stashed changes
         pokemon SPECIES_VOLTORB
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 19
         pokemon SPECIES_VOLTORB
+=======
+        level 27
+        monwithform SPECIES_ELECTRODE, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 8, "Joey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -341,12 +413,26 @@ trainerdata 8, "Joey"
         level 8
         pokemon SPECIES_RATTATA
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 6
+        pokemon SPECIES_SENTRET
+        ballseal 0
+    
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 7
+        pokemon SPECIES_ZIGZAGOON
+        ballseal 0
     endparty
 
 trainerdata 9, "Elaine"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_F
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -359,8 +445,34 @@ trainerdata 9, "Elaine"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_STARYU
+=======
+        level 36
+        pokemon SPECIES_STARMIE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 37
+        pokemon SPECIES_AZUMARILL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_LANTURN
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_SWAMPERT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -380,13 +492,19 @@ trainerdata 10, "Amy & Mimi"
         // mon 0
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 13
         pokemon SPECIES_SPINARAK
+=======
+        level 17
+        pokemon SPECIES_BEAUTIFLY
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 13
         pokemon SPECIES_LEDYBA
         ballseal 0
@@ -404,6 +522,25 @@ trainerdata 10, "Amy & Mimi"
         level 13
         pokemon SPECIES_YANMA
         ballseal 0
+=======
+        level 17
+        pokemon SPECIES_ILLUMISE
+        ballseal 0
+		
+		// mon 2
+        ivs 10
+        abilityslot 32
+        level 17
+        pokemon SPECIES_DUSTOX
+        ballseal 0
+
+        // mon 3
+        ivs 10
+        abilityslot 32
+        level 17
+        pokemon SPECIES_VOLBEAT
+        ballseal 0
+>>>>>>> Stashed changes
     endparty
 
 trainerdata 12, "Grunt" //SLOWPOKEWELL
@@ -422,22 +559,35 @@ trainerdata 12, "Grunt" //SLOWPOKEWELL
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 12
+=======
+        level 15
+>>>>>>> Stashed changes
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 15
+=======
+        level 18
+>>>>>>> Stashed changes
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 14
         pokemon SPECIES_ZUBAT
+=======
+        level 16
+        monwithform SPECIES_RATTATA, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -457,14 +607,22 @@ trainerdata 13, "Grunt" //SLOWPOKEWELL
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 13
+=======
+        level 15
+>>>>>>> Stashed changes
         pokemon SPECIES_ZUBAT
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 15
+=======
+        level 18
+>>>>>>> Stashed changes
         pokemon SPECIES_EKANS
         ballseal 0
     endparty
@@ -554,7 +712,7 @@ trainerdata 15, "Otis"
 trainerdata 16, "Simon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_M
-    nummons 2
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -567,15 +725,46 @@ trainerdata 16, "Simon"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_TENTACOOL
+=======
+        level 37
+        pokemon SPECIES_TENTACRUEL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_TENTACOOL
+=======
+        level 36
+        pokemon SPECIES_BLASTOISE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 38
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 36
+        pokemon SPECIES_FERALIGATR
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 32
+        level 38
+        pokemon SPECIES_MILOTIC
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -595,8 +784,13 @@ trainerdata 17, "Kenji"
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_MACHOKE
+=======
+        level 64
+        pokemon SPECIES_KOMMO_O
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -623,29 +817,48 @@ trainerdata 18, "Justin"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 9
         pokemon SPECIES_MAGIKARP
+=======
+        level 13
+        pokemon SPECIES_KRABBY
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
         pokemon SPECIES_MAGIKARP
+=======
+        level 12
+        pokemon SPECIES_MARILL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 9
         pokemon SPECIES_MAGIKARP
+=======
+        level 15
+        pokemon SPECIES_BUIZEL
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 20, "Falkner"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_FALKNER
+<<<<<<< Updated upstream
     nummons 2
+=======
+    nummons 4
+>>>>>>> Stashed changes
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
     item ITEM_FULL_HEAL
@@ -658,6 +871,7 @@ trainerdata 20, "Falkner"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 9
         pokemon SPECIES_HOOTHOOT
         item ITEM_ORAN_BERRY
@@ -666,6 +880,16 @@ trainerdata 20, "Falkner"
         move MOVE_HYPNOSIS
         move MOVE_AIR_CUTTER
 		ability ABILITY_TINTED_LENS
+=======
+        level 13
+        pokemon SPECIES_SQUAWKABILLY
+        item ITEM_ORAN_BERRY
+        move MOVE_TORMENT
+        move MOVE_ROOST
+        move MOVE_GROWL
+        move MOVE_AERIAL_ACE
+		ability ABILITY_INTIMIDATE
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -675,24 +899,68 @@ trainerdata 20, "Falkner"
         // mon 1
         ivs 50
         abilityslot 0
-        level 13
+        level 16
         pokemon SPECIES_PIDGEOTTO
         item ITEM_SITRUS_BERRY
         move MOVE_TACKLE
         move MOVE_ROOST
         move MOVE_GUST
         move MOVE_QUICK_ATTACK
+<<<<<<< Updated upstream
+=======
+		ability ABILITY_GALE_WINGS
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+        ballseal 0
+    
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 12
+        pokemon SPECIES_PIKIPEK
+        item ITEM_NONE
+        move MOVE_PECK
+        move MOVE_GROWL
+        move MOVE_ROCK_SMASH
+        move MOVE_PROTECT
+>>>>>>> Stashed changes
 		ability ABILITY_KEEN_EYE
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
+<<<<<<< Updated upstream
+=======
+		shinylock 0
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 0
+        level 14
+        pokemon SPECIES_ZUBAT
+        item ITEM_NONE
+        move MOVE_ABSORB
+        move MOVE_ASTONISH
+        move MOVE_HYPNOSIS
+        move MOVE_WING_ATTACK
+		ability ABILITY_INNER_FOCUS
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 21, "Bugsy"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_BUGSY
+<<<<<<< Updated upstream
     nummons 3
+=======
+    nummons 5
+>>>>>>> Stashed changes
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
     item ITEM_FULL_HEAL
@@ -705,52 +973,122 @@ trainerdata 21, "Bugsy"
         // mon 0
         ivs 80
         abilityslot 32
+<<<<<<< Updated upstream
         level 17
+=======
+        level 19
+>>>>>>> Stashed changes
         pokemon SPECIES_LEDIAN
         item ITEM_LIGHT_CLAY
         move MOVE_LIGHT_SCREEN
         move MOVE_REFLECT
         move MOVE_U_TURN
         move MOVE_MACH_PUNCH
+<<<<<<< Updated upstream
 	ability ABILITY_IRON_FIST
 	setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 	nature NATURE_ADAMANT
 	shinylock 0
+=======
+	    ability ABILITY_IRON_FIST
+	    setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+	    nature NATURE_ADAMANT
+	    shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 80
         abilityslot 0
+<<<<<<< Updated upstream
         level 17
+=======
+        level 20
+>>>>>>> Stashed changes
         pokemon SPECIES_SHUCKLE
         item ITEM_BERRY_JUICE
         move MOVE_ENCORE
         move MOVE_WITHDRAW
         move MOVE_MUD_SLAP
         move MOVE_BUG_BITE
+<<<<<<< Updated upstream
 	ability ABILITY_STURDY
 	setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 	nature NATURE_ADAMANT
 	shinylock 0
+=======
+	    ability ABILITY_STURDY
+	    setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+	    nature NATURE_ADAMANT
+	    shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 80
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
+=======
+        level 22
+>>>>>>> Stashed changes
         pokemon SPECIES_SCYTHER
         item ITEM_SITRUS_BERRY
         move MOVE_QUICK_ATTACK
         move MOVE_LEER
         move MOVE_U_TURN
         move MOVE_FOCUS_ENERGY
+<<<<<<< Updated upstream
 	ability ABILITY_TECHNICIAN
 	setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 	nature NATURE_ADAMANT
 	shinylock 0
+=======
+	    ability ABILITY_TECHNICIAN
+	    setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+	    nature NATURE_ADAMANT
+	    shinylock 0
+        ballseal 0
+
+        // mon 3
+        ivs 80
+        abilityslot 32
+        level 21
+        pokemon SPECIES_CHARJABUG
+        item ITEM_MAGNET
+        move MOVE_LIGHT_SCREEN
+        move MOVE_VOLT_SWITCH
+        move MOVE_BITE
+        move MOVE_MUD_SLAP
+	    ability ABILITY_SPEED_BOOST
+	    setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+	    nature NATURE_ADAMANT
+	    shinylock 0
+        ballseal 0
+
+        // mon 4
+        ivs 80
+        abilityslot 32
+        level 18
+        pokemon SPECIES_LARVESTA
+        item ITEM_CHARCOAL
+        move MOVE_U_TURN
+        move MOVE_STRUGGLE_BUG
+        move MOVE_FLAME_WHEEL
+        move MOVE_FLAME_CHARGE
+	    ability ABILITY_FLAME_BODY
+	    setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+	    nature NATURE_ADAMANT
+	    shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -795,7 +1133,11 @@ trainerdata 23, "Larry"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 14
+=======
+        level 18
+>>>>>>> Stashed changes
         pokemon SPECIES_SLOWPOKE
         ballseal 0
     endparty
@@ -803,7 +1145,7 @@ trainerdata 23, "Larry"
 trainerdata 24, "Alan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SCHOOL_KID_M
-    nummons 1
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -818,6 +1160,34 @@ trainerdata 24, "Alan"
         abilityslot 0
         level 22
         pokemon SPECIES_TANGELA
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 23
+        pokemon SPECIES_PINECO
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_SKIDDO
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_FOMANTIS
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_STEENEE
         ballseal 0
     endparty
 
@@ -837,29 +1207,42 @@ trainerdata 25, "Russel"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 9
+=======
+        level 15
+>>>>>>> Stashed changes
         pokemon SPECIES_GEODUDE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 11
+=======
+        level 17
+>>>>>>> Stashed changes
         monwithform SPECIES_GEODUDE, 1
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 13
         pokemon SPECIES_GEODUDE
+=======
+        level 16
+        pokemon SPECIES_RHYHORN
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 26, "Roland"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -875,12 +1258,26 @@ trainerdata 26, "Roland"
         level 13
         pokemon SPECIES_NIDORAN_M
         ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 13
+        pokemon SPECIES_NIDORAN_F
+        ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 32
+        level 13
+        pokemon SPECIES_MAKUHITA
+        ballseal 0
     endparty
 
 trainerdata 27, "Liz"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PICNICKER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -895,6 +1292,20 @@ trainerdata 27, "Liz"
         abilityslot 32
         level 12
         pokemon SPECIES_NIDORAN_F
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_NIDORAN_M
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 12
+        pokemon SPECIES_HIPPOPOTAS
         ballseal 0
     endparty
 
@@ -914,27 +1325,46 @@ trainerdata 28, "Jake"
         // mon 0
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_PARASECT
         move MOVE_LEECH_LIFE
         move MOVE_SPORE
         move MOVE_SLASH
         move MOVE_SWORDS_DANCE
+=======
+        level 66
+        pokemon SPECIES_MEOWSCARADA
+        move MOVE_FLOWER_TRICK
+        move MOVE_KNOCK_OFF
+        move MOVE_PLAY_ROUGH
+        move MOVE_U_TURN
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 50
         pokemon SPECIES_GOLDUCK
         move MOVE_PSYCHIC
         move MOVE_SCREECH
         move MOVE_WATER_PULSE
         move MOVE_FURY_SWIPES
+=======
+        level 66
+        pokemon SPECIES_SKELEDIRGE
+        move MOVE_TORCH_SONG
+        move MOVE_SHADOW_BALL
+        move MOVE_FLAMETHROWER
+        move MOVE_SCORCHING_SANDS
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 48
         pokemon SPECIES_AZURILL
@@ -942,6 +1372,15 @@ trainerdata 28, "Jake"
         move MOVE_QUICK_ATTACK
         move MOVE_SAND_ATTACK
         move MOVE_SURF
+=======
+        abilityslot 32
+        level 66
+        pokemon SPECIES_QUAQUAVAL
+        move MOVE_AQUA_STEP
+        move MOVE_CLOSE_COMBAT
+        move MOVE_ACROBATICS
+        move MOVE_AERIAL_ACE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -961,22 +1400,36 @@ trainerdata 29, "Rod"
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 9
         pokemon SPECIES_PIDGEY
+=======
+        level 12
+        pokemon SPECIES_MANTYKE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 9
         pokemon SPECIES_DODUO
+=======
+        level 11
+        pokemon SPECIES_RUFFLET
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 30, "Whitney"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_WHITNEY
+<<<<<<< Updated upstream
     nummons 4
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
     item ITEM_FULL_HEAL
@@ -989,7 +1442,11 @@ trainerdata 30, "Whitney"
         // mon 0
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 21
+=======
+        level 22
+>>>>>>> Stashed changes
         pokemon SPECIES_TEDDIURSA
         item ITEM_LEFTOVERS
         move MOVE_SHADOW_CLAW
@@ -1020,7 +1477,11 @@ trainerdata 30, "Whitney"
 		shinylock 0
         ballseal 0
 
+<<<<<<< Updated upstream
 	// mon 2
+=======
+	    // mon 2
+>>>>>>> Stashed changes
         ivs 100
         abilityslot 32
         level 23
@@ -1037,10 +1498,17 @@ trainerdata 30, "Whitney"
 		shinylock 0
         ballseal 0
 
+<<<<<<< Updated upstream
 	// mon 3
         ivs 100
         abilityslot 32
         level 25
+=======
+	    // mon 3
+        ivs 100
+        abilityslot 32
+        level 26
+>>>>>>> Stashed changes
         pokemon SPECIES_MILTANK
         item ITEM_LUM_BERRY
         move MOVE_ROLLOUT
@@ -1052,13 +1520,50 @@ trainerdata 30, "Whitney"
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 4
+        ivs 100
+        abilityslot 0
+        level 23
+        pokemon SPECIES_DRAMPA
+        item ITEM_DRAGON_FANG
+        move MOVE_PROTECT
+        move MOVE_TWISTER
+        move MOVE_SWIFT
+        move MOVE_SHADOW_CLAW
+		ability ABILITY_SAP_SIPPER
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 5
+        ivs 100
+        abilityslot 0
+        level 24
+        pokemon SPECIES_DUNSPARCE
+        item ITEM_LEFTOVERS
+        move MOVE_ROLLOUT
+        move MOVE_ANCIENT_POWER
+        move MOVE_DRILL_RUN
+        move MOVE_PROTECT
+		ability ABILITY_SERENE_GRACE
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 31, "Morty"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_MORTY
-    nummons 4
+    nummons 6
     item ITEM_HYPER_POTION
     item ITEM_HYPER_POTION
     item ITEM_FULL_HEAL
@@ -1071,6 +1576,7 @@ trainerdata 31, "Morty"
         // mon 0
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_PARASECT
         item ITEM_LEFTOVERS
@@ -1079,6 +1585,16 @@ trainerdata 31, "Morty"
         move MOVE_U_TURN
         move MOVE_SHADOW_CLAW
 		ability ABILITY_EFFECT_SPORE
+=======
+        level 32
+        pokemon SPECIES_HOUNDSTONE
+        item ITEM_LEFTOVERS
+        move MOVE_CRUNCH
+        move MOVE_LAST_RESPECTS
+        move MOVE_SHADOW_SNEAK
+        move MOVE_BULLDOZE
+		ability ABILITY_FUR_COAT
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1088,7 +1604,11 @@ trainerdata 31, "Morty"
         // mon 1
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
+=======
+        level 34
+>>>>>>> Stashed changes
         pokemon SPECIES_NOCTOWL
         item ITEM_QUICK_CLAW
         move MOVE_FUTURE_SIGHT
@@ -1105,8 +1625,13 @@ trainerdata 31, "Morty"
         // mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_MISDREAVUS
+=======
+        level 33
+        pokemon SPECIES_MISMAGIUS
+>>>>>>> Stashed changes
         item ITEM_FOCUS_SASH
         move MOVE_PERISH_SONG
         move MOVE_DESTINY_BOND
@@ -1122,7 +1647,11 @@ trainerdata 31, "Morty"
         // mon 3
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 31
+=======
+        level 36
+>>>>>>> Stashed changes
         pokemon SPECIES_GENGAR
         item ITEM_SITRUS_BERRY
         move MOVE_HYPNOSIS
@@ -1134,13 +1663,54 @@ trainerdata 31, "Morty"
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 1
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 4
+        ivs 100
+        abilityslot 0
+        level 31
+        pokemon SPECIES_BASCULEGION
+        item ITEM_LEFTOVERS
+        move MOVE_PHANTOM_FORCE
+        move MOVE_AQUA_JET
+        move MOVE_LIQUIDATION
+        move MOVE_SHADOW_BALL
+		ability ABILITY_ADAPTABILITY
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 5
+        ivs 100
+        abilityslot 0
+        level 35
+        pokemon SPECIES_COFAGRIGUS
+        item ITEM_QUICK_CLAW
+        move MOVE_POLTERGEIST
+        move MOVE_SHADOW_CLAW
+        move MOVE_WILL_O_WISP
+        move MOVE_OMINOUS_WIND
+		ability ABILITY_PURIFYING_SALT
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 32, "Pryce"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK 
     trainerclass TRAINERCLASS_LEADER_PRYCE
+<<<<<<< Updated upstream
     nummons 5
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -1153,7 +1723,11 @@ trainerdata 32, "Pryce"
         // mon 0
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 40
+=======
+        level 51
+>>>>>>> Stashed changes
         pokemon SPECIES_DELIBIRD
         item ITEM_ICY_ROCK
         move MOVE_FAKE_OUT
@@ -1170,7 +1744,11 @@ trainerdata 32, "Pryce"
         // mon 1
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
+=======
+        level 53
+>>>>>>> Stashed changes
         pokemon SPECIES_DEWGONG
         item ITEM_NEVER_MELT_ICE
         move MOVE_SLEEP_TALK
@@ -1187,7 +1765,11 @@ trainerdata 32, "Pryce"
         // mon 2
         ivs 150
         abilityslot 32
+<<<<<<< Updated upstream
         level 41
+=======
+        level 55
+>>>>>>> Stashed changes
         pokemon SPECIES_MAMOSWINE
         item ITEM_LEFTOVERS
         move MOVE_EARTHQUAKE
@@ -1204,7 +1786,11 @@ trainerdata 32, "Pryce"
         // mon 3
         ivs 150
         abilityslot 32
+<<<<<<< Updated upstream
         level 41
+=======
+        level 54
+>>>>>>> Stashed changes
         pokemon SPECIES_WEAVILE
         item ITEM_EXPERT_BELT
         move MOVE_KNOCK_OFF
@@ -1221,6 +1807,7 @@ trainerdata 32, "Pryce"
         // mon 4
         ivs 150
         abilityslot 1
+<<<<<<< Updated upstream
         level 44
         pokemon SPECIES_MR_RIME
         item ITEM_FIGY_BERRY
@@ -1229,6 +1816,33 @@ trainerdata 32, "Pryce"
         move MOVE_SUBSTITUTE
         move MOVE_AURORA_BEAM
 		ability ABILITY_TANGLED_FEET
+=======
+        level 52
+        pokemon SPECIES_ABOMASNOW
+        item ITEM_ABOMASITE
+        move MOVE_WOOD_HAMMER
+        move MOVE_BLIZZARD
+        move MOVE_WEATHER_BALL
+        move MOVE_ICE_PUNCH
+		ability ABILITY_THICK_FAT
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 5
+        ivs 150
+        abilityslot 1
+        level 58
+        pokemon SPECIES_ARTICUNO
+        item ITEM_FIGY_BERRY
+        move MOVE_HURRICANE
+        move MOVE_TAILWIND
+        move MOVE_FREEZE_DRY
+        move MOVE_ICE_BEAM
+		ability ABILITY_SNOW_WARNING
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1239,7 +1853,11 @@ trainerdata 32, "Pryce"
 trainerdata 33, "Jasmine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_JASMINE
+<<<<<<< Updated upstream
     nummons 4
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_HEAL
@@ -1252,14 +1870,23 @@ trainerdata 33, "Jasmine"
         // mon 0
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_MAGNETON
+=======
+        level 44
+        pokemon SPECIES_MAGNEZONE
+>>>>>>> Stashed changes
         item ITEM_SHUCA_BERRY
         move MOVE_THUNDERBOLT
         move MOVE_MAGNET_BOMB
         move MOVE_SUPERSONIC
         move MOVE_THUNDER_WAVE
+<<<<<<< Updated upstream
 		ability ABILITY_LEVITATE
+=======
+		ability ABILITY_STURDY
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1269,7 +1896,11 @@ trainerdata 33, "Jasmine"
         // mon 1
         ivs 150
         abilityslot 32
+<<<<<<< Updated upstream
         level 37
+=======
+        level 45
+>>>>>>> Stashed changes
         pokemon SPECIES_SKARMORY
         item ITEM_LEFTOVERS
         move MOVE_STEEL_WING
@@ -1286,6 +1917,7 @@ trainerdata 33, "Jasmine"
         // mon 2
         ivs 150
         abilityslot 32
+<<<<<<< Updated upstream
         level 38
         pokemon SPECIES_SANDSLASH
         item ITEM_CHOICE_BAND
@@ -1294,6 +1926,16 @@ trainerdata 33, "Jasmine"
         move MOVE_BRICK_BREAK
         move MOVE_ICE_PUNCH
 		ability ABILITY_TOUGH_CLAWS
+=======
+        level 43
+        monwithform SPECIES_SANDSLASH, 1
+        item ITEM_CHOICE_BAND
+        move MOVE_ICICLE_CRASH
+        move MOVE_IRON_TAIL
+        move MOVE_BRICK_BREAK
+        move MOVE_ICICLE_SPEAR
+		ability ABILITY_ICE_SCALES
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1303,9 +1945,15 @@ trainerdata 33, "Jasmine"
 		// mon 3
         ivs 150
         abilityslot 32
+<<<<<<< Updated upstream
         level 39
         pokemon SPECIES_STEELIX
         item ITEM_METAL_COAT
+=======
+        level 48
+        pokemon SPECIES_STEELIX
+        item ITEM_STEELIXITE
+>>>>>>> Stashed changes
         move MOVE_SCREECH
         move MOVE_DIG
         move MOVE_ROCK_THROW
@@ -1315,13 +1963,54 @@ trainerdata 33, "Jasmine"
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 4
+        ivs 150
+        abilityslot 32
+        level 47
+        pokemon SPECIES_BISHARP
+        item ITEM_BLACK_GLASSES
+        move MOVE_IRON_DEFENSE
+        move MOVE_NIGHT_SLASH
+        move MOVE_SUCKER_PUNCH
+        move MOVE_STONE_EDGE
+		ability ABILITY_DEFIANT
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 5
+        ivs 150
+        abilityslot 32
+        level 52
+        pokemon SPECIES_HEATRAN
+        item ITEM_ROCKY_HELMET
+        move MOVE_LAVA_PLUME
+        move MOVE_ANCIENT_POWER
+        move MOVE_IRON_HEAD
+        move MOVE_FIRE_BLAST
+		ability ABILITY_EARTH_EATER
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 34, "Chuck"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_CHUCK
+<<<<<<< Updated upstream
     nummons 4
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -1334,6 +2023,7 @@ trainerdata 34, "Chuck"
         // mon 0
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_PRIMEAPE
         item ITEM_LUM_BERRY
@@ -1342,6 +2032,16 @@ trainerdata 34, "Chuck"
         move MOVE_FOCUS_PUNCH
         move MOVE_ROCK_SLIDE
 		ability ABILITY_ANGER_POINT
+=======
+        level 42
+        pokemon SPECIES_ANNIHILAPE
+        item ITEM_LUM_BERRY
+        move MOVE_RAGE_FIST
+        move MOVE_OUTRAGE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_SHADOW_PUNCH
+		ability ABILITY_INNER_FOCUS
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1351,6 +2051,7 @@ trainerdata 34, "Chuck"
         // mon 1
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         monwithform SPECIES_TAUROS, 3
         item ITEM_ASSAULT_VEST
@@ -1359,6 +2060,16 @@ trainerdata 34, "Chuck"
         move MOVE_SUBMISSION
         move MOVE_BULLDOZE
 		ability ABILITY_INTIMIDATE
+=======
+        level 43
+        pokemon SPECIES_SIRFETCHD
+        item ITEM_ASSAULT_VEST
+        move MOVE_IRON_DEFENSE
+        move MOVE_BRICK_BREAK
+        move MOVE_LEAF_BLADE
+        move MOVE_POISON_JAB
+		ability ABILITY_STEADFAST
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1368,6 +2079,7 @@ trainerdata 34, "Chuck"
         // mon 2
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_AIPOM
         item ITEM_EVIOLITE
@@ -1376,6 +2088,16 @@ trainerdata 34, "Chuck"
         move MOVE_FAKE_OUT
         move MOVE_ATTRACT
 		ability ABILITY_TECHNICIAN
+=======
+        level 41
+        pokemon SPECIES_LUCARIO
+        item ITEM_LUCARIONITE
+        move MOVE_AURA_SPHERE
+        move MOVE_CALM_MIND
+        move MOVE_FAKE_OUT
+        move MOVE_SHADOW_BALL
+		ability ABILITY_STEADFAST
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1385,7 +2107,11 @@ trainerdata 34, "Chuck"
         // mon 3
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
+=======
+        level 44
+>>>>>>> Stashed changes
         pokemon SPECIES_POLIWRATH
         item ITEM_SITRUS_BERRY
         move MOVE_BULK_UP
@@ -1397,13 +2123,54 @@ trainerdata 34, "Chuck"
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 4
+        ivs 150
+        abilityslot 0
+        level 42
+        pokemon SPECIES_GALLADE
+        item ITEM_SITRUS_BERRY
+        move MOVE_BULK_UP
+        move MOVE_AERIAL_ACE
+        move MOVE_SACRED_SWORD
+        move MOVE_PSYCHO_CUT
+		ability ABILITY_SHARPNESS
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 5
+        ivs 150
+        abilityslot 0
+        level 46
+        monwithform SPECIES_URSHIFU, 1
+        item ITEM_SITRUS_BERRY
+        move MOVE_BULK_UP
+        move MOVE_AQUA_JET
+        move MOVE_SURGING_STRIKES
+        move MOVE_ROCK_TOMB
+		ability ABILITY_UNSEEN_FIST
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 35, "Clair"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_CLAIR
+<<<<<<< Updated upstream
     nummons 5
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -1416,14 +2183,22 @@ trainerdata 35, "Clair"
         // mon 0
         ivs 200
         abilityslot 0
+<<<<<<< Updated upstream
         level 46
+=======
+        level 62
+>>>>>>> Stashed changes
         pokemon SPECIES_LAPRAS
         item ITEM_DAMP_ROCK
         move MOVE_RAIN_DANCE
         move MOVE_SURF
         move MOVE_REST
         move MOVE_DRAGON_PULSE
+<<<<<<< Updated upstream
 		ability ABILITY_HYDRATION
+=======
+		ability ABILITY_LIQUID_VOICE
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1433,14 +2208,23 @@ trainerdata 35, "Clair"
         // mon 1
         ivs 200
         abilityslot 0
+<<<<<<< Updated upstream
         level 44
         pokemon SPECIES_DRAGONAIR
+=======
+        level 61
+        pokemon SPECIES_DRAGONITE
+>>>>>>> Stashed changes
         item ITEM_EXPERT_BELT
         move MOVE_MISTY_TERRAIN
         move MOVE_FIRE_BLAST
         move MOVE_THUNDER_WAVE
         move MOVE_DRAGON_PULSE
+<<<<<<< Updated upstream
 		ability ABILITY_SHED_SKIN
+=======
+		ability ABILITY_MULTISCALE
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1450,6 +2234,7 @@ trainerdata 35, "Clair"
         // mon 2
         ivs 200
         abilityslot 0
+<<<<<<< Updated upstream
         level 46
         pokemon SPECIES_DUNSPARCE
         item ITEM_KINGS_ROCK
@@ -1458,6 +2243,16 @@ trainerdata 35, "Clair"
         move MOVE_ATTRACT
         move MOVE_HEADBUTT
 		ability ABILITY_SERENE_GRACE
+=======
+        level 63
+        pokemon SPECIES_NOIVERN
+        item ITEM_DRAGON_FANG
+        move MOVE_ROOST
+        move MOVE_DRAGON_PULSE
+        move MOVE_HURRICANE
+        move MOVE_TAILWIND
+		ability ABILITY_INFILTRATOR
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1467,6 +2262,7 @@ trainerdata 35, "Clair"
         // mon 3
         ivs 200
         abilityslot 32
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_DRAGONAIR
         item ITEM_DAMP_ROCK
@@ -1475,6 +2271,16 @@ trainerdata 35, "Clair"
         move MOVE_AQUA_TAIL
         move MOVE_OUTRAGE
 		ability ABILITY_SHED_SKIN
+=======
+        level 60
+        pokemon SPECIES_FLYGON
+        item ITEM_IRON_BALL
+        move MOVE_U_TURN
+        move MOVE_DRAGON_DANCE
+        move MOVE_EARTHQUAKE
+        move MOVE_OUTRAGE
+		ability ABILITY_SAND_STREAM
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -1484,7 +2290,11 @@ trainerdata 35, "Clair"
         // mon 4
         ivs 200
         abilityslot 32
+<<<<<<< Updated upstream
         level 47
+=======
+        level 65
+>>>>>>> Stashed changes
         pokemon SPECIES_KINGDRA
         item ITEM_MYSTIC_WATER
         move MOVE_SMOKESCREEN
@@ -1496,13 +2306,33 @@ trainerdata 35, "Clair"
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 32
+        level 65
+        pokemon SPECIES_ZYGARDE
+        item ITEM_DRAGON_FANG
+        move MOVE_BREAKING_SWIPE
+        move MOVE_DRAGON_DANCE
+        move MOVE_SCALE_SHOT
+        move MOVE_EARTHQUAKE
+		ability ABILITY_HUGE_POWER
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 36, "Joyce"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_F
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1514,6 +2344,7 @@ trainerdata 36, "Joyce"
     party 36
         // mon 0
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 51
         pokemon SPECIES_PICHU
@@ -1521,10 +2352,20 @@ trainerdata 36, "Joyce"
         move MOVE_DOUBLE_TEAM
         move MOVE_THUNDERBOLT
         move MOVE_THUNDER_WAVE
+=======
+        abilityslot 32
+        level 66
+        monwithform SPECIES_DECIDUEYE, 1
+        move MOVE_TRIPLE_ARROWS
+        move MOVE_LEAF_BLADE
+        move MOVE_FEATHER_DANCE
+        move MOVE_KNOCK_OFF
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 51
         pokemon SPECIES_POLITOED
@@ -1532,6 +2373,26 @@ trainerdata 36, "Joyce"
         move MOVE_LIQUIDATION
         move MOVE_SURF
         move MOVE_RAIN_DANCE
+=======
+        abilityslot 32
+        level 66
+        pokemon SPECIES_INCINEROAR
+        move MOVE_DARKEST_LARIAT
+        move MOVE_FIRE_FANG
+        move MOVE_BRICK_BREAK
+        move MOVE_TEMPER_FLARE
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 32
+        level 66
+        pokemon SPECIES_PRIMARINA
+        move MOVE_HYPER_VOICE
+        move MOVE_MOONBLAST
+        move MOVE_MISTY_TERRAIN
+        move MOVE_CALM_MIND
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -1551,14 +2412,23 @@ trainerdata 37, "Preston"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         monwithform SPECIES_GROWLITHE, 1
+=======
+        level 38
+        monwithform SPECIES_ARCANINE, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
+=======
+        level 40
+>>>>>>> Stashed changes
         monwithform SPECIES_RAPIDASH, 1
         ballseal 0
     endparty
@@ -1587,7 +2457,7 @@ trainerdata 38, "Colette"
 trainerdata 39, "Eugene"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SAILOR
-    nummons 3
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1600,25 +2470,56 @@ trainerdata 39, "Eugene"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 25
+=======
+        level 34
+>>>>>>> Stashed changes
         pokemon SPECIES_POLIWHIRL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_RATICATE
+=======
+        level 36
+        pokemon SPECIES_POLITOED
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_KRABBY
+=======
+        level 35
+        pokemon SPECIES_KINGLER
+>>>>>>> Stashed changes
+        ballseal 0
+
+<<<<<<< Updated upstream
+=======
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 37
+        pokemon SPECIES_SEADRA
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 32
+        level 32
+        pokemon SPECIES_HORSEA
         ballseal 0
     endparty
 
+>>>>>>> Stashed changes
 trainerdata 41, "Clyde"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_GUITARIST
@@ -1643,7 +2544,7 @@ trainerdata 41, "Clyde"
 trainerdata 42, "Nathan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PSYCHIC_M
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1656,8 +2557,26 @@ trainerdata 42, "Nathan"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
+=======
+        level 31
+>>>>>>> Stashed changes
         pokemon SPECIES_GIRAFARIG
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        pokemon SPECIES_CHIMECHO
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_BRONZOR
         ballseal 0
     endparty
 
@@ -1677,21 +2596,33 @@ trainerdata 43, "Chow"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 7
+=======
+        level 8
+>>>>>>> Stashed changes
         pokemon SPECIES_ODDISH
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 7
+=======
+        level 9
+>>>>>>> Stashed changes
         pokemon SPECIES_HOPPIP
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 10
+=======
+        level 11
+>>>>>>> Stashed changes
         pokemon SPECIES_BELLSPROUT
         ballseal 0
     endparty
@@ -1712,12 +2643,17 @@ trainerdata 44, "Derek"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_PIKACHU
+=======
+        level 37
+        pokemon SPECIES_RAICHU
+>>>>>>> Stashed changes
         move MOVE_DOUBLE_TEAM
         move MOVE_QUICK_ATTACK
-        move MOVE_TAIL_WHIP
-        move MOVE_THUNDER_SHOCK
+        move MOVE_NASTY_PLOT
+        move MOVE_DISCHARGE
         ballseal 0
     endparty
 
@@ -1737,12 +2673,17 @@ trainerdata 45, "Ruth"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_PIKACHU
+=======
+        level 37
+        monwithform SPECIES_RAICHU, 1
+>>>>>>> Stashed changes
         move MOVE_DOUBLE_TEAM
         move MOVE_QUICK_ATTACK
-        move MOVE_TAIL_WHIP
-        move MOVE_THUNDER_SHOCK
+        move MOVE_PSYCHIC
+        move MOVE_THUNDERBOLT
         ballseal 0
     endparty
 
@@ -1762,21 +2703,35 @@ trainerdata 46, "Martha"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
         pokemon SPECIES_GASTLY
+=======
+        level 28
+        pokemon SPECIES_SHUPPET
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 23
         pokemon SPECIES_HAUNTER
+=======
+        level 29
+        pokemon SPECIES_HONEDGE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 24
+=======
+        level 30
+>>>>>>> Stashed changes
         pokemon SPECIES_GENGAR
         ballseal 0
     endparty
@@ -1784,7 +2739,7 @@ trainerdata 46, "Martha"
 trainerdata 47, "Mikey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1805,7 +2760,25 @@ trainerdata 47, "Mikey"
         ivs 0
         abilityslot 32
         level 8
+<<<<<<< Updated upstream
         pokemon SPECIES_RATTATA
+=======
+        pokemon SPECIES_PIDOVE
+        ballseal 0
+    
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 7
+        pokemon SPECIES_STARLY
+        ballseal 0
+        
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 8
+        pokemon SPECIES_TAILLOW
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -1840,7 +2813,7 @@ trainerdata 48, "Rob"
 trainerdata 49, "Albert"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1853,22 +2826,48 @@ trainerdata 49, "Albert"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 10
+=======
+        level 15
+>>>>>>> Stashed changes
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 12
+=======
+        level 14
+>>>>>>> Stashed changes
         pokemon SPECIES_ZUBAT
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_GLAMEOW
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 14
+        pokemon SPECIES_CROAGUNK
         ballseal 0
     endparty
 
 trainerdata 50, "Abe"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER
+<<<<<<< Updated upstream
     nummons 1
+=======
+    nummons 3
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1883,6 +2882,20 @@ trainerdata 50, "Abe"
         abilityslot 0
         level 10
         pokemon SPECIES_SPEAROW
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 11
+        pokemon SPECIES_FARFETCHD
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 10
+        pokemon SPECIES_HOPPIP
         ballseal 0
     endparty
 
@@ -1902,22 +2915,35 @@ trainerdata 51, "Nico"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 7
+=======
+        level 9
+>>>>>>> Stashed changes
         pokemon SPECIES_SUNKERN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 7
+=======
+        level 8
+>>>>>>> Stashed changes
         pokemon SPECIES_VENONAT
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 10
         pokemon SPECIES_BELLSPROUT
+=======
+        level 11
+        monwithform SPECIES_VOLTORB, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -1937,29 +2963,42 @@ trainerdata 52, "Edmond"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 7
+=======
+        level 8
+>>>>>>> Stashed changes
         pokemon SPECIES_PARAS
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 7
+=======
+        level 10
+>>>>>>> Stashed changes
         pokemon SPECIES_SPINARAK
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 10
         pokemon SPECIES_BELLSPROUT
+=======
+        level 11
+        pokemon SPECIES_BUDEW
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 53, "Jin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SAGE
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1972,15 +3011,41 @@ trainerdata 53, "Jin"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 11
         pokemon SPECIES_BELLSPROUT
+=======
+        level 9
+        pokemon SPECIES_SKIDDO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_COTTONEE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 12
+        pokemon SPECIES_FERROSEED
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 9
+        pokemon SPECIES_PETILIL
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
-trainerdata 54, "Troy"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SAGE
-    nummons 2
+trainerdata 54, "Kris" 
+	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
+    trainerclass TRAINERCLASS_PKMN_TRAINER_KRIS
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -1993,22 +3058,70 @@ trainerdata 54, "Troy"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 8
         pokemon SPECIES_PINECO
+=======
+        level 15
+        pokemon SPECIES_TOTODILE
+		item ITEM_ORAN_BERRY
+        move MOVE_LEER
+        move MOVE_WATER_GUN
+        move MOVE_BITE
+        move MOVE_SCARY_FACE
+		ability ABILITY_INTIMIDATE
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
+<<<<<<< Updated upstream
         abilityslot 32
         level 10
         pokemon SPECIES_BELLSPROUT
+=======
+        abilityslot 0
+        level 14
+        pokemon SPECIES_DUSTOX
+		item ITEM_AIR_BALLOON
+        move MOVE_POISON_STING
+        move MOVE_HARDEN
+        move MOVE_CONFUSION
+        move MOVE_GUST
+		ability ABILITY_SHIELD_DUST
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 12
+        pokemon SPECIES_CUBONE
+		item ITEM_THICK_CLUB
+        move MOVE_MUD_SLAP
+        move MOVE_TAIL_WHIP
+        move MOVE_BONE_CLUB
+        move MOVE_HEADBUTT
+		ability ABILITY_ROCK_HEAD
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 55, "Neal"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SAGE
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2022,14 +3135,32 @@ trainerdata 55, "Neal"
         ivs 0
         abilityslot 0
         level 11
+<<<<<<< Updated upstream
         pokemon SPECIES_BELLSPROUT
+=======
+        pokemon SPECIES_PUMPKABOO
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 10
+        pokemon SPECIES_FOMANTIS
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 12
+        pokemon SPECIES_GOSSIFLEUR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 56, "Gordon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 1
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2045,12 +3176,40 @@ trainerdata 56, "Gordon"
         level 15
         pokemon SPECIES_WOOPER
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 32
+        level 15
+        monwithform SPECIES_WOOPER, 1
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 15
+        pokemon SPECIES_ARON
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 15
+        pokemon SPECIES_MEDITITE
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 32
+        level 15
+        pokemon SPECIES_BLITZLE
+        ballseal 0
     endparty
 
 trainerdata 57, "Ralph"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FISHERMAN
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2065,6 +3224,20 @@ trainerdata 57, "Ralph"
         abilityslot 0
         level 15
         pokemon SPECIES_GOLDEEN
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 14
+        pokemon SPECIES_MAREANIE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_ARROKUDA
         ballseal 0
     endparty
 
@@ -2147,15 +3320,20 @@ trainerdata 60, "Henry"
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 12
         pokemon SPECIES_POLIWAG
+=======
+        level 14
+        pokemon SPECIES_SHELLOS
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 61, "Anthony"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
-    nummons 2
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2175,8 +3353,33 @@ trainerdata 61, "Anthony"
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 16
+=======
+        level 17
+>>>>>>> Stashed changes
         pokemon SPECIES_MACHOP
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 15
+        pokemon SPECIES_ONIX
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 17
+        pokemon SPECIES_SANDSHREW
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_STUFFUL
         ballseal 0
     endparty
 
@@ -2196,29 +3399,49 @@ trainerdata 62, "Samuel"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 11
         pokemon SPECIES_RATTATA
+=======
+        level 17
+        pokemon SPECIES_DRILBUR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 15
         pokemon SPECIES_SANDSHREW
+=======
+        level 19
+        monwithform SPECIES_SANDSHREW, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 12
         pokemon SPECIES_SPEAROW
+=======
+        level 18
+        pokemon SPECIES_STARAVIA
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 12
         pokemon SPECIES_SPEAROW
+=======
+        level 18
+        pokemon SPECIES_LOMBRE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -2238,7 +3461,11 @@ trainerdata 64, "Ian"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 15
+=======
+        level 19
+>>>>>>> Stashed changes
         pokemon SPECIES_MANKEY
         move MOVE_FOCUS_ENERGY
         move MOVE_SCRATCH
@@ -2249,7 +3476,11 @@ trainerdata 64, "Ian"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 17
+=======
+        level 21
+>>>>>>> Stashed changes
         pokemon SPECIES_DIGLETT
         move MOVE_ASTONISH
         move MOVE_GROWL
@@ -2274,29 +3505,44 @@ trainerdata 65, "Gina"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 13
         pokemon SPECIES_HOPPIP
+=======
+        level 19
+        pokemon SPECIES_BULBASAUR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 13
         pokemon SPECIES_HOPPIP
+=======
+        level 20
+        pokemon SPECIES_SKIPLOOM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 17
         pokemon SPECIES_BULBASAUR
+=======
+        level 21
+        pokemon SPECIES_IVYSAUR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 66, "Todd"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2311,6 +3557,20 @@ trainerdata 66, "Todd"
         abilityslot 0
         level 19
         pokemon SPECIES_PSYDUCK
+        ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 20
+        pokemon SPECIES_HERDIER
+        ballseal 0
+
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_TIMBURR
         ballseal 0
     endparty
 
@@ -2330,22 +3590,37 @@ trainerdata 67, "Benny"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 9
         pokemon SPECIES_WEEDLE
+=======
+        level 16
+        pokemon SPECIES_YANMA
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 11
         pokemon SPECIES_KAKUNA
+=======
+        level 17
+        pokemon SPECIES_BEEDRILL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 14
         pokemon SPECIES_BEEDRILL
+=======
+        level 19
+        pokemon SPECIES_SURSKIT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -2365,14 +3640,22 @@ trainerdata 68, "Al"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 14
+=======
+        level 16
+>>>>>>> Stashed changes
         pokemon SPECIES_VENONAT
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 14
+=======
+        level 18
+>>>>>>> Stashed changes
         pokemon SPECIES_BUTTERFREE
         ballseal 0
     endparty
@@ -2418,7 +3701,11 @@ trainerdata 70, "Samantha"
         // mon 0
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 20
+=======
+        level 22
+>>>>>>> Stashed changes
         pokemon SPECIES_MEOWTH
         move MOVE_SCRATCH
         move MOVE_FAKE_OUT
@@ -2429,7 +3716,11 @@ trainerdata 70, "Samantha"
         // mon 1
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 20
+=======
+        level 22
+>>>>>>> Stashed changes
         monwithform SPECIES_MEOWTH, 1
         move MOVE_FAKE_OUT
         move MOVE_GROWL
@@ -2440,7 +3731,11 @@ trainerdata 70, "Samantha"
 		// mon 2
         ivs 10
         abilityslot 32
+<<<<<<< Updated upstream
         level 20
+=======
+        level 22
+>>>>>>> Stashed changes
         monwithform SPECIES_MEOWTH, 2
         move MOVE_FAKE_OUT
         move MOVE_PAY_DAY
@@ -2494,7 +3789,11 @@ trainerdata 71, "Cathy"
 trainerdata 72, "Bryan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER
+<<<<<<< Updated upstream
     nummons 2
+=======
+    nummons 5
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2507,15 +3806,46 @@ trainerdata 72, "Bryan"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 17
         pokemon SPECIES_PIDGEY
+=======
+        level 59
+        pokemon SPECIES_PIDGEOT
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
         pokemon SPECIES_PIDGEOTTO
+=======
+        level 62
+        pokemon SPECIES_SIGILYPH
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 61
+        pokemon SPECIES_EMOLGA
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 0
+        level 60
+        monwithform SPECIES_BRAVIARY, 1
+        ballseal 0
+
+        // mon 4
+        ivs 50
+        abilityslot 0
+        level 61
+        pokemon SPECIES_CORVIKNIGHT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -2535,35 +3865,56 @@ trainerdata 73, "Theo"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_PIDGEOTTO
+=======
+        level 37
+        pokemon SPECIES_PIDGEOT
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
+=======
+        level 38
+>>>>>>> Stashed changes
         pokemon SPECIES_XATU
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 36
+>>>>>>> Stashed changes
         pokemon SPECIES_DODRIO
         ballseal 0
 
         // mon 3
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
+=======
+        level 40
+>>>>>>> Stashed changes
         monwithform SPECIES_FARFETCHD, 1
         ballseal 0
 
         // mon 4
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 39
+>>>>>>> Stashed changes
         pokemon SPECIES_FEAROW
         ballseal 0
     endparty
@@ -2584,29 +3935,43 @@ trainerdata 74, "Ivan"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 15
+=======
+        level 24
+>>>>>>> Stashed changes
         pokemon SPECIES_DIGLETT
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 15
         pokemon SPECIES_ZUBAT
+=======
+        level 26
+        pokemon SPECIES_GOLBAT
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
         pokemon SPECIES_DIGLETT
+=======
+        level 24
+        pokemon SPECIES_ROGGENROLA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 75, "Elliot"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2619,22 +3984,38 @@ trainerdata 75, "Elliot"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 18
         pokemon SPECIES_SANDSHREW
+=======
+        level 24
+        pokemon SPECIES_SANDSLASH
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
+=======
+        level 23
+>>>>>>> Stashed changes
         pokemon SPECIES_MARILL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 20
+        monwithform SPECIES_SANDSHREW, 1
         ballseal 0
     endparty
 
 trainerdata 76, "Brooke"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_PICNICKER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2647,10 +4028,25 @@ trainerdata 76, "Brooke"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 21
+=======
+        level 24
+>>>>>>> Stashed changes
         pokemon SPECIES_PIKACHU
-        move MOVE_THUNDER_SHOCK
-        move MOVE_GROWL
+        move MOVE_SPARK
+        move MOVE_AGILITY
+        move MOVE_QUICK_ATTACK
+        move MOVE_THUNDER_WAVE
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_RAICHU
+        move MOVE_THUNDERBOLT
+        move MOVE_ELECTRIC_TERRAIN
         move MOVE_QUICK_ATTACK
         move MOVE_DOUBLE_TEAM
         ballseal 0
@@ -2659,7 +4055,7 @@ trainerdata 76, "Brooke"
 trainerdata 77, "Kim"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PICNICKER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2672,15 +4068,26 @@ trainerdata 77, "Kim"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
+=======
+        level 25
+>>>>>>> Stashed changes
         pokemon SPECIES_VULPIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 25
+        monwithform SPECIES_VULPIX, 1
         ballseal 0
     endparty
 
 trainerdata 78, "Arnie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BUG_CATCHER
-    nummons 1
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2693,8 +4100,41 @@ trainerdata 78, "Arnie"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
         pokemon SPECIES_VENONAT
+=======
+        level 21
+        pokemon SPECIES_BURMY
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 23
+        pokemon SPECIES_WORMADAM
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 24
+        pokemon SPECIES_MOTHIM
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 21
+        pokemon SPECIES_SWADLOON
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_WHIRLIPEDE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -2729,7 +4169,7 @@ trainerdata 79, "Ken"
 trainerdata 80, "Dirk"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POLICEMAN
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2742,15 +4182,39 @@ trainerdata 80, "Dirk"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
         pokemon SPECIES_GROWLITHE
+=======
+        level 23
+        monwithform SPECIES_GROWLITHE, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
         pokemon SPECIES_GROWLITHE
+=======
+        level 24
+        pokemon SPECIES_FLAREON
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_QUILAVA
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_ARCANINE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -2770,22 +4234,36 @@ trainerdata 81, "Tori & Til"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
         pokemon SPECIES_MARILL
+=======
+        level 30
+        pokemon SPECIES_AZUMARILL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
         pokemon SPECIES_MAREEP
+=======
+        level 30
+        pokemon SPECIES_AMPHAROS
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 82, "Toby"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER
+<<<<<<< Updated upstream
     nummons 3
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2798,22 +4276,58 @@ trainerdata 82, "Toby"
         // mon 0
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 23
         pokemon SPECIES_DODUO
+=======
+        level 32
+        pokemon SPECIES_DODRIO
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 24
         pokemon SPECIES_DODUO
+=======
+        level 34
+        pokemon SPECIES_FEAROW
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_DODUO
+=======
+        level 33
+        pokemon SPECIES_XATU
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 32
+        level 32
+        pokemon SPECIES_NINJASK
+        ballseal 0
+
+        // mon 4
+        ivs 50
+        abilityslot 32
+        level 36
+        pokemon SPECIES_UNFEZANT
+        ballseal 0
+
+        // mon 5
+        ivs 50
+        abilityslot 32
+        level 35
+        pokemon SPECIES_STARAPTOR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -2903,7 +4417,7 @@ trainerdata 84, "Barry"
 trainerdata 85, "Paula"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_F
-    nummons 2
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2916,15 +4430,53 @@ trainerdata 85, "Paula"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_STARYU
+=======
+        level 36
+        pokemon SPECIES_LUMINEON
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_SHELLDER
+=======
+        level 35
+        pokemon SPECIES_MANTINE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 37
+        pokemon SPECIES_SAMUROTT
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 38
+        pokemon SPECIES_SEISMITOAD
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 32
+        level 37
+        pokemon SPECIES_BASCULIN
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 32
+        level 39
+        pokemon SPECIES_SWANNA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -2944,8 +4496,13 @@ trainerdata 86, "Randall"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_SHELLDER
+=======
+        level 37
+        pokemon SPECIES_FLOATZEL
+>>>>>>> Stashed changes
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
         move MOVE_WITHDRAW
@@ -2955,8 +4512,13 @@ trainerdata 86, "Randall"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_WARTORTLE
+=======
+        level 38
+        pokemon SPECIES_EMPOLEON
+>>>>>>> Stashed changes
         move MOVE_RAPID_SPIN
         move MOVE_BITE
         move MOVE_WATER_GUN
@@ -2966,8 +4528,13 @@ trainerdata 86, "Randall"
         // mon 2
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_SHELLDER
+=======
+        level 36
+        pokemon SPECIES_CLOYSTER
+>>>>>>> Stashed changes
         move MOVE_SUPERSONIC
         move MOVE_ICICLE_SPEAR
         move MOVE_WITHDRAW
@@ -2978,7 +4545,11 @@ trainerdata 86, "Randall"
 trainerdata 89, "Grace"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_MEDIUM
+<<<<<<< Updated upstream
     nummons 3
+=======
+    nummons 5
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -2991,22 +4562,49 @@ trainerdata 89, "Grace"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
+=======
+        level 27
+>>>>>>> Stashed changes
         pokemon SPECIES_PORYGON
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 23
+=======
+        level 29
+>>>>>>> Stashed changes
         pokemon SPECIES_PORYGON2
         ballseal 0
 		
 		// mon 2
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 24
         pokemon SPECIES_PORYGON_Z
+=======
+        level 31
+        pokemon SPECIES_PORYGON_Z
+        ballseal 0
+
+        // mon 3
+        ivs 10
+        abilityslot 0
+        level 30
+        pokemon SPECIES_SHEDINJA
+        ballseal 0
+
+        // mon 4
+        ivs 10
+        abilityslot 0
+        level 28
+        monwithform SPECIES_ZORUA, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3026,29 +4624,47 @@ trainerdata 90, "Kaylee"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_GOLDEEN
         move MOVE_WATER_PULSE
         move MOVE_HORN_ATTACK
         move MOVE_SUPERSONIC
         move MOVE_PECK
+=======
+        level 37
+        pokemon SPECIES_BARBARACLE
+        move MOVE_RAIN_DANCE
+        move MOVE_FURY_CUTTER
+        move MOVE_RAZOR_SHELL
+        move MOVE_ROCK_POLISH
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_GOLDEEN
+=======
+        level 39
+        pokemon SPECIES_GRENINJA
+>>>>>>> Stashed changes
         move MOVE_WATER_PULSE
-        move MOVE_HORN_ATTACK
-        move MOVE_SUPERSONIC
-        move MOVE_PECK
+        move MOVE_AERIAL_ACE
+        move MOVE_SHADOW_SNEAK
+        move MOVE_WATER_SHURIKEN
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 30
+=======
+        level 38
+>>>>>>> Stashed changes
         pokemon SPECIES_SEAKING
         move MOVE_WATER_PULSE
         move MOVE_HORN_ATTACK
@@ -3073,30 +4689,48 @@ trainerdata 91, "Susie"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_PSYDUCK
         move MOVE_SCRATCH
         move MOVE_WATER_GUN
         move MOVE_DISABLE
         move MOVE_CONFUSION
+=======
+        level 38
+        pokemon SPECIES_SEALEO
+        move MOVE_BRINE
+        move MOVE_POWDER_SNOW
+        move MOVE_AURORA_BEAM
+        move MOVE_AQUA_RING
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
         pokemon SPECIES_GOLDEEN
         move MOVE_FLAIL
         move MOVE_WATER_PULSE
         move MOVE_SUPERSONIC
         move MOVE_HORN_ATTACK
+=======
+        level 40
+        pokemon SPECIES_WALREIN
+        move MOVE_BRINE
+        move MOVE_POWDER_SNOW
+        move MOVE_AURORA_BEAM
+        move MOVE_AQUA_RING
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 92, "Denise"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_F
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3109,15 +4743,33 @@ trainerdata 92, "Denise"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
+=======
+        level 37
+>>>>>>> Stashed changes
         pokemon SPECIES_SEEL
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_DEWGONG
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 37
+        pokemon SPECIES_WIGLETT
         ballseal 0
     endparty
 
 trainerdata 93, "Kara"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_F
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3130,15 +4782,32 @@ trainerdata 93, "Kara"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_STARYU
+=======
+        level 38
+        pokemon SPECIES_BRUXISH
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_STARMIE
+=======
+        level 40
+        pokemon SPECIES_GOLISOPOD
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 38
+        pokemon SPECIES_DREDNAW
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3158,30 +4827,46 @@ trainerdata 94, "Wendy"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 31
         pokemon SPECIES_HORSEA
         move MOVE_BUBBLE
         move MOVE_SMOKESCREEN
         move MOVE_LEER
+=======
+        level 40
+        pokemon SPECIES_KINGDRA
+>>>>>>> Stashed changes
         move MOVE_BUBBLE_BEAM
+        move MOVE_WATER_PULSE
+        move MOVE_WHIRLPOOL
+        move MOVE_AGILITY
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 31
         pokemon SPECIES_HORSEA
         move MOVE_FOCUS_ENERGY
         move MOVE_SMOKESCREEN
         move MOVE_LEER
+=======
+        level 37
+        pokemon SPECIES_SEADRA
+>>>>>>> Stashed changes
         move MOVE_BUBBLE_BEAM
+        move MOVE_WATER_PULSE
+        move MOVE_WHIRLPOOL
+        move MOVE_AGILITY
         ballseal 0
     endparty
 
 trainerdata 95, "Charlie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_M
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3194,22 +4879,44 @@ trainerdata 95, "Charlie"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 31
         pokemon SPECIES_SHELLDER
+=======
+        level 38
+        pokemon SPECIES_SIMIPOUR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_TENTACOOL
+=======
+        level 37
+        pokemon SPECIES_CARRACOSTA
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_TENTACRUEL
+=======
+        level 39
+        pokemon SPECIES_FRILLISH
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 40
+        pokemon SPECIES_ALOMOMOLA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3229,50 +4936,80 @@ trainerdata 96, "George"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_TENTACOOL
+=======
+        level 37
+        pokemon SPECIES_WUGTRIO
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_TENTACOOL
+=======
+        level 36
+        pokemon SPECIES_TATSUGIRI
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_TENTACOOL
+=======
+        level 38
+        pokemon SPECIES_DRACOVISH
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_STARYU
+=======
+        level 39
+        pokemon SPECIES_OMASTAR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 4
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_TENTACOOL
+=======
+        level 35
+        pokemon SPECIES_POLITOED
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 5
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_REMORAID
+=======
+        level 40
+        pokemon SPECIES_CRAWDAUNT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 97, "Berke"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_M
-    nummons 1
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3285,15 +5022,47 @@ trainerdata 97, "Berke"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 35
+>>>>>>> Stashed changes
         pokemon SPECIES_QWILFISH
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_OVERQWIL
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 39
+        pokemon SPECIES_ARAQUANID
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_PYUKUMUKU
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 38
+        pokemon SPECIES_INTELEON
         ballseal 0
     endparty
 
 trainerdata 98, "Ronald"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_M
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3306,22 +5075,45 @@ trainerdata 98, "Ronald"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
+=======
+        level 38
+>>>>>>> Stashed changes
         pokemon SPECIES_GYARADOS
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_GYARADOS
+=======
+        level 39
+        pokemon SPECIES_MILOTIC
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_BARRASKEWDA
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_QUAQUAVAL
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 99, "Matthew"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SWIMMER_M
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3334,8 +5126,27 @@ trainerdata 99, "Matthew"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_KRABBY
+=======
+        level 38
+        pokemon SPECIES_SKRELP
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 36
+        pokemon SPECIES_PRIMARINA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_WISHIWASHI
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3383,14 +5194,22 @@ trainerdata 101, "Grunt" //SLOWPOKEWELL
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 14
+=======
+        level 16
+>>>>>>> Stashed changes
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 14
+=======
+        level 17
+>>>>>>> Stashed changes
         monwithform SPECIES_RATTATA, 1
         ballseal 0
     endparty
@@ -3410,6 +5229,7 @@ trainerdata 102, "Gaven"
     party 102
         // mon 0
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 47
         pokemon SPECIES_WEEPINBELL
@@ -3417,10 +5237,20 @@ trainerdata 102, "Gaven"
         move MOVE_TOXIC
         move MOVE_ACID_SPRAY
         move MOVE_RAZOR_LEAF
+=======
+        abilityslot 32
+        level 66
+        pokemon SPECIES_RILLABOOM
+        move MOVE_DRUM_BEATING
+        move MOVE_GRASSY_TERRAIN
+        move MOVE_BRICK_BREAK
+        move MOVE_U_TURN
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 47
         pokemon SPECIES_KINGLER
@@ -3428,10 +5258,20 @@ trainerdata 102, "Gaven"
         move MOVE_STOMP
         move MOVE_GUILLOTINE
         move MOVE_PROTECT
+=======
+        abilityslot 32
+        level 66
+        pokemon SPECIES_CINDERACE
+        move MOVE_PYRO_BALL
+        move MOVE_FIRE_BLAST
+        move MOVE_WILD_CHARGE
+        move MOVE_THUNDER_PUNCH
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 47
         pokemon SPECIES_MAGBY
@@ -3439,13 +5279,22 @@ trainerdata 102, "Gaven"
         move MOVE_QUICK_ATTACK
         move MOVE_BITE
         move MOVE_EMBER
+=======
+        abilityslot 32
+        level 66
+        pokemon SPECIES_INTELEON
+        move MOVE_SNIPE_SHOT
+        move MOVE_SHADOW_BALL
+        move MOVE_U_TURN
+        move MOVE_SCALD
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 103, "Blake"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 3
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3458,41 +5307,101 @@ trainerdata 103, "Blake"
         // mon 0
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_MAGNETON
         move MOVE_THUNDERBOLT
         move MOVE_SUPERSONIC
         move MOVE_MAGNET_BOMB
         move MOVE_SCREECH
+=======
+        level 65
+        pokemon SPECIES_CHARIZARD
+        move MOVE_INFERNO
+        move MOVE_AIR_SLASH
+        move MOVE_HEAT_WAVE
+        move MOVE_SOLAR_BEAM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 46
         pokemon SPECIES_QUAGSIRE
         move MOVE_WATER_GUN
         move MOVE_SLAM
         move MOVE_YAWN
         move MOVE_EARTHQUAKE
+=======
+        level 63
+        monwithform SPECIES_TYPHLOSION, 1
+        move MOVE_SHADOW_BALL
+        move MOVE_INFERNAL_PARADE
+        move MOVE_FLAMETHROWER
+        move MOVE_FIRE_BLAST
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
+        abilityslot 32
+        level 64
+        pokemon SPECIES_BLAZIKEN
+        move MOVE_BLAZE_KICK
+        move MOVE_AERIAL_ACE
+        move MOVE_FIRE_PUNCH
+        move MOVE_BRICK_BREAK
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 32
+        level 66
+        pokemon SPECIES_INFERNAPE
+        move MOVE_CLOSE_COMBAT
+        move MOVE_THUNDER_PUNCH
+        move MOVE_FIRE_PUNCH
+        move MOVE_MACH_PUNCH
+        ballseal 0
+
+        // mon 4
+        ivs 50
+        abilityslot 32
+        level 62
+        pokemon SPECIES_EMBOAR
+        move MOVE_HEAD_SMASH
+        move MOVE_FLARE_BLITZ
+        move MOVE_CLOSE_COMBAT
+        move MOVE_WILD_CHARGE
+        ballseal 0
+
+        // mon 5
+        ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 46
         pokemon SPECIES_EXEGGCUTE
         move MOVE_LEECH_SEED
         move MOVE_CONFUSION
         move MOVE_SLEEP_POWDER
         move MOVE_SOLAR_BEAM
+=======
+        level 64
+        pokemon SPECIES_DELPHOX
+        move MOVE_PSYCHIC
+        move MOVE_FLAMETHROWER
+        move MOVE_FIRE_BLAST
+        move MOVE_CALM_MIND
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 104, "Brian"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 1
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3504,6 +5413,7 @@ trainerdata 104, "Brian"
     party 104
         // mon 0
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 50
         pokemon SPECIES_MAREEP
@@ -3511,6 +5421,70 @@ trainerdata 104, "Brian"
         move MOVE_SIGNAL_BEAM
         move MOVE_COTTON_SPORE
         move MOVE_TACKLE
+=======
+        abilityslot 32
+        level 63
+        pokemon SPECIES_BLASTOISE
+        move MOVE_IRON_DEFENSE
+        move MOVE_FLASH_CANNON
+        move MOVE_HYDRO_PUMP
+        move MOVE_WATER_PULSE
+        ballseal 0
+
+        // mon 1
+        ivs 50
+        abilityslot 32
+        level 64
+        pokemon SPECIES_FERALIGATR
+        move MOVE_CRUNCH
+        move MOVE_HYDRO_PUMP
+        move MOVE_ICE_BEAM
+        move MOVE_BREAKING_SWIPE
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 62
+        pokemon SPECIES_SWAMPERT
+        move MOVE_EARTHQUAKE
+        move MOVE_SURF
+        move MOVE_LIQUIDATION
+        move MOVE_KNOCK_OFF
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 32
+        level 64
+        pokemon SPECIES_EMPOLEON
+        move MOVE_AQUA_JET
+        move MOVE_FLASH_CANNON
+        move MOVE_SURF
+        move MOVE_GRASS_KNOT
+        ballseal 0
+
+        // mon 4
+        ivs 50
+        abilityslot 32
+        level 65
+        pokemon SPECIES_SAMUROTT
+        move MOVE_AQUA_JET
+        move MOVE_BRICK_BREAK
+        move MOVE_SWORDS_DANCE
+        move MOVE_SACRED_SWORD
+        ballseal 0
+
+        // mon 5
+        ivs 50
+        abilityslot 32
+        level 66
+        pokemon SPECIES_GRENINJA
+        move MOVE_WATER_SHURIKEN
+        move MOVE_AERIAL_ACE
+        move MOVE_SLUDGE_WAVE
+        move MOVE_DARK_PULSE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3566,29 +5540,44 @@ trainerdata 109, "Alton"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_IVYSAUR
+=======
+        level 50
+        pokemon SPECIES_VENUSAUR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_CHARMELEON
+=======
+        level 50
+        pokemon SPECIES_CHARIZARD
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_WARTORTLE
+=======
+        level 50
+        pokemon SPECIES_BLASTOISE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 110, "Paulo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3601,29 +5590,51 @@ trainerdata 110, "Paulo"
         // mon 0
         ivs 60
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_HORSEA
+=======
+        level 57
+        monwithform SPECIES_EXEGGUTOR, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 60
         abilityslot 32
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_DRATINI
+=======
+        level 56
+        pokemon SPECIES_AMPHAROS
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 60
         abilityslot 0
+<<<<<<< Updated upstream
         level 43
         pokemon SPECIES_SEADRA
+=======
+        level 58
+        pokemon SPECIES_SCEPTILE
+        ballseal 0
+
+        // mon 3
+        ivs 60
+        abilityslot 0
+        level 57
+        pokemon SPECIES_ALTARIA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 111, "Mike"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3638,6 +5649,16 @@ trainerdata 111, "Mike"
         abilityslot 0
         level 45
         monwithform SPECIES_EXEGGUTOR, 1
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 0
+        level 45
+        pokemon SPECIES_DRAGALGE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3657,8 +5678,13 @@ trainerdata 112, "Cody"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_PUPITAR
+=======
+        level 58
+        pokemon SPECIES_APPLETUN
+>>>>>>> Stashed changes
         move MOVE_SANDSTORM
         move MOVE_DRAGON_DANCE
         move MOVE_IRON_DEFENSE
@@ -3668,8 +5694,13 @@ trainerdata 112, "Cody"
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_STEELIX
+=======
+        level 55
+        pokemon SPECIES_DRAGONAIR
+>>>>>>> Stashed changes
         move MOVE_DRAGON_DANCE
         move MOVE_DRAGON_BREATH
         move MOVE_IRON_TAIL
@@ -3679,8 +5710,13 @@ trainerdata 112, "Cody"
 		// mon 2
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 43
         pokemon SPECIES_GYARADOS
+=======
+        level 56
+        pokemon SPECIES_SEADRA
+>>>>>>> Stashed changes
         move MOVE_DRAGON_DANCE
         move MOVE_BOUNCE
         move MOVE_TWISTER
@@ -3740,29 +5776,29 @@ trainerdata 114, "Reena"
         // mon 0
         ivs 50
         abilityslot 0
-        level 36
-        pokemon SPECIES_GROWLITHE
+        level 63
+        pokemon SPECIES_CHANDELURE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
-        level 33
-        pokemon SPECIES_NIDORINA
+        level 64
+        pokemon SPECIES_AMOONGUSS
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
-        level 36
-        pokemon SPECIES_STARYU
+        level 66
+        pokemon SPECIES_STARMIE
         ballseal 0
     endparty
 
 trainerdata 115, "Megan"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_F
-    nummons 3
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3774,6 +5810,7 @@ trainerdata 115, "Megan"
     party 115
         // mon 0
         ivs 50
+<<<<<<< Updated upstream
         abilityslot 0
         level 47
         pokemon SPECIES_IGGLYBUFF
@@ -3781,28 +5818,88 @@ trainerdata 115, "Megan"
         move MOVE_BABY_DOLL_EYES
         move MOVE_DISABLE
         move MOVE_DISARMING_VOICE
+=======
+        abilityslot 32
+        level 64
+        pokemon SPECIES_VENUSAUR
+        move MOVE_SOLAR_BEAM
+        move MOVE_SYNTHESIS
+        move MOVE_SLUDGE_BOMB
+        move MOVE_WEATHER_BALL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 47
         pokemon SPECIES_JIGGLYPUFF
         move MOVE_DRAINING_KISS
         move MOVE_COPYCAT
         move MOVE_SING
         move MOVE_HYPER_VOICE
+=======
+        level 63
+        pokemon SPECIES_MEGANIUM
+        move MOVE_SOLAR_BEAM
+        move MOVE_GIGA_DRAIN
+        move MOVE_MOONBLAST
+        move MOVE_SUNNY_DAY
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 47
         pokemon SPECIES_WIGGLYTUFF
         move MOVE_SPIT_UP
         move MOVE_STOCKPILE
         move MOVE_SWALLOW
         move MOVE_ATTRACT
+=======
+        level 65
+        pokemon SPECIES_SCEPTILE
+        move MOVE_LEAF_STORM
+        move MOVE_GRASS_KNOT
+        move MOVE_VACUUM_WAVE
+        move MOVE_DRAGON_PULSE
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 32
+        level 64
+        pokemon SPECIES_TORTERRA
+        move MOVE_HEADLONG_RUSH
+        move MOVE_CRUNCH
+        move MOVE_EARTHQUAKE
+        move MOVE_CURSE
+        ballseal 0
+
+        // mon 4
+        ivs 50
+        abilityslot 32
+        level 62
+        pokemon SPECIES_SERPERIOR
+        move MOVE_LEAF_STORM
+        move MOVE_DRACO_METEOR
+        move MOVE_PROTECT
+        move MOVE_ENERGY_BALL
+        ballseal 0
+
+        // mon 5
+        ivs 50
+        abilityslot 32
+        level 66
+        pokemon SPECIES_CHESNAUGHT
+        move MOVE_WOOD_HAMMER
+        move MOVE_BULK_UP
+        move MOVE_AERIAL_ACE
+        move MOVE_SPIKY_SHIELD
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3822,9 +5919,15 @@ trainerdata 116, "Lois"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_FLAAFFY
         move MOVE_THUNDER_SHOCK
+=======
+        level 49
+        pokemon SPECIES_AMPHAROS
+        move MOVE_THUNDERBOLT
+>>>>>>> Stashed changes
         move MOVE_COTTON_SPORE
         move MOVE_THUNDER_WAVE
         move MOVE_CHARGE
@@ -3833,7 +5936,11 @@ trainerdata 116, "Lois"
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
+=======
+        level 50
+>>>>>>> Stashed changes
         pokemon SPECIES_NINETALES
         move MOVE_FLAMETHROWER
         move MOVE_QUICK_ATTACK
@@ -3845,7 +5952,7 @@ trainerdata 116, "Lois"
 trainerdata 117, "Lola"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_ACE_TRAINER_F
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3858,15 +5965,32 @@ trainerdata 117, "Lola"
         // mon 0
         ivs 60
         abilityslot 0
+<<<<<<< Updated upstream
         level 44
         pokemon SPECIES_DRATINI
+=======
+        level 56
+        pokemon SPECIES_TYRANTRUM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 60
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_DRAGONAIR
+=======
+        level 58
+        pokemon SPECIES_DRAMPA
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 0
+        level 59
+        pokemon SPECIES_GOODRA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3901,7 +6025,7 @@ trainerdata 118, "Kate"
 trainerdata 119, "Fran"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_ACE_TRAINER_F
-    nummons 1
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -3914,7 +6038,39 @@ trainerdata 119, "Fran"
         // mon 0
         ivs 60
         abilityslot 32
+<<<<<<< Updated upstream
         level 45
+=======
+        level 56
+        pokemon SPECIES_CYCLIZAR
+        ballseal 0
+
+        // mon 1
+        ivs 60
+        abilityslot 32
+        level 54
+        pokemon SPECIES_TATSUGIRI
+        ballseal 0
+
+        // mon 2
+        ivs 60
+        abilityslot 32
+        level 55
+        pokemon SPECIES_DURALUDON
+        ballseal 0
+
+        // mon 3
+        ivs 60
+        abilityslot 32
+        level 54
+        pokemon SPECIES_JANGMO_O
+        ballseal 0
+
+        // mon 4
+        ivs 60
+        abilityslot 32
+        level 56
+>>>>>>> Stashed changes
         pokemon SPECIES_YANMEGA
         ballseal 0
     endparty
@@ -3963,22 +6119,37 @@ trainerdata 121, "Kelly"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 40
         pokemon SPECIES_MARILL
+=======
+        level 62
+        pokemon SPECIES_AZUMARILL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_WARTORTLE
+=======
+        level 58
+        pokemon SPECIES_BLASTOISE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_WARTORTLE
+=======
+        level 60
+        pokemon SPECIES_EELEKTROSS
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -3998,7 +6169,11 @@ trainerdata 122, "Marvin"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
+=======
+        level 42
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGIKARP
         move MOVE_SPLASH
         move MOVE_TACKLE
@@ -4009,7 +6184,11 @@ trainerdata 122, "Marvin"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
+=======
+        level 47
+>>>>>>> Stashed changes
         pokemon SPECIES_GYARADOS
         move MOVE_THRASH
         move MOVE_SURF
@@ -4020,7 +6199,11 @@ trainerdata 122, "Marvin"
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
+=======
+        level 50
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGIKARP
         move MOVE_SPLASH
         move MOVE_TACKLE
@@ -4045,8 +6228,13 @@ trainerdata 123, "Tully"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_QWILFISH
+=======
+        level 43
+        pokemon SPECIES_OVERQWIL
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4066,22 +6254,37 @@ trainerdata 124, "Wilton"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 39
         pokemon SPECIES_GOLDEEN
+=======
+        level 54
+        pokemon SPECIES_SEAKING
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 39
         pokemon SPECIES_GOLDEEN
+=======
+        level 55
+        pokemon SPECIES_SWAMPERT
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_SEAKING
+=======
+        level 56
+        pokemon SPECIES_SHARPEDO
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4101,8 +6304,13 @@ trainerdata 125, "Edgar"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 40
         pokemon SPECIES_REMORAID
+=======
+        level 54
+        pokemon SPECIES_OCTILLERY
+>>>>>>> Stashed changes
         move MOVE_LOCK_ON
         move MOVE_PSYBEAM
         move MOVE_AURORA_BEAM
@@ -4112,12 +6320,21 @@ trainerdata 125, "Edgar"
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 40
         pokemon SPECIES_REMORAID
         move MOVE_LOCK_ON
         move MOVE_PSYBEAM
         move MOVE_AURORA_BEAM
         move MOVE_BUBBLE_BEAM
+=======
+        level 56
+        pokemon SPECIES_WHISCASH
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_MUDDY_WATER
+        move MOVE_EARTHQUAKE
+        move MOVE_FISSURE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4137,8 +6354,13 @@ trainerdata 126, "Andre"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
         pokemon SPECIES_GYARADOS
+=======
+        level 51
+        pokemon SPECIES_BARRASKEWDA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4158,29 +6380,47 @@ trainerdata 127, "Raymond"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
+=======
+        level 48
+>>>>>>> Stashed changes
         pokemon SPECIES_GOLDEEN
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
         pokemon SPECIES_GOLDEEN
+=======
+        level 48
+        pokemon SPECIES_PANPOUR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 50
+>>>>>>> Stashed changes
         pokemon SPECIES_SEAKING
         ballseal 0
 
         // mon 3
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_SEAKING
+=======
+        level 50
+        pokemon SPECIES_SIMIPOUR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4242,22 +6482,32 @@ trainerdata 129, "Shane"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_NIDORINA
+=======
+        level 42
+        pokemon SPECIES_NIDOQUEEN
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_NIDORINO
+=======
+        level 42
+        pokemon SPECIES_NIDOKING
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 130, "Beckett"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKE_MANIAC
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4273,12 +6523,19 @@ trainerdata 130, "Beckett"
         level 32
         pokemon SPECIES_SLOWBRO
         ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 32
+        monwithform SPECIES_SLOWBRO, 1
+        ballseal 0
     endparty
 
 trainerdata 131, "Brent"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKE_MANIAC
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4291,15 +6548,39 @@ trainerdata 131, "Brent"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
         pokemon SPECIES_NIDORINA
+=======
+        level 42
+        pokemon SPECIES_NIDOQUEEN
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_NIDORINO
+=======
+        level 42
+        pokemon SPECIES_NIDOKING
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_GYARADOS
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 44
+        pokemon SPECIES_MILOTIC
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4319,7 +6600,11 @@ trainerdata 132, "Ron"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 32
+=======
+        level 48
+>>>>>>> Stashed changes
         pokemon SPECIES_NIDOKING
         ballseal 0
     endparty
@@ -4368,22 +6653,37 @@ trainerdata 134, "Benjamin"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_DIGLETT
+=======
+        level 41
+        pokemon SPECIES_DUGTRIO
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_GEODUDE
+=======
+        level 42
+        pokemon SPECIES_GOLEM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_DUGTRIO
+=======
+        level 43
+        monwithform SPECIES_DUGTRIO, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4450,7 +6750,11 @@ trainerdata 136, "Linda"
 trainerdata 137, "Vance"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BIRD_KEEPER
+<<<<<<< Updated upstream
     nummons 2
+=======
+    nummons 3
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4463,18 +6767,38 @@ trainerdata 137, "Vance"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_HOOTHOOT
+=======
+        level 53
+        pokemon SPECIES_NOCTOWL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_PIDGEOTTO
+=======
+        level 56
+        pokemon SPECIES_MANDIBUZZ
+>>>>>>> Stashed changes
+        ballseal 0
+
+<<<<<<< Updated upstream
+=======
+        // mon 1
+        ivs 50
+        abilityslot 0
+        level 56
+        pokemon SPECIES_BRAVIARY
         ballseal 0
     endparty
 
+>>>>>>> Stashed changes
 trainerdata 139, "Debra"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PICNICKER
@@ -4575,22 +6899,37 @@ trainerdata 143, "Erik"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_MACHOP
+=======
+        level 61
+        pokemon SPECIES_MACHAMP
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 40
         pokemon SPECIES_GRAVELER
+=======
+        level 4060
+        pokemon SPECIES_GOLEM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 40
         pokemon SPECIES_MACHOP
+=======
+        level 60
+        monwithform SPECIES_GOLEM, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4632,7 +6971,7 @@ trainerdata 144, "Michael"
 trainerdata 145, "Parry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -4645,8 +6984,34 @@ trainerdata 145, "Parry"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_ONIX
+=======
+        level 59
+        pokemon SPECIES_STEELIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 65
+        pokemon SPECIES_URSALUNA
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 61
+        pokemon SPECIES_GARGANACL
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 62
+        pokemon SPECIES_MUDSDALE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4666,23 +7031,37 @@ trainerdata 146, "Timothy"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_DIGLETT
+=======
+        level 61
+        pokemon SPECIES_STONJOURNER
+>>>>>>> Stashed changes
         move MOVE_EARTH_POWER
-        move MOVE_DIG
-        move MOVE_SAND_ATTACK
-        move MOVE_SUCKER_PUNCH
+        move MOVE_STONE_EDGE
+        move MOVE_HEAVY_SLAM
+        move MOVE_ROCK_BLAST
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_DUGTRIO
         move MOVE_EARTH_POWER
         move MOVE_DIG
         move MOVE_SAND_ATTACK
         move MOVE_SUCKER_PUNCH
+=======
+        level 63
+        pokemon SPECIES_RUNERIGUS
+        move MOVE_CALM_MIND
+        move MOVE_SHADOW_BALL
+        move MOVE_EARTHQUAKE
+        move MOVE_DESTINY_BOND
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -4989,29 +7368,46 @@ trainerdata 156, "Yoshi"
         // mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
+=======
+        level 40
+>>>>>>> Stashed changes
         monwithform SPECIES_TAUROS, 1
         ballseal 0
 		
 		// mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
+=======
+        level 39
+>>>>>>> Stashed changes
         monwithform SPECIES_FARFETCHD, 1
         ballseal 0
 		
 		// mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
+=======
+        level 41
+>>>>>>> Stashed changes
         pokemon SPECIES_ELECTABUZZ
         ballseal 0
 		
 		// mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_FARFETCHD
+=======
+        level 41
+        pokemon SPECIES_CHESNAUGHT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -5031,7 +7427,11 @@ trainerdata 157, "Lao"
         // mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 25
+=======
+        level 39
+>>>>>>> Stashed changes
         pokemon SPECIES_TYROGUE
         move MOVE_FAKE_OUT
         move MOVE_BULK_UP
@@ -5042,7 +7442,11 @@ trainerdata 157, "Lao"
 		// mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
+=======
+        level 40
+>>>>>>> Stashed changes
         pokemon SPECIES_HITMONLEE
         move MOVE_DOUBLE_KICK
         move MOVE_MEDITATE
@@ -5053,7 +7457,11 @@ trainerdata 157, "Lao"
 		// mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
+=======
+        level 40
+>>>>>>> Stashed changes
         pokemon SPECIES_HITMONCHAN
         move MOVE_MACH_PUNCH
         move MOVE_THUNDER_PUNCH
@@ -5181,7 +7589,7 @@ trainerdata 158, "Kiyo"
 trainerdata 159, "Lung"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BLACK_BELT
-    nummons 3
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -5194,22 +7602,51 @@ trainerdata 159, "Lung"
         // mon 0
         ivs 40
         abilityslot 0
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_MANKEY
+=======
+        level 38
+        pokemon SPECIES_PRIMEAPE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_MACHOP
+=======
+        level 40
+        pokemon SPECIES_MACHOKE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_MACHOKE
+=======
+        level 41
+        pokemon SPECIES_MACHAMP
+        ballseal 0
+
+        // mon 3
+        ivs 40
+        abilityslot 32
+        level 39
+        monwithform SPECIES_FARFETCHD, 1
+        ballseal 0
+
+        // mon 4
+        ivs 40
+        abilityslot 32
+        level 39
+        monwithform SPECIES_SNEASEL, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -5516,7 +7953,7 @@ trainerdata 177, "Ethel"
 trainerdata 178, "Jack"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SCHOOL_KID_M
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -5529,15 +7966,39 @@ trainerdata 178, "Jack"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 16
         pokemon SPECIES_ODDISH
+=======
+        level 24
+        pokemon SPECIES_GLOOM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 18
         monwithform SPECIES_VOLTORB, 1
+=======
+        level 23
+        monwithform SPECIES_VOLTORB, 1
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 25
+        pokemon SPECIES_ROSELIA
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_CARNIVINE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -5586,7 +8047,7 @@ trainerdata 179, "Kipp"
 trainerdata 181, "William"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_POKEFAN_M
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -5599,8 +8060,19 @@ trainerdata 181, "William"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
+=======
+        level 24
+>>>>>>> Stashed changes
         pokemon SPECIES_RAICHU
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 25
+        monwithform SPECIES_RAICHU, 1
         ballseal 0
     endparty
 
@@ -5620,7 +8092,11 @@ trainerdata 182, "Beverly"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
+=======
+        level 25
+>>>>>>> Stashed changes
         pokemon SPECIES_SNUBBULL
         ballseal 0
     endparty
@@ -5721,14 +8197,23 @@ trainerdata 184, "Krise"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 17
         pokemon SPECIES_ODDISH
+=======
+        level 24
+        pokemon SPECIES_GLOOM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
+=======
+        level 26
+>>>>>>> Stashed changes
         pokemon SPECIES_CUBONE
         ballseal 0
     endparty
@@ -5749,14 +8234,22 @@ trainerdata 185, "Grunt" //RADIOTOWER1F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 34
+=======
+        level 45
+>>>>>>> Stashed changes
         pokemon SPECIES_RATICATE
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 34
+=======
+        level 47
+>>>>>>> Stashed changes
         monwithform SPECIES_RATICATE, 1
         ballseal 0
     endparty
@@ -5777,21 +8270,35 @@ trainerdata 186, "Grunt" //RADIOTOWER2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_EKANS
+=======
+        level 46
+        pokemon SPECIES_ARBOK
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_GRIMER
+=======
+        level 47
+        monwithform SPECIES_MUK, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
+=======
+        level 47
+>>>>>>> Stashed changes
         pokemon SPECIES_MUK
         ballseal 0
     endparty
@@ -5812,43 +8319,68 @@ trainerdata 187, "Grunt" //RADIOTOWER2F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 31
         monwithform SPECIES_RATTATA, 1
+=======
+        level 44
+        monwithform SPECIES_RATICATE, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 31
         pokemon SPECIES_RATTATA
+=======
+        level 44
+        pokemon SPECIES_RATICATE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_MEOWTH
+=======
+        level 46
+        pokemon SPECIES_PERSIAN
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
         monwithform SPECIES_MEOWTH, 1
+=======
+        level 47
+        monwithform SPECIES_PERSIAN, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 4
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
         monwithform SPECIES_MEOWTH, 2
+=======
+        level 48
+        pokemon SPECIES_PERRSERKER
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 188, "Grunt" //RADIOTOWER2F
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -5861,15 +8393,38 @@ trainerdata 188, "Grunt" //RADIOTOWER2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
+=======
+        level 45
+>>>>>>> Stashed changes
         pokemon SPECIES_VENOMOTH
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_GOLBAT
+=======
+        level 46
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 48
+        pokemon SPECIES_MAGCARGO
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 47
+        pokemon SPECIES_URSARING
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -5889,36 +8444,56 @@ trainerdata 189, "Grunt" //RADIOTOWER3F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_MAGBY
+=======
+        level 50
+        pokemon SPECIES_MAGMORTAR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_MIMEJR
+=======
+        level 46
+        pokemon SPECIES_MR_MIME
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_SMOOCHUM
+=======
+        level 46
+        pokemon SPECIES_JYNX
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_ELEKID
+=======
+        level 50
+        pokemon SPECIES_ELECTIVIRE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 190, "Grunt" //RADIOTOWER3F
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -5931,15 +8506,34 @@ trainerdata 190, "Grunt" //RADIOTOWER3F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_HYPNO
+=======
+        level 45
+        pokemon SPECIES_HYPNO
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 47
+        pokemon SPECIES_HOUNDOOM
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 49
+        pokemon SPECIES_ARIADOS
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 191, "Grunt" //RADIOTOWER3F
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 2
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -5952,15 +8546,46 @@ trainerdata 191, "Grunt" //RADIOTOWER3F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_JYNX
+=======
+        level 46
+        pokemon SPECIES_FORRETRESS
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_MR_MIME
+=======
+        level 47
+        pokemon SPECIES_GRANBULL
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 49
+        pokemon SPECIES_PORYGON2
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 48
+        pokemon SPECIES_DELCATTY
+        ballseal 0
+
+        // mon 4
+        ivs 30
+        abilityslot 0
+        level 46
+        pokemon SPECIES_LUMINEON
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6015,29 +8640,46 @@ trainerdata 193, "Grunt" //UNDERGROUNDB2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 46
+>>>>>>> Stashed changes
         pokemon SPECIES_MUK
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 47
+>>>>>>> Stashed changes
         pokemon SPECIES_OMASTAR
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 35
         monwithform SPECIES_SNEASEL, 1
+=======
+        level 48
+        pokemon SPECIES_SNEASLER
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 195, "Grunt" //UNDERGROUNDB2F
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET
+<<<<<<< Updated upstream
     nummons 1
+=======
+    nummons 4
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6050,8 +8692,34 @@ trainerdata 195, "Grunt" //UNDERGROUNDB2F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_LICKILICKY
+=======
+        level 48
+        pokemon SPECIES_LICKILICKY
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 32
+        level 44
+        pokemon SPECIES_PALOSSAND
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 32
+        level 46
+        pokemon SPECIES_DHELMISE
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 32
+        level 45
+        pokemon SPECIES_TURTONATOR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6071,22 +8739,32 @@ trainerdata 196, "Grunt" //UNDERGROUNDB2F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_TANGELA
+=======
+        level 47
+        pokemon SPECIES_TANGROWTH
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_GLIGAR
+=======
+        level 50
+        pokemon SPECIES_GLISCOR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 197, "Grunt" //UNDERGROUNDB2F
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6099,22 +8777,39 @@ trainerdata 197, "Grunt" //UNDERGROUNDB2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_NIDORINA
+=======
+        level 46
+        pokemon SPECIES_COALOSSAL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_NIDORINO
+=======
+        level 47
+        pokemon SPECIES_SILICOBRA
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 48
+        pokemon SPECIES_SANDACONDA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 198, "Grunt" //RADIOTOWER2F
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET_F
-    nummons 1
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6127,8 +8822,40 @@ trainerdata 198, "Grunt" //RADIOTOWER2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 45
+>>>>>>> Stashed changes
         pokemon SPECIES_ARBOK
+        ballseal 0
+
+        // mon 1
+        ivs 30
+        abilityslot 0
+        level 47
+        pokemon SPECIES_YANMEGA
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 50
+        pokemon SPECIES_ZEBSTRIKA
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 48
+        pokemon SPECIES_DARMANITAN
+        ballseal 0
+
+        // mon 4
+        ivs 30
+        abilityslot 0
+        level 45
+        pokemon SPECIES_MARACTUS
         ballseal 0
     endparty
 
@@ -6148,15 +8875,25 @@ trainerdata 199, "Grunt" //UNDERGROUNDB2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_BELLOSSOM
+=======
+        level 46
+        pokemon SPECIES_GRIMMSNARL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_VILEPLUME
+=======
+        level 45
+        pokemon SPECIES_MORGREM
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6176,29 +8913,49 @@ trainerdata 200, "Grunt" //RADIOTOWER4F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 31
         pokemon SPECIES_EKANS
+=======
+        level 47
+        pokemon SPECIES_VIKAVOLT
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 31
         pokemon SPECIES_ODDISH
+=======
+        level 48
+        pokemon SPECIES_LYCANROC
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_ARBOK
+=======
+        level 44
+        pokemon SPECIES_TSAREENA
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_GLOOM
+=======
+        level 46
+        pokemon SPECIES_ORANGURU
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6254,7 +9011,7 @@ trainerdata 202, "Calvin"
 trainerdata 203, "Phillip"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_HIKER
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6267,15 +9024,29 @@ trainerdata 203, "Phillip"
         // mon 0
         ivs 0
         abilityslot 32
-        level 23
-        pokemon SPECIES_GEODUDE
+        level 53
+        monwithform SPECIES_GOLEM, 1
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
-        level 25
-        pokemon SPECIES_GRAVELER
+        level 55
+        pokemon SPECIES_DONPHAN
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 32
+        level 54
+        pokemon SPECIES_TORKOAL
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 32
+        level 55
+        pokemon SPECIES_CACTURNE
         ballseal 0
     endparty
 
@@ -6475,15 +9246,25 @@ trainerdata 211, "Huey"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_POLIWAG
+=======
+        level 39
+        pokemon SPECIES_POLIWHIRL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
         pokemon SPECIES_POLIWHIRL
+=======
+        level 41
+        pokemon SPECIES_POLIWRATH
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6503,7 +9284,11 @@ trainerdata 212, "Terrell"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 44
+>>>>>>> Stashed changes
         pokemon SPECIES_POLITOED
         ballseal 0
     endparty
@@ -6524,18 +9309,29 @@ trainerdata 213, "Kent"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_KRABBY
         move MOVE_BUBBLE_BEAM
         move MOVE_LEER
+=======
+        level 40
+        pokemon SPECIES_KINGLER
+        move MOVE_CRUSH_CLAW
+        move MOVE_MUD_SHOT
+>>>>>>> Stashed changes
         move MOVE_VICE_GRIP
-        move MOVE_HARDEN
+        move MOVE_CRABHAMMER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 35
+=======
+        level 42
+>>>>>>> Stashed changes
         pokemon SPECIES_KINGLER
         move MOVE_CRUSH_CLAW
         move MOVE_MUD_SHOT
@@ -6560,21 +9356,34 @@ trainerdata 214, "Roberto"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_MACHOKE
+=======
+        level 40
+        pokemon SPECIES_MACHAMP
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 34
+=======
+        level 42
+>>>>>>> Stashed changes
         pokemon SPECIES_SCIZOR
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 39
+>>>>>>> Stashed changes
         pokemon SPECIES_POLIWRATH
         ballseal 0
     endparty
@@ -6595,7 +9404,11 @@ trainerdata 215, "Connie"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 42
+>>>>>>> Stashed changes
         pokemon SPECIES_AZUMARILL
         ballseal 0
     endparty
@@ -6616,28 +9429,44 @@ trainerdata 216, "Grunt" //ROCKETHQB1F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 25
+=======
+        level 43
+>>>>>>> Stashed changes
         monwithform SPECIES_RATTATA, 1
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 25
+=======
+        level 43
+>>>>>>> Stashed changes
         pokemon SPECIES_RATTATA
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 26
+=======
+        level 45
+>>>>>>> Stashed changes
         monwithform SPECIES_RATICATE, 1
         ballseal 0
 
         // mon 3
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 26
+=======
+        level 45
+>>>>>>> Stashed changes
         pokemon SPECIES_RATICATE
         ballseal 0
     endparty
@@ -6658,21 +9487,35 @@ trainerdata 217, "Denis"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
         pokemon SPECIES_SPEAROW
+=======
+        level 38
+        pokemon SPECIES_FEAROW
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
         pokemon SPECIES_FEAROW
+=======
+        level 40
+        pokemon SPECIES_UNFEZANT
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
+=======
+        level 39
+>>>>>>> Stashed changes
         pokemon SPECIES_FARFETCHD
         ballseal 0
     endparty
@@ -6693,8 +9536,13 @@ trainerdata 218, "Grunt" //ROCKETHQB2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_GLIGAR
+=======
+        level 45
+        pokemon SPECIES_GLISCOR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6714,22 +9562,37 @@ trainerdata 219, "Grunt" //ROCKETHQB2F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_REMORAID
+=======
+        level 42
+        pokemon SPECIES_OCTILLERY
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_TENTACOOL
+=======
+        level 44
+        pokemon SPECIES_TENTACRUEL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_SHELLDER
+=======
+        level 45
+        pokemon SPECIES_CLOYSTER
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6749,14 +9612,22 @@ trainerdata 220, "Grunt" //ROCKETHQB2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
+=======
+        level 43
+>>>>>>> Stashed changes
         pokemon SPECIES_VENOMOTH
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 28
+=======
+        level 44
+>>>>>>> Stashed changes
         pokemon SPECIES_BEEDRILL
         ballseal 0
     endparty
@@ -6777,7 +9648,11 @@ trainerdata 222, "Grunt" //ROCKETHQB3F
         // mon 0
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
+=======
+        level 45
+>>>>>>> Stashed changes
         pokemon SPECIES_DUGTRIO
         ballseal 0
     endparty
@@ -6798,15 +9673,25 @@ trainerdata 223, "Grunt" //ROCKETHQB1FRECURRING
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_NIDORAN_F
+=======
+        level 42
+        pokemon SPECIES_NIDORINA
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_NIDORAN_M
+=======
+        level 42
+        pokemon SPECIES_NIDORINO
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6826,29 +9711,48 @@ trainerdata 224, "Grunt" //ROCKETHQB1FRECURRING
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_ZUBAT
+=======
+        level 42
+        pokemon SPECIES_GOLBAT
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_GRIMER
+=======
+        level 43
+        pokemon SPECIES_MUK
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 30
         abilityslot 32
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_RATTATA
+=======
+        level 44
+        pokemon SPECIES_RATICATE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 227, "Grunt" //UNDERGROUNDB2F
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_TEAM_ROCKET
+<<<<<<< Updated upstream
     nummons 2
+=======
+    nummons 4
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -6861,15 +9765,39 @@ trainerdata 227, "Grunt" //UNDERGROUNDB2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
         pokemon SPECIES_ARIADOS
+=======
+        level 47
+        pokemon SPECIES_OBSTAGOON
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
         pokemon SPECIES_FEAROW
+=======
+        level 46
+        pokemon SPECIES_CRAMORANT
+        ballseal 0
+
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 44
+        pokemon SPECIES_TOXTRICITY
+        ballseal 0
+
+        // mon 3
+        ivs 30
+        abilityslot 0
+        level 47
+        pokemon SPECIES_MILCERY
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -6889,14 +9817,22 @@ trainerdata 228, "Grunt" //UNDERGROUNDB2F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
+=======
+        level 43
+>>>>>>> Stashed changes
         pokemon SPECIES_QWILFISH
         ballseal 0
 
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
+=======
+        level 44
+>>>>>>> Stashed changes
         monwithform SPECIES_QWILFISH, 1
         ballseal 0
     endparty
@@ -7343,7 +10279,11 @@ trainerdata 242, "Fritz"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 47
+=======
+        level 42
+>>>>>>> Stashed changes
         monwithform SPECIES_MR_MIME, 1
         move MOVE_SUBSTITUTE
         move MOVE_PSYCHIC
@@ -7354,7 +10294,11 @@ trainerdata 242, "Fritz"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 47
+=======
+        level 41
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGMAR
         move MOVE_LAVA_PLUME
         move MOVE_FIRE_PUNCH
@@ -7365,7 +10309,11 @@ trainerdata 242, "Fritz"
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 47
+=======
+        level 42
+>>>>>>> Stashed changes
         pokemon SPECIES_NOSEPASS
         move MOVE_FOCUS_ENERGY
         move MOVE_MAGNET_RISE
@@ -7411,6 +10359,7 @@ trainerdata 244, "Lance" //CHAMPION
         // mon 0
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 55
         pokemon SPECIES_GYARADOS
         item ITEM_WACAN_BERRY
@@ -7419,6 +10368,16 @@ trainerdata 244, "Lance" //CHAMPION
         move MOVE_WATERFALL
         move MOVE_TAUNT
 		ability ABILITY_INTIMIDATE
+=======
+        level 78
+        pokemon SPECIES_HYDREIGON
+        item ITEM_WACAN_BERRY
+        move MOVE_DRAGON_DANCE
+        move MOVE_DRAGON_PULSE
+        move MOVE_DARK_PULSE
+        move MOVE_DRACO_METEOR
+		ability ABILITY_PARENTAL_BOND
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -7428,7 +10387,11 @@ trainerdata 244, "Lance" //CHAMPION
         // mon 1
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 55
+=======
+        level 78
+>>>>>>> Stashed changes
         pokemon SPECIES_YANMEGA
         item ITEM_CHOICE_SPECS
         move MOVE_ANCIENT_POWER
@@ -7445,6 +10408,7 @@ trainerdata 244, "Lance" //CHAMPION
         // mon 2
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 55
         pokemon SPECIES_DRAGONITE
         item ITEM_CHOICE_BAND
@@ -7453,6 +10417,16 @@ trainerdata 244, "Lance" //CHAMPION
         move MOVE_FIRE_PUNCH
         move MOVE_OUTRAGE
 		ability ABILITY_INNER_FOCUS
+=======
+        level 78
+        pokemon SPECIES_DRAGONITE
+        item ITEM_LEFTOVERS
+        move MOVE_FLY
+        move MOVE_ROOST
+        move MOVE_SUBSTITUTE
+        move MOVE_DRAGON_DANCE
+		ability ABILITY_MULTISCALE
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -7462,9 +10436,15 @@ trainerdata 244, "Lance" //CHAMPION
         // mon 3
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 55
         pokemon SPECIES_AERODACTYL
         item ITEM_AERODACTYLITE
+=======
+        level 78
+        pokemon SPECIES_AERODACTYL
+        item ITEM_CHOICE_SCARF
+>>>>>>> Stashed changes
         move MOVE_ROOST
         move MOVE_STONE_EDGE
         move MOVE_EARTHQUAKE
@@ -7479,9 +10459,15 @@ trainerdata 244, "Lance" //CHAMPION
         // mon 4
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 55
         pokemon SPECIES_CHARIZARD
         item ITEM_CHOICE_SCARF
+=======
+        level 78
+        pokemon SPECIES_CHARIZARD
+        item ITEM_CHARIZARDITE_X
+>>>>>>> Stashed changes
         move MOVE_DRAGON_PULSE
         move MOVE_FOCUS_BLAST
         move MOVE_FIRE_BLAST
@@ -7496,6 +10482,7 @@ trainerdata 244, "Lance" //CHAMPION
         // mon 5
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 55
         pokemon SPECIES_DRAGONITE
         item ITEM_LEFTOVERS
@@ -7504,6 +10491,16 @@ trainerdata 244, "Lance" //CHAMPION
         move MOVE_SUBSTITUTE
         move MOVE_DRAGON_DANCE
 		ability ABILITY_MULTISCALE
+=======
+        level 80
+        pokemon SPECIES_KYUREM
+        item ITEM_LEFTOVERS
+        move MOVE_ICE_BEAM
+        move MOVE_BLIZZARD
+        move MOVE_DRAGON_RUSH
+        move MOVE_DRAGON_DANCE
+		ability ABILITY_SNOW_WARNING
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -7514,7 +10511,7 @@ trainerdata 244, "Lance" //CHAMPION
 trainerdata 245, "Will"
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_ELITE_FOUR_WILL
-    nummons 5
+    nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -7527,7 +10524,11 @@ trainerdata 245, "Will"
         // mon 0
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
+=======
+        level 70
+>>>>>>> Stashed changes
         pokemon SPECIES_ESPEON
         item ITEM_LEFTOVERS
         move MOVE_CALM_MIND
@@ -7544,11 +10545,19 @@ trainerdata 245, "Will"
         // mon 1
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
         pokemon SPECIES_JYNX
         item ITEM_NEVER_MELT_ICE
         move MOVE_ASTONISH
         move MOVE_FROST_BREATH
+=======
+        level 70
+        pokemon SPECIES_SLOWKING
+        item ITEM_CHOICE_SCARF
+        move MOVE_EERIE_SPELL
+        move MOVE_THUNDER_WAVE
+>>>>>>> Stashed changes
         move MOVE_DRAINING_KISS
         move MOVE_PSYCHIC
 		ability ABILITY_OBLIVIOUS
@@ -7561,7 +10570,11 @@ trainerdata 245, "Will"
         // mon 2
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
+=======
+        level 70
+>>>>>>> Stashed changes
         pokemon SPECIES_EXEGGUTOR
         item ITEM_CUSTAP_BERRY
         move MOVE_LIGHT_SCREEN
@@ -7578,7 +10591,11 @@ trainerdata 245, "Will"
         // mon 3
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 50
+=======
+        level 70
+>>>>>>> Stashed changes
         pokemon SPECIES_SLOWBRO
         item ITEM_SLOWBRONITE
         move MOVE_SLACK_OFF
@@ -7595,7 +10612,11 @@ trainerdata 245, "Will"
         // mon 4
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 50
+=======
+        level 70
+>>>>>>> Stashed changes
         pokemon SPECIES_XATU
         item ITEM_TWISTED_SPOON
         move MOVE_ME_FIRST
@@ -7607,13 +10628,33 @@ trainerdata 245, "Will"
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 32
+        level 72
+        monwithform SPECIES_ARTICUNO, 1
+        item ITEM_TWISTED_SPOON
+        move MOVE_FREEZING_GLARE
+        move MOVE_HURRICANE
+        move MOVE_U_TURN
+        move MOVE_PSYCHIC
+		ability ABILITY_COMPETITIVE
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 246, "Karen"
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_ELITE_FOUR_KAREN
-    nummons 5
+    nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -7626,7 +10667,11 @@ trainerdata 246, "Karen"
         // mon 0
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 54
+=======
+        level 76
+>>>>>>> Stashed changes
         pokemon SPECIES_UMBREON
         item ITEM_LEFTOVERS
         move MOVE_WISH
@@ -7643,7 +10688,11 @@ trainerdata 246, "Karen"
         // mon 1
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 54
+=======
+        level 76
+>>>>>>> Stashed changes
         pokemon SPECIES_VILEPLUME
         item ITEM_PERSIM_BERRY
         move MOVE_DRAINING_KISS
@@ -7660,7 +10709,11 @@ trainerdata 246, "Karen"
         // mon 2
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 54
+=======
+        level 76
+>>>>>>> Stashed changes
         pokemon SPECIES_GENGAR
         item ITEM_BLACK_SLUDGE
         move MOVE_DARK_PULSE
@@ -7677,7 +10730,11 @@ trainerdata 246, "Karen"
         // mon 3
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 54
+=======
+        level 76
+>>>>>>> Stashed changes
         pokemon SPECIES_HONCHKROW
         item ITEM_BLACK_GLASSES
         move MOVE_DRILL_PECK
@@ -7694,7 +10751,11 @@ trainerdata 246, "Karen"
         // mon 4
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 54
+=======
+        level 76
+>>>>>>> Stashed changes
         pokemon SPECIES_HOUNDOOM
         item ITEM_HOUNDOOMINITE
         move MOVE_NASTY_PLOT
@@ -7706,6 +10767,26 @@ trainerdata 246, "Karen"
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 78
+        pokemon SPECIES_DARKRAI
+        item ITEM_BLACK_GLASSES
+        move MOVE_NASTY_PLOT
+        move MOVE_DARK_PULSE
+        move MOVE_DARK_VOID
+        move MOVE_DREAM_EATER
+		ability ABILITY_BAD_DREAMS
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -7725,7 +10806,11 @@ trainerdata 247, "Koga"
         // mon 0
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 50
+=======
+        level 72
+>>>>>>> Stashed changes
         pokemon SPECIES_GLISCOR
         item ITEM_TOXIC_ORB
         move MOVE_EARTHQUAKE
@@ -7742,6 +10827,7 @@ trainerdata 247, "Koga"
         // mon 1
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
         pokemon SPECIES_WEEZING
         item ITEM_QUICK_CLAW
@@ -7750,6 +10836,16 @@ trainerdata 247, "Koga"
         move MOVE_EXPLOSION
         move MOVE_FLAMETHROWER
 		ability ABILITY_LEVITATE
+=======
+        level 72
+        pokemon SPECIES_TOXICROAK
+        item ITEM_QUICK_CLAW
+        move MOVE_SLUDGE_BOMB
+        move MOVE_POISON_JAB
+        move MOVE_SUCKER_PUNCH
+        move MOVE_CROSS_CHOP
+		ability ABILITY_UNSEEN_FIST
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -7759,7 +10855,11 @@ trainerdata 247, "Koga"
         // mon 2
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
+=======
+        level 72
+>>>>>>> Stashed changes
         pokemon SPECIES_BEEDRILL
         item ITEM_BEEDRILLITE
         move MOVE_U_TURN
@@ -7776,6 +10876,7 @@ trainerdata 247, "Koga"
         // mon 3
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 50
         pokemon SPECIES_MUK
         item ITEM_BLACK_SLUDGE
@@ -7784,6 +10885,16 @@ trainerdata 247, "Koga"
         move MOVE_GUNK_SHOT
         move MOVE_SHADOW_SNEAK
 		ability ABILITY_STENCH
+=======
+        level 72
+        monwithform SPECIES_TOXTRICITY, 1
+        item ITEM_BLACK_SLUDGE
+        move MOVE_POISON_JAB
+        move MOVE_OVERDRIVE
+        move MOVE_VOLT_SWITCH
+        move MOVE_SLUDGE_BOMB
+		ability ABILITY_MINUS
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -7793,7 +10904,11 @@ trainerdata 247, "Koga"
         // mon 4
         ivs 250
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
+=======
+        level 72
+>>>>>>> Stashed changes
         pokemon SPECIES_CROBAT
         item ITEM_RAZOR_CLAW
         move MOVE_DOUBLE_TEAM
@@ -7805,6 +10920,26 @@ trainerdata 247, "Koga"
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 74
+        pokemon SPECIES_NAGANADEL
+        item ITEM_DRAGON_FANG
+        move MOVE_AIR_CUTTER
+        move MOVE_VENOSHOCK
+        move MOVE_DRAGON_PULSE
+        move MOVE_GASTRO_ACID
+		ability ABILITY_INFILTRATOR
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -7846,7 +10981,7 @@ trainerdata 248, "Ed"
 trainerdata 249, "Don"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BUG_CATCHER
-    nummons 2
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -7866,8 +11001,34 @@ trainerdata 249, "Don"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 7
         pokemon SPECIES_CATERPIE
+=======
+        level 6
+        pokemon SPECIES_WURMPLE
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 8
+        pokemon SPECIES_NYMBLE
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 7
+        pokemon SPECIES_WEEDLE
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 6
+        pokemon SPECIES_KRICKETOT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -7929,23 +11090,41 @@ trainerdata 251, "Nob"
         // mon 0
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
         monwithform SPECIES_SNEASEL, 1
         move MOVE_POISON_JAB
         move MOVE_ICE_PUNCH
         move MOVE_LOW_KICK
         move MOVE_MEGA_PUNCH
+=======
+        level 39
+        pokemon SPECIES_HARIYAMA
+        move MOVE_POISON_JAB
+        move MOVE_ICE_PUNCH
+        move MOVE_BULLET_PUNCH
+        move MOVE_BELLY_DRUM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 40
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
         pokemon SPECIES_LEDIAN
         move MOVE_BUG_BITE
         move MOVE_COMET_PUNCH
         move MOVE_MACH_PUNCH
         move MOVE_SWORDS_DANCE
+=======
+        level 41
+        pokemon SPECIES_BRELOOM
+        move MOVE_GROWTH
+        move MOVE_FORCE_PALM
+        move MOVE_MACH_PUNCH
+        move MOVE_BRICK_BREAK
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -9037,7 +12216,11 @@ trainerdata 263, "Silver" //rival3 chikorita
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
+=======
+        level 27
+>>>>>>> Stashed changes
         pokemon SPECIES_TOGEPI
 		item ITEM_LEFTOVERS
         move MOVE_ANCIENT_POWER
@@ -9071,7 +12254,11 @@ trainerdata 263, "Silver" //rival3 chikorita
         // mon 2
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
+=======
+        level 27
+>>>>>>> Stashed changes
         pokemon SPECIES_SCYTHER
 		item ITEM_RAZOR_CLAW
         move MOVE_QUICK_ATTACK
@@ -9088,7 +12275,11 @@ trainerdata 263, "Silver" //rival3 chikorita
 		// mon 3
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_GOLBAT
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
@@ -9105,7 +12296,11 @@ trainerdata 263, "Silver" //rival3 chikorita
         // mon 4
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
+=======
+        level 30
+>>>>>>> Stashed changes
         pokemon SPECIES_BAYLEEF
 		item ITEM_MIRACLE_SEED
         move MOVE_MAGICAL_LEAF
@@ -9136,8 +12331,13 @@ trainerdata 264, "Silver" //rival5 chikorita
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_TOGETIC
+=======
+        level 66
+        pokemon SPECIES_TOGEKISS
+>>>>>>> Stashed changes
 		item ITEM_RED_CARD
         move MOVE_AIR_CUTTER
         move MOVE_METRONOME
@@ -9153,6 +12353,7 @@ trainerdata 264, "Silver" //rival5 chikorita
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_CHANSEY
 		item ITEM_LEFTOVERS
@@ -9161,12 +12362,40 @@ trainerdata 264, "Silver" //rival5 chikorita
         move MOVE_CALM_MIND
         move MOVE_THUNDER_WAVE
 		ability ABILITY_NATURAL_CURE
+=======
+        level 67
+        pokemon SPECIES_MAGMORTAR
+		item ITEM_LEFTOVERS
+        move MOVE_DARK_PULSE
+        move MOVE_FIRE_BLAST
+        move MOVE_THUNDERBOLT
+        move MOVE_CONFUSE_RAY
+		ability ABILITY_MEGA_LAUNCHER
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
         ballseal 0
 		
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 68
+        pokemon SPECIES_SCIZOR
+		item ITEM_METAL_COAT
+        move MOVE_BULLET_PUNCH
+        move MOVE_RAZOR_WIND
+        move MOVE_X_SCISSOR
+        move MOVE_FOCUS_ENERGY
+		ability ABILITY_TECHNICIAN
+>>>>>>> Stashed changes
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+<<<<<<< Updated upstream
         // mon 2
         ivs 30
         abilityslot 0
@@ -9189,6 +12418,13 @@ trainerdata 264, "Silver" //rival5 chikorita
         abilityslot 0
         level 49
         pokemon SPECIES_GOLBAT
+=======
+		// mon 3
+        ivs 30
+        abilityslot 0
+        level 67
+        pokemon SPECIES_CROBAT
+>>>>>>> Stashed changes
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
         move MOVE_LEECH_SEED
@@ -9204,7 +12440,11 @@ trainerdata 264, "Silver" //rival5 chikorita
         // mon 4
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
+=======
+        level 70
+>>>>>>> Stashed changes
         pokemon SPECIES_MEGANIUM
 		item ITEM_MIRACLE_SEED
         move MOVE_PETAL_DANCE
@@ -9221,6 +12461,7 @@ trainerdata 264, "Silver" //rival5 chikorita
 		// mon 5
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_SNEASEL
 		item ITEM_RAZOR_CLAW
@@ -9229,6 +12470,16 @@ trainerdata 264, "Silver" //rival5 chikorita
 		move MOVE_FAKE_OUT
 		move MOVE_FRUSTRATION
 		ability ABILITY_TECHNICIAN
+=======
+        level 69
+        pokemon SPECIES_WEAVILE
+		item ITEM_RAZOR_CLAW
+        move MOVE_KNOCK_OFF
+		move MOVE_TRIPLE_AXEL
+		move MOVE_NIGHT_SLASH
+		move MOVE_METAL_CLAW
+		ability ABILITY_TOUGH_CLAWS
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -9290,7 +12541,7 @@ trainerdata 266, "Silver" //rival2 cyndaquil
         // mon 1
         ivs 30
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_ZUBAT
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
@@ -9307,7 +12558,7 @@ trainerdata 266, "Silver" //rival2 cyndaquil
         // mon 2
         ivs 30
         abilityslot 0
-        level 18
+        level 20
         pokemon SPECIES_QUILAVA
 		item ITEM_CHARCOAL
         move MOVE_EMBER
@@ -9338,7 +12589,11 @@ trainerdata 267, "Silver" //rival3 cyndaquil
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
+=======
+        level 27
+>>>>>>> Stashed changes
         pokemon SPECIES_TOGEPI
 		item ITEM_LEFTOVERS
         move MOVE_ANCIENT_POWER
@@ -9372,7 +12627,11 @@ trainerdata 267, "Silver" //rival3 cyndaquil
         // mon 2
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
+=======
+        level 27
+>>>>>>> Stashed changes
         pokemon SPECIES_SCYTHER
 		item ITEM_RAZOR_CLAW
         move MOVE_QUICK_ATTACK
@@ -9389,7 +12648,11 @@ trainerdata 267, "Silver" //rival3 cyndaquil
 		// mon 3
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_GOLBAT
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
@@ -9406,7 +12669,11 @@ trainerdata 267, "Silver" //rival3 cyndaquil
         // mon 4
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
+=======
+        level 30
+>>>>>>> Stashed changes
         pokemon SPECIES_QUILAVA
 		item ITEM_CHARCOAL
         move MOVE_FLAME_WHEEL
@@ -9437,8 +12704,13 @@ trainerdata 268, "Silver" //rival5 cyndaquil
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_TOGETIC
+=======
+        level 66
+        pokemon SPECIES_TOGEKISS
+>>>>>>> Stashed changes
 		item ITEM_RED_CARD
         move MOVE_AIR_CUTTER
         move MOVE_METRONOME
@@ -9454,6 +12726,7 @@ trainerdata 268, "Silver" //rival5 cyndaquil
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_CHANSEY
 		item ITEM_LEFTOVERS
@@ -9462,12 +12735,40 @@ trainerdata 268, "Silver" //rival5 cyndaquil
         move MOVE_CALM_MIND
         move MOVE_THUNDER_WAVE
 		ability ABILITY_NATURAL_CURE
+=======
+        level 67
+        pokemon SPECIES_ELECTIVIRE
+		item ITEM_LEFTOVERS
+        move MOVE_THUNDER_PUNCH
+        move MOVE_FIRE_PUNCH
+        move MOVE_ICE_PUNCH
+        move MOVE_THUNDERBOLT
+		ability ABILITY_IRON_FIST
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
         ballseal 0
 		
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 68
+        pokemon SPECIES_SCIZOR
+		item ITEM_METAL_COAT
+        move MOVE_BULLET_PUNCH
+        move MOVE_RAZOR_WIND
+        move MOVE_X_SCISSOR
+        move MOVE_FOCUS_ENERGY
+		ability ABILITY_TECHNICIAN
+>>>>>>> Stashed changes
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+<<<<<<< Updated upstream
         // mon 2
         ivs 30
         abilityslot 0
@@ -9490,6 +12791,13 @@ trainerdata 268, "Silver" //rival5 cyndaquil
         abilityslot 0
         level 49
         pokemon SPECIES_GOLBAT
+=======
+		// mon 3
+        ivs 30
+        abilityslot 0
+        level 67
+        pokemon SPECIES_CROBAT
+>>>>>>> Stashed changes
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
         move MOVE_LEECH_SEED
@@ -9505,7 +12813,11 @@ trainerdata 268, "Silver" //rival5 cyndaquil
         // mon 4
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
+=======
+        level 70
+>>>>>>> Stashed changes
         pokemon SPECIES_TYPHLOSION
 		item ITEM_CHARCOAL
         move MOVE_LAVA_PLUME
@@ -9522,6 +12834,7 @@ trainerdata 268, "Silver" //rival5 cyndaquil
 		// mon 5
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_SNEASEL
 		item ITEM_RAZOR_CLAW
@@ -9530,6 +12843,16 @@ trainerdata 268, "Silver" //rival5 cyndaquil
 		move MOVE_FAKE_OUT
 		move MOVE_FRUSTRATION
 		ability ABILITY_TECHNICIAN
+=======
+        level 69
+        pokemon SPECIES_WEAVILE
+		item ITEM_RAZOR_CLAW
+        move MOVE_KNOCK_OFF
+		move MOVE_TRIPLE_AXEL
+		move MOVE_NIGHT_SLASH
+		move MOVE_METAL_CLAW
+		ability ABILITY_TOUGH_CLAWS
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -9570,7 +12893,7 @@ trainerdata 269, "Silver" //rival2 totodile
         // mon 1
         ivs 30
         abilityslot 0
-        level 16
+        level 17
         pokemon SPECIES_ZUBAT
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
@@ -9587,7 +12910,7 @@ trainerdata 269, "Silver" //rival2 totodile
         // mon 2
         ivs 30
         abilityslot 0
-        level 18
+        level 20
         pokemon SPECIES_CROCONAW
 		item ITEM_MYSTIC_WATER
         move MOVE_WATER_GUN
@@ -9618,7 +12941,11 @@ trainerdata 270, "Silver" //rival3 totodile
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
+=======
+        level 27
+>>>>>>> Stashed changes
         pokemon SPECIES_TOGEPI
 		item ITEM_LEFTOVERS
         move MOVE_ANCIENT_POWER
@@ -9652,7 +12979,11 @@ trainerdata 270, "Silver" //rival3 totodile
         // mon 2
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
+=======
+        level 27
+>>>>>>> Stashed changes
         pokemon SPECIES_SCYTHER
 		item ITEM_RAZOR_CLAW
         move MOVE_QUICK_ATTACK
@@ -9669,7 +13000,11 @@ trainerdata 270, "Silver" //rival3 totodile
 		// mon 3
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_GOLBAT
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
@@ -9686,7 +13021,11 @@ trainerdata 270, "Silver" //rival3 totodile
         // mon 4
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
+=======
+        level 30
+>>>>>>> Stashed changes
         pokemon SPECIES_CROCONAW
 		item ITEM_MYSTIC_WATER
         move MOVE_AQUA_JET
@@ -9813,11 +13152,19 @@ trainerdata 272, "Silver" //rival5 totodile
     endentry
 
     party 272
+<<<<<<< Updated upstream
          // mon 0
         ivs 30
         abilityslot 0
         level 48
         pokemon SPECIES_TOGETIC
+=======
+        // mon 0
+        ivs 30
+        abilityslot 0
+        level 66
+        pokemon SPECIES_TOGEKISS
+>>>>>>> Stashed changes
 		item ITEM_RED_CARD
         move MOVE_AIR_CUTTER
         move MOVE_METRONOME
@@ -9833,6 +13180,7 @@ trainerdata 272, "Silver" //rival5 totodile
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_CHANSEY
 		item ITEM_LEFTOVERS
@@ -9841,12 +13189,40 @@ trainerdata 272, "Silver" //rival5 totodile
         move MOVE_CALM_MIND
         move MOVE_THUNDER_WAVE
 		ability ABILITY_NATURAL_CURE
+=======
+        level 67
+        pokemon SPECIES_RHYPERIOR
+		item ITEM_LEFTOVERS
+        move MOVE_MEGAHORN
+        move MOVE_STONE_EDGE
+        move MOVE_EARTHQUAKE
+        move MOVE_SUPERCELL_SLAM
+		ability ABILITY_SOLID_ROCK
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
         ballseal 0
 		
+        // mon 2
+        ivs 30
+        abilityslot 0
+        level 68
+        pokemon SPECIES_SCIZOR
+		item ITEM_METAL_COAT
+        move MOVE_BULLET_PUNCH
+        move MOVE_RAZOR_WIND
+        move MOVE_X_SCISSOR
+        move MOVE_FOCUS_ENERGY
+		ability ABILITY_TECHNICIAN
+>>>>>>> Stashed changes
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+		
+<<<<<<< Updated upstream
         // mon 2
         ivs 30
         abilityslot 0
@@ -9869,6 +13245,13 @@ trainerdata 272, "Silver" //rival5 totodile
         abilityslot 0
         level 49
         pokemon SPECIES_GOLBAT
+=======
+		// mon 3
+        ivs 30
+        abilityslot 0
+        level 67
+        pokemon SPECIES_CROBAT
+>>>>>>> Stashed changes
 		item ITEM_BIG_ROOT
         move MOVE_LEECH_LIFE
         move MOVE_LEECH_SEED
@@ -9884,7 +13267,11 @@ trainerdata 272, "Silver" //rival5 totodile
         // mon 4
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 50
+=======
+        level 70
+>>>>>>> Stashed changes
         pokemon SPECIES_FERALIGATR
 		item ITEM_MYSTIC_WATER
         move MOVE_LIQUIDATION
@@ -9901,6 +13288,7 @@ trainerdata 272, "Silver" //rival5 totodile
 		// mon 5
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 48
         pokemon SPECIES_SNEASEL
 		item ITEM_RAZOR_CLAW
@@ -9909,6 +13297,16 @@ trainerdata 272, "Silver" //rival5 totodile
 		move MOVE_FAKE_OUT
 		move MOVE_FRUSTRATION
 		ability ABILITY_TECHNICIAN
+=======
+        level 69
+        pokemon SPECIES_WEAVILE
+		item ITEM_RAZOR_CLAW
+        move MOVE_KNOCK_OFF
+		move MOVE_TRIPLE_AXEL
+		move MOVE_NIGHT_SLASH
+		move MOVE_METAL_CLAW
+		ability ABILITY_TOUGH_CLAWS
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -10147,7 +13545,11 @@ trainerdata 280, "Joey"
 trainerdata 281, "Richard"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FIREBREATHER
+<<<<<<< Updated upstream
     nummons 2
+=======
+    nummons 5
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -10157,6 +13559,7 @@ trainerdata 281, "Richard"
     endentry
 
     party 281
+<<<<<<< Updated upstream
 	        // mon 0
         ivs 0
         abilityslot 0
@@ -10170,12 +13573,48 @@ trainerdata 281, "Richard"
         level 27
         pokemon SPECIES_CHARMELEON
         ballseal 2
+=======
+	    // mon 0
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_PIGNITE
+        ballseal 1
+	
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 27
+        pokemon SPECIES_HEATMOR
+        ballseal 2
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 30
+        pokemon SPECIES_FLETCHINDER
+        ballseal 1
+	
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_TURTONATOR
+        ballseal 2
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 31
+        pokemon SPECIES_CARKOL
+        ballseal 1
+>>>>>>> Stashed changes
     endparty
 
 trainerdata 282, "Ned"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FIREBREATHER
-    nummons 3
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -10188,22 +13627,58 @@ trainerdata 282, "Ned"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 24
         pokemon SPECIES_KOFFING
+=======
+        level 27
+        pokemon SPECIES_SIMISEAR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_GROWLITHE
+=======
+        level 28
+        pokemon SPECIES_ARCANINE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 24
         monwithform SPECIES_GROWLITHE, 1
+=======
+        level 30
+        monwithform SPECIES_ARCANINE, 1
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 29
+        pokemon SPECIES_COMBUSKEN
+        ballseal 0
+
+        // mon 4
+        ivs 0
+        abilityslot 0
+        level 26
+        pokemon SPECIES_TORKOAL
+        ballseal 0
+
+        // mon 5
+        ivs 0
+        abilityslot 0
+        level 28
+        pokemon SPECIES_MONFERNO
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -11285,8 +14760,13 @@ trainerdata 303, "Jose"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 44
         pokemon SPECIES_FARFETCHD
+=======
+        level 68
+        pokemon SPECIES_SIRFETCHD
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -11670,7 +15150,7 @@ trainerdata 318, "Burt"
 trainerdata 319, "Bill"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FIREBREATHER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -11683,15 +15163,31 @@ trainerdata 319, "Bill"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 10
+=======
+        level 14
+>>>>>>> Stashed changes
         pokemon SPECIES_KOFFING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 10
         pokemon SPECIES_MAGBY
+=======
+        level 15
+        pokemon SPECIES_MAGBY
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 16
+        pokemon SPECIES_SLUGMA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -13716,22 +17212,37 @@ trainerdata 383, "Peter"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 10
         pokemon SPECIES_PIDGEY
+=======
+        level 14
+        pokemon SPECIES_PIDOVE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 10
         pokemon SPECIES_PIDGEY
+=======
+        level 13
+        pokemon SPECIES_FLETCHLING
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 12
         pokemon SPECIES_SPEAROW
+=======
+        level 16
+        pokemon SPECIES_ROOKIDEE
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -13751,7 +17262,11 @@ trainerdata 384, "Daniel"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 14
+=======
+        level 17
+>>>>>>> Stashed changes
         pokemon SPECIES_ONIX
         ballseal 0
     endparty
@@ -13800,8 +17315,13 @@ trainerdata 386, "Greg"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 23
         pokemon SPECIES_DROWZEE
+=======
+        level 30
+        pokemon SPECIES_HYPNO
+>>>>>>> Stashed changes
         move MOVE_HYPNOSIS
         move MOVE_DISABLE
         move MOVE_DREAM_EATER
@@ -13867,14 +17387,23 @@ trainerdata 388, "Walt"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 16
         pokemon SPECIES_MAGMAR
+=======
+        level 23
+        pokemon SPECIES_MAGBY
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 21
+=======
+        level 26
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGMAR
         ballseal 0
     endparty
@@ -13895,30 +17424,44 @@ trainerdata 389, "Nelson"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_SLOWPOKE
         move MOVE_TACKLE
         move MOVE_GROWL
         move MOVE_WATER_GUN
         move MOVE_NONE
+=======
+        level 37
+        pokemon SPECIES_SLOWBRO
+        move MOVE_SURF
+        move MOVE_AMNESIA
+        move MOVE_PSYCHIC
+        move MOVE_SLACK_OFF
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_SLOWPOKE
+=======
+        level 37
+        pokemon SPECIES_SLOWKING
+>>>>>>> Stashed changes
         move MOVE_CURSE
-        move MOVE_HEADBUTT
-        move MOVE_WATER_GUN
-        move MOVE_CONFUSION
+        move MOVE_POWER_GEM
+        move MOVE_WATER_PULSE
+        move MOVE_SLACK_OFF
         ballseal 0
     endparty
 
 trainerdata 390, "Ray"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_FIREBREATHER
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -13931,8 +17474,19 @@ trainerdata 390, "Ray"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 14
+=======
+        level 16
+>>>>>>> Stashed changes
         pokemon SPECIES_VULPIX
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 18
+        pokemon SPECIES_GROWLITHE
         ballseal 0
     endparty
 
@@ -14047,34 +17601,59 @@ trainerdata 395, "Mark"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
         pokemon SPECIES_ABRA
         move MOVE_TELEPORT
         move MOVE_FLASH
         move MOVE_NONE
         move MOVE_NONE
+=======
+        level 25
+        pokemon SPECIES_ESPEON
+        move MOVE_PSYBEAM
+        move MOVE_SWIFT
+        move MOVE_QUICK_ATTACK
+        move MOVE_CONFUSION
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 19
         pokemon SPECIES_ABRA
         move MOVE_TELEPORT
         move MOVE_FLASH
         move MOVE_NONE
         move MOVE_NONE
+=======
+        level 26
+        pokemon SPECIES_INDEEDEE
+        move MOVE_PSYBEAM
+        move MOVE_DISARMING_VOICE
+        move MOVE_ENCORE
+        move MOVE_PSYSHOCK
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 21
         pokemon SPECIES_KADABRA
         move MOVE_TELEPORT
         move MOVE_KINESIS
+=======
+        level 27
+        pokemon SPECIES_HATENNA
+        move MOVE_PSYBEAM
+        move MOVE_LIFE_DEW
+>>>>>>> Stashed changes
         move MOVE_CONFUSION
-        move MOVE_NONE
+        move MOVE_DISARMING_VOICE
         ballseal 0
     endparty
 
@@ -14174,8 +17753,13 @@ trainerdata 397, "Chad"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_MR_MIME
+=======
+        level 38
+        monwithform SPECIES_MR_MIME, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14195,23 +17779,37 @@ trainerdata 398, "Valerie"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_HOPPIP
+=======
+        level 33
+        pokemon SPECIES_JUMPLUFF
+>>>>>>> Stashed changes
         move MOVE_MEGA_DRAIN
         move MOVE_TAIL_WHIP
-        move MOVE_TACKLE
+        move MOVE_ACROBATICS
         move MOVE_POISON_POWDER
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 25
         pokemon SPECIES_SKIPLOOM
         move MOVE_MEGA_DRAIN
         move MOVE_TAIL_WHIP
         move MOVE_TACKLE
         move MOVE_STUN_SPORE
+=======
+        level 35
+        pokemon SPECIES_SUNFLORA
+        move MOVE_GIGA_DRAIN
+        move MOVE_WORRY_SEED
+        move MOVE_RAZOR_LEAF
+        move MOVE_MAGICAL_LEAF
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14266,20 +17864,34 @@ trainerdata 400, "Dana"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_FLAAFFY
         move MOVE_TACKLE
         move MOVE_GROWL
         move MOVE_THUNDER_SHOCK
+=======
+        level 34
+        pokemon SPECIES_AMPHAROS
+        move MOVE_FIRE_PUNCH
+        move MOVE_COTTON_SPORE
+        move MOVE_DRAGON_PULSE
+>>>>>>> Stashed changes
         move MOVE_THUNDER_WAVE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 26
         pokemon SPECIES_PSYDUCK
         move MOVE_WATER_GUN
+=======
+        level 34
+        pokemon SPECIES_GOLDUCK
+        move MOVE_WATER_PULSE
+>>>>>>> Stashed changes
         move MOVE_TAIL_WHIP
         move MOVE_DISABLE
         move MOVE_CONFUSION
@@ -14289,7 +17901,7 @@ trainerdata 400, "Dana"
 trainerdata 401, "Alfred"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_GENTLEMAN
-    nummons 1
+    nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_NONE
     item ITEM_NONE
@@ -14302,8 +17914,27 @@ trainerdata 401, "Alfred"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_NOCTOWL
+=======
+        level 40
+        pokemon SPECIES_PIDGEOT
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_SWELLOW
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 40
+        pokemon SPECIES_STARAPTOR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14323,8 +17954,13 @@ trainerdata 402, "Tiffany"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_CLEFAIRY
+=======
+        level 45
+        pokemon SPECIES_CLEFABLE
+>>>>>>> Stashed changes
         move MOVE_ENCORE
         move MOVE_SING
         move MOVE_DOUBLE_SLAP
@@ -14335,7 +17971,7 @@ trainerdata 402, "Tiffany"
 trainerdata 403, "Spencer"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_CAMPER
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -14348,22 +17984,44 @@ trainerdata 403, "Spencer"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_SANDSHREW
+=======
+        level 43
+        pokemon SPECIES_SANDSLASH
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
         pokemon SPECIES_SANDSLASH
+=======
+        level 44
+        monwithform SPECIES_SANDSLASH, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
         pokemon SPECIES_ZUBAT
+=======
+        level 40
+        pokemon SPECIES_GOLBAT
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 45
+        pokemon SPECIES_CROBAT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14383,8 +18041,13 @@ trainerdata 404, "Grunt" //ROCKETHQB3F
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_GLOOM
+=======
+        level 42
+        pokemon SPECIES_VILEPLUME
+>>>>>>> Stashed changes
         move MOVE_WRAP
         move MOVE_LEER
         move MOVE_POISON_STING
@@ -14394,8 +18057,13 @@ trainerdata 404, "Grunt" //ROCKETHQB3F
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
         pokemon SPECIES_GLOOM
+=======
+        level 42
+        pokemon SPECIES_BELLOSSOM
+>>>>>>> Stashed changes
         move MOVE_ABSORB
         move MOVE_SWEET_SCENT
         move MOVE_STUN_SPORE
@@ -14455,15 +18123,20 @@ trainerdata 406, "Zach"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_RHYHORN
+=======
+        level 58
+        pokemon SPECIES_RHYPERIOR
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 407, "Allen"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 2
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -14476,30 +18149,66 @@ trainerdata 407, "Allen"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_CHARMELEON
         move MOVE_EMBER
         move MOVE_SMOKESCREEN
         move MOVE_FIRE_FANG
+=======
+        level 54
+        pokemon SPECIES_CHARIZARD
+        move MOVE_FLAMETHROWER
+        move MOVE_HEAT_WAVE
+        move MOVE_INFERNO
+>>>>>>> Stashed changes
         move MOVE_SCARY_FACE
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_MAGNEMITE
         move MOVE_SPARK
+=======
+        level 53
+        pokemon SPECIES_MAGNEZONE
+        move MOVE_THUNDERBOLT
+>>>>>>> Stashed changes
         move MOVE_THUNDER_WAVE
         move MOVE_SUPERSONIC
         move MOVE_METAL_SOUND
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 56
+        pokemon SPECIES_GOLURK
+        move MOVE_EARTHQUAKE
+        move MOVE_SHADOW_PUNCH
+        move MOVE_HEAVY_SLAM
+        move MOVE_IRON_DEFENSE
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 0
+        level 53
+        pokemon SPECIES_KLEAVOR
+        move MOVE_X_SCISSOR
+        move MOVE_STONE_AXE
+        move MOVE_SWORDS_DANCE
+        move MOVE_AERIAL_ACE
         ballseal 0
     endparty
 
 trainerdata 408, "Cybil"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass TRAINERCLASS_ACE_TRAINER_F
-    nummons 2
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -14512,8 +18221,13 @@ trainerdata 408, "Cybil"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_MAREEP
+=======
+        level 53
+        pokemon SPECIES_AMPHAROS
+>>>>>>> Stashed changes
         move MOVE_DISCHARGE
         move MOVE_COTTON_SPORE
         move MOVE_CHARGE
@@ -14523,12 +18237,54 @@ trainerdata 408, "Cybil"
         // mon 1
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 41
         pokemon SPECIES_BELLOSSOM
         move MOVE_MEGA_DRAIN
         move MOVE_STUN_SPORE
         move MOVE_ACID
         move MOVE_MAGICAL_LEAF
+=======
+        level 55
+        pokemon SPECIES_PYROAR
+        move MOVE_INCINERATE
+        move MOVE_FLAMETHROWER
+        move MOVE_WILL_O_WISP
+        move MOVE_FIRE_BLAST
+        ballseal 0
+
+        // mon 2
+        ivs 50
+        abilityslot 0
+        level 56
+        pokemon SPECIES_BEARTIC
+        move MOVE_SUPERPOWER
+        move MOVE_SHEER_COLD
+        move MOVE_NIGHT_SLASH
+        move MOVE_AVALANCHE
+        ballseal 0
+
+        // mon 3
+        ivs 50
+        abilityslot 0
+        level 54
+        pokemon SPECIES_CARBINK
+        move MOVE_STEALTH_ROCK
+        move MOVE_LIGHT_SCREEN
+        move MOVE_REFLECT
+        move MOVE_METEOR_BEAM
+        ballseal 0
+
+        // mon 4
+        ivs 50
+        abilityslot 0
+        level 54
+        pokemon SPECIES_RILLABOOM
+        move MOVE_DRUM_BEATING
+        move MOVE_WOOD_HAMMER
+        move MOVE_KNOCK_OFF
+        move MOVE_STOMPING_TANTRUM
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14548,15 +18304,24 @@ trainerdata 409, "Brandon"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 18
+=======
+        level 20
+>>>>>>> Stashed changes
         pokemon SPECIES_SNUBBULL
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 18
         pokemon SPECIES_MAREEP
+=======
+        level 20
+        pokemon SPECIES_FLAAFFY
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14576,8 +18341,13 @@ trainerdata 410, "Harry"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_WOOPER
+=======
+        level 37
+        pokemon SPECIES_QUAGSIRE
+>>>>>>> Stashed changes
         move MOVE_WATER_GUN
         move MOVE_MUD_BOMB
         move MOVE_SLAM
@@ -14588,7 +18358,7 @@ trainerdata 410, "Harry"
 trainerdata 411, "Vernon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_PSYCHIC_M
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -14601,8 +18371,34 @@ trainerdata 411, "Vernon"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 51
         monwithform SPECIES_PONYTA, 1
+=======
+        level 65
+        pokemon SPECIES_ESPEON
+>>>>>>> Stashed changes
+        ballseal 0
+
+        // mon 1
+        ivs 0
+        abilityslot 0
+        level 66
+        pokemon SPECIES_METAGROSS
+        ballseal 0
+
+        // mon 2
+        ivs 0
+        abilityslot 0
+        level 64
+        pokemon SPECIES_CLAYDOL
+        ballseal 0
+
+        // mon 3
+        ivs 0
+        abilityslot 0
+        level 66
+        pokemon SPECIES_MUSHARNA
         ballseal 0
     endparty
 
@@ -14622,22 +18418,37 @@ trainerdata 412, "Eli"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_WYNAUT
+=======
+        level 65
+        pokemon SPECIES_WOBBUFFET
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_EXEGGCUTE
+=======
+        level 63
+        pokemon SPECIES_MEDICHAM
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 49
         pokemon SPECIES_GIRAFARIG
+=======
+        level 67
+        pokemon SPECIES_MEOWSTIC
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14657,18 +18468,31 @@ trainerdata 413, "Scott"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_QWILFISH
         move MOVE_WATER_GUN
         move MOVE_REVENGE
         move MOVE_ROLLOUT
         move MOVE_BARB_BARRAGE
+=======
+        level 65
+        pokemon SPECIES_OVERQWIL
+        move MOVE_DESTINY_BOND
+        move MOVE_BARB_BARRAGE
+        move MOVE_CRUNCH
+        move MOVE_POISON_JAB
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
+=======
+        level 64
+>>>>>>> Stashed changes
         monwithform SPECIES_QWILFISH, 1
         move MOVE_WATER_GUN
         move MOVE_REVENGE
@@ -14679,12 +18503,21 @@ trainerdata 413, "Scott"
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_SEAKING
         move MOVE_FURY_ATTACK
         move MOVE_AQUA_RING
         move MOVE_FLAME_WHEEL
         move MOVE_WATER_PULSE
+=======
+        level 67
+        pokemon SPECIES_CRAMORANT
+        move MOVE_STOCKPILE
+        move MOVE_SPIT_UP
+        move MOVE_SWALLOW
+        move MOVE_SURF
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -14878,7 +18711,7 @@ trainerdata 417, "Jenn"
 trainerdata 418, "Bruno"
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_ELITE_FOUR_BRUNO
-    nummons 5
+    nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -14891,7 +18724,11 @@ trainerdata 418, "Bruno"
         // mon 0
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 53
+=======
+        level 74
+>>>>>>> Stashed changes
         pokemon SPECIES_HITMONTOP
         item ITEM_FOCUS_SASH
         move MOVE_REVERSAL
@@ -14908,7 +18745,11 @@ trainerdata 418, "Bruno"
         // mon 1
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 53
+=======
+        level 74
+>>>>>>> Stashed changes
         pokemon SPECIES_HITMONLEE
         item ITEM_ASSAULT_VEST
         move MOVE_KNOCK_OFF
@@ -14925,7 +18766,11 @@ trainerdata 418, "Bruno"
         // mon 2
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 53
+=======
+        level 74
+>>>>>>> Stashed changes
         pokemon SPECIES_HITMONCHAN
         item ITEM_EXPERT_BELT
         move MOVE_THUNDER_PUNCH
@@ -14942,7 +18787,11 @@ trainerdata 418, "Bruno"
         // mon 3
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 53
+=======
+        level 74
+>>>>>>> Stashed changes
         pokemon SPECIES_HERACROSS
         item ITEM_HERACRONITE
         move MOVE_CLOSE_COMBAT
@@ -14959,7 +18808,11 @@ trainerdata 418, "Bruno"
         // mon 4
         ivs 250
         abilityslot 32
+<<<<<<< Updated upstream
         level 53
+=======
+        level 74
+>>>>>>> Stashed changes
         pokemon SPECIES_MACHAMP
         item ITEM_LEFTOVERS
         move MOVE_STONE_EDGE
@@ -14971,6 +18824,26 @@ trainerdata 418, "Bruno"
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 32
+        level 76
+        monwithform SPECIES_ZAPDOS, 1
+        item ITEM_LEFTOVERS
+        move MOVE_THUNDEROUS_KICK
+        move MOVE_BULK_UP
+        move MOVE_WILD_CHARGE
+        move MOVE_AERIAL_ACE
+		ability ABILITY_DEFIANT
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+		setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -16496,15 +20369,25 @@ trainerdata 468, "Ross" //ROCKETHQB3F
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
         pokemon SPECIES_CORSOLA
+=======
+        level 43
+        monwithform SPECIES_CORSOLA, 1
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 32
         monwithform SPECIES_CORSOLA, 1
+=======
+        level 45
+        pokemon SPECIES_CURSOLA
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -16524,7 +20407,11 @@ trainerdata 469, "Mitch" //ROCKETHQB3F
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 34
+=======
+        level 47
+>>>>>>> Stashed changes
         pokemon SPECIES_DITTO
         ballseal 0
     endparty
@@ -16545,21 +20432,33 @@ trainerdata 470, "Gregg" //ROCKETHQB1F
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 28
+=======
+        level 41
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGNEMITE
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
+=======
+        level 43
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGNETON
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 30
+=======
+        level 45
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGNEZONE
         ballseal 0
     endparty
@@ -16580,22 +20479,36 @@ trainerdata 471, "Garett" //RADIOTOWER3F
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_MAGNETON
+=======
+        level 45
+        pokemon SPECIES_MAGNEZONE
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 47
+>>>>>>> Stashed changes
         pokemon SPECIES_KABUTOPS
         ballseal 0
 
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_KADABRA
+=======
+        level 47
+        pokemon SPECIES_ALAKAZAM
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -16615,7 +20528,11 @@ trainerdata 472, "Trenton" //RADIOTOWER4F
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 40
+=======
+        level 52
+>>>>>>> Stashed changes
         pokemon SPECIES_PORYGON_Z
         move MOVE_SHADOW_BALL
         move MOVE_CONVERSION_2
@@ -16627,7 +20544,11 @@ trainerdata 472, "Trenton" //RADIOTOWER4F
 trainerdata 478, "Ariana" //ARIANA2
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_EXECUTIVE_ARIANA
+<<<<<<< Updated upstream
     nummons 4
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16640,8 +20561,13 @@ trainerdata 478, "Ariana" //ARIANA2
         // mon 0
         ivs 100
         abilityslot 32
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_MURKROW
+=======
+        level 54
+        pokemon SPECIES_HONCHKROW
+>>>>>>> Stashed changes
 		item ITEM_MENTAL_HERB
         move MOVE_TAILWIND
         move MOVE_FOUL_PLAY
@@ -16657,7 +20583,11 @@ trainerdata 478, "Ariana" //ARIANA2
 		// mon 1
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 44
+=======
+        level 55
+>>>>>>> Stashed changes
         pokemon SPECIES_ARBOK
 		item ITEM_BLACK_SLUDGE
         move MOVE_EARTHQUAKE
@@ -16674,6 +20604,7 @@ trainerdata 478, "Ariana" //ARIANA2
         // mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_VILEPLUME
 		item ITEM_LIFE_ORB
@@ -16682,6 +20613,16 @@ trainerdata 478, "Ariana" //ARIANA2
         move MOVE_SLEEP_POWDER
         move MOVE_SLUDGE_BOMB
 		ability ABILITY_EFFECT_SPORE
+=======
+        level 53
+        pokemon SPECIES_GOTHITELLE
+		item ITEM_LIFE_ORB
+        move MOVE_SHADOW_BALL
+        move MOVE_DARK_PULSE
+        move MOVE_FAKE_OUT
+        move MOVE_PSYCHIC
+		ability ABILITY_COMPETITIVE
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -16691,7 +20632,11 @@ trainerdata 478, "Ariana" //ARIANA2
 		// mon 3
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
+=======
+        level 57
+>>>>>>> Stashed changes
         pokemon SPECIES_GYARADOS
 		item ITEM_GYARADOSITE
         move MOVE_WATERFALL
@@ -16703,6 +20648,43 @@ trainerdata 478, "Ariana" //ARIANA2
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
 		shinylock 0
+<<<<<<< Updated upstream
+=======
+        ballseal 0
+
+        // mon 4
+        ivs 100
+        abilityslot 0
+        level 56
+        pokemon SPECIES_AURORUS
+		item ITEM_NEVER_MELT_ICE
+        move MOVE_THUNDERBOLT
+        move MOVE_METEOR_BEAM
+        move MOVE_ICE_BEAM
+        move MOVE_HAIL
+		ability ABILITY_ICE_SCALES
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 5
+        ivs 100
+        abilityslot 0
+        level 59
+        pokemon SPECIES_RAIKOU
+		item ITEM_MAGNET
+        move MOVE_EERIE_IMPULSE
+        move MOVE_SCALD
+        move MOVE_CALM_MIND
+        move MOVE_THUNDERBOLT
+		ability ABILITY_SIMPLE
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -16722,8 +20704,13 @@ trainerdata 479, "Ariana" //ARIANA1
         // mon 0
         ivs 100
         abilityslot 32
+<<<<<<< Updated upstream
         level 37
         pokemon SPECIES_MURKROW
+=======
+        level 47
+        pokemon SPECIES_HONCHKROW
+>>>>>>> Stashed changes
 		item ITEM_MENTAL_HERB
         move MOVE_TAILWIND
         move MOVE_FOUL_PLAY
@@ -16739,7 +20726,11 @@ trainerdata 479, "Ariana" //ARIANA1
 		// mon 1
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 47
+>>>>>>> Stashed changes
         pokemon SPECIES_ARBOK
 		item ITEM_BLACK_SLUDGE
         move MOVE_WRAP
@@ -16756,7 +20747,11 @@ trainerdata 479, "Ariana" //ARIANA1
         // mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 38
+=======
+        level 48
+>>>>>>> Stashed changes
         pokemon SPECIES_VILEPLUME
 		item ITEM_LIFE_ORB
         move MOVE_GIGA_DRAIN
@@ -16787,21 +20782,33 @@ trainerdata 480, "Diana"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
+=======
+        level 50
+>>>>>>> Stashed changes
         pokemon SPECIES_JYNX
         ballseal 0
 		        
 		// mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
+=======
+        level 51
+>>>>>>> Stashed changes
         monwithform SPECIES_MR_MIME, 1
         ballseal 0
 		        
 		// mon 2
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
+=======
+        level 49
+>>>>>>> Stashed changes
         pokemon SPECIES_SNEASEL
         ballseal 0
     endparty
@@ -16809,7 +20816,11 @@ trainerdata 480, "Diana"
 trainerdata 481, "Jill"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_SKIER
+<<<<<<< Updated upstream
     nummons 2
+=======
+    nummons 4
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16822,22 +20833,45 @@ trainerdata 481, "Jill"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 48
+>>>>>>> Stashed changes
         monwithform SPECIES_NINETALES, 1
         ballseal 0
 		
 		// mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
         monwithform SPECIES_SANDSLASH, 1
+=======
+        level 48
+        monwithform SPECIES_SANDSLASH, 1
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 50
+        monwithform SPECIES_DARMANITAN, 1
+        ballseal 0
+		
+		// mon 3
+        ivs 10
+        abilityslot 0
+        level 51
+        pokemon SPECIES_CRYOGONAL
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
 trainerdata 482, "Deandre"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_BOARDER
-    nummons 3
+    nummons 5
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -16850,22 +20884,50 @@ trainerdata 482, "Deandre"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
+=======
+        level 48
+>>>>>>> Stashed changes
         monwithform SPECIES_VULPIX, 1
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 36
         pokemon SPECIES_SMOOCHUM
+=======
+        level 50
+        pokemon SPECIES_JYNX
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 25
         monwithform SPECIES_SANDSHREW, 1
+=======
+        level 50
+        monwithform SPECIES_SANDSHREW, 1
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 49
+        pokemon SPECIES_FROSMOTH
+        ballseal 0
+
+        // mon 2
+        ivs 10
+        abilityslot 0
+        level 51
+        monwithform SPECIES_NINETALES, 1
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -16885,14 +20947,22 @@ trainerdata 483, "Patton"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
+=======
+        level 48
+>>>>>>> Stashed changes
         pokemon SPECIES_SWINUB
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 49
+>>>>>>> Stashed changes
         pokemon SPECIES_PILOSWINE
         ballseal 0
     endparty
@@ -16913,6 +20983,7 @@ trainerdata 484, "Gerardo"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
         pokemon SPECIES_SHELLDER
         move MOVE_ICE_SHARD
@@ -16925,6 +20996,9 @@ trainerdata 484, "Gerardo"
         ivs 10
         abilityslot 0
         level 36
+=======
+        level 50
+>>>>>>> Stashed changes
         pokemon SPECIES_CLOYSTER
         move MOVE_ICE_SHARD
         move MOVE_AURORA_BEAM
@@ -16932,15 +21006,32 @@ trainerdata 484, "Gerardo"
         move MOVE_TOXIC_SPIKES
         ballseal 0
 
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 51
+        pokemon SPECIES_AVALUGG
+        move MOVE_ICE_SHARD
+        move MOVE_ICICLE_CRASH
+        move MOVE_CRUNCH
+        move MOVE_ICE_FANG
+        ballseal 0
+
         // mon 2
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 35
         pokemon SPECIES_SEEL
         move MOVE_ICE_SHARD
+=======
+        level 48
+        pokemon SPECIES_WALREIN
+        move MOVE_AVALANCHE
+>>>>>>> Stashed changes
         move MOVE_AQUA_RING
         move MOVE_ENCORE
-        move MOVE_ICY_WIND
+        move MOVE_HAIL
         ballseal 0
     endparty
 
@@ -16960,7 +21051,11 @@ trainerdata 485, "Archer" //ARCHER2
         // mon 0
         ivs 200
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
+=======
+        level 57
+>>>>>>> Stashed changes
         monwithform SPECIES_MAROWAK, 1
 		item ITEM_THICK_CLUB
         move MOVE_STEALTH_ROCK
@@ -16977,7 +21072,11 @@ trainerdata 485, "Archer" //ARCHER2
         // mon 1
         ivs 200
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
+=======
+        level 56
+>>>>>>> Stashed changes
         pokemon SPECIES_MAGMORTAR
 		item ITEM_LEFTOVERS
         move MOVE_CLEAR_SMOG
@@ -16994,7 +21093,11 @@ trainerdata 485, "Archer" //ARCHER2
         // mon 2
         ivs 200
         abilityslot 0
+<<<<<<< Updated upstream
         level 44
+=======
+        level 59
+>>>>>>> Stashed changes
         monwithform SPECIES_TYPHLOSION, 1
 		item ITEM_WISE_GLASSES
         move MOVE_FOCUS_BLAST
@@ -17011,7 +21114,11 @@ trainerdata 485, "Archer" //ARCHER2
 		// mon 3
         ivs 200
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
+=======
+        level 58
+>>>>>>> Stashed changes
         pokemon SPECIES_HOUNDOOM
 		item ITEM_FOCUS_SASH
         move MOVE_NASTY_PLOT
@@ -17028,6 +21135,7 @@ trainerdata 485, "Archer" //ARCHER2
 		// mon 4
         ivs 200
         abilityslot 1
+<<<<<<< Updated upstream
         level 46
         pokemon SPECIES_MEWTWO
 		item ITEM_MEWTWONITE_Y
@@ -17036,6 +21144,16 @@ trainerdata 485, "Archer" //ARCHER2
         move MOVE_PSYSTRIKE
         move MOVE_DARK_PULSE
 		ability ABILITY_PRESSURE
+=======
+        level 60
+        pokemon SPECIES_SUICUNE
+		item ITEM_MYSTIC_WATER
+        move MOVE_CALM_MIND
+        move MOVE_HYDRO_PUMP
+        move MOVE_TAILWIND
+        move MOVE_MIRROR_COAT
+		ability ABILITY_CLEAR_BODY
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
         setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -17059,7 +21177,11 @@ trainerdata 486, "Proton" //PROTON1
         // mon 0
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 18
+=======
+        level 19
+>>>>>>> Stashed changes
         pokemon SPECIES_MANKEY
 		item ITEM_NONE
         move MOVE_SCREECH
@@ -17093,7 +21215,11 @@ trainerdata 486, "Proton" //PROTON1
 		// mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 18
+=======
+        level 20
+>>>>>>> Stashed changes
         pokemon SPECIES_CORSOLA
 		item ITEM_RINDO_BERRY
         move MOVE_WATER_GUN
@@ -17240,7 +21366,11 @@ trainerdata 488, "Petrel" //PETREL1
 		// mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 45
+>>>>>>> Stashed changes
         monwithform SPECIES_WEEZING, 1
 		item ITEM_BLACK_SLUDGE
         move MOVE_STRANGE_STEAM
@@ -17257,7 +21387,11 @@ trainerdata 488, "Petrel" //PETREL1
 		// mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 37
+=======
+        level 45
+>>>>>>> Stashed changes
         monwithform SPECIES_RATICATE, 1
 		item ITEM_CHESTO_BERRY
         move MOVE_REST
@@ -17274,7 +21408,11 @@ trainerdata 488, "Petrel" //PETREL1
 		// mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 38
+=======
+        level 46
+>>>>>>> Stashed changes
         pokemon SPECIES_PERRSERKER
 		item ITEM_LEFTOVERS
         move MOVE_FAKE_OUT
@@ -17594,7 +21732,7 @@ trainerdata 492, "Alex"
 trainerdata 493, "Edith"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass TRAINERCLASS_MEDIUM
-    nummons 1
+    nummons 2
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -17607,8 +21745,20 @@ trainerdata 493, "Edith"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 27
         pokemon SPECIES_MISMAGIUS
+=======
+        level 32
+        pokemon SPECIES_MISMAGIUS
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 0
+        level 30
+        pokemon SPECIES_DRIFBLIM
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -17628,29 +21778,47 @@ trainerdata 494, "Georgina"
         // mon 0
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 23
         pokemon SPECIES_HOOTHOOT
+=======
+        level 29
+        pokemon SPECIES_NOCTOWL
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 23
+=======
+        level 30
+>>>>>>> Stashed changes
         pokemon SPECIES_MISDREAVUS
         ballseal 0
 
         // mon 2
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 23
+=======
+        level 28
+>>>>>>> Stashed changes
         monwithform SPECIES_CORSOLA, 1
         ballseal 0
 
         // mon 3
         ivs 10
         abilityslot 0
+<<<<<<< Updated upstream
         level 23
         pokemon SPECIES_GASTLY
+=======
+        level 30
+        pokemon SPECIES_HAUNTER
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -17719,7 +21887,11 @@ trainerdata 497, "Boy"
 
 trainerdata 498, "Eusine"
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
+<<<<<<< Updated upstream
     trainerclass TRAINERCLASS_MYSTERIOUS
+=======
+    trainerclass TRAINERCLASS_MYSTERY_MAN
+>>>>>>> Stashed changes
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -17733,7 +21905,11 @@ trainerdata 498, "Eusine"
         // mon 0
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 31
+=======
+        level 37
+>>>>>>> Stashed changes
         pokemon SPECIES_STARMIE
 		item ITEM_DAMP_ROCK
         move MOVE_RAIN_DANCE
@@ -17750,8 +21926,13 @@ trainerdata 498, "Eusine"
         // mon 1
         ivs 150
         abilityslot 0
+<<<<<<< Updated upstream
         level 31
         pokemon SPECIES_MARILL
+=======
+        level 38
+        pokemon SPECIES_AZUMARILL
+>>>>>>> Stashed changes
 		item ITEM_SITRUS_BERRY
         move MOVE_BELLY_DRUM
         move MOVE_PLAY_ROUGH
@@ -17767,7 +21948,11 @@ trainerdata 498, "Eusine"
         // mon 2
         ivs 150
         abilityslot 32
+<<<<<<< Updated upstream
         level 31
+=======
+        level 37
+>>>>>>> Stashed changes
         pokemon SPECIES_ELECTRODE
 		item ITEM_AIR_BALLOON
         move MOVE_RAIN_DANCE
@@ -17897,11 +22082,16 @@ trainerdata 500, "Kobe"
         // mon 0
         ivs 50
         abilityslot 0
+<<<<<<< Updated upstream
         level 44
         pokemon SPECIES_DRAGONAIR
+=======
+        level 64
+        pokemon SPECIES_DRAGONITE
+>>>>>>> Stashed changes
         move MOVE_THUNDER
         move MOVE_SURF
-        move MOVE_DRAGON_RAGE
+        move MOVE_DRAGON_TAIL
         move MOVE_IRON_TAIL
         ballseal 0
     endparty
@@ -17922,34 +22112,61 @@ trainerdata 501, "Piper"
         // mon 0
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_EXEGGUTOR
         move MOVE_EGG_BOMB
         move MOVE_SOFT_BOILED
         move MOVE_BARRAGE
         move MOVE_TWISTER
+=======
+        level 61
+        pokemon SPECIES_KINGDRA
+        move MOVE_DRAGON_PULSE
+        move MOVE_WATER_PULSE
+        move MOVE_YAWN
+        move MOVE_DRACO_METEOR
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_FLAAFFY
         move MOVE_THUNDER_SHOCK
         move MOVE_DRAGON_TAIL
         move MOVE_COTTON_SPORE
         move MOVE_RECOVER
+=======
+        level 63
+        pokemon SPECIES_HAXORUS
+        move MOVE_OUTRAGE
+        move MOVE_DRAGON_TAIL
+        move MOVE_CRUNCH
+        move MOVE_DRAGON_CLAW
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 2
         ivs 50
         abilityslot 32
+<<<<<<< Updated upstream
         level 42
         pokemon SPECIES_SEADRA
         move MOVE_AGILITY
         move MOVE_BRINE
         move MOVE_WATERFALL
         move MOVE_TWISTER
+=======
+        level 62
+        pokemon SPECIES_ZWEILOUS
+        move MOVE_DRAGON_RUSH
+        move MOVE_CRUNCH
+        move MOVE_DRAGON_PULSE
+        move MOVE_NASTY_PLOT
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -17969,23 +22186,41 @@ trainerdata 502, "Clea & Gil"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_DRATINI
         move MOVE_THUNDER_WAVE
         move MOVE_TWISTER
         move MOVE_THUNDERBOLT
         move MOVE_HEADBUTT
+=======
+        level 64
+        pokemon SPECIES_LATIOS
+        move MOVE_LIGHT_SCREEN
+        move MOVE_DRACO_METEOR
+        move MOVE_LUSTER_PURGE
+        move MOVE_PSYCHIC
+>>>>>>> Stashed changes
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
         pokemon SPECIES_DRATINI
         move MOVE_THUNDER_WAVE
         move MOVE_TWISTER
         move MOVE_SURF
         move MOVE_HEADBUTT
+=======
+        level 64
+        pokemon SPECIES_LATIAS
+        move MOVE_REFLECT
+        move MOVE_TAILWIND
+        move MOVE_DRAGON_PULSE
+        move MOVE_PSYCHIC
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -18773,14 +23008,22 @@ trainerdata 537, "Harrison"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 29
+=======
+        level 44
+>>>>>>> Stashed changes
         pokemon SPECIES_NIDOKING
         ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 29
+=======
+        level 44
+>>>>>>> Stashed changes
         pokemon SPECIES_NIDOQUEEN
         ballseal 0
     endparty
@@ -18826,12 +23069,21 @@ trainerdata 539, "Markus"
         // mon 0
         ivs 0
         abilityslot 32
+<<<<<<< Updated upstream
         level 33
         pokemon SPECIES_SLOWKING
         move MOVE_CURSE
         move MOVE_WATER_PULSE
         move MOVE_GROWL
         move MOVE_CONFUSION
+=======
+        level 45
+        monwithform SPECIES_SLOWKING, 1
+        move MOVE_CURSE
+        move MOVE_WATER_PULSE
+        move MOVE_SLACK_OFF
+        move MOVE_PSYCHIC
+>>>>>>> Stashed changes
         ballseal 0
     endparty
 
@@ -20455,21 +24707,33 @@ trainerdata 601, "Grunt" // ECRUTEAK DANCE THEATER
         // mon 0
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
+=======
+        level 27
+>>>>>>> Stashed changes
         monwithform SPECIES_RATTATA, 1
         ballseal 0
 		
         // mon 1
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_KOFFING
         ballseal 0
 		
         // mon 2
         ivs 30
         abilityslot 0
+<<<<<<< Updated upstream
         level 20
+=======
+        level 29
+>>>>>>> Stashed changes
         monwithform SPECIES_GRIMER, 1
         ballseal 0
     endparty
@@ -23146,7 +27410,7 @@ trainerdata 675, "Lance"
         // mon 0
         ivs 250
         abilityslot 0
-        level 40
+        level 55
         pokemon SPECIES_DRAGONITE
         move MOVE_FLY
         move MOVE_TWISTER
@@ -23387,7 +27651,11 @@ trainerdata 679, "Callie"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_CLEFABLE
         move MOVE_GROWL
         move MOVE_ENCORE
@@ -23398,7 +27666,11 @@ trainerdata 679, "Callie"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_WIGGLYTUFF
         move MOVE_SING
         move MOVE_DEFENSE_CURL
@@ -23423,7 +27695,11 @@ trainerdata 680, "Kassandra"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_WIGGLYTUFF
         move MOVE_SING
         move MOVE_DEFENSE_CURL
@@ -23434,7 +27710,11 @@ trainerdata 680, "Kassandra"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< Updated upstream
         level 22
+=======
+        level 28
+>>>>>>> Stashed changes
         pokemon SPECIES_CLEFABLE
         move MOVE_GROWL
         move MOVE_ENCORE
@@ -25007,7 +29287,11 @@ trainerdata 705, "Karen" //Rematch
 trainerdata 706, "Proton" //PROTON2
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_EXECUTIVE_PROTON
+<<<<<<< Updated upstream
     nummons 4
+=======
+    nummons 6
+>>>>>>> Stashed changes
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
@@ -25020,7 +29304,11 @@ trainerdata 706, "Proton" //PROTON2
         // mon 0
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
+=======
+        level 54
+>>>>>>> Stashed changes
         pokemon SPECIES_MAROWAK
 		item ITEM_THICK_CLUB
         move MOVE_BONEMERANG
@@ -25037,7 +29325,11 @@ trainerdata 706, "Proton" //PROTON2
 		// mon 1
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 42
+=======
+        level 56
+>>>>>>> Stashed changes
         pokemon SPECIES_ANNIHILAPE
 		item ITEM_BIG_ROOT
         move MOVE_DRAIN_PUNCH
@@ -25054,7 +29346,11 @@ trainerdata 706, "Proton" //PROTON2
 		// mon 2
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 44
+=======
+        level 54
+>>>>>>> Stashed changes
         pokemon SPECIES_CURSOLA
 		item ITEM_MYSTIC_WATER
         move MOVE_HYDRO_PUMP
@@ -25071,7 +29367,11 @@ trainerdata 706, "Proton" //PROTON2
 		// mon 3
         ivs 100
         abilityslot 0
+<<<<<<< Updated upstream
         level 45
+=======
+        level 57
+>>>>>>> Stashed changes
         monwithform SPECIES_SLOWKING, 1
 		item ITEM_BLACK_SLUDGE
         move MOVE_TRICK_ROOM
@@ -25084,8 +29384,45 @@ trainerdata 706, "Proton" //PROTON2
 		nature NATURE_ADAMANT
 		shinylock 0
         ballseal 0
+
+<<<<<<< Updated upstream
+=======
+        // mon 4
+        ivs 100
+        abilityslot 0
+        level 56
+        pokemon SPECIES_PALOSSAND
+		item ITEM_QUICK_CLAW
+        move MOVE_TRICK_ROOM
+        move MOVE_EARTHQUAKE
+        move MOVE_HYPNOSIS
+        move MOVE_SHADOW_BALL
+		ability ABILITY_WATER_COMPACTION
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
+
+        // mon 5
+        ivs 100
+        abilityslot 0
+        level 58
+        pokemon SPECIES_ENTEI
+		item ITEM_CHARCOAL
+        move MOVE_SUNNY_DAY
+        move MOVE_FLARE_BLITZ
+        move MOVE_STONE_EDGE
+        move MOVE_SACRED_FIRE
+		ability ABILITY_INNER_FOCUS
+		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, spd, spatk, spdef
+        setevs 0, 0, 0, 0, 0, 0
+		nature NATURE_ADAMANT
+		shinylock 0
+        ballseal 0
     endparty
 
+>>>>>>> Stashed changes
 trainerdata 712, "Falkner" //Rematch
 	trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
     trainerclass TRAINERCLASS_LEADER_FALKNER
@@ -29202,7 +33539,11 @@ trainerdata 170, "Norman" //Mickey
         move MOVE_CHATTER
         move MOVE_HEAT_WAVE
         move MOVE_ROOST
+<<<<<<< Updated upstream
 		ability ABILITY_CACOPHONY
+=======
+		ability ABILITY_MIMICRY
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -29219,7 +33560,11 @@ trainerdata 170, "Norman" //Mickey
         move MOVE_HYPER_VOICE
         move MOVE_SING
         move MOVE_WISH
+<<<<<<< Updated upstream
 		ability ABILITY_CACOPHONY
+=======
+		ability ABILITY_COMPETITIVE
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -29253,7 +33598,11 @@ trainerdata 170, "Norman" //Mickey
         move MOVE_BELLY_DRUM
         move MOVE_ASTONISH
         move MOVE_TOXIC
+<<<<<<< Updated upstream
 		ability ABILITY_CACOPHONY
+=======
+		ability ABILITY_SOUNDPROOF
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -29318,7 +33667,11 @@ trainerdata 171, "Liza" //Mickey
         move MOVE_DISABLE
         move MOVE_ENCORE
         move MOVE_DAZZLING_GLEAM
+<<<<<<< Updated upstream
 		ability ABILITY_CACOPHONY
+=======
+		ability ABILITY_LEVITATE
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -30693,7 +35046,11 @@ trainerdata 292, "Archie" //Mickey
         move MOVE_FLATTER
         move MOVE_MIMIC
         move MOVE_BOOMBURST
+<<<<<<< Updated upstream
 		ability ABILITY_CACOPHONY
+=======
+		ability ABILITY_MIMICRY
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -31986,7 +36343,11 @@ trainerdata 344, "Barry" //Mickey
         move MOVE_HYPER_VOICE
         move MOVE_ENCORE
         move MOVE_PERISH_SONG
+<<<<<<< Updated upstream
 		ability ABILITY_CACOPHONY
+=======
+		ability ABILITY_SWARM
+>>>>>>> Stashed changes
 		setivs 31, 31, 31, 31, 31, 31 // hp, atk, def, speed, spatt, spdef
 		setevs 0, 0, 0, 0, 0, 0
 		nature NATURE_ADAMANT
@@ -35652,3 +40013,7 @@ trainerdata 711, "Darach"
 		shinylock 0
         ballseal 0
     endparty
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
